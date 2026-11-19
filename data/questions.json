@@ -1,0 +1,4727 @@
+[
+  {
+    "id": "N3-001",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この【書類】を部長に渡してください。",
+    "choices": [
+      "1. しょりゅう",
+      "2. しょるい",
+      "3. しゅるい",
+      "4. しょうるい"
+    ],
+    "answer": "2. しょるい",
+    "explanation": "書類 (しょるい) means 'documents/papers'. しゅるい is 種類 (kind/type).",
+    "source": "JLPT N3 Workbook Q1 (Kanji Reading)"
+  },
+  {
+    "id": "N3-002",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "駅の近くで【迷子】になってしまった。",
+    "choices": [
+      "1. まいこ",
+      "2. めいご",
+      "3. まいご",
+      "4. めいし"
+    ],
+    "answer": "3. まいご",
+    "explanation": "迷子 (まいご) means 'lost child'. Note the rendaku (voicing) from こ to ご.",
+    "source": "JLPT N3 Workbook Q2 (Kanji Reading)"
+  },
+  {
+    "id": "N3-003",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "毎日【規則】正しい生活を送っている。",
+    "choices": [
+      "1. きそく",
+      "2. きっそく",
+      "3. きぞく",
+      "4. ぎそく"
+    ],
+    "answer": "1. きそく",
+    "explanation": "規則 (きそく) means 'rule/regulation'. きそくただしい means 'well-regulated/regular'.",
+    "source": "JLPT N3 Workbook Q3 (Kanji Reading)"
+  },
+  {
+    "id": "N3-004",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "来月の旅行の【予定】を立てましょう。",
+    "choices": [
+      "1. よだい",
+      "2. よじょう",
+      "3. ようてい",
+      "4. よてい"
+    ],
+    "answer": "4. よてい",
+    "explanation": "予定 (よてい) means 'schedule/plan'. 予 is read よ and 定 is てい here.",
+    "source": "JLPT N3 Workbook Q4 (Kanji Reading)"
+  },
+  {
+    "id": "N3-005",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "彼の【性格】はとても明るい。",
+    "choices": [
+      "1. せいがく",
+      "2. しょうかく",
+      "3. せいかく",
+      "4. せいかつ"
+    ],
+    "answer": "3. せいかく",
+    "explanation": "性格 (せいかく) means 'personality/character'. せいかつ is 生活 (daily life).",
+    "source": "JLPT N3 Workbook Q5 (Kanji Reading)"
+  },
+  {
+    "id": "N3-006",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この箱は【壊れ】やすいので気をつけて。",
+    "choices": [
+      "1. こわれ",
+      "2. たおれ",
+      "3. くずれ",
+      "4. わかれ"
+    ],
+    "answer": "1. こわれ",
+    "explanation": "壊れる (こわれる) is an intransitive verb meaning 'to break'. くずれる is 崩れる (to collapse).",
+    "source": "JLPT N3 Workbook Q6 (Kanji Reading)"
+  },
+  {
+    "id": "N3-007",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "会議の【結果】をメールで知らせます。",
+    "choices": [
+      "1. けっか",
+      "2. けつか",
+      "3. けつが",
+      "4. けいか"
+    ],
+    "answer": "1. けっか",
+    "explanation": "結果 (けっか) means 'result/outcome'. けいか is 経過 (progress/passage).",
+    "source": "JLPT N3 Workbook Q7 (Kanji Reading)"
+  },
+  {
+    "id": "N3-008",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "今日は【気温】が急に下がった。",
+    "choices": [
+      "1. きおん",
+      "2. けおん",
+      "3. きねつ",
+      "4. きうん"
+    ],
+    "answer": "1. きおん",
+    "explanation": "気温 (きおん) means 'air temperature'. 気 (き) + 温 (おん).",
+    "source": "JLPT N3 Workbook Q8 (Kanji Reading)"
+  },
+  {
+    "id": "N3-009",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "窓から【新鮮】な空気が入ってくる。",
+    "choices": [
+      "1. しんぜん",
+      "2. にいせん",
+      "3. しんせん",
+      "4. じんせん"
+    ],
+    "answer": "3. しんせん",
+    "explanation": "新鮮 (しんせん) means 'fresh'. Both kanji take their standard on'yomi.",
+    "source": "JLPT N3 Workbook Q9 (Kanji Reading)"
+  },
+  {
+    "id": "N3-010",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "友達に【招待】されてパーティーに行った。",
+    "choices": [
+      "1. じょうたい",
+      "2. そうたい",
+      "3. しょうだい",
+      "4. しょうたい"
+    ],
+    "answer": "4. しょうたい",
+    "explanation": "招待 (しょうたい) means 'invitation'. じょうたい is 状態 (condition/state).",
+    "source": "JLPT N3 Workbook Q10 (Kanji Reading)"
+  },
+  {
+    "id": "N3-011",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この仕事には【経験】が必要です。",
+    "choices": [
+      "1. けいけん",
+      "2. けいげん",
+      "3. けいかん",
+      "4. きょうけん"
+    ],
+    "answer": "1. けいけん",
+    "explanation": "経験 (けいけん) means 'experience'. けいげん is 軽減 (reduction).",
+    "source": "JLPT N3 Workbook Q11 (Kanji Reading)"
+  },
+  {
+    "id": "N3-012",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "電車が【遅れ】てすみません。",
+    "choices": [
+      "1. おくれ",
+      "2. はなれ",
+      "3. かくれ",
+      "4. わすれ"
+    ],
+    "answer": "1. おくれ",
+    "explanation": "遅れる (おくれる) means 'to be delayed/late'. 離れる is はなれる, 隠れる is かくれる.",
+    "source": "JLPT N3 Workbook Q12 (Kanji Reading)"
+  },
+  {
+    "id": "N3-013",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "新しい【技術】を学ぶのは楽しい。",
+    "choices": [
+      "1. ぎじゅつ",
+      "2. きしゅつ",
+      "3. ぎしゅつ",
+      "4. きじゅつ"
+    ],
+    "answer": "1. ぎじゅつ",
+    "explanation": "技術 (ぎじゅつ) means 'technology/technique'. きじゅつ is 記述 (description).",
+    "source": "JLPT N3 Workbook Q13 (Kanji Reading)"
+  },
+  {
+    "id": "N3-014",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "彼女は【留学】のために貯金している。",
+    "choices": [
+      "1. りゅうがく",
+      "2. なががく",
+      "3. りゅうかく",
+      "4. るがく"
+    ],
+    "answer": "1. りゅうがく",
+    "explanation": "留学 (りゅうがく) means 'studying abroad'. 留 takes りゅう here.",
+    "source": "JLPT N3 Workbook Q14 (Kanji Reading)"
+  },
+  {
+    "id": "N3-015",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "テストの【範囲】が広くて大変だ。",
+    "choices": [
+      "1. はんみ",
+      "2. ほうい",
+      "3. ばんい",
+      "4. はんい"
+    ],
+    "answer": "4. はんい",
+    "explanation": "範囲 (はんい) means 'scope/range'. 範 (はん) + 囲 (い).",
+    "source": "JLPT N3 Workbook Q15 (Kanji Reading)"
+  },
+  {
+    "id": "N3-016",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "雨が【激しく】降ってきた。",
+    "choices": [
+      "1. はげしく",
+      "2. さびしく",
+      "3. けわしく",
+      "4. きびしく"
+    ],
+    "answer": "1. はげしく",
+    "explanation": "激しい (はげしい) means 'intense/fierce/heavy (rain)'. 厳しい is きびしい (strict).",
+    "source": "JLPT N3 Workbook Q16 (Kanji Reading)"
+  },
+  {
+    "id": "N3-017",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この店の【評判】はとてもいい。",
+    "choices": [
+      "1. びょうばん",
+      "2. へいばん",
+      "3. ひょうはん",
+      "4. ひょうばん"
+    ],
+    "answer": "4. ひょうばん",
+    "explanation": "評判 (ひょうばん) means 'reputation'. Note the voicing on 判 -> ばん.",
+    "source": "JLPT N3 Workbook Q17 (Kanji Reading)"
+  },
+  {
+    "id": "N3-018",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "ゴミを【燃やす】場所が決まっている。",
+    "choices": [
+      "1. ひやす",
+      "2. こがす",
+      "3. かわかす",
+      "4. もやす"
+    ],
+    "answer": "4. もやす",
+    "explanation": "燃やす (もやす) is a transitive verb meaning 'to burn'. 冷やす is ひやす (to cool).",
+    "source": "JLPT N3 Workbook Q18 (Kanji Reading)"
+  },
+  {
+    "id": "N3-019",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "昨日の【地震】で棚の本が落ちた。",
+    "choices": [
+      "1. ちじん",
+      "2. じしん",
+      "3. ちしん",
+      "4. じじん"
+    ],
+    "answer": "2. じしん",
+    "explanation": "地震 (じしん) means 'earthquake'. 知人 is ちじん (acquaintance).",
+    "source": "JLPT N3 Workbook Q19 (Kanji Reading)"
+  },
+  {
+    "id": "N3-020",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "健康のために【運動】を始めた。",
+    "choices": [
+      "1. くんどう",
+      "2. うんと",
+      "3. おんどう",
+      "4. うんどう"
+    ],
+    "answer": "4. うんどう",
+    "explanation": "運動 (うんどう) means 'exercise/movement'. 運 (うん) + 動 (どう).",
+    "source": "JLPT N3 Workbook Q20 (Kanji Reading)"
+  },
+  {
+    "id": "N3-021",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "来週の会議に【しゅっせき】します。",
+    "choices": [
+      "1. 出関",
+      "2. 出積",
+      "3. 出席",
+      "4. 出跡"
+    ],
+    "answer": "3. 出席",
+    "explanation": "出席 (しゅっせき) means 'attendance'. 積 is accumulation, 跡 is trace.",
+    "source": "JLPT N3 Workbook Q21 (Orthography)"
+  },
+  {
+    "id": "N3-022",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この問題は少し【ふくざつ】ですね。",
+    "choices": [
+      "1. 福雑",
+      "2. 腹雑",
+      "3. 複雑",
+      "4. 復雑"
+    ],
+    "answer": "3. 複雑",
+    "explanation": "複雑 (ふくざつ) means 'complicated'. 複 (multiple/compound) + 雑 (mixed).",
+    "source": "JLPT N3 Workbook Q22 (Orthography)"
+  },
+  {
+    "id": "N3-023",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "友達の【けっこん】式に呼ばれた。",
+    "choices": [
+      "1. 結婚",
+      "2. 結昏",
+      "3. 決婚",
+      "4. 欠婚"
+    ],
+    "answer": "1. 結婚",
+    "explanation": "結婚 (けっこん) means 'marriage'. 結 (tie/bind) + 婚 (marriage).",
+    "source": "JLPT N3 Workbook Q23 (Orthography)"
+  },
+  {
+    "id": "N3-024",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "荷物を【あずけ】てから買い物に行った。",
+    "choices": [
+      "1. 授け",
+      "2. 預け",
+      "3. 助け",
+      "4. 届け"
+    ],
+    "answer": "2. 預け",
+    "explanation": "預ける (あずける) means 'to deposit/leave (something in someone's care)'.",
+    "source": "JLPT N3 Workbook Q24 (Orthography)"
+  },
+  {
+    "id": "N3-025",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "試験に【ごうかく】して本当にうれしい。",
+    "choices": [
+      "1. 合確",
+      "2. 合格",
+      "3. 合客",
+      "4. 合各"
+    ],
+    "answer": "2. 合格",
+    "explanation": "合格 (ごうかく) means 'passing an exam'. 格 means standard/rank.",
+    "source": "JLPT N3 Workbook Q25 (Orthography)"
+  },
+  {
+    "id": "N3-026",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "日本の【ぶんか】に興味があります。",
+    "choices": [
+      "1. 文化",
+      "2. 文科",
+      "3. 分科",
+      "4. 文花"
+    ],
+    "answer": "1. 文化",
+    "explanation": "文化 (ぶんか) means 'culture'. 分科 is a branch/department.",
+    "source": "JLPT N3 Workbook Q26 (Orthography)"
+  },
+  {
+    "id": "N3-027",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "夜遅くに電話をかけて【もうしわけ】ない。",
+    "choices": [
+      "1. 申し和",
+      "2. 申し分",
+      "3. 申し別",
+      "4. 申し訳"
+    ],
+    "answer": "4. 申し訳",
+    "explanation": "申し訳ない (もうしわけない) means 'inexcusable / I am sorry'. 訳 means reason/excuse.",
+    "source": "JLPT N3 Workbook Q27 (Orthography)"
+  },
+  {
+    "id": "N3-028",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "健康のため、野菜を【ちゅうしん】に食べている。",
+    "choices": [
+      "1. 忠心",
+      "2. 中心",
+      "3. 仲心",
+      "4. 中真"
+    ],
+    "answer": "2. 中心",
+    "explanation": "中心 (ちゅうしん) means 'center/focus'. 忠心 means loyalty.",
+    "source": "JLPT N3 Workbook Q28 (Orthography)"
+  },
+  {
+    "id": "N3-029",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この川はとても【ふか】いので危ない。",
+    "choices": [
+      "1. 太",
+      "2. 広",
+      "3. 遠",
+      "4. 深"
+    ],
+    "answer": "4. 深",
+    "explanation": "深い (ふかい) means 'deep'. 広 is wide, 遠 is far, 太 is thick.",
+    "source": "JLPT N3 Workbook Q29 (Orthography)"
+  },
+  {
+    "id": "N3-030",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "彼女の【ゆめ】は医者になることだ。",
+    "choices": [
+      "1. 想",
+      "2. 願",
+      "3. 望",
+      "4. 夢"
+    ],
+    "answer": "4. 夢",
+    "explanation": "夢 (ゆめ) means 'dream'. 望 is のぞみ (hope), 願 is ねがい (wish).",
+    "source": "JLPT N3 Workbook Q30 (Orthography)"
+  },
+  {
+    "id": "N3-031",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "毎日日記を【つづ】けるのは難しい。",
+    "choices": [
+      "1. 読",
+      "2. 残",
+      "3. 続",
+      "4. 書"
+    ],
+    "answer": "3. 続",
+    "explanation": "続ける (つづける) means 'to continue'. 残す is のこす (to leave behind).",
+    "source": "JLPT N3 Workbook Q31 (Orthography)"
+  },
+  {
+    "id": "N3-032",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "空港でパスポートを【かくにん】された。",
+    "choices": [
+      "1. 覚認",
+      "2. 各認",
+      "3. 確任",
+      "4. 確認"
+    ],
+    "answer": "4. 確認",
+    "explanation": "確認 (かくにん) means 'confirmation/verification'.",
+    "source": "JLPT N3 Workbook Q32 (Orthography)"
+  },
+  {
+    "id": "N3-033",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "山の上から見た【けしき】は最高だった。",
+    "choices": [
+      "1. 計色",
+      "2. 景色",
+      "3. 形色",
+      "4. 景式"
+    ],
+    "answer": "2. 景色",
+    "explanation": "景色 (けしき) means 'scenery/view'.",
+    "source": "JLPT N3 Workbook Q33 (Orthography)"
+  },
+  {
+    "id": "N3-034",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "約束の時間を【まも】ってください。",
+    "choices": [
+      "1. 守",
+      "2. 見",
+      "3. 待",
+      "4. 保"
+    ],
+    "answer": "1. 守",
+    "explanation": "守る (まもる) means 'to keep (a promise)/obey/protect'. 保つ is たもつ.",
+    "source": "JLPT N3 Workbook Q34 (Orthography)"
+  },
+  {
+    "id": "N3-035",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "駅の前でバスを【のりか】えた。",
+    "choices": [
+      "1. 乗り返",
+      "2. 乗り代",
+      "3. 乗り換",
+      "4. 乗り変"
+    ],
+    "answer": "3. 乗り換",
+    "explanation": "乗り換える (のりかえる) means 'to transfer (trains/buses)'. 換 is used for exchanging/switching transport.",
+    "source": "JLPT N3 Workbook Q35 (Orthography)"
+  },
+  {
+    "id": "N3-036",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この仕事は一人でやるのは無理なので、誰かに（ ）してもらおう。",
+    "choices": [
+      "1. 努力",
+      "2. 協力",
+      "3. 反対",
+      "4. 競争"
+    ],
+    "answer": "2. 協力",
+    "explanation": "協力 (きょうりょく, cooperation/help) fits 'cannot do it alone, so ask someone to cooperate'.",
+    "source": "JLPT N3 Workbook Q36 (Context)"
+  },
+  {
+    "id": "N3-037",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "部屋が（ ）いるから、すぐに片付けなさい。",
+    "choices": [
+      "1. 並んで",
+      "2. 散らかって",
+      "3. 片付いて",
+      "4. 集まって"
+    ],
+    "answer": "2. 散らかって",
+    "explanation": "散らかる (ちらかる) means 'to be messy/scattered', which logically leads to 'clean it up right away'.",
+    "source": "JLPT N3 Workbook Q37 (Context)"
+  },
+  {
+    "id": "N3-038",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "先生の説明はとても（ ）わかりやすかった。",
+    "choices": [
+      "1. ざんねんで",
+      "2. ていねいで",
+      "3. ふべんで",
+      "4. しつれいで"
+    ],
+    "answer": "2. ていねいで",
+    "explanation": "丁寧 (ていねい, polite/careful/thorough) makes an explanation easy to understand.",
+    "source": "JLPT N3 Workbook Q38 (Context)"
+  },
+  {
+    "id": "N3-039",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "最近（ ）が続いていて、なかなか寝られない。",
+    "choices": [
+      "1. バランス",
+      "2. チャンス",
+      "3. サービス",
+      "4. ストレス"
+    ],
+    "answer": "4. ストレス",
+    "explanation": "ストレス (stress) causes difficulty sleeping.",
+    "source": "JLPT N3 Workbook Q39 (Context)"
+  },
+  {
+    "id": "N3-040",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "このレストランは値段も安いし、味も（ ）だ。",
+    "choices": [
+      "1. 最高",
+      "2. 普通",
+      "3. 特別",
+      "4. 最低"
+    ],
+    "answer": "1. 最高",
+    "explanation": "値段も安いし (prices are cheap, and...) pairs positively with 最高 (the best).",
+    "source": "JLPT N3 Workbook Q40 (Context)"
+  },
+  {
+    "id": "N3-041",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "火事の原因について、警察が詳しく（ ）いる。",
+    "choices": [
+      "1. 調べて",
+      "2. 考えて",
+      "3. 探して",
+      "4. 見つけて"
+    ],
+    "answer": "1. 調べて",
+    "explanation": "調べる (しらべる, to investigate/examine) is used for investigating the cause of a fire.",
+    "source": "JLPT N3 Workbook Q41 (Context)"
+  },
+  {
+    "id": "N3-042",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "彼の話はいつも（ ）があって面白い。",
+    "choices": [
+      "1. ユーモア",
+      "2. マナー",
+      "3. ルール",
+      "4. サイン"
+    ],
+    "answer": "1. ユーモア",
+    "explanation": "ユーモア (humor) makes someone's stories funny/interesting.",
+    "source": "JLPT N3 Workbook Q42 (Context)"
+  },
+  {
+    "id": "N3-043",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "せっかく作った料理を（ ）しまった。",
+    "choices": [
+      "1. おちて",
+      "2. ながれて",
+      "3. あふれて",
+      "4. こぼして"
+    ],
+    "answer": "4. こぼして",
+    "explanation": "こぼす (transitive: to spill) takes を. あふれる, ながれる, おちる are intransitive.",
+    "source": "JLPT N3 Workbook Q43 (Context)"
+  },
+  {
+    "id": "N3-044",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "新しいパソコンを買ったので、古いのは（ ）にした。",
+    "choices": [
+      "1. 準備",
+      "2. 処分",
+      "3. 整理",
+      "4. 保存"
+    ],
+    "answer": "2. 処分",
+    "explanation": "処分する (しょぶんする) means 'to dispose of / get rid of'.",
+    "source": "JLPT N3 Workbook Q44 (Context)"
+  },
+  {
+    "id": "N3-045",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "会議の時間が近づいているので、みんな（ ）ください。",
+    "choices": [
+      "1. 急いで",
+      "2. 迷って",
+      "3. 遅れて",
+      "4. 慌てて"
+    ],
+    "answer": "1. 急いで",
+    "explanation": "急ぐ (いそぐ, to hurry) is the natural request; 慌てる means to panic.",
+    "source": "JLPT N3 Workbook Q45 (Context)"
+  },
+  {
+    "id": "N3-046",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この靴は少し（ ）から、もう一つ大きいサイズにします。",
+    "choices": [
+      "1. かるい",
+      "2. ゆるい",
+      "3. おもい",
+      "4. きつい"
+    ],
+    "answer": "4. きつい",
+    "explanation": "きつい means 'tight', which explains choosing one size larger.",
+    "source": "JLPT N3 Workbook Q46 (Context)"
+  },
+  {
+    "id": "N3-047",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "雨が降るかどうか（ ）なので、傘を持って行こう。",
+    "choices": [
+      "1. 安心",
+      "2. 危険",
+      "3. 確実",
+      "4. 微妙"
+    ],
+    "answer": "4. 微妙",
+    "explanation": "微妙 (びみょう, uncertain/borderline) explains bringing an umbrella just in case.",
+    "source": "JLPT N3 Workbook Q47 (Context)"
+  },
+  {
+    "id": "N3-048",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "山田さんは仕事が速いだけでなく、とても（ ）だ。",
+    "choices": [
+      "1. 正確",
+      "2. 簡単",
+      "3. 複雑",
+      "4. 適当"
+    ],
+    "answer": "1. 正確",
+    "explanation": "正確 (せいかく, accurate) contrasts positively with 'not only fast, but also accurate'.",
+    "source": "JLPT N3 Workbook Q48 (Context)"
+  },
+  {
+    "id": "N3-049",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "電車の中で席を（ ）お年寄りに感謝された。",
+    "choices": [
+      "1. かえしたら",
+      "2. わたしたら",
+      "3. ゆずったら",
+      "4. かしたら"
+    ],
+    "answer": "3. ゆずったら",
+    "explanation": "席をゆずる (to give up one's seat) is the standard collocation.",
+    "source": "JLPT N3 Workbook Q49 (Context)"
+  },
+  {
+    "id": "N3-050",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この薬を飲めば、熱が（ ）下がるはずです。",
+    "choices": [
+      "1. たまに",
+      "2. けっして",
+      "3. めったに",
+      "4. しだいに"
+    ],
+    "answer": "4. しだいに",
+    "explanation": "次第に (しだいに) means 'gradually'. めったに and けっして require negative verbs.",
+    "source": "JLPT N3 Workbook Q50 (Context)"
+  },
+  {
+    "id": "N3-051",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この問題は【たいへん】難しい。",
+    "choices": [
+      "1. すこし",
+      "2. ぜんぜん",
+      "3. だんだん",
+      "4. とても"
+    ],
+    "answer": "4. とても",
+    "explanation": "大変 (たいへん) as an adverb means 'very/extremely' (= とても).",
+    "source": "JLPT N3 Workbook Q51 (Paraphrases)"
+  },
+  {
+    "id": "N3-052",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "彼は【めったに】怒らない人だ。",
+    "choices": [
+      "1. かならず",
+      "2. いつも",
+      "3. ほとんど",
+      "4. ときどき"
+    ],
+    "answer": "3. ほとんど",
+    "explanation": "めったに～ない means 'rarely/hardly ever', equivalent to ほとんど～ない.",
+    "source": "JLPT N3 Workbook Q52 (Paraphrases)"
+  },
+  {
+    "id": "N3-053",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "駅前の店が【ついに】閉店した。",
+    "choices": [
+      "1. とうとう",
+      "2. まだ",
+      "3. もうすぐ",
+      "4. すぐに"
+    ],
+    "answer": "1. とうとう",
+    "explanation": "ついに means 'finally/at last' (= とうとう), often after a long wait.",
+    "source": "JLPT N3 Workbook Q53 (Paraphrases)"
+  },
+  {
+    "id": "N3-054",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "会議は【ほぼ】予定通りに終わった。",
+    "choices": [
+      "1. すこしも",
+      "2. まったく",
+      "3. ぴったり",
+      "4. だいたい"
+    ],
+    "answer": "4. だいたい",
+    "explanation": "ほぼ means 'almost/approximately' (= だいたい).",
+    "source": "JLPT N3 Workbook Q54 (Paraphrases)"
+  },
+  {
+    "id": "N3-055",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "明日の天気は【おそらく】晴れだろう。",
+    "choices": [
+      "1. けっして",
+      "2. たぶん",
+      "3. ぜったい",
+      "4. かならず"
+    ],
+    "answer": "2. たぶん",
+    "explanation": "おそらく means 'probably/likely' (= たぶん).",
+    "source": "JLPT N3 Workbook Q55 (Paraphrases)"
+  },
+  {
+    "id": "N3-056",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "弟は【あいかわらず】ゲームばかりしている。",
+    "choices": [
+      "1. いつもと同じように",
+      "2. 前と違って",
+      "3. 珍しく",
+      "4. 急に"
+    ],
+    "answer": "1. いつもと同じように",
+    "explanation": "相変わらず (あいかわらず) means 'as usual / same as before'.",
+    "source": "JLPT N3 Workbook Q56 (Paraphrases)"
+  },
+  {
+    "id": "N3-057",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "この機械の使い方は【単純】だ。",
+    "choices": [
+      "1. べんり",
+      "2. かんたん",
+      "3. あんぜん",
+      "4. ふくざつ"
+    ],
+    "answer": "2. かんたん",
+    "explanation": "単純 (たんじゅん) means 'simple/uncomplicated' (= かんたん).",
+    "source": "JLPT N3 Workbook Q57 (Paraphrases)"
+  },
+  {
+    "id": "N3-058",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "友達と【たまたま】駅で会った。",
+    "choices": [
+      "1. ぐうぜん",
+      "2. まいにち",
+      "3. わざと",
+      "4. かならず"
+    ],
+    "answer": "1. ぐうぜん",
+    "explanation": "たまたま means 'by chance/coincidentally' (= 偶然).",
+    "source": "JLPT N3 Workbook Q58 (Paraphrases)"
+  },
+  {
+    "id": "N3-059",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】せっかく",
+    "choices": [
+      "1. せっかく毎日朝ごはんを食べている。",
+      "2. せっかく試験に落ちて、とても悲しい。",
+      "3. せっかく雨が降ったから、傘を持って行こう。",
+      "4. せっかく来たのだから、ゆっくりしていってください。"
+    ],
+    "answer": "4. せっかく来たのだから、ゆっくりしていってください。",
+    "explanation": "せっかく expresses 'with much trouble/special effort', used in positive/regretful contexts like 'since you came all this way'.",
+    "source": "JLPT N3 Workbook Q59 (Usage)"
+  },
+  {
+    "id": "N3-060",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】うっかり",
+    "choices": [
+      "1. うっかりテストで100点を取った。",
+      "2. うっかり約束の時間を忘れてしまった。",
+      "3. うっかり毎日ジョギングをしている。",
+      "4. うっかり丁寧に手紙を書いた。"
+    ],
+    "answer": "2. うっかり約束の時間を忘れてしまった。",
+    "explanation": "うっかり means 'carelessly/inadvertently' (forgetting or making a mistake).",
+    "source": "JLPT N3 Workbook Q60 (Usage)"
+  },
+  {
+    "id": "N3-061",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】もっとも",
+    "choices": [
+      "1. 最もご飯を食べてから寝ました。",
+      "2. クラスで最も背が高いのは田中さんです。",
+      "3. 最も雨が降っているので出かけない。",
+      "4. 宿題が終わったら、最も遊びに行こう。"
+    ],
+    "answer": "2. クラスで最も背が高いのは田中さんです。",
+    "explanation": "最も (もっとも) means 'most' (superlative), modifying adjectives/adverbs like 背が高い.",
+    "source": "JLPT N3 Workbook Q61 (Usage)"
+  },
+  {
+    "id": "N3-062",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】おとなしい",
+    "choices": [
+      "1. おとなしい値段で買い物ができた。",
+      "2. 駅の前はおとなしくて人が少ない。",
+      "3. この犬はとてもおとなしくて、全然ほえない。",
+      "4. 今日のテストはおとなしくて簡単だった。"
+    ],
+    "answer": "3. この犬はとてもおとなしくて、全然ほえない。",
+    "explanation": "おとなしい describes a person or animal that is gentle, quiet, and well-behaved.",
+    "source": "JLPT N3 Workbook Q62 (Usage)"
+  },
+  {
+    "id": "N3-063",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】かなう",
+    "choices": [
+      "1. ずっと頑張ってきた夢がついにかなった。",
+      "2. この箱は大きすぎて部屋のかなわない。",
+      "3. 美味しい料理がテーブルにかなっている。",
+      "4. 友達と公園でかなうことにした。"
+    ],
+    "answer": "1. ずっと頑張ってきた夢がついにかなった。",
+    "explanation": "叶う (かなう) means '(a wish/dream) comes true'.",
+    "source": "JLPT N3 Workbook Q63 (Usage)"
+  },
+  {
+    "id": "N3-064",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】ぴったり",
+    "choices": [
+      "1. このシャツはサイズがぴったりだ。",
+      "2. 彼はぴったり日本語が上手になった。",
+      "3. テストの結果がぴったり心配だ。",
+      "4. 雨がぴったり降っていて外に出られない。"
+    ],
+    "answer": "1. このシャツはサイズがぴったりだ。",
+    "explanation": "ぴったり means 'exact fit / spot on' (size, time, match).",
+    "source": "JLPT N3 Workbook Q64 (Usage)"
+  },
+  {
+    "id": "N3-065",
+    "exam": "N3",
+    "section": "vocabulary",
+    "question": "【用法】もったいない",
+    "choices": [
+      "1. 試験に合格して、とてももったいない。",
+      "2. 時間がもったいないからゆっくり休もう。",
+      "3. まだ食べられるのに捨てるなんてもったいない。",
+      "4. 友達が親切にしてくれてもったいない。"
+    ],
+    "answer": "3. まだ食べられるのに捨てるなんてもったいない。",
+    "explanation": "もったいない means 'wasteful / too good to waste'.",
+    "source": "JLPT N3 Workbook Q65 (Usage)"
+  },
+  {
+    "id": "N3-066",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "日本へ来て（ ）、もう三年になります。",
+    "choices": [
+      "1. ながら",
+      "2. まで",
+      "3. ばかり",
+      "4. から"
+    ],
+    "answer": "4. から",
+    "explanation": "てから means 'since (doing something)', fitting 'it has been 3 years since coming to Japan'.",
+    "source": "JLPT N3 Workbook Q66 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-067",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "彼は忙しい（ ）、いつも笑顔で対応してくれる。",
+    "choices": [
+      "1. にもかかわらず",
+      "2. おかげで",
+      "3. せいで",
+      "4. ために"
+    ],
+    "answer": "1. にもかかわらず",
+    "explanation": "にもかかわらず means 'despite / in spite of' (busy, yet always smiling).",
+    "source": "JLPT N3 Workbook Q67 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-068",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "雨が降っている（ ）、洗濯物を外に干してしまった。",
+    "choices": [
+      "1. のに",
+      "2. から",
+      "3. ため",
+      "4. ので"
+    ],
+    "answer": "1. のに",
+    "explanation": "のに expresses 'even though / despite' with surprise or regret.",
+    "source": "JLPT N3 Workbook Q68 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-069",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "この本は子供（ ）、大人でも楽しめる内容だ。",
+    "choices": [
+      "1. だけでなく",
+      "2. ばかりで",
+      "3. にとって",
+      "4. しかない"
+    ],
+    "answer": "1. だけでなく",
+    "explanation": "だけでなく means 'not only (children), but also (adults)'.",
+    "source": "JLPT N3 Workbook Q69 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-070",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "寝る（ ）、歯を磨くようにしています。",
+    "choices": [
+      "1. ながら",
+      "2. あとで",
+      "3. うちに",
+      "4. 前に"
+    ],
+    "answer": "4. 前に",
+    "explanation": "Dictionary form + 前に means 'before (sleeping)'.",
+    "source": "JLPT N3 Workbook Q70 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-071",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "最近、太ってきた（ ）気がする。",
+    "choices": [
+      "1. ように",
+      "2. らしい",
+      "3. そうな",
+      "4. ような"
+    ],
+    "answer": "4. ような",
+    "explanation": "～ような気がする means 'I have a feeling that...'.",
+    "source": "JLPT N3 Workbook Q71 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-072",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "彼女が来る（ ）、会議を始めましょう。",
+    "choices": [
+      "1. のを待って",
+      "2. せいで",
+      "3. ばかりに",
+      "4. うちに"
+    ],
+    "answer": "1. のを待って",
+    "explanation": "のを待って means 'wait for her to arrive, then start'.",
+    "source": "JLPT N3 Workbook Q72 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-073",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "先生（ ）、学生の気持ちを理解することが大切だ。",
+    "choices": [
+      "1. にとって",
+      "2. について",
+      "3. に対して",
+      "4. によって"
+    ],
+    "answer": "1. にとって",
+    "explanation": "にとって means 'for / from the perspective of (a teacher)'.",
+    "source": "JLPT N3 Workbook Q73 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-074",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "風が強く吹いている（ ）、電車が止まった。",
+    "choices": [
+      "1. せいで",
+      "2. おかげで",
+      "3. くせに",
+      "4. ように"
+    ],
+    "answer": "1. せいで",
+    "explanation": "せいで is used for negative causes ('because of the strong wind, trains stopped'). おかげで is for positive results.",
+    "source": "JLPT N3 Workbook Q74 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-075",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "日本に留学する（ ）、日本語を勉強しています。",
+    "choices": [
+      "1. ように",
+      "2. ものに",
+      "3. ことに",
+      "4. ために"
+    ],
+    "answer": "4. ために",
+    "explanation": "Dictionary form + ために expresses clear purpose ('in order to study abroad').",
+    "source": "JLPT N3 Workbook Q75 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-076",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "毎日練習した（ ）、ピアノが上手に弾けるようになった。",
+    "choices": [
+      "1. のに",
+      "2. せいで",
+      "3. おかげで",
+      "4. ばかりに"
+    ],
+    "answer": "3. おかげで",
+    "explanation": "おかげで expresses gratitude for a positive outcome ('thanks to practicing every day').",
+    "source": "JLPT N3 Workbook Q76 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-077",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "この漢字は難しくて、何度書いても（ ）。",
+    "choices": [
+      "1. 覚えるべきだ",
+      "2. 覚えるはずだ",
+      "3. 覚えてしまう",
+      "4. 覚えられない"
+    ],
+    "answer": "4. 覚えられない",
+    "explanation": "ても + negative potential (覚えられない, 'even if I write it many times, I cannot memorize it').",
+    "source": "JLPT N3 Workbook Q77 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-078",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "明日は大切な会議があるので、遅れない（ ）早く家を出ます。",
+    "choices": [
+      "1. ことに",
+      "2. ために",
+      "3. ように",
+      "4. そうに"
+    ],
+    "answer": "3. ように",
+    "explanation": "Negative verb + ように means 'so that I won't be late'.",
+    "source": "JLPT N3 Workbook Q78 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-079",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "田中さんは昨日遅くまで起きていた（ ）、今日はとても眠そうだ。",
+    "choices": [
+      "1. らしく",
+      "2. くせに",
+      "3. とたん",
+      "4. ついでに"
+    ],
+    "answer": "1. らしく",
+    "explanation": "らしく = apparently. It gives a judgment based on what you heard or saw (he seems to have stayed up late, so he looks sleepy).",
+    "source": "JLPT N3 Workbook Q79 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-080",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "健康のために、毎日30分歩く（ ）している。",
+    "choices": [
+      "1. ことに",
+      "2. ものに",
+      "3. ところに",
+      "4. わけに"
+    ],
+    "answer": "1. ことに",
+    "explanation": "ことにしている = I make it a rule to (a personal habit). ようにしている (I try to) is also correct Japanese, but it is not one of the choices.",
+    "source": "JLPT N3 Workbook Q80 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-081",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "電車に乗った（ ）、財布を忘れたことに気づいた。",
+    "choices": [
+      "1. あいだに",
+      "2. とたんに",
+      "3. まえに",
+      "4. うちに"
+    ],
+    "answer": "2. とたんに",
+    "explanation": "た + とたんに means 'the moment / just as (I got on the train, I noticed...)'.",
+    "source": "JLPT N3 Workbook Q81 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-082",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "この問題は小学生（ ）解けるほど簡単だ。",
+    "choices": [
+      "1. だけ",
+      "2. でも",
+      "3. しか",
+      "4. ばかり"
+    ],
+    "answer": "2. でも",
+    "explanation": "でも means 'even (an elementary student) can solve it'.",
+    "source": "JLPT N3 Workbook Q82 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-083",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "せっかく作った（ ）、誰も食べてくれなかった。",
+    "choices": [
+      "1. し",
+      "2. のに",
+      "3. から",
+      "4. ので"
+    ],
+    "answer": "2. のに",
+    "explanation": "のに shows disappointment ('even though I went to the trouble of making it, no one ate it').",
+    "source": "JLPT N3 Workbook Q83 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-084",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "来週の旅行が（ ）でならない。",
+    "choices": [
+      "1. 楽しむ",
+      "2. 楽しみ",
+      "3. 楽しく",
+      "4. 楽しんだ"
+    ],
+    "answer": "2. 楽しみ",
+    "explanation": "楽しみでならない means 'cannot help looking forward to' (てならない attaches to な-adj/い-adj stems).",
+    "source": "JLPT N3 Workbook Q84 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-085",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "この映画は何度見（ ）面白い。",
+    "choices": [
+      "1. なら",
+      "2. ても",
+      "3. たら",
+      "4. れば"
+    ],
+    "answer": "2. ても",
+    "explanation": "何度 + て-form + も means 'no matter how many times (I watch it), it is interesting'.",
+    "source": "JLPT N3 Workbook Q85 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N3-086",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "昨日買った本は、＿＿ ＿＿ ★ ＿＿ 面白かった。（★に入るものはどれか）",
+    "choices": [
+      "1. 思っていた",
+      "2. 以上に",
+      "3. 私が",
+      "4. ずっと"
+    ],
+    "answer": "2. 以上に",
+    "explanation": "Order: 私が (3) 思っていた (1) 以上に (2) ずっと (4) -> ★ is 以上に (2). Meaning: 'much more interesting than I had thought'.",
+    "source": "JLPT N3 Workbook Q86 (Sentence Composition)"
+  },
+  {
+    "id": "N3-087",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "健康の ＿＿ ＿＿ ★ ＿＿ ようにしている。（★に入るものはどれか）",
+    "choices": [
+      "1. ために",
+      "2. 寝る",
+      "3. 早く",
+      "4. 夜は"
+    ],
+    "answer": "3. 早く",
+    "explanation": "Order: ために (1) 夜は (4) 早く (3) 寝る (2) -> ★ is 早く (3). Meaning: For my health, I try to go to bed early at night.",
+    "source": "JLPT N3 Workbook Q87 (Sentence Composition)"
+  },
+  {
+    "id": "N3-088",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "日本語が ＿＿ ＿＿ ★ ＿＿ 勉強しています。（★に入るものはどれか）",
+    "choices": [
+      "1. なる",
+      "2. 上手に",
+      "3. 毎日",
+      "4. ように"
+    ],
+    "answer": "4. ように",
+    "explanation": "Order: 上手に (2) なる (1) ように (4) 毎日 (3) -> ★ is ように (4). Meaning: 'I study every day so that I become good at Japanese'.",
+    "source": "JLPT N3 Workbook Q88 (Sentence Composition)"
+  },
+  {
+    "id": "N3-089",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "駅の近くにある ＿＿ ＿＿ ★ ＿＿ おいしいです。（★に入るものはどれか）",
+    "choices": [
+      "1. 店の",
+      "2. ケーキは",
+      "3. とても",
+      "4. 新しい"
+    ],
+    "answer": "2. ケーキは",
+    "explanation": "Order: 新しい (4) 店の (1) ケーキは (2) とても (3) -> ★ is ケーキは (2).",
+    "source": "JLPT N3 Workbook Q89 (Sentence Composition)"
+  },
+  {
+    "id": "N3-090",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "彼は ＿＿ ＿＿ ★ ＿＿ 遅刻したことがない。（★に入るものはどれか）",
+    "choices": [
+      "1. 一度も",
+      "2. 入社して",
+      "3. これまで",
+      "4. から"
+    ],
+    "answer": "3. これまで",
+    "explanation": "Order: 入社して (2) から (4) これまで (3) 一度も (1) -> ★ is これまで (3).",
+    "source": "JLPT N3 Workbook Q90 (Sentence Composition)"
+  },
+  {
+    "id": "N3-091",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "雨が ＿＿ ＿＿ ★ ＿＿ ことにした。（★に入るものはどれか）",
+    "choices": [
+      "1. 降ってきた",
+      "2. 帰る",
+      "3. ので",
+      "4. 早く"
+    ],
+    "answer": "4. 早く",
+    "explanation": "Order: 降ってきた (1) ので (3) 早く (4) 帰る (2) -> ★ is 早く (4).",
+    "source": "JLPT N3 Workbook Q91 (Sentence Composition)"
+  },
+  {
+    "id": "N3-092",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "この仕事は ＿＿ ＿＿ ★ ＿＿ 大変だ。（★に入るものはどれか）",
+    "choices": [
+      "1. 時間が",
+      "2. 思った",
+      "3. より",
+      "4. かかって"
+    ],
+    "answer": "1. 時間が",
+    "explanation": "Order: 思った (2) より (3) 時間が (1) かかって (4) -> ★ is 時間が (1).",
+    "source": "JLPT N3 Workbook Q92 (Sentence Composition)"
+  },
+  {
+    "id": "N3-093",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "母が ＿＿ ＿＿ ★ ＿＿ 食べます。（★に入るものはどれか）",
+    "choices": [
+      "1. 作って",
+      "2. 料理を",
+      "3. くれた",
+      "4. おいしく"
+    ],
+    "answer": "2. 料理を",
+    "explanation": "Order: 作って (1) くれた (3) 料理を (2) おいしく (4) -> ★ is 料理を (2).",
+    "source": "JLPT N3 Workbook Q93 (Sentence Composition)"
+  },
+  {
+    "id": "N3-094",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "友達に ＿＿ ＿＿ ★ ＿＿ 返さなければならない。（★に入るものはどれか）",
+    "choices": [
+      "1. 借りた",
+      "2. 本を",
+      "3. までに",
+      "4. 明日"
+    ],
+    "answer": "4. 明日",
+    "explanation": "Order: 借りた (1) 本を (2) 明日 (4) までに (3) -> ★ is 明日 (4). Meaning: I have to return the book I borrowed from my friend by tomorrow.",
+    "source": "JLPT N3 Workbook Q94 (Sentence Composition)"
+  },
+  {
+    "id": "N3-095",
+    "exam": "N3",
+    "section": "grammar",
+    "question": "日本へ ＿＿ ＿＿ ★ ＿＿ なりました。（★に入るものはどれか）",
+    "choices": [
+      "1. 来てから",
+      "2. 食べられる",
+      "3. 納豆が",
+      "4. ように"
+    ],
+    "answer": "2. 食べられる",
+    "explanation": "Order: 来てから (1) 納豆が (3) 食べられる (2) ように (4) -> ★ is 食べられる (2). Meaning: Since coming to Japan, I have become able to eat natto.",
+    "source": "JLPT N3 Workbook Q95 (Sentence Composition)"
+  },
+  {
+    "id": "N3-096",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章A】\n日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物もできるだけ飲む【Q98】。\n\n【Q96】に入る最もよいものはどれか。",
+    "choices": [
+      "1. ことがあります",
+      "2. つもりです",
+      "3. ばかりです",
+      "4. はずです"
+    ],
+    "answer": "1. ことがあります",
+    "explanation": "ことがあります (after dictionary form) means 'sometimes happens / there are cases where...'.",
+    "source": "JLPT N3 Workbook Q96 (Text Grammar)"
+  },
+  {
+    "id": "N3-097",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章A】\n日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物もできるだけ飲む【Q98】。\n\n【Q97】に入る最もよいものはどれか。",
+    "choices": [
+      "1. 大切な",
+      "2. 大切に",
+      "3. 大切だ",
+      "4. 大切で"
+    ],
+    "answer": "3. 大切だ",
+    "explanation": "Before と (quoted speech と言われています), な-adjectives take the plain form だ: 大切だ.",
+    "source": "JLPT N3 Workbook Q97 (Text Grammar)"
+  },
+  {
+    "id": "N3-098",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章A】\n日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物もできるだけ飲む【Q98】。\n\n【Q98】に入る最もよいものはどれか。",
+    "choices": [
+      "1. ことにしています",
+      "2. ようにしています",
+      "3. ことになりました",
+      "4. ようになりました"
+    ],
+    "answer": "2. ようにしています",
+    "explanation": "できるだけ〜ようにしています = I try to (as much as I can). できるだけ shows effort, so ようにしています fits.",
+    "source": "JLPT N3 Workbook Q98 (Text Grammar)"
+  },
+  {
+    "id": "N3-099",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章B】\n最近、自転車で通勤する会社員が増えている。電車に乗るより時間がかかることもあるが、満員電車に乗らなくて済むし、毎日の運動にもなるからだ。さらに、交通費の節約にもなるため、これからも自転車通勤をする人は増えていくだろう。\n\nこの文章によると、自転車で通勤する理由として書いていないものはどれか。",
+    "choices": [
+      "1. 毎日の運動になるから",
+      "2. 電車より必ず早く着くから",
+      "3. 満員電車に乗らなくていいから",
+      "4. 交通費を節約できるから"
+    ],
+    "answer": "2. 電車より必ず早く着くから",
+    "explanation": "The passage says 電車に乗るより時間がかかることもある ('it can take longer than the train'), so 'always arrives faster' is false.",
+    "source": "JLPT N3 Workbook Q99 (Short Reading)"
+  },
+  {
+    "id": "N3-100",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章B】\n最近、自転車で通勤する会社員が増えている。電車に乗るより時間がかかることもあるが、満員電車に乗らなくて済むし、毎日の運動にもなるからだ。さらに、交通費の節約にもなるため、これからも自転車通勤をする人は増えていくだろう。\n\n筆者はこれから自転車通勤をする人はどうなると考えているか。",
+    "choices": [
+      "1. 増えていくと思う",
+      "2. 変わらないと思う",
+      "3. 分からないと書いている",
+      "4. 減っていくと思う"
+    ],
+    "answer": "1. 増えていくと思う",
+    "explanation": "The final sentence explicitly states これからも自転車通勤をする人は増えていくだろう ('will likely continue to increase').",
+    "source": "JLPT N3 Workbook Q100 (Short Reading)"
+  },
+  {
+    "id": "N3-101",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章C】\n新しい言語を学ぶとき、単語をたくさん覚えることはもちろん大切ですが、それだけでは実際に会話をするのは難しいです。文法の基本を理解し、短い文でもいいから自分で作って声に出して練習することが必要です。最初は間違えることを恥ずかしいと思うかもしれませんが、間違いを恐れずに話すことで、少しずつ自信がついてきます。\n\n筆者が言いたいことは何か。",
+    "choices": [
+      "1. 間違えないように、完璧に文法を覚えてから話すべきだ",
+      "2. 単語を覚えるだけでなく、声に出して話す練習が大切だ",
+      "3. 一人で静かに本を読むことが一番いい練習方法だ",
+      "4. 単語をたくさん覚えれば、すぐに会話ができるようになる"
+    ],
+    "answer": "2. 単語を覚えるだけでなく、声に出して話す練習が大切だ",
+    "explanation": "The author emphasizes not just memorizing words, but making sentences, speaking aloud, and not fearing mistakes.",
+    "source": "JLPT N3 Workbook Q101 (Mid-size Reading)"
+  },
+  {
+    "id": "N3-102",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章C】\n新しい言語を学ぶとき、単語をたくさん覚えることはもちろん大切ですが、それだけでは実際に会話をするのは難しいです。文法の基本を理解し、短い文でもいいから自分で作って声に出して練習することが必要です。最初は間違えることを恥ずかしいと思うかもしれませんが、間違いを恐れずに話すことで、少しずつ自信がついてきます。\n\n「自信がついてきます」とあるが、どうすれば自信がつくか。",
+    "choices": [
+      "1. 間違いを恐れずに話すこと",
+      "2. 恥ずかしいと思わないように単語だけ覚えること",
+      "3. 長い文だけを暗記すること",
+      "4. 絶対に間違えないこと"
+    ],
+    "answer": "1. 間違いを恐れずに話すこと",
+    "explanation": "The text directly says 間違いを恐れずに話すことで、少しずつ自信がついてきます.",
+    "source": "JLPT N3 Workbook Q102 (Mid-size Reading)"
+  },
+  {
+    "id": "N3-103",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章D：図書館からのお知らせ】\n来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。\n\n10月12日（月）に図書館でできることは何か。",
+    "choices": [
+      "1. 返却ポストにDVDを返すこと",
+      "2. 返却ポストに本を返すこと",
+      "3. カウンターで本を借りること",
+      "4. 図書館の中で本を読むこと"
+    ],
+    "answer": "2. 返却ポストに本を返すこと",
+    "explanation": "The library is closed all day (終日休館), but books can be returned to the return post (返却ポスト). DVDs/CDs cannot go in the post.",
+    "source": "JLPT N3 Workbook Q103 (Information Notice)"
+  },
+  {
+    "id": "N3-104",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章D：図書館からのお知らせ】\n来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。\n\nDVDやCDを返したい人はどうしなければならないか。",
+    "choices": [
+      "1. 10月12日に返却ポストに入れる",
+      "2. 郵送で図書館に送る",
+      "3. 10月13日以降にカウンターへ返す",
+      "4. 正面玄関の前に置いておく"
+    ],
+    "answer": "3. 10月13日以降にカウンターへ返す",
+    "explanation": "The notice instructs: 10月13日（火）以降の開館時間にカウンターへお返しください.",
+    "source": "JLPT N3 Workbook Q104 (Information Notice)"
+  },
+  {
+    "id": "N3-105",
+    "exam": "N3",
+    "section": "reading",
+    "question": "【文章D：図書館からのお知らせ】\n来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。\n\nなぜ10月12日は休館するのか。",
+    "choices": [
+      "1. 建物の電気点検があるため",
+      "2. 祝日だから",
+      "3. 本の整理をするため",
+      "4. 新しい本を入れるため"
+    ],
+    "answer": "1. 建物の電気点検があるため",
+    "explanation": "The notice states: 建物の電気点検のため、終日休館いたします ('closed all day for building electrical inspection').",
+    "source": "JLPT N3 Workbook Q105 (Information Notice)"
+  },
+  {
+    "id": "N2-001",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この計画には多くの【課題】が残されている。",
+    "choices": [
+      "1. かだい",
+      "2. かせい",
+      "3. かてい",
+      "4. かた"
+    ],
+    "answer": "1. かだい",
+    "explanation": "課題 (かだい) means 'issue/task/assignment'. 過程 is かてい (process).",
+    "source": "JLPT N2 Workbook Q1 (Kanji Reading)"
+  },
+  {
+    "id": "N2-002",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は【柔軟】な考え方の持ち主だ。",
+    "choices": [
+      "1. にゅうらん",
+      "2. じゅうなん",
+      "3. じゅうらん",
+      "4. にゅうなん"
+    ],
+    "answer": "2. じゅうなん",
+    "explanation": "柔軟 (じゅうなん) means 'flexible/pliable'. 柔 takes じゅう here.",
+    "source": "JLPT N2 Workbook Q2 (Kanji Reading)"
+  },
+  {
+    "id": "N2-003",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "経済の【回復】にはまだ時間がかかる。",
+    "choices": [
+      "1. かいふく",
+      "2. かいふう",
+      "3. えふく",
+      "4. かいぶく"
+    ],
+    "answer": "1. かいふく",
+    "explanation": "回復 (かいふく) means 'recovery/restoration'.",
+    "source": "JLPT N2 Workbook Q3 (Kanji Reading)"
+  },
+  {
+    "id": "N2-004",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議での発言を【控える】ことにした。",
+    "choices": [
+      "1. ささえる",
+      "2. おさえる",
+      "3. かかえる",
+      "4. ひかえる"
+    ],
+    "answer": "4. ひかえる",
+    "explanation": "控える (ひかえる) means 'to refrain from / hold back'. 抱える is かかえる.",
+    "source": "JLPT N2 Workbook Q4 (Kanji Reading)"
+  },
+  {
+    "id": "N2-005",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新製品の【普及】率が急速に高まっている。",
+    "choices": [
+      "1. ぶきゅう",
+      "2. ふきゅう",
+      "3. ふきょう",
+      "4. ふぎゅう"
+    ],
+    "answer": "2. ふきゅう",
+    "explanation": "普及 (ふきゅう) means 'diffusion/spread (of technology/products)'.",
+    "source": "JLPT N2 Workbook Q5 (Kanji Reading)"
+  },
+  {
+    "id": "N2-006",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼女の【誠実】な態度に感心した。",
+    "choices": [
+      "1. せつじつ",
+      "2. せいしつ",
+      "3. せいじつ",
+      "4. じょうじつ"
+    ],
+    "answer": "3. せいじつ",
+    "explanation": "誠実 (せいじつ) means 'sincere/honest'. 性質 is せいしつ (nature/property).",
+    "source": "JLPT N2 Workbook Q6 (Kanji Reading)"
+  },
+  {
+    "id": "N2-007",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "道路の【混雑】を避けて早朝に出発した。",
+    "choices": [
+      "1. こんざつ",
+      "2. こんぞう",
+      "3. ごんざつ",
+      "4. こんさつ"
+    ],
+    "answer": "1. こんざつ",
+    "explanation": "混雑 (こんざつ) means 'congestion/crowding'.",
+    "source": "JLPT N2 Workbook Q7 (Kanji Reading)"
+  },
+  {
+    "id": "N2-008",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "予算を【削減】する必要が生じた。",
+    "choices": [
+      "1. けずげん",
+      "2. さくげん",
+      "3. さくけん",
+      "4. しょうげん"
+    ],
+    "answer": "2. さくげん",
+    "explanation": "削減 (さくげん) means 'reduction/cutback'. 削 takes さく in compounds.",
+    "source": "JLPT N2 Workbook Q8 (Kanji Reading)"
+  },
+  {
+    "id": "N2-009",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "その噂はまったくの【誤解】だ。",
+    "choices": [
+      "1. ごかい",
+      "2. こかい",
+      "3. ごげ",
+      "4. あやかい"
+    ],
+    "answer": "1. ごかい",
+    "explanation": "誤解 (ごかい) means 'misunderstanding'.",
+    "source": "JLPT N2 Workbook Q9 (Kanji Reading)"
+  },
+  {
+    "id": "N2-010",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "環境問題を【深刻】に受け止めている。",
+    "choices": [
+      "1. ふかこく",
+      "2. しんこく",
+      "3. じんこく",
+      "4. しんごく"
+    ],
+    "answer": "2. しんこく",
+    "explanation": "深刻 (しんこく) means 'serious/grave/severe'.",
+    "source": "JLPT N2 Workbook Q10 (Kanji Reading)"
+  },
+  {
+    "id": "N2-011",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "事件の【背景】を詳しく調査する。",
+    "choices": [
+      "1. はいえい",
+      "2. はいけい",
+      "3. せけい",
+      "4. はいぎょう"
+    ],
+    "answer": "2. はいけい",
+    "explanation": "背景 (はいけい) means 'background/context'.",
+    "source": "JLPT N2 Workbook Q11 (Kanji Reading)"
+  },
+  {
+    "id": "N2-012",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "自分の意見を【主張】するだけでは解決しない。",
+    "choices": [
+      "1. すちょう",
+      "2. しゅちょう",
+      "3. しゅじょう",
+      "4. しゅうしょう"
+    ],
+    "answer": "2. しゅちょう",
+    "explanation": "主張 (しゅちょう) means 'assertion/claim/insistence'.",
+    "source": "JLPT N2 Workbook Q12 (Kanji Reading)"
+  },
+  {
+    "id": "N2-013",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この地域は自然が【豊か】だ。",
+    "choices": [
+      "1. ゆたか",
+      "2. おだやか",
+      "3. にぎやか",
+      "4. あざやか"
+    ],
+    "answer": "1. ゆたか",
+    "explanation": "豊か (ゆたか) means 'abundant/rich'. 穏やか is おだやか, 鮮やか is あざやか.",
+    "source": "JLPT N2 Workbook Q13 (Kanji Reading)"
+  },
+  {
+    "id": "N2-014",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "規則に【違反】すると罰金が科される。",
+    "choices": [
+      "1. いばん",
+      "2. ちはん",
+      "3. いはん",
+      "4. だはん"
+    ],
+    "answer": "3. いはん",
+    "explanation": "違反 (いはん) means 'violation/breach'.",
+    "source": "JLPT N2 Workbook Q14 (Kanji Reading)"
+  },
+  {
+    "id": "N2-015",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は【裕福】な家庭で育った。",
+    "choices": [
+      "1. ゆふく",
+      "2. ゆうぶく",
+      "3. ゆうふく",
+      "4. ようふく"
+    ],
+    "answer": "3. ゆうふく",
+    "explanation": "裕福 (ゆうふく) means 'wealthy/affluent'.",
+    "source": "JLPT N2 Workbook Q15 (Kanji Reading)"
+  },
+  {
+    "id": "N2-016",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "プロジェクトの責任者に【にんめい】された。",
+    "choices": [
+      "1. 任命",
+      "2. 人命",
+      "3. 認命",
+      "4. 任名"
+    ],
+    "answer": "1. 任命",
+    "explanation": "任命 (にんめい) means 'appointment (to a position)'.",
+    "source": "JLPT N2 Workbook Q16 (Orthography)"
+  },
+  {
+    "id": "N2-017",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "二つの案を【ひかく】して検討しよう。",
+    "choices": [
+      "1. 非較",
+      "2. 比格",
+      "3. 比較",
+      "4. 皮較"
+    ],
+    "answer": "3. 比較",
+    "explanation": "比較 (ひかく) means 'comparison'.",
+    "source": "JLPT N2 Workbook Q17 (Orthography)"
+  },
+  {
+    "id": "N2-018",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "相手の立場を【そんちょう】することが大切だ。",
+    "choices": [
+      "1. 尊重",
+      "2. 尊長",
+      "3. 存重",
+      "4. 損重"
+    ],
+    "answer": "1. 尊重",
+    "explanation": "尊重 (そんちょう) means 'respect/esteem'.",
+    "source": "JLPT N2 Workbook Q18 (Orthography)"
+  },
+  {
+    "id": "N2-019",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "仕事の【こうりつ】を上げる工夫をする。",
+    "choices": [
+      "1. 効律",
+      "2. 効率",
+      "3. 高率",
+      "4. 行率"
+    ],
+    "answer": "2. 効率",
+    "explanation": "効率 (こうりつ) means 'efficiency'.",
+    "source": "JLPT N2 Workbook Q19 (Orthography)"
+  },
+  {
+    "id": "N2-020",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "地震に備えて食料を【たくわ】えておく。",
+    "choices": [
+      "1. 畜",
+      "2. 備",
+      "3. 蓄",
+      "4. 積"
+    ],
+    "answer": "3. 蓄",
+    "explanation": "蓄える (たくわえる) means 'to store up / stockpile'.",
+    "source": "JLPT N2 Workbook Q20 (Orthography)"
+  },
+  {
+    "id": "N2-021",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議の日程を【ちょうせい】する。",
+    "choices": [
+      "1. 調整",
+      "2. 長整",
+      "3. 調正",
+      "4. 調制"
+    ],
+    "answer": "1. 調整",
+    "explanation": "調整 (ちょうせい) means 'adjustment/coordination'.",
+    "source": "JLPT N2 Workbook Q21 (Orthography)"
+  },
+  {
+    "id": "N2-022",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼の説明には【むじゅん】がある。",
+    "choices": [
+      "1. 矛順",
+      "2. 無順",
+      "3. 無盾",
+      "4. 矛盾"
+    ],
+    "answer": "4. 矛盾",
+    "explanation": "矛盾 (むじゅん) means 'contradiction' (literally spear and shield).",
+    "source": "JLPT N2 Workbook Q22 (Orthography)"
+  },
+  {
+    "id": "N2-023",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい制度を【どうにゅう】する。",
+    "choices": [
+      "1. 動入",
+      "2. 道入",
+      "3. 導入",
+      "4. 同入"
+    ],
+    "answer": "3. 導入",
+    "explanation": "導入 (どうにゅう) means 'introduction/adoption (of a system)'.",
+    "source": "JLPT N2 Workbook Q23 (Orthography)"
+  },
+  {
+    "id": "N2-024",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この商品は品質が【ほしょう】されている。",
+    "choices": [
+      "1. 保正",
+      "2. 保商",
+      "3. 補証",
+      "4. 保証"
+    ],
+    "answer": "4. 保証",
+    "explanation": "保証 (ほしょう) means 'guarantee/warranty'.",
+    "source": "JLPT N2 Workbook Q24 (Orthography)"
+  },
+  {
+    "id": "N2-025",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "目標を【たっせい】するために努力する。",
+    "choices": [
+      "1. 達精",
+      "2. 達成",
+      "3. 達正",
+      "4. 立成"
+    ],
+    "answer": "2. 達成",
+    "explanation": "達成 (たっせい) means 'achievement/accomplishment'.",
+    "source": "JLPT N2 Workbook Q25 (Orthography)"
+  },
+  {
+    "id": "N2-026",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "長年の【どりょく】が実を結んだ。",
+    "choices": [
+      "1. 努力",
+      "2. 努カ",
+      "3. 奴力",
+      "4. 怒力"
+    ],
+    "answer": "1. 努力",
+    "explanation": "努力 (どりょく) means 'effort/endeavor'.",
+    "source": "JLPT N2 Workbook Q26 (Orthography)"
+  },
+  {
+    "id": "N2-027",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議の内容を【きろく】に残す。",
+    "choices": [
+      "1. 機録",
+      "2. 記録",
+      "3. 既録",
+      "4. 記緑"
+    ],
+    "answer": "2. 記録",
+    "explanation": "記録 (きろく) means 'record/minutes'. 緑 is green.",
+    "source": "JLPT N2 Workbook Q27 (Orthography)"
+  },
+  {
+    "id": "N2-028",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "両国の関係が【かいぜん】された。",
+    "choices": [
+      "1. 改善",
+      "2. 改前",
+      "3. 快善",
+      "4. 改全"
+    ],
+    "answer": "1. 改善",
+    "explanation": "改善 (かいぜん) means 'improvement'.",
+    "source": "JLPT N2 Workbook Q28 (Orthography)"
+  },
+  {
+    "id": "N2-029",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "正確なデータを【しゅうしゅう】する。",
+    "choices": [
+      "1. 収拾",
+      "2. 集収",
+      "3. 収集",
+      "4. 修集"
+    ],
+    "answer": "3. 収集",
+    "explanation": "収集 (しゅうしゅう) means 'collection/gathering (data)'. 収拾 means getting a situation under control.",
+    "source": "JLPT N2 Workbook Q29 (Orthography)"
+  },
+  {
+    "id": "N2-030",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "住民の意見を【はんえい】させた計画だ。",
+    "choices": [
+      "1. 判映",
+      "2. 半映",
+      "3. 反映",
+      "4. 反影"
+    ],
+    "answer": "3. 反映",
+    "explanation": "反映 (はんえい) means 'reflection (of opinions/trends)'.",
+    "source": "JLPT N2 Workbook Q30 (Orthography)"
+  },
+  {
+    "id": "N2-031",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この書類は（ ）完成のままだ。",
+    "choices": [
+      "1. 未",
+      "2. 無",
+      "3. 不",
+      "4. 非"
+    ],
+    "answer": "1. 未",
+    "explanation": "未完成 (みかんせい) means 'incomplete / not yet finished'.",
+    "source": "JLPT N2 Workbook Q31 (Word Formation)"
+  },
+  {
+    "id": "N2-032",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この地域は交通が（ ）便だ。",
+    "choices": [
+      "1. 未",
+      "2. 非",
+      "3. 不",
+      "4. 無"
+    ],
+    "answer": "3. 不",
+    "explanation": "不便 (ふべん) means 'inconvenient'.",
+    "source": "JLPT N2 Workbook Q32 (Word Formation)"
+  },
+  {
+    "id": "N2-033",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は（ ）常識な行動をとることがある。",
+    "choices": [
+      "1. 未",
+      "2. 反",
+      "3. 非",
+      "4. 不"
+    ],
+    "answer": "3. 非",
+    "explanation": "非常識 (ひじょうしき) means 'lacking common sense / absurd'.",
+    "source": "JLPT N2 Workbook Q33 (Word Formation)"
+  },
+  {
+    "id": "N2-034",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "参加（ ）は当日受付でお支払いください。",
+    "choices": [
+      "1. 費",
+      "2. 賃",
+      "3. 税",
+      "4. 価"
+    ],
+    "answer": "1. 費",
+    "explanation": "参加費 (さんかひ) = participation fee. 費 is used for costs you pay: 交通費, 会費, 参加費.",
+    "source": "JLPT N2 Workbook Q34 (Word Formation)"
+  },
+  {
+    "id": "N2-035",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "今月の電気（ ）が先月より高かった。",
+    "choices": [
+      "1. 費",
+      "2. 代",
+      "3. 賃",
+      "4. 賞"
+    ],
+    "answer": "2. 代",
+    "explanation": "電気代 (でんきだい) is the standard term for 'electricity bill'.",
+    "source": "JLPT N2 Workbook Q35 (Word Formation)"
+  },
+  {
+    "id": "N2-036",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼女は子ども（ ）の絵本を書いている。",
+    "choices": [
+      "1. 向き",
+      "2. 的",
+      "3. 向け",
+      "4. 風"
+    ],
+    "answer": "3. 向け",
+    "explanation": "子ども向け (こどもむけ) means 'aimed at / intended for children'.",
+    "source": "JLPT N2 Workbook Q36 (Word Formation)"
+  },
+  {
+    "id": "N2-037",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議の開始（ ）刻が迫っている。",
+    "choices": [
+      "1. 期",
+      "2. 度",
+      "3. 時",
+      "4. 間"
+    ],
+    "answer": "3. 時",
+    "explanation": "開始時刻 (かいしじこく) means 'starting time (point in time)'.",
+    "source": "JLPT N2 Workbook Q37 (Word Formation)"
+  },
+  {
+    "id": "N2-038",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この薬は食（ ）に飲んでください。",
+    "choices": [
+      "1. 中",
+      "2. 後",
+      "3. 外",
+      "4. 内"
+    ],
+    "answer": "2. 後",
+    "explanation": "食後 (しょくご) means 'after a meal'.",
+    "source": "JLPT N2 Workbook Q38 (Word Formation)"
+  },
+  {
+    "id": "N2-039",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この問題は社会（ ）な関心を集めている。",
+    "choices": [
+      "1. 化",
+      "2. 的",
+      "3. 風",
+      "4. 性"
+    ],
+    "answer": "2. 的",
+    "explanation": "社会的 (しゃかいてき) means 'social' (na-adjective).",
+    "source": "JLPT N2 Workbook Q39 (Word Formation)"
+  },
+  {
+    "id": "N2-040",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "作業の効率（ ）を図ることが急務だ。",
+    "choices": [
+      "1. 化",
+      "2. 度",
+      "3. 性",
+      "4. 的"
+    ],
+    "answer": "1. 化",
+    "explanation": "効率化 (こうりつか) means 'streamlining / making more efficient'.",
+    "source": "JLPT N2 Workbook Q40 (Word Formation)"
+  },
+  {
+    "id": "N2-041",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "予算の都合上、この計画は（ ）せざるを得ない。",
+    "choices": [
+      "1. 決断",
+      "2. 納得",
+      "3. 断念",
+      "4. 満足"
+    ],
+    "answer": "3. 断念",
+    "explanation": "断念する (だんねんする) means 'to give up / abandon (a plan)'.",
+    "source": "JLPT N2 Workbook Q41 (Context)"
+  },
+  {
+    "id": "N2-042",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼の説明はとても（ ）、誰にでも理解できた。",
+    "choices": [
+      "1. 簡潔で",
+      "2. 過剰で",
+      "3. 曖昧で",
+      "4. 複雑で"
+    ],
+    "answer": "1. 簡潔で",
+    "explanation": "簡潔 (かんけつ, concise/brief) explains why anyone could understand it.",
+    "source": "JLPT N2 Workbook Q42 (Context)"
+  },
+  {
+    "id": "N2-043",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "長年の経験が（ ）て、難題を解決できた。",
+    "choices": [
+      "1. 働き",
+      "2. 進み",
+      "3. 生き",
+      "4. 動き"
+    ],
+    "answer": "3. 生き",
+    "explanation": "経験が生きる (experience comes into play / proves useful) is a standard N2 collocation.",
+    "source": "JLPT N2 Workbook Q43 (Context)"
+  },
+  {
+    "id": "N2-044",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい環境になかなか（ ）ずに悩んでいる。",
+    "choices": [
+      "1. ととのえ",
+      "2. なじめ",
+      "3. おさまり",
+      "4. かたまり"
+    ],
+    "answer": "2. なじめ",
+    "explanation": "馴染む (なじむ) means 'to adapt/fit in to a new environment'.",
+    "source": "JLPT N2 Workbook Q44 (Context)"
+  },
+  {
+    "id": "N2-045",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "事実を（ ）に伝えることが報道の使命だ。",
+    "choices": [
+      "1. たまたま",
+      "2. うっかり",
+      "3. わざわざ",
+      "4. ありのまま"
+    ],
+    "answer": "4. ありのまま",
+    "explanation": "ありのまま means 'as it is / truthfully without distortion'.",
+    "source": "JLPT N2 Workbook Q45 (Context)"
+  },
+  {
+    "id": "N2-046",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この街は昔ながらの風景が今も（ ）残っている。",
+    "choices": [
+      "1. 薄く",
+      "2. 軽く",
+      "3. 色濃く",
+      "4. 浅く"
+    ],
+    "answer": "3. 色濃く",
+    "explanation": "色濃く残る (いろこくのこる) means 'to remain strongly / vividly'.",
+    "source": "JLPT N2 Workbook Q46 (Context)"
+  },
+  {
+    "id": "N2-047",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "両者の意見が（ ）して、会議が長引いた。",
+    "choices": [
+      "1. 一致",
+      "2. 対立",
+      "3. 妥協",
+      "4. 協力"
+    ],
+    "answer": "2. 対立",
+    "explanation": "対立 (たいりつ, conflict/opposition) explains why the meeting dragged on.",
+    "source": "JLPT N2 Workbook Q47 (Context)"
+  },
+  {
+    "id": "N2-048",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "気温の上昇に（ ）、電力の消費量が増えている。",
+    "choices": [
+      "1. 対し",
+      "2. 向かい",
+      "3. 伴い",
+      "4. 際し"
+    ],
+    "answer": "3. 伴い",
+    "explanation": "伴う (ともなう, to accompany) fits 'along with rising temperatures, power use increases'.",
+    "source": "JLPT N2 Workbook Q48 (Context)"
+  },
+  {
+    "id": "N2-049",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼はいつも（ ）を張って、失敗を認めようとしない。",
+    "choices": [
+      "1. 気力",
+      "2. 勇気",
+      "3. 意地",
+      "4. 自信"
+    ],
+    "answer": "3. 意地",
+    "explanation": "意地を張る (いじをはる) is an idiom meaning 'to be stubborn / obstinate'.",
+    "source": "JLPT N2 Workbook Q49 (Context)"
+  },
+  {
+    "id": "N2-050",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この商品はデザインが（ ）いるため、若者に人気がある。",
+    "choices": [
+      "1. 省略されて",
+      "2. 洗練されて",
+      "3. 混乱して",
+      "4. 停滞して"
+    ],
+    "answer": "2. 洗練されて",
+    "explanation": "洗練される (せんれんされる) means 'to be refined/sophisticated'.",
+    "source": "JLPT N2 Workbook Q50 (Context)"
+  },
+  {
+    "id": "N2-051",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "突然の質問に（ ）て、うまく答えられなかった。",
+    "choices": [
+      "1. 落ち着い",
+      "2. 戸惑っ",
+      "3. 納得し",
+      "4. 安心し"
+    ],
+    "answer": "2. 戸惑っ",
+    "explanation": "戸惑う (とまどう) means 'to be bewildered/at a loss'.",
+    "source": "JLPT N2 Workbook Q51 (Context)"
+  },
+  {
+    "id": "N2-052",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この契約書の内容を十分に（ ）した上で署名してください。",
+    "choices": [
+      "1. 省略",
+      "2. 把握",
+      "3. 無視",
+      "4. 想像"
+    ],
+    "answer": "2. 把握",
+    "explanation": "把握する (はあくする) means 'to grasp/understand thoroughly'.",
+    "source": "JLPT N2 Workbook Q52 (Context)"
+  },
+  {
+    "id": "N2-053",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "健康を維持するには、適度な運動が（ ）。",
+    "choices": [
+      "1. 違いない",
+      "2. 欠かせない",
+      "3. 限らない",
+      "4. 構わない"
+    ],
+    "answer": "2. 欠かせない",
+    "explanation": "欠かせない (かかせない) means 'indispensable/essential'.",
+    "source": "JLPT N2 Workbook Q53 (Context)"
+  },
+  {
+    "id": "N2-054",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼の行動は周囲の（ ）を買ってしまった。",
+    "choices": [
+      "1. 反感",
+      "2. 共感",
+      "3. 安心",
+      "4. 好感"
+    ],
+    "answer": "1. 反感",
+    "explanation": "反感を買う (はんかんをかう) means 'to incur antipathy/resentment'.",
+    "source": "JLPT N2 Workbook Q54 (Context)"
+  },
+  {
+    "id": "N2-055",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい技術の開発に（ ）が注がれている。",
+    "choices": [
+      "1. 体力",
+      "2. 総力",
+      "3. 視力",
+      "4. 気力"
+    ],
+    "answer": "2. 総力",
+    "explanation": "総力を注ぐ (そうりょくをそそぐ) means 'to devote all-out effort'.",
+    "source": "JLPT N2 Workbook Q55 (Context)"
+  },
+  {
+    "id": "N2-056",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議は【すみやかに】終了した。",
+    "choices": [
+      "1. ゆっくりと",
+      "2. しだいに",
+      "3. たまに",
+      "4. ただちに"
+    ],
+    "answer": "4. ただちに",
+    "explanation": "速やかに (すみやかに) means 'promptly/swiftly' (= ただちに/すぐに).",
+    "source": "JLPT N2 Workbook Q56 (Paraphrases)"
+  },
+  {
+    "id": "N2-057",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "その件については【あらかじめ】連絡しておいた。",
+    "choices": [
+      "1. 急に",
+      "2. 後で",
+      "3. 事前に",
+      "4. 偶然"
+    ],
+    "answer": "3. 事前に",
+    "explanation": "あらかじめ means 'in advance/beforehand' (= 事前に).",
+    "source": "JLPT N2 Workbook Q57 (Paraphrases)"
+  },
+  {
+    "id": "N2-058",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は計画の【おおまかな】内容を説明した。",
+    "choices": [
+      "1. くわしい",
+      "2. だいたいの",
+      "3. せいかくな",
+      "4. きびしい"
+    ],
+    "answer": "2. だいたいの",
+    "explanation": "大まか (おおまか) means 'rough/broad/general' (= だいたいの).",
+    "source": "JLPT N2 Workbook Q58 (Paraphrases)"
+  },
+  {
+    "id": "N2-059",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この計画は【ひとまず】保留にしよう。",
+    "choices": [
+      "1. とりあえず",
+      "2. 完全に",
+      "3. 永久に",
+      "4. 絶対に"
+    ],
+    "answer": "1. とりあえず",
+    "explanation": "ひとまず means 'for the time being / for now' (= とりあえず).",
+    "source": "JLPT N2 Workbook Q59 (Paraphrases)"
+  },
+  {
+    "id": "N2-060",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "二人の関係は【次第に】悪化していった。",
+    "choices": [
+      "1. いっきに",
+      "2. ますます",
+      "3. たちまち",
+      "4. だんだん"
+    ],
+    "answer": "4. だんだん",
+    "explanation": "次第に (しだいに) means 'gradually' (= だんだん).",
+    "source": "JLPT N2 Workbook Q60 (Paraphrases)"
+  },
+  {
+    "id": "N2-061",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "その提案は【いたって】合理的だ。",
+    "choices": [
+      "1. すこし",
+      "2. きわめて",
+      "3. めったに",
+      "4. まったく"
+    ],
+    "answer": "2. きわめて",
+    "explanation": "いたって means 'extremely/exceedingly' (= きわめて).",
+    "source": "JLPT N2 Workbook Q61 (Paraphrases)"
+  },
+  {
+    "id": "N2-062",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は【せっかくの】機会を逃してしまった。",
+    "choices": [
+      "1. ふつうの",
+      "2. 貴重な",
+      "3. 危険な",
+      "4. 最後の"
+    ],
+    "answer": "2. 貴重な",
+    "explanation": "せっかくの = precious, hard-won (= 貴重な). Often with a sense of regret when the chance is lost.",
+    "source": "JLPT N2 Workbook Q62 (Paraphrases)"
+  },
+  {
+    "id": "N2-063",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この問題は【きわめて】重要だ。",
+    "choices": [
+      "1. ほぼ",
+      "2. たまに",
+      "3. 非常に",
+      "4. 少し"
+    ],
+    "answer": "3. 非常に",
+    "explanation": "極めて (きわめて) means 'extremely/very' (= 非常に).",
+    "source": "JLPT N2 Workbook Q63 (Paraphrases)"
+  },
+  {
+    "id": "N2-064",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】おそれがある",
+    "choices": [
+      "1. 宝くじに当たるおそれがあるので楽しみだ。",
+      "2. 明日は天気がいいおそれがある。",
+      "3. 台風が近づいているため、電車が止まるおそれがある。",
+      "4. 合格するおそれがあるから頑張ろう。"
+    ],
+    "answer": "3. 台風が近づいているため、電車が止まるおそれがある。",
+    "explanation": "おそれがある is used only for negative/undesirable possibilities ('there is a risk/danger that...').",
+    "source": "JLPT N2 Workbook Q64 (Usage)"
+  },
+  {
+    "id": "N2-065",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】あっさり",
+    "choices": [
+      "1. 交渉が難航すると思ったが、相手はあっさり承諾した。",
+      "2. 彼はあっさりと10時間働き続けた。",
+      "3. あっさり勉強しないと試験に落ちる。",
+      "4. このスープはあっさりしていてとても甘い。"
+    ],
+    "answer": "1. 交渉が難航すると思ったが、相手はあっさり承諾した。",
+    "explanation": "あっさり means 'readily/easily/without fuss' (or light in flavor, not sweet).",
+    "source": "JLPT N2 Workbook Q65 (Usage)"
+  },
+  {
+    "id": "N2-066",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】手際",
+    "choices": [
+      "1. 料理人の手際がよくて、あっという間に料理が並んだ。",
+      "2. 天気の手際が悪くて出かけられない。",
+      "3. この靴は手際がよくて履きやすい。",
+      "4. 彼は手際が高いので尊敬されている。"
+    ],
+    "answer": "1. 料理人の手際がよくて、あっという間に料理が並んだ。",
+    "explanation": "手際がいい (てぎわがいい) means 'skillful/efficient at handling tasks'.",
+    "source": "JLPT N2 Workbook Q66 (Usage)"
+  },
+  {
+    "id": "N2-067",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】いたずら",
+    "choices": [
+      "1. いたずらに勉強して大学に合格した。",
+      "2. 彼はいたずらな料理を作るのが得意だ。",
+      "3. 子どものいたずらで壁に落書きされた。",
+      "4. 雨がいたずらに降って涼しくなった。"
+    ],
+    "answer": "3. 子どものいたずらで壁に落書きされた。",
+    "explanation": "いたずら means 'mischief/prank'.",
+    "source": "JLPT N2 Workbook Q67 (Usage)"
+  },
+  {
+    "id": "N2-068",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】きっちり",
+    "choices": [
+      "1. 部屋がきっちり汚れていて困った。",
+      "2. 約束の時間のきっちり10分前に到着した。",
+      "3. 彼はきっちり寝坊して遅刻した。",
+      "4. この問題はきっちり分からない。"
+    ],
+    "answer": "2. 約束の時間のきっちり10分前に到着した。",
+    "explanation": "きっちり means 'precisely/exactly/neatly'.",
+    "source": "JLPT N2 Workbook Q68 (Usage)"
+  },
+  {
+    "id": "N2-069",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】相応しい",
+    "choices": [
+      "1. 彼は風邪をひくのに相応しい。",
+      "2. このケーキは相応しくて美味しい。",
+      "3. この会場は国際会議を開くのに相応しい。",
+      "4. 雨が降るのに相応しい傘を買った。"
+    ],
+    "answer": "3. この会場は国際会議を開くのに相応しい。",
+    "explanation": "相応しい (ふさわしい) means 'suitable/appropriate/worthy of'.",
+    "source": "JLPT N2 Workbook Q69 (Usage)"
+  },
+  {
+    "id": "N2-070",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】とっくに",
+    "choices": [
+      "1. 彼が来たときには、会議はとっくに終わっていた。",
+      "2. 明日はとっくに雨が降るだろう。",
+      "3. とっくに頑張れば合格できる。",
+      "4. この料理はとっくにおいしい。"
+    ],
+    "answer": "1. 彼が来たときには、会議はとっくに終わっていた。",
+    "explanation": "とっくに = long ago, well before (some point). Used with things already finished (〜た / 〜ていた).",
+    "source": "JLPT N2 Workbook Q70 (Usage)"
+  },
+  {
+    "id": "N2-071",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は経験が浅い（ ）、立派に仕事をやり遂げた。",
+    "choices": [
+      "1. おかげで",
+      "2. ついでに",
+      "3. からには",
+      "4. にもかかわらず"
+    ],
+    "answer": "4. にもかかわらず",
+    "explanation": "にもかかわらず means 'despite / in spite of'.",
+    "source": "JLPT N2 Workbook Q71 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-072",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "約束した（ ）、必ず守らなければならない。",
+    "choices": [
+      "1. ばかりに",
+      "2. どころか",
+      "3. からには",
+      "4. ものの"
+    ],
+    "answer": "3. からには",
+    "explanation": "からには means 'now that / since (you promised, you must keep it)'.",
+    "source": "JLPT N2 Workbook Q72 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-073",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "あの店は美味しい（ ）、値段も手頃だ。",
+    "choices": [
+      "1. どころか",
+      "2. ものか",
+      "3. ばかりか",
+      "4. せいか"
+    ],
+    "answer": "3. ばかりか",
+    "explanation": "ばかりか means 'not only (delicious), but also (reasonably priced)'.",
+    "source": "JLPT N2 Workbook Q73 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-074",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "忙しくて、昼ご飯を食べる（ ）ではなかった。",
+    "choices": [
+      "1. ばかり",
+      "2. どころ",
+      "3. はず",
+      "4. わけ"
+    ],
+    "answer": "2. どころ",
+    "explanation": "どころではない means 'far from / no time for / out of the question'.",
+    "source": "JLPT N2 Workbook Q74 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-075",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この問題は難しすぎて、私には解け（ ）。",
+    "choices": [
+      "1. かねない",
+      "2. つつある",
+      "3. がちだ",
+      "4. っこない"
+    ],
+    "answer": "4. っこない",
+    "explanation": "Verb masu-stem + っこない means 'there is no way / definitely cannot'.",
+    "source": "JLPT N2 Workbook Q75 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-076",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "最近、日本でもキャッシュレス決済が広がり（ ）。",
+    "choices": [
+      "1. がちだ",
+      "2. っぱなしだ",
+      "3. ぎみだ",
+      "4. つつある"
+    ],
+    "answer": "4. つつある",
+    "explanation": "Verb masu-stem + つつある means 'is in the process of / gradually becoming'.",
+    "source": "JLPT N2 Workbook Q76 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-077",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "そんな危険な運転をしたら、事故を起こし（ ）。",
+    "choices": [
+      "1. かねない",
+      "2. かねる",
+      "3. っこない",
+      "4. ざるを得ない"
+    ],
+    "answer": "1. かねない",
+    "explanation": "かねない means 'might well / could easily happen (negative outcome)'. かねる means 'cannot / find it hard to'.",
+    "source": "JLPT N2 Workbook Q77 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-078",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "台風が直撃したため、イベントは中止（ ）。",
+    "choices": [
+      "1. せざるを得なかった",
+      "2. するはずがなかった",
+      "3. しないではいられなかった",
+      "4. するわけがなかった"
+    ],
+    "answer": "1. せざるを得なかった",
+    "explanation": "ざるを得ない = have no choice but to. Past tense because the typhoon already hit (直撃したため).",
+    "source": "JLPT N2 Workbook Q78 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-079",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この映画は子ども（ ）大人にも人気がある。",
+    "choices": [
+      "1. こととて",
+      "2. のみならず",
+      "3. とあって",
+      "4. ばかりに"
+    ],
+    "answer": "2. のみならず",
+    "explanation": "のみならず means 'not only... but also' (formal equivalent of だけでなく).",
+    "source": "JLPT N2 Workbook Q79 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-080",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "冬になると、空気が乾燥し（ ）だ。",
+    "choices": [
+      "1. ぎみ",
+      "2. ぬき",
+      "3. かけ",
+      "4. がち"
+    ],
+    "answer": "4. がち",
+    "explanation": "がち means 'tend to / prone to' (often used for recurring/undesirable tendencies).",
+    "source": "JLPT N2 Workbook Q80 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-081",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼女の話を聞いて、感動（ ）。",
+    "choices": [
+      "1. せざるを得なかった",
+      "2. せずにはいられなかった",
+      "3. するはずがなかった",
+      "4. するわけにはいかなかった"
+    ],
+    "answer": "2. せずにはいられなかった",
+    "explanation": "ずにはいられない means 'cannot help doing / cannot resist (being moved)'.",
+    "source": "JLPT N2 Workbook Q81 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-082",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "駅前に新しいビルが建った（ ）、街の雰囲気が変わった。",
+    "choices": [
+      "1. にあたって",
+      "2. をもとに",
+      "3. をはじめ",
+      "4. のをきっかけに"
+    ],
+    "answer": "4. のをきっかけに",
+    "explanation": "をきっかけに means 'with X as a turning point / triggered by X'.",
+    "source": "JLPT N2 Workbook Q82 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-083",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "明日の面接（ ）、しっかり準備をしておこう。",
+    "choices": [
+      "1. に対して",
+      "2. に向けて",
+      "3. について",
+      "4. にとって"
+    ],
+    "answer": "2. に向けて",
+    "explanation": "に向けて means 'toward / in preparation for (a future goal or event)'.",
+    "source": "JLPT N2 Workbook Q83 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-084",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は大学を卒業した（ ）、就職せずに起業した。",
+    "choices": [
+      "1. ついでに",
+      "2. ばかりに",
+      "3. ものの",
+      "4. からには"
+    ],
+    "answer": "3. ものの",
+    "explanation": "ものの means 'although / even though (graduated, yet didn't take a regular job)'.",
+    "source": "JLPT N2 Workbook Q84 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-085",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "お客様のご要望（ ）、プランを変更いたします。",
+    "choices": [
+      "1. にかけて",
+      "2. に応じて",
+      "3. にわたって",
+      "4. に際して"
+    ],
+    "answer": "2. に応じて",
+    "explanation": "に応じて means 'in accordance with / depending on (customer requests)'.",
+    "source": "JLPT N2 Workbook Q85 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-086",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この仕事は ＿＿ ＿＿ ★ ＿＿ 引き受けることにした。（★に入るものはどれか）",
+    "choices": [
+      "1. 大変だが",
+      "2. やりがいが",
+      "3. あるから",
+      "4. 確かに"
+    ],
+    "answer": "2. やりがいが",
+    "explanation": "Order: 確かに (4) 大変だが (1) やりがいが (2) あるから (3) -> ★ is やりがいが (2).",
+    "source": "JLPT N2 Workbook Q86 (Sentence Composition)"
+  },
+  {
+    "id": "N2-087",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は ＿＿ ＿＿ ★ ＿＿ 認めようとしない。（★に入るものはどれか）",
+    "choices": [
+      "1. ミスを",
+      "2. 指摘されても",
+      "3. 上司に",
+      "4. なかなか"
+    ],
+    "answer": "2. 指摘されても",
+    "explanation": "Order: 上司に (3) ミスを (1) 指摘されても (2) なかなか (4). 上司に and ミスを can swap, but ★ is 指摘されても (2) either way.",
+    "source": "JLPT N2 Workbook Q87 (Sentence Composition)"
+  },
+  {
+    "id": "N2-088",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "日本の生活に ＿＿ ＿＿ ★ ＿＿ かかった。（★に入るものはどれか）",
+    "choices": [
+      "1. 慣れる",
+      "2. まで",
+      "3. 半年",
+      "4. ほど"
+    ],
+    "answer": "3. 半年",
+    "explanation": "Order: 慣れる (1) まで (2) 半年 (3) ほど (4) -> ★ is 半年 (3). Meaning: It took about half a year to get used to life in Japan.",
+    "source": "JLPT N2 Workbook Q88 (Sentence Composition)"
+  },
+  {
+    "id": "N2-089",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "会議が ＿＿ ＿＿ ★ ＿＿ しまった。（★に入るものはどれか）",
+    "choices": [
+      "1. 遅れて",
+      "2. 電車が",
+      "3. 始まる時間に",
+      "4. 止まったせいで"
+    ],
+    "answer": "4. 止まったせいで",
+    "explanation": "Order: 始まる時間に (3) 電車が (2) 止まったせいで (4) 遅れて (1) -> ★ is 止まったせいで (4).",
+    "source": "JLPT N2 Workbook Q89 (Sentence Composition)"
+  },
+  {
+    "id": "N2-090",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "どんなに ＿＿ ＿＿ ★ ＿＿ はいけない。（★に入るものはどれか）",
+    "choices": [
+      "1. 途中で",
+      "2. 難しくても",
+      "3. 問題が",
+      "4. あきらめて"
+    ],
+    "answer": "1. 途中で",
+    "explanation": "Order: 問題が (3) 難しくても (2) 途中で (1) あきらめて (4) -> ★ is 途中で (1).",
+    "source": "JLPT N2 Workbook Q90 (Sentence Composition)"
+  },
+  {
+    "id": "N2-091",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "健康のためには、食事に気をつける ＿＿ ＿＿ ★ ＿＿ 大切だ。（★に入るものはどれか）",
+    "choices": [
+      "1. 運動する",
+      "2. だけでなく",
+      "3. 適度に",
+      "4. ことも"
+    ],
+    "answer": "1. 運動する",
+    "explanation": "Order: だけでなく (2) 適度に (3) 運動する (1) ことも (4) -> ★ is 運動する (1).",
+    "source": "JLPT N2 Workbook Q91 (Sentence Composition)"
+  },
+  {
+    "id": "N2-092",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼女は ＿＿ ＿＿ ★ ＿＿ いつも忙しい。（★に入るものはどれか）",
+    "choices": [
+      "1. 仕事",
+      "2. だけでなく",
+      "3. 育児も",
+      "4. あって"
+    ],
+    "answer": "3. 育児も",
+    "explanation": "Order: 仕事 (1) だけでなく (2) 育児も (3) あって (4) -> ★ is 育児も (3).",
+    "source": "JLPT N2 Workbook Q92 (Sentence Composition)"
+  },
+  {
+    "id": "N2-093",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "その映画は ＿＿ ＿＿ ★ ＿＿ 感動した。（★に入るものはどれか）",
+    "choices": [
+      "1. 思わず",
+      "2. 泣いてしまう",
+      "3. ほど",
+      "4. 素晴らしい内容で"
+    ],
+    "answer": "2. 泣いてしまう",
+    "explanation": "Order: 素晴らしい内容で (4) 思わず (1) 泣いてしまう (2) ほど (3) -> ★ is 泣いてしまう (2).",
+    "source": "JLPT N2 Workbook Q93 (Sentence Composition)"
+  },
+  {
+    "id": "N2-094",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "来月のイベントに ＿＿ ＿＿ ★ ＿＿ 準備を進めている。（★に入るものはどれか）",
+    "choices": [
+      "1. 向けて",
+      "2. 一丸と",
+      "3. なって",
+      "4. 社員が"
+    ],
+    "answer": "2. 一丸と",
+    "explanation": "Order: 向けて (1) 社員が (4) 一丸と (2) なって (3) -> ★ is 一丸と (2). 一丸となって = working together as one.",
+    "source": "JLPT N2 Workbook Q94 (Sentence Composition)"
+  },
+  {
+    "id": "N2-095",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この商品は ＿＿ ＿＿ ★ ＿＿ 売れている。（★に入るものはどれか）",
+    "choices": [
+      "1. 機能性",
+      "2. だけでなく",
+      "3. デザインも",
+      "4. 優れているため"
+    ],
+    "answer": "3. デザインも",
+    "explanation": "Order: 機能性 (1) だけでなく (2) デザインも (3) 優れているため (4) -> ★ is デザインも (3).",
+    "source": "JLPT N2 Workbook Q95 (Sentence Composition)"
+  },
+  {
+    "id": "N2-096",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章A】\n近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。\n\n【Q96】に入る最もよいものはどれか。",
+    "choices": [
+      "1. ことから",
+      "2. せいで",
+      "3. にもかかわらず",
+      "4. ものの"
+    ],
+    "answer": "1. ことから",
+    "explanation": "ことから indicates a reason/basis ('because commuting time disappears, many say time with family increased').",
+    "source": "JLPT N2 Workbook Q96 (Text Grammar)"
+  },
+  {
+    "id": "N2-097",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章A】\n近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。\n\n【Q97】に入る最もよいものはどれか。",
+    "choices": [
+      "1. ような",
+      "2. といった",
+      "3. はずの",
+      "4. という"
+    ],
+    "answer": "4. という",
+    "explanation": "という指摘 ('the point/criticism that...') is the standard appositive connector.",
+    "source": "JLPT N2 Workbook Q97 (Text Grammar)"
+  },
+  {
+    "id": "N2-098",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章A】\n近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。\n\n【Q98】に入る最もよいものはどれか。",
+    "choices": [
+      "1. を",
+      "2. が",
+      "3. に",
+      "4. で"
+    ],
+    "answer": "2. が",
+    "explanation": "求められている is passive ('is being demanded/required'), so the subject takes が.",
+    "source": "JLPT N2 Workbook Q98 (Text Grammar)"
+  },
+  {
+    "id": "N2-099",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章B】\n「失敗は成功のもと」とはよく言われるが、ただ失敗を繰り返すだけでは意味がない。大切なのは、なぜ失敗したのかを冷静に分析し、次に同じ過ちを犯さないための対策を立てることだ。失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない。\n\n筆者が最も言いたいことは何か。",
+    "choices": [
+      "1. 失敗の原因を分析し、次に活かす姿勢が大切だ",
+      "2. 失敗したらすぐに諦めて別の方法を探すべきだ",
+      "3. 失敗しないように、新しいことには挑戦しない方がいい",
+      "4. 失敗は何度繰り返しても自然に成功につながる"
+    ],
+    "answer": "1. 失敗の原因を分析し、次に活かす姿勢が大切だ",
+    "explanation": "The author argues that repeating mistakes isn't enough; one must analyze the cause and plan countermeasures, rather than fearing failure.",
+    "source": "JLPT N2 Workbook Q99 (Short Passage)"
+  },
+  {
+    "id": "N2-100",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章B】\n「失敗は成功のもと」とはよく言われるが、ただ失敗を繰り返すだけでは意味がない。大切なのは、なぜ失敗したのかを冷静に分析し、次に同じ過ちを犯さないための対策を立てることだ。失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない。\n\n筆者が「最大の失敗」だと述べているのは何か。",
+    "choices": [
+      "1. 失敗の原因を分析すること",
+      "2. 失敗を恐れて何もしないこと",
+      "3. 同じ過ちを一度だけ犯すこと",
+      "4. 成功のもとを忘れること"
+    ],
+    "answer": "2. 失敗を恐れて何もしないこと",
+    "explanation": "The last sentence explicitly states: 失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない.",
+    "source": "JLPT N2 Workbook Q100 (Short Passage)"
+  },
+  {
+    "id": "N2-101",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章C】\n現代社会では、スマートフォンの普及により、いつでもどこでも膨大な情報にアクセスできるようになった。しかし、情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている。ただ受け身で情報を消費するのではなく、情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている。\n\n現代社会における情報の問題点として挙げられているのはどれか。",
+    "choices": [
+      "1. 誰も情報を発信しようとしないこと",
+      "2. 必要な情報にまったくアクセスできないこと",
+      "3. スマートフォンが高価で普及していないこと",
+      "4. 情報が多すぎて真偽を見極めにくいこと"
+    ],
+    "answer": "4. 情報が多すぎて真偽を見極めにくいこと",
+    "explanation": "The text states: 情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている.",
+    "source": "JLPT N2 Workbook Q101 (Mid-size Passage)"
+  },
+  {
+    "id": "N2-102",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章C】\n現代社会では、スマートフォンの普及により、いつでもどこでも膨大な情報にアクセスできるようになった。しかし、情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている。ただ受け身で情報を消費するのではなく、情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている。\n\n情報に対してどのような姿勢が重要だと述べているか。",
+    "choices": [
+      "1. 受け身のまま素早く情報を消費すること",
+      "2. 他人の意見だけを信じること",
+      "3. スマートフォンを使わないようにすること",
+      "4. 発信源や根拠を自分で確認すること"
+    ],
+    "answer": "4. 発信源や根拠を自分で確認すること",
+    "explanation": "The final sentence states: 情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている.",
+    "source": "JLPT N2 Workbook Q102 (Mid-size Passage)"
+  },
+  {
+    "id": "N2-103",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章D：社員研修のご案内】\n新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。\n\nこの研修に参加できるのは誰か。",
+    "choices": [
+      "1. 社外の取引先担当者",
+      "2. 新入社員と入社3年以内の社員",
+      "3. 入社5年以上の管理職のみ",
+      "4. 人事部の社員全員"
+    ],
+    "answer": "2. 新入社員と入社3年以内の社員",
+    "explanation": "The notice specifies: 新入社員および入社3年以内の社員を対象に.",
+    "source": "JLPT N2 Workbook Q103 (Business Notice)"
+  },
+  {
+    "id": "N2-104",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章D：社員研修のご案内】\n新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。\n\n申し込みについて正しいものはどれか。",
+    "choices": [
+      "1. 11月20日に直接第2会議室へ行けばよい",
+      "2. 11月13日までに鈴木さんにメールで申し込む",
+      "3. 定員はないのでいつでも申し込める",
+      "4. 電話で人事部に申し込む必要がある"
+    ],
+    "answer": "2. 11月13日までに鈴木さんにメールで申し込む",
+    "explanation": "It states: 11月13日（金）までに人事部の鈴木までメールでお申し込みください.",
+    "source": "JLPT N2 Workbook Q104 (Business Notice)"
+  },
+  {
+    "id": "N2-105",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【文章D：社員研修のご案内】\n新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。\n\n締め切りについて注意すべき点は何か。",
+    "choices": [
+      "1. 11月13日を過ぎても延長されること",
+      "2. 30名に達すると期限前でも締め切られること",
+      "3. 参加費を事前に振り込む必要があること",
+      "4. 全員参加が義務付けられていること"
+    ],
+    "answer": "2. 30名に達すると期限前でも締め切られること",
+    "explanation": "定員（30名）に達し次第、締め切らせていただきます means registration closes as soon as 30 people sign up.",
+    "source": "JLPT N2 Workbook Q105 (Business Notice)"
+  },
+  {
+    "id": "N1-001",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の意見には【妥当】性がある。",
+    "choices": [
+      "1. だとう",
+      "2. たどう",
+      "3. だどう",
+      "4. たとう"
+    ],
+    "answer": "1. だとう",
+    "explanation": "妥当 (だとう) means 'valid/appropriate/sound'.",
+    "source": "JLPT N1 Workbook Q1 (Kanji Reading)"
+  },
+  {
+    "id": "N1-002",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この問題は【曖昧】な表現が多い。",
+    "choices": [
+      "1. あんまい",
+      "2. あいま",
+      "3. あいまい",
+      "4. いまい"
+    ],
+    "answer": "3. あいまい",
+    "explanation": "曖昧 (あいまい) means 'ambiguous/vague'.",
+    "source": "JLPT N1 Workbook Q2 (Kanji Reading)"
+  },
+  {
+    "id": "N1-003",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "環境保護の【観点】から議論する。",
+    "choices": [
+      "1. かんてん",
+      "2. けんてん",
+      "3. かんてい",
+      "4. みんてん"
+    ],
+    "answer": "1. かんてん",
+    "explanation": "観点 (かんてん) means 'viewpoint/standpoint'.",
+    "source": "JLPT N1 Workbook Q3 (Kanji Reading)"
+  },
+  {
+    "id": "N1-004",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "新技術が産業の【衰退】を食い止めた。",
+    "choices": [
+      "1. すいたい",
+      "2. すいた",
+      "3. おとろたい",
+      "4. さいたい"
+    ],
+    "answer": "1. すいたい",
+    "explanation": "衰退 (すいたい) means 'decline/decay'.",
+    "source": "JLPT N1 Workbook Q4 (Kanji Reading)"
+  },
+  {
+    "id": "N1-005",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼女は【緻密】な計画を立てた。",
+    "choices": [
+      "1. しみつ",
+      "2. ちびつ",
+      "3. じみつ",
+      "4. ちみつ"
+    ],
+    "answer": "4. ちみつ",
+    "explanation": "緻密 (ちみつ) means 'meticulous/minute/intricate'.",
+    "source": "JLPT N1 Workbook Q5 (Kanji Reading)"
+  },
+  {
+    "id": "N1-006",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "双方の主張は【乖離】している。",
+    "choices": [
+      "1. はり",
+      "2. けいり",
+      "3. かいり",
+      "4. きり"
+    ],
+    "answer": "3. かいり",
+    "explanation": "乖離 (かいり) means 'estrangement/divergence/gap'.",
+    "source": "JLPT N1 Workbook Q6 (Kanji Reading)"
+  },
+  {
+    "id": "N1-007",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "その発言は【傲慢】だと批判された。",
+    "choices": [
+      "1. ごうばん",
+      "2. きょうまん",
+      "3. ごうまん",
+      "4. こうまん"
+    ],
+    "answer": "3. ごうまん",
+    "explanation": "傲慢 (ごうまん) means 'arrogant/haughty'.",
+    "source": "JLPT N1 Workbook Q7 (Kanji Reading)"
+  },
+  {
+    "id": "N1-008",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "資料を【網羅】的に調査した。",
+    "choices": [
+      "1. もうろ",
+      "2. あみら",
+      "3. もうら",
+      "4. ぼうら"
+    ],
+    "answer": "3. もうら",
+    "explanation": "網羅 (もうら) means 'comprehensive coverage / exhaustive'.",
+    "source": "JLPT N1 Workbook Q8 (Kanji Reading)"
+  },
+  {
+    "id": "N1-009",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼は【頑固】で人の話を聞かない。",
+    "choices": [
+      "1. かんこ",
+      "2. がんご",
+      "3. がんこ",
+      "4. げんこ"
+    ],
+    "answer": "3. がんこ",
+    "explanation": "頑固 (がんこ) means 'stubborn/obstinate'.",
+    "source": "JLPT N1 Workbook Q9 (Kanji Reading)"
+  },
+  {
+    "id": "N1-010",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "経済の【停滞】が長期化している。",
+    "choices": [
+      "1. ていたい",
+      "2. ていだい",
+      "3. ちょうたい",
+      "4. じょうたい"
+    ],
+    "answer": "1. ていたい",
+    "explanation": "停滞 (ていたい) means 'stagnation'.",
+    "source": "JLPT N1 Workbook Q10 (Kanji Reading)"
+  },
+  {
+    "id": "N1-011",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "事件の【真相】を究明する。",
+    "choices": [
+      "1. じそう",
+      "2. しんしょう",
+      "3. しんそう",
+      "4. しんぞう"
+    ],
+    "answer": "3. しんそう",
+    "explanation": "真相 (しんそう) means 'the truth / real facts'.",
+    "source": "JLPT N1 Workbook Q11 (Kanji Reading)"
+  },
+  {
+    "id": "N1-012",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この地域は【肥沃】な土地が広がっている。",
+    "choices": [
+      "1. ひよく",
+      "2. びよく",
+      "3. こよく",
+      "4. ひよう"
+    ],
+    "answer": "1. ひよく",
+    "explanation": "肥沃 (ひよく) means 'fertile (soil/land)'.",
+    "source": "JLPT N1 Workbook Q12 (Kanji Reading)"
+  },
+  {
+    "id": "N1-013",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の態度は【謙虚】そのものだ。",
+    "choices": [
+      "1. かんきょ",
+      "2. けんきょ",
+      "3. げんきょ",
+      "4. けんこ"
+    ],
+    "answer": "2. けんきょ",
+    "explanation": "謙虚 (けんきょ) means 'humble/modest'.",
+    "source": "JLPT N1 Workbook Q13 (Kanji Reading)"
+  },
+  {
+    "id": "N1-014",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "契約の【履行】を求める。",
+    "choices": [
+      "1. りこう",
+      "2. りぎょう",
+      "3. れいこう",
+      "4. ろこう"
+    ],
+    "answer": "1. りこう",
+    "explanation": "履行 (りこう) means 'fulfillment/performance (of a contract)'.",
+    "source": "JLPT N1 Workbook Q14 (Kanji Reading)"
+  },
+  {
+    "id": "N1-015",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "古い慣習を【踏襲】する。",
+    "choices": [
+      "1. どうしゅう",
+      "2. とうじゅう",
+      "3. ふしゅう",
+      "4. とうしゅう"
+    ],
+    "answer": "4. とうしゅう",
+    "explanation": "踏襲 (とうしゅう) means 'following in the footsteps of / adhering to precedent'.",
+    "source": "JLPT N1 Workbook Q15 (Kanji Reading)"
+  },
+  {
+    "id": "N1-016",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "その説明は【冗長】すぎる。",
+    "choices": [
+      "1. きょうちょう",
+      "2. ちょうちょう",
+      "3. じょうなが",
+      "4. じょうちょう"
+    ],
+    "answer": "4. じょうちょう",
+    "explanation": "冗長 (じょうちょう) means 'redundant/verbose/wordy'.",
+    "source": "JLPT N1 Workbook Q16 (Kanji Reading)"
+  },
+  {
+    "id": "N1-017",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "被害の【甚大】さに言葉を失った。",
+    "choices": [
+      "1. じんだい",
+      "2. しんだい",
+      "3. ぜんだい",
+      "4. かんだい"
+    ],
+    "answer": "1. じんだい",
+    "explanation": "甚大 (じんだい) means 'enormous/immense (damage)'.",
+    "source": "JLPT N1 Workbook Q17 (Kanji Reading)"
+  },
+  {
+    "id": "N1-018",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "計画を【遂行】する責任がある。",
+    "choices": [
+      "1. すいぎょう",
+      "2. じゅこう",
+      "3. ついこう",
+      "4. すいこう"
+    ],
+    "answer": "4. すいこう",
+    "explanation": "遂行 (すいこう) means 'execution/accomplishment (of a task)'.",
+    "source": "JLPT N1 Workbook Q18 (Kanji Reading)"
+  },
+  {
+    "id": "N1-019",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の功績を【讃える】。",
+    "choices": [
+      "1. となえる",
+      "2. かぞえる",
+      "3. おさえる",
+      "4. たたえる"
+    ],
+    "answer": "4. たたえる",
+    "explanation": "讃える (たたえる) means 'to praise/extol'.",
+    "source": "JLPT N1 Workbook Q19 (Kanji Reading)"
+  },
+  {
+    "id": "N1-020",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "事態は【逼迫】している。",
+    "choices": [
+      "1. ふくはく",
+      "2. びっぱく",
+      "3. ひっぱく",
+      "4. しっぱく"
+    ],
+    "answer": "3. ひっぱく",
+    "explanation": "逼迫 (ひっぱく) means 'tight/tense/strained (situation or supply)'.",
+    "source": "JLPT N1 Workbook Q20 (Kanji Reading)"
+  },
+  {
+    "id": "N1-021",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の主張は論理が（ ）していて、説得力がある。",
+    "choices": [
+      "1. 一貫",
+      "2. 分散",
+      "3. 混乱",
+      "4. 中断"
+    ],
+    "answer": "1. 一貫",
+    "explanation": "一貫する (いっかんする) means 'to be consistent'.",
+    "source": "JLPT N1 Workbook Q21 (Context)"
+  },
+  {
+    "id": "N1-022",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "長引く不況が企業の経営を（ ）している。",
+    "choices": [
+      "1. 緩和",
+      "2. 応援",
+      "3. 圧迫",
+      "4. 促進"
+    ],
+    "answer": "3. 圧迫",
+    "explanation": "圧迫する (あっぱくする) means 'to put pressure on / squeeze'.",
+    "source": "JLPT N1 Workbook Q22 (Context)"
+  },
+  {
+    "id": "N1-023",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この問題は根本的な原因を（ ）しない限り解決しない。",
+    "choices": [
+      "1. 省略",
+      "2. 妥協",
+      "3. 究明",
+      "4. 放棄"
+    ],
+    "answer": "3. 究明",
+    "explanation": "究明する (きゅうめいする) means 'to investigate thoroughly / get to the bottom of'.",
+    "source": "JLPT N1 Workbook Q23 (Context)"
+  },
+  {
+    "id": "N1-024",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼女は周囲の批判を（ ）せず、自分の信念を貫いた。",
+    "choices": [
+      "1. 目",
+      "2. 耳",
+      "3. 手",
+      "4. 気"
+    ],
+    "answer": "4. 気",
+    "explanation": "気にする (to mind/worry about) -> 気にせず means 'without minding'.",
+    "source": "JLPT N1 Workbook Q24 (Context)"
+  },
+  {
+    "id": "N1-025",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "新しい法律の施行により、規制が大幅に（ ）された。",
+    "choices": [
+      "1. 緩和",
+      "2. 悪化",
+      "3. 停滞",
+      "4. 激化"
+    ],
+    "answer": "1. 緩和",
+    "explanation": "緩和 (かんわ) means 'easing/relaxation (of regulations)'.",
+    "source": "JLPT N1 Workbook Q25 (Context)"
+  },
+  {
+    "id": "N1-026",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "両国の首脳は経済協力の強化で（ ）に達した。",
+    "choices": [
+      "1. 紛争",
+      "2. 対立",
+      "3. 決裂",
+      "4. 合意"
+    ],
+    "answer": "4. 合意",
+    "explanation": "合意に達する (ごういにたっする) means 'to reach an agreement'.",
+    "source": "JLPT N1 Workbook Q26 (Context)"
+  },
+  {
+    "id": "N1-027",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "その発言は事実無根であり、断じて（ ）できない。",
+    "choices": [
+      "1. 否定",
+      "2. 容認",
+      "3. 批判",
+      "4. 拒絶"
+    ],
+    "answer": "2. 容認",
+    "explanation": "容認する (ようにんする) means 'to tolerate/condone/accept'.",
+    "source": "JLPT N1 Workbook Q27 (Context)"
+  },
+  {
+    "id": "N1-028",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "技術革新が社会のあり方を（ ）から変えつつある。",
+    "choices": [
+      "1. 根底",
+      "2. 末端",
+      "3. 周辺",
+      "4. 表面"
+    ],
+    "answer": "1. 根底",
+    "explanation": "根底から変える (こんていからかえる) means 'to change from the very foundation'.",
+    "source": "JLPT N1 Workbook Q28 (Context)"
+  },
+  {
+    "id": "N1-029",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼は豊富な知識を（ ）して、難解な問題を解説した。",
+    "choices": [
+      "1. 消費",
+      "2. 無視",
+      "3. 駆使",
+      "4. 放棄"
+    ],
+    "answer": "3. 駆使",
+    "explanation": "駆使する (くしする) means 'to make full use of / command'.",
+    "source": "JLPT N1 Workbook Q29 (Context)"
+  },
+  {
+    "id": "N1-030",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "景気の先行きに対する（ ）感が広がっている。",
+    "choices": [
+      "1. 不透明",
+      "2. 単純",
+      "3. 明白",
+      "4. 確実"
+    ],
+    "answer": "1. 不透明",
+    "explanation": "不透明感 (ふとうめいかん) means 'sense of uncertainty/lack of clarity'.",
+    "source": "JLPT N1 Workbook Q30 (Context)"
+  },
+  {
+    "id": "N1-031",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この調査結果は従来の仮説を（ ）ものだ。",
+    "choices": [
+      "1. 叶える",
+      "2. 果たす",
+      "3. 継ぐ",
+      "4. 覆す"
+    ],
+    "answer": "4. 覆す",
+    "explanation": "覆す (くつがえす) means 'to overturn/upset (a theory or hypothesis)'.",
+    "source": "JLPT N1 Workbook Q31 (Context)"
+  },
+  {
+    "id": "N1-032",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "限られた資源を有効に（ ）することが求められている。",
+    "choices": [
+      "1. 浪費",
+      "2. 破棄",
+      "3. 活用",
+      "4. 放置"
+    ],
+    "answer": "3. 活用",
+    "explanation": "活用する (かつようする) means 'to put to practical/effective use'.",
+    "source": "JLPT N1 Workbook Q32 (Context)"
+  },
+  {
+    "id": "N1-033",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の提案は現実味に（ ）、実現は困難だ。",
+    "choices": [
+      "1. 乏しく",
+      "2. 富み",
+      "3. 溢れ",
+      "4. 満ち"
+    ],
+    "answer": "1. 乏しく",
+    "explanation": "乏しい (とぼしい) means 'lacking/scarce' (現実味に乏しい = lacking realism).",
+    "source": "JLPT N1 Workbook Q33 (Context)"
+  },
+  {
+    "id": "N1-034",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "災害発生時には、迅速かつ的確な（ ）が不可欠だ。",
+    "choices": [
+      "1. 傍観",
+      "2. 逃避",
+      "3. 放置",
+      "4. 対処"
+    ],
+    "answer": "4. 対処",
+    "explanation": "対処 (たいしょ) means 'dealing with / coping / response'.",
+    "source": "JLPT N1 Workbook Q34 (Context)"
+  },
+  {
+    "id": "N1-035",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この地域の伝統文化は、世代を超えて（ ）されている。",
+    "choices": [
+      "1. 破壊",
+      "2. 継承",
+      "3. 断絶",
+      "4. 廃止"
+    ],
+    "answer": "2. 継承",
+    "explanation": "継承する (けいしょうする) means 'to inherit/pass down'.",
+    "source": "JLPT N1 Workbook Q35 (Context)"
+  },
+  {
+    "id": "N1-036",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "会議は予定の時間を過ぎても（ ）がつかなかった。",
+    "choices": [
+      "1. 集約",
+      "2. 収集",
+      "3. 収拾",
+      "4. 開始"
+    ],
+    "answer": "3. 収拾",
+    "explanation": "収拾がつかない (しゅうしゅうがつかない) means 'to get out of hand / cannot be settled'.",
+    "source": "JLPT N1 Workbook Q36 (Context)"
+  },
+  {
+    "id": "N1-037",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の功績は業界内で高く（ ）されている。",
+    "choices": [
+      "1. 軽視",
+      "2. 誤解",
+      "3. 評価",
+      "4. 批判"
+    ],
+    "answer": "3. 評価",
+    "explanation": "高く評価される means 'to be highly evaluated/regarded'.",
+    "source": "JLPT N1 Workbook Q37 (Context)"
+  },
+  {
+    "id": "N1-038",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "証拠が（ ）であるため、断定的なことは言えない。",
+    "choices": [
+      "1. 明確",
+      "2. 過剰",
+      "3. 不十分",
+      "4. 完璧"
+    ],
+    "answer": "3. 不十分",
+    "explanation": "証拠が不十分 (insufficient evidence) explains why one cannot make a definitive statement.",
+    "source": "JLPT N1 Workbook Q38 (Context)"
+  },
+  {
+    "id": "N1-039",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "急激な変化に（ ）できず、戸惑う人も多い。",
+    "choices": [
+      "1. 適応",
+      "2. 反発",
+      "3. 抵抗",
+      "4. 拒否"
+    ],
+    "answer": "1. 適応",
+    "explanation": "適応する (てきおうする) means 'to adapt/adjust to'.",
+    "source": "JLPT N1 Workbook Q39 (Context)"
+  },
+  {
+    "id": "N1-040",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この条項は契約の（ ）に関わる重要な部分だ。",
+    "choices": [
+      "1. 余白",
+      "2. 装飾",
+      "3. 枝葉",
+      "4. 根幹"
+    ],
+    "answer": "4. 根幹",
+    "explanation": "根幹 (こんかん) means 'foundation/core/essence'. 枝葉 is minor details.",
+    "source": "JLPT N1 Workbook Q40 (Context)"
+  },
+  {
+    "id": "N1-041",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の説明は【的を射て】いる。",
+    "choices": [
+      "1. 曖昧で",
+      "2. 核心をついて",
+      "3. 見当違いで",
+      "4. 遠回しで"
+    ],
+    "answer": "2. 核心をついて",
+    "explanation": "的を射る (まとをいる) means 'to hit the mark / be spot-on' (= 核心をつく).",
+    "source": "JLPT N1 Workbook Q41 (Paraphrases)"
+  },
+  {
+    "id": "N1-042",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この計画は【頓挫】してしまった。",
+    "choices": [
+      "1. 拡大して",
+      "2. 行き詰まって",
+      "3. 順調に進んで",
+      "4. 完成して"
+    ],
+    "answer": "2. 行き詰まって",
+    "explanation": "頓挫する (とんざする) means 'to hit a snag / stall' (= 行き詰まる).",
+    "source": "JLPT N1 Workbook Q42 (Paraphrases)"
+  },
+  {
+    "id": "N1-043",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼女は【抜本的】な改革を主張した。",
+    "choices": [
+      "1. 根本的な",
+      "2. 一時的な",
+      "3. 部分的な",
+      "4. 表面的な"
+    ],
+    "answer": "1. 根本的な",
+    "explanation": "抜本的 (ばっぽんてき) means 'drastic/fundamental' (= 根本的).",
+    "source": "JLPT N1 Workbook Q43 (Paraphrases)"
+  },
+  {
+    "id": "N1-044",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "その意見は【一理ある】と思う。",
+    "choices": [
+      "1. もっともな点がある",
+      "2. 根拠がない",
+      "3. まったく誤りだ",
+      "4. 理解不能だ"
+    ],
+    "answer": "1. もっともな点がある",
+    "explanation": "一理ある (いちりある) means 'there is some truth/reason to it'.",
+    "source": "JLPT N1 Workbook Q44 (Paraphrases)"
+  },
+  {
+    "id": "N1-045",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "事態は【刻々と】変化している。",
+    "choices": [
+      "1. ゆっくりと",
+      "2. 突然",
+      "3. まれに",
+      "4. 一瞬ごとに"
+    ],
+    "answer": "4. 一瞬ごとに",
+    "explanation": "刻々と (こっこくと) means 'moment by moment / with every passing second'.",
+    "source": "JLPT N1 Workbook Q45 (Paraphrases)"
+  },
+  {
+    "id": "N1-046",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼は【私利私欲】のために働いているのではない。",
+    "choices": [
+      "1. 社会の発展",
+      "2. 他人の幸福",
+      "3. 名誉と誇り",
+      "4. 自分の利益"
+    ],
+    "answer": "4. 自分の利益",
+    "explanation": "私利私欲 (しりしよく) means 'self-interest / personal greed'.",
+    "source": "JLPT N1 Workbook Q46 (Paraphrases)"
+  },
+  {
+    "id": "N1-047",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この規則は【形骸化】している。",
+    "choices": [
+      "1. 新しく作られた",
+      "2. 厳格になっている",
+      "3. 広く守られている",
+      "4. 実質を失っている"
+    ],
+    "answer": "4. 実質を失っている",
+    "explanation": "形骸化 (けいがいか) means 'becoming a mere formality / losing substance'.",
+    "source": "JLPT N1 Workbook Q47 (Paraphrases)"
+  },
+  {
+    "id": "N1-048",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "両者の間には【埋まらない溝】がある。",
+    "choices": [
+      "1. 共通の目標",
+      "2. 一時的な誤解",
+      "3. 深い信頼関係",
+      "4. 解消できない対立"
+    ],
+    "answer": "4. 解消できない対立",
+    "explanation": "埋まらない溝 (an unbridgeable gap) refers to an irreconcilable divide/conflict.",
+    "source": "JLPT N1 Workbook Q48 (Paraphrases)"
+  },
+  {
+    "id": "N1-049",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "その提案は【机上の空論】にすぎない。",
+    "choices": [
+      "1. 画期的な発見",
+      "2. 実現不可能な理論",
+      "3. 実績のある方法",
+      "4. 具体的な計画"
+    ],
+    "answer": "2. 実現不可能な理論",
+    "explanation": "机上の空論 (きじょうのくうろん) means 'armchair theory / impractical theory'.",
+    "source": "JLPT N1 Workbook Q49 (Paraphrases)"
+  },
+  {
+    "id": "N1-050",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼は【並外れた】集中力の持ち主だ。",
+    "choices": [
+      "1. ごく普通の",
+      "2. 桁違いの",
+      "3. 不安定な",
+      "4. 平均以下の"
+    ],
+    "answer": "2. 桁違いの",
+    "explanation": "並外れた (なみはずれた) means 'extraordinary / out of the ordinary'.",
+    "source": "JLPT N1 Workbook Q50 (Paraphrases)"
+  },
+  {
+    "id": "N1-051",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "問題の本質を【見極める】必要がある。",
+    "choices": [
+      "1. 正確に見抜く",
+      "2. 曖昧にする",
+      "3. 無視する",
+      "4. 後回しにする"
+    ],
+    "answer": "1. 正確に見抜く",
+    "explanation": "見極める (みきわめる) means 'to ascertain / discern accurately'.",
+    "source": "JLPT N1 Workbook Q51 (Paraphrases)"
+  },
+  {
+    "id": "N1-052",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "この措置は【暫定的】なものだ。",
+    "choices": [
+      "1. 仮の",
+      "2. 恒久的な",
+      "3. 絶対的な",
+      "4. 最終的な"
+    ],
+    "answer": "1. 仮の",
+    "explanation": "暫定的 (ざんていてき) means 'provisional / temporary' (= 仮の).",
+    "source": "JLPT N1 Workbook Q52 (Paraphrases)"
+  },
+  {
+    "id": "N1-053",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼の態度は【終始】一貫していた。",
+    "choices": [
+      "1. 最後だけ",
+      "2. 途中まで",
+      "3. 最初から最後まで",
+      "4. 時々"
+    ],
+    "answer": "3. 最初から最後まで",
+    "explanation": "終始 (しゅうし) means 'from start to finish / throughout'.",
+    "source": "JLPT N1 Workbook Q53 (Paraphrases)"
+  },
+  {
+    "id": "N1-054",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "そのニュースは世間に【波紋を広げた】。",
+    "choices": [
+      "1. 大きな反響を呼んだ",
+      "2. まったく関心を持たれなかった",
+      "3. 小さな誤解を生んだ",
+      "4. 静かな安心感を与えた"
+    ],
+    "answer": "1. 大きな反響を呼んだ",
+    "explanation": "波紋を広げる (はもんをひろげる) means 'to cause ripples / stir up a wide reaction'.",
+    "source": "JLPT N1 Workbook Q54 (Paraphrases)"
+  },
+  {
+    "id": "N1-055",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "彼女は【毅然とした】態度で対応した。",
+    "choices": [
+      "1. おどおどした",
+      "2. 無責任な",
+      "3. 感情的な",
+      "4. 堂々として揺るがない"
+    ],
+    "answer": "4. 堂々として揺るがない",
+    "explanation": "毅然 (きぜん) means 'resolute/firm/unwavering'.",
+    "source": "JLPT N1 Workbook Q55 (Paraphrases)"
+  },
+  {
+    "id": "N1-056",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】余儀なくされる",
+    "choices": [
+      "1. 台風の接近により、イベントの中止を余儀なくされた。",
+      "2. 努力した結果、優勝を余儀なくされた。",
+      "3. 明日は晴れると余儀なくされている。",
+      "4. 美味しい料理を食べて、笑顔を余儀なくされた。"
+    ],
+    "answer": "1. 台風の接近により、イベントの中止を余儀なくされた。",
+    "explanation": "余儀なくされる means 'to be forced/compelled to (do something undesirable due to circumstances)'.",
+    "source": "JLPT N1 Workbook Q56 (Usage)"
+  },
+  {
+    "id": "N1-057",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】おぼつかない",
+    "choices": [
+      "1. この料理は味がおぼつかなくて美味しい。",
+      "2. 久しぶりの運転なので、ハンドルさばきがおぼつかない。",
+      "3. 彼は仕事が早くておぼつかない人だ。",
+      "4. 明日の予定がおぼつかないほど楽しみだ。"
+    ],
+    "answer": "2. 久しぶりの運転なので、ハンドルさばきがおぼつかない。",
+    "explanation": "おぼつかない means 'uncertain/unsteady/doubtful' (e.g., shaky skill or faint memory).",
+    "source": "JLPT N1 Workbook Q57 (Usage)"
+  },
+  {
+    "id": "N1-058",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】ひとしお",
+    "choices": [
+      "1. 毎日ひとしおに朝ごはんを食べている。",
+      "2. 苦労して合格しただけに、喜びもひとしおだ。",
+      "3. 雨がひとしお降ってきたので帰ろう。",
+      "4. この部屋はひとしお広くて快適だ。"
+    ],
+    "answer": "2. 苦労して合格しただけに、喜びもひとしおだ。",
+    "explanation": "ひとしお means 'all the more / doubly (felt)', typically used with emotions like 喜び or 寂しさ.",
+    "source": "JLPT N1 Workbook Q58 (Usage)"
+  },
+  {
+    "id": "N1-059",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】あながち",
+    "choices": [
+      "1. 彼女はあながち背が高い。",
+      "2. テストで100点を取ってあながち嬉しい。",
+      "3. あながち雨が降るから傘を持とう。",
+      "4. 彼の言っていることも、あながち間違いとは言えない。"
+    ],
+    "answer": "4. 彼の言っていることも、あながち間違いとは言えない。",
+    "explanation": "あながち～ない means 'not necessarily (wrong/false)'—always paired with a negative predicate.",
+    "source": "JLPT N1 Workbook Q59 (Usage)"
+  },
+  {
+    "id": "N1-060",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】うってつけ",
+    "choices": [
+      "1. この靴はサイズがうってつけだ。",
+      "2. 今日の天気はうってつけが悪い。",
+      "3. 彼はうってつけに遅刻してしまった。",
+      "4. この静かな環境は、勉強にうってつけだ。"
+    ],
+    "answer": "4. この静かな環境は、勉強にうってつけだ。",
+    "explanation": "うってつけ means 'ideal/perfectly suited for a purpose'.",
+    "source": "JLPT N1 Workbook Q60 (Usage)"
+  },
+  {
+    "id": "N1-061",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】やむを得ない",
+    "choices": [
+      "1. 試験に合格したことはやむを得ない。",
+      "2. 悪天候のため、試合が延期になるのはやむを得ない。",
+      "3. 毎日楽しく過ごすのはやむを得ない。",
+      "4. 美味しいケーキが食べられてやむを得ない。"
+    ],
+    "answer": "2. 悪天候のため、試合が延期になるのはやむを得ない。",
+    "explanation": "やむを得ない means 'unavoidable / cannot be helped'.",
+    "source": "JLPT N1 Workbook Q61 (Usage)"
+  },
+  {
+    "id": "N1-062",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】かえりみる",
+    "choices": [
+      "1. 明日の天気を省みて傘を買う。",
+      "2. 過去の失敗を省みて、今後の計画を立て直す。",
+      "3. 友達の家を省みて遊びに行った。",
+      "4. 美味しい料理を省みて注文した。"
+    ],
+    "answer": "2. 過去の失敗を省みて、今後の計画を立て直す。",
+    "explanation": "省みる (かえりみる) means 'to reflect on / look back upon (the past)'.",
+    "source": "JLPT N1 Workbook Q62 (Usage)"
+  },
+  {
+    "id": "N1-063",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】すこぶる",
+    "choices": [
+      "1. すこぶる宿題を忘れてしまった。",
+      "2. 彼はすこぶる試験に落ちてしまった。",
+      "3. すこぶる毎朝ジョギングをしている。",
+      "4. 手術後の経過はすこぶる順調だ。"
+    ],
+    "answer": "4. 手術後の経過はすこぶる順調だ。",
+    "explanation": "すこぶる = extremely. It modifies states or qualities (順調, 元気, 評判が悪い), not actions or events.",
+    "source": "JLPT N1 Workbook Q63 (Usage)"
+  },
+  {
+    "id": "N1-064",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】めざましい",
+    "choices": [
+      "1. 今日の夕飯はめざましくて美味しかった。",
+      "2. めざましい雨が降って道が濡れた。",
+      "3. 彼はめざましい声で歌っている。",
+      "4. 近年のAI技術の発展はめざましいものがある。"
+    ],
+    "answer": "4. 近年のAI技術の発展はめざましいものがある。",
+    "explanation": "目覚ましい (めざましい) means 'remarkable/striking (progress, growth, achievement)'.",
+    "source": "JLPT N1 Workbook Q64 (Usage)"
+  },
+  {
+    "id": "N1-065",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】こぞって",
+    "choices": [
+      "1. こぞって雨が降ってきたので中止になった。",
+      "2. 新しい店のオープンに、街の人々がこぞって駆けつけた。",
+      "3. 彼はこぞって一人で部屋にこもっている。",
+      "4. 私はこぞって昨日寝坊した。"
+    ],
+    "answer": "2. 新しい店のオープンに、街の人々がこぞって駆けつけた。",
+    "explanation": "こぞって means 'all together / en masse / unanimously' (requires a plural subject).",
+    "source": "JLPT N1 Workbook Q65 (Usage)"
+  },
+  {
+    "id": "N1-066",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】さしあたり",
+    "choices": [
+      "1. さしあたり、今できることから始めよう。",
+      "2. 彼はさしあたり試験に合格した。",
+      "3. このケーキはさしあたり甘い。",
+      "4. さしあたり10年後の未来は確定している。"
+    ],
+    "answer": "1. さしあたり、今できることから始めよう。",
+    "explanation": "差し当たり (さしあたり) means 'for the time being / for now'.",
+    "source": "JLPT N1 Workbook Q66 (Usage)"
+  },
+  {
+    "id": "N1-067",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】ひいては",
+    "choices": [
+      "1. 彼はひいては昨日から風邪をひいている。",
+      "2. この本はひいては面白くて一晩で読んだ。",
+      "3. ひいては雨が降るかもしれないので注意しよう。",
+      "4. 個人の努力が、ひいては組織全体の発展につながる。"
+    ],
+    "answer": "4. 個人の努力が、ひいては組織全体の発展につながる。",
+    "explanation": "ひいては means 'and consequently / ultimately / by extension'.",
+    "source": "JLPT N1 Workbook Q67 (Usage)"
+  },
+  {
+    "id": "N1-068",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】まんざら",
+    "choices": [
+      "1. この問題はまんざら簡単すぎる。",
+      "2. 彼は文句を言いながらも、まんざら嫌でもなさそうだ。",
+      "3. 彼女はまんざら毎日運動している。",
+      "4. まんざら雨が降って本当に困った。"
+    ],
+    "answer": "2. 彼は文句を言いながらも、まんざら嫌でもなさそうだ。",
+    "explanation": "まんざら～ない means 'not altogether / not completely (bad/displeased)'.",
+    "source": "JLPT N1 Workbook Q68 (Usage)"
+  },
+  {
+    "id": "N1-069",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】なだめる",
+    "choices": [
+      "1. 壊れた時計を道具でなだめた。",
+      "2. 部屋のゴミをなだめて捨てた。",
+      "3. 新しい本を机の上になだめた。",
+      "4. 泣いている子どもを優しくなだめた。"
+    ],
+    "answer": "4. 泣いている子どもを優しくなだめた。",
+    "explanation": "なだめる means 'to soothe/calm down (someone who is crying or angry)'.",
+    "source": "JLPT N1 Workbook Q69 (Usage)"
+  },
+  {
+    "id": "N1-070",
+    "exam": "N1",
+    "section": "vocabulary",
+    "question": "【用法】しのぐ",
+    "choices": [
+      "1. 朝ごはんをしのいで学校へ行った。",
+      "2. この靴は軽くてしのぎやすい。",
+      "3. 今年の売り上げは去年の実績をしのぐ勢いだ。",
+      "4. 友達と公園でしのぐことにした。"
+    ],
+    "answer": "3. 今年の売り上げは去年の実績をしのぐ勢いだ。",
+    "explanation": "凌ぐ (しのぐ) means 'to surpass/outdo' (or 'to endure/tide over').",
+    "source": "JLPT N1 Workbook Q70 (Usage)"
+  },
+  {
+    "id": "N1-071",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "プロの選手（ ）、そんな初歩的なミスをするとは驚いた。",
+    "choices": [
+      "1. こととて",
+      "2. ものなら",
+      "3. ともあろうものが",
+      "4. ばかりに"
+    ],
+    "answer": "3. ともあろうものが",
+    "explanation": "ともあろうものが means 'someone of such high status/skill (yet made such a basic mistake)'.",
+    "source": "JLPT N1 Workbook Q71 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-072",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "彼女の歌声は、聴く人の心を動かさず（ ）。",
+    "choices": [
+      "1. っこない",
+      "2. にはおかない",
+      "3. ざるを得ない",
+      "4. にはいられない"
+    ],
+    "answer": "2. にはおかない",
+    "explanation": "ずにはおかない means 'cannot fail to / inevitably moves (others)'.",
+    "source": "JLPT N1 Workbook Q72 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-073",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "法律を知らなかった（ ）、罪は免れない。",
+    "choices": [
+      "1. からには",
+      "2. ついでに",
+      "3. おかげで",
+      "4. とて"
+    ],
+    "answer": "4. とて",
+    "explanation": "とて means 'even if / even though (you didn't know the law)'.",
+    "source": "JLPT N1 Workbook Q73 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-074",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この仕事は、あなたの協力（ ）成り立たない。",
+    "choices": [
+      "1. をよそに",
+      "2. なくして",
+      "3. にかわって",
+      "4. をめぐって"
+    ],
+    "answer": "2. なくして",
+    "explanation": "なくして(は) means 'without (your cooperation, this work cannot stand)'.",
+    "source": "JLPT N1 Workbook Q74 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-075",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "周囲の反対（ ）、彼は自分の計画を強行した。",
+    "choices": [
+      "1. を皮切りに",
+      "2. を契機に",
+      "3. をよそに",
+      "4. を踏まえて"
+    ],
+    "answer": "3. をよそに",
+    "explanation": "をよそに means 'ignoring / paying no heed to (opposition around him)'.",
+    "source": "JLPT N1 Workbook Q75 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-076",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "できる（ ）、もう一度やり直したいものだ。",
+    "choices": [
+      "1. ばかりに",
+      "2. ばかりか",
+      "3. どころか",
+      "4. ものなら"
+    ],
+    "answer": "4. ものなら",
+    "explanation": "Potential verb + ものなら = if it were possible. (できることなら is also natural, but it is not one of the choices.)",
+    "source": "JLPT N1 Workbook Q76 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-077",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "彼ほどのベテランが、そんな失敗をする（ ）。",
+    "choices": [
+      "1. にほかならない",
+      "2. までもない",
+      "3. わけにはいかない",
+      "4. はずがない"
+    ],
+    "answer": "4. はずがない",
+    "explanation": "はずがない means 'there is no way / cannot possibly'.",
+    "source": "JLPT N1 Workbook Q77 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-078",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "わざわざ説明する（ ）、誰でも知っている事実だ。",
+    "choices": [
+      "1. にあって",
+      "2. までもなく",
+      "3. こととて",
+      "4. のみならず"
+    ],
+    "answer": "2. までもなく",
+    "explanation": "までもなく means 'there is no need to even (explain)'.",
+    "source": "JLPT N1 Workbook Q78 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-079",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この成功は、チーム全員の努力の結果（ ）。",
+    "choices": [
+      "1. にたえない",
+      "2. にすぎない",
+      "3. にかたくない",
+      "4. にほかならない"
+    ],
+    "answer": "4. にほかならない",
+    "explanation": "にほかならない means 'is nothing other than / is precisely due to'.",
+    "source": "JLPT N1 Workbook Q79 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-080",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "当時の苦労は、想像（ ）。",
+    "choices": [
+      "1. に及ばない",
+      "2. にほかならない",
+      "3. にたえない",
+      "4. にかたくない"
+    ],
+    "answer": "4. にかたくない",
+    "explanation": "想像にかたくない means 'is not hard to imagine'.",
+    "source": "JLPT N1 Workbook Q80 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-081",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "東京公演（ ）、全国ツアーがスタートした。",
+    "choices": [
+      "1. を抜きにして",
+      "2. を限りに",
+      "3. を皮切りに",
+      "4. をよそに"
+    ],
+    "answer": "3. を皮切りに",
+    "explanation": "を皮切りに means 'starting with X (and continuing to others)'.",
+    "source": "JLPT N1 Workbook Q81 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-082",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "どんなに忙しかろう（ ）、健康管理は疎かにできない。",
+    "choices": [
+      "1. ものの",
+      "2. ので",
+      "3. が",
+      "4. つつ"
+    ],
+    "answer": "3. が",
+    "explanation": "〜かろうが = no matter how (busy) it may be. 〜かろうと and 〜かろうとも mean the same, but they are not among the choices.",
+    "source": "JLPT N1 Workbook Q82 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-083",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "その件については、今さら議論する（ ）。",
+    "choices": [
+      "1. にかたくない",
+      "2. にたえない",
+      "3. にすぎない",
+      "4. に及ばない"
+    ],
+    "answer": "4. に及ばない",
+    "explanation": "に及ばない means 'there is no need to / does not merit (discussing)'.",
+    "source": "JLPT N1 Workbook Q83 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-084",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "親の心配を（ ）、息子は夜遅くまで遊び歩いている。",
+    "choices": [
+      "1. 皮切りに",
+      "2. もとに",
+      "3. よそに",
+      "4. きっかけに"
+    ],
+    "answer": "3. よそに",
+    "explanation": "をよそに means 'ignoring / indifferent to (parents' worry)'.",
+    "source": "JLPT N1 Workbook Q84 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-085",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この地域は自然が豊かな（ ）、冬は雪が非常に多い。",
+    "choices": [
+      "1. あげく",
+      "2. 末に",
+      "3. 反面",
+      "4. あまり"
+    ],
+    "answer": "3. 反面",
+    "explanation": "反面 (はんめん) means 'on the other hand / while on one hand'.",
+    "source": "JLPT N1 Workbook Q85 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N1-086",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "今回の失敗は ＿＿ ＿＿ ★ ＿＿ ほかならない。（★に入るものはどれか）",
+    "choices": [
+      "1. 確認不足が",
+      "2. 招いた",
+      "3. 結果に",
+      "4. 単なる"
+    ],
+    "answer": "2. 招いた",
+    "explanation": "Order: 単なる (4) 確認不足が (1) 招いた (2) 結果に (3) -> ★ is 招いた (2).",
+    "source": "JLPT N1 Workbook Q86 (Sentence Composition)"
+  },
+  {
+    "id": "N1-087",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "周囲の期待を ＿＿ ＿＿ ★ ＿＿ しまった。（★に入るものはどれか）",
+    "choices": [
+      "1. 背負う",
+      "2. あまり",
+      "3. プレッシャーに",
+      "4. 負けて"
+    ],
+    "answer": "3. プレッシャーに",
+    "explanation": "Order: 背負う (1) あまり (2) プレッシャーに (3) 負けて (4) -> ★ is プレッシャーに (3).",
+    "source": "JLPT N1 Workbook Q87 (Sentence Composition)"
+  },
+  {
+    "id": "N1-088",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "彼の論文は ＿＿ ＿＿ ★ ＿＿ 評価されている。（★に入るものはどれか）",
+    "choices": [
+      "1. 論理の",
+      "2. 明快さ",
+      "3. もさることながら",
+      "4. 独創性が"
+    ],
+    "answer": "3. もさることながら",
+    "explanation": "Order: 論理の (1) 明快さ (2) もさることながら (3) 独創性が (4) -> ★ is もさることながら (3).",
+    "source": "JLPT N1 Workbook Q88 (Sentence Composition)"
+  },
+  {
+    "id": "N1-089",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この制度は ＿＿ ＿＿ ★ ＿＿ と思われる。（★に入るものはどれか）",
+    "choices": [
+      "1. 見直す",
+      "2. 時代の変化に",
+      "3. 必要がある",
+      "4. 即して"
+    ],
+    "answer": "1. 見直す",
+    "explanation": "Order: 時代の変化に (2) 即して (4) 見直す (1) 必要がある (3) -> ★ is 見直す (1).",
+    "source": "JLPT N1 Workbook Q89 (Sentence Composition)"
+  },
+  {
+    "id": "N1-090",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "行く手に ＿＿ ＿＿ ★ ＿＿ やり遂げる覚悟だ。（★に入るものはどれか）",
+    "choices": [
+      "1. いかなる",
+      "2. 困難が",
+      "3. あろうとも",
+      "4. 最後まで"
+    ],
+    "answer": "3. あろうとも",
+    "explanation": "Order: いかなる (1) 困難が (2) あろうとも (3) 最後まで (4) -> ★ is あろうとも (3).",
+    "source": "JLPT N1 Workbook Q90 (Sentence Composition)"
+  },
+  {
+    "id": "N1-091",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "長年の努力が ＿＿ ＿＿ ★ ＿＿ 感無量だ。（★に入るものはどれか）",
+    "choices": [
+      "1. ここに",
+      "2. 実を結び",
+      "3. 迎えて",
+      "4. この日を"
+    ],
+    "answer": "4. この日を",
+    "explanation": "Order: 実を結び (2) ここに (1) この日を (4) 迎えて (3) -> ★ is この日を (4).",
+    "source": "JLPT N1 Workbook Q91 (Sentence Composition)"
+  },
+  {
+    "id": "N1-092",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この問題は ＿＿ ＿＿ ★ ＿＿ 議論すべきだ。（★に入るものはどれか）",
+    "choices": [
+      "1. 視点から",
+      "2. 長期的な",
+      "3. 目先の利益",
+      "4. にとらわれず"
+    ],
+    "answer": "2. 長期的な",
+    "explanation": "Order: 目先の利益 (3) にとらわれず (4) 長期的な (2) 視点から (1) -> ★ is 長期的な (2).",
+    "source": "JLPT N1 Workbook Q92 (Sentence Composition)"
+  },
+  {
+    "id": "N1-093",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "彼女の態度は ＿＿ ＿＿ ★ ＿＿ ほかない。（★に入るものはどれか）",
+    "choices": [
+      "1. 誰が見ても",
+      "2. 見事だ",
+      "3. と",
+      "4. 言う"
+    ],
+    "answer": "3. と",
+    "explanation": "Order: 誰が見ても (1) 見事だ (2) と (3) 言う (4) -> ★ is と (3).",
+    "source": "JLPT N1 Workbook Q93 (Sentence Composition)"
+  },
+  {
+    "id": "N1-094",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "今さら ＿＿ ＿＿ ★ ＿＿ 始まらない。（★に入るものはどれか）",
+    "choices": [
+      "1. 過去を",
+      "2. 悔やんだ",
+      "3. ところで",
+      "4. 何も"
+    ],
+    "answer": "3. ところで",
+    "explanation": "Order: 過去を (1) 悔やんだ (2) ところで (3) 何も (4) -> ★ is ところで (3). 〜たところで何も始まらない = it's no use doing.",
+    "source": "JLPT N1 Workbook Q94 (Sentence Composition)"
+  },
+  {
+    "id": "N1-095",
+    "exam": "N1",
+    "section": "grammar",
+    "question": "この計画は ＿＿ ＿＿ ★ ＿＿ 実現しない。（★に入るものはどれか）",
+    "choices": [
+      "1. 関係者の",
+      "2. なくしては",
+      "3. 協力",
+      "4. とうてい"
+    ],
+    "answer": "2. なくしては",
+    "explanation": "Order: 関係者の (1) 協力 (3) なくしては (2) とうてい (4) -> ★ is なくしては (2).",
+    "source": "JLPT N1 Workbook Q95 (Sentence Composition)"
+  },
+  {
+    "id": "N1-096",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章A】\n科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。\n\n【Q96】に入る最もよいものはどれか。",
+    "choices": [
+      "1. どころではない",
+      "2. 側面も否めない",
+      "3. に及ばない",
+      "4. はずがない"
+    ],
+    "answer": "2. 側面も否めない",
+    "explanation": "側面も否めない ('one cannot deny the aspect that...') fits the critical contrast after しかし.",
+    "source": "JLPT N1 Workbook Q96 (Text Grammar)"
+  },
+  {
+    "id": "N1-097",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章A】\n科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。\n\n【Q97】に入る最もよいものはどれか。",
+    "choices": [
+      "1. のみにとどまらず",
+      "2. に至っては",
+      "3. をよそに",
+      "4. どころか"
+    ],
+    "answer": "1. のみにとどまらず",
+    "explanation": "のみにとどまらず ('not limited to convenience alone, but also...') links logically to 多角的に検証する.",
+    "source": "JLPT N1 Workbook Q97 (Text Grammar)"
+  },
+  {
+    "id": "N1-098",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章A】\n科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。\n\n【Q98】に入る最もよいものはどれか。",
+    "choices": [
+      "1. こととて",
+      "2. と言っても過言ではない",
+      "3. ものがある",
+      "4. にほかならない"
+    ],
+    "answer": "2. と言っても過言ではない",
+    "explanation": "と言っても過言ではない ('it is no exaggeration to say that...') concludes the argument forcefully.",
+    "source": "JLPT N1 Workbook Q98 (Text Grammar)"
+  },
+  {
+    "id": "N1-099",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章B】\n「言葉は時代とともに変化する」という事実を頭では理解していても、いざ自分の使わない新しい表現に出会うと、違和感を覚える人は少なくない。だが、かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない。言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ。\n\n筆者が「枚挙にいとまがない」と述べているのは何か。",
+    "choices": [
+      "1. 言葉が時代とともに消滅していく現象",
+      "2. かつての新語や俗語が、後に正しい言葉とされた例",
+      "3. 若者が使う流行語の意味",
+      "4. 新しい表現に違和感を覚える人の数"
+    ],
+    "answer": "2. かつての新語や俗語が、後に正しい言葉とされた例",
+    "explanation": "The sentence states: かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない.",
+    "source": "JLPT N1 Workbook Q99 (Short Essay)"
+  },
+  {
+    "id": "N1-100",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章B】\n「言葉は時代とともに変化する」という事実を頭では理解していても、いざ自分の使わない新しい表現に出会うと、違和感を覚える人は少なくない。だが、かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない。言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ。\n\n筆者の主張として最も適切なものはどれか。",
+    "choices": [
+      "1. 言葉の変化を否定せず、時代を映すものとして楽しむべきだ",
+      "2. 言葉が変わるのは若者の国語力が低下しているからだ",
+      "3. 違和感のない古い表現だけを使い続けるのが望ましい",
+      "4. 正しい言葉遣いを守るため、新語の使用は禁止すべきだ"
+    ],
+    "answer": "1. 言葉の変化を否定せず、時代を映すものとして楽しむべきだ",
+    "explanation": "The conclusion urges: 言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ.",
+    "source": "JLPT N1 Workbook Q100 (Short Essay)"
+  },
+  {
+    "id": "N1-101",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章C】\n組織における意思決定において、全員の意見が一致することは理想のように思われがちだ。しかし、異論がまったく出ない会議ほど危ういものはない。なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ。建設的な対立を恐れず、多様な視点から議論を戦わせることこそが、組織の誤りを防ぎ、より質の高い結論を導く原動力となる。\n\nなぜ「異論がまったく出ない会議ほど危うい」のか。",
+    "choices": [
+      "1. 参加者が会議の内容に関心を持っていないから",
+      "2. 結論がまとまらずに延期になるから",
+      "3. 会議の時間が予定より長引いてしまうから",
+      "4. 同調圧力や思考停止が隠れている可能性が高いから"
+    ],
+    "answer": "4. 同調圧力や思考停止が隠れている可能性が高いから",
+    "explanation": "The passage explains: なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ.",
+    "source": "JLPT N1 Workbook Q101 (Analytical Passage)"
+  },
+  {
+    "id": "N1-102",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章C】\n組織における意思決定において、全員の意見が一致することは理想のように思われがちだ。しかし、異論がまったく出ない会議ほど危ういものはない。なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ。建設的な対立を恐れず、多様な視点から議論を戦わせることこそが、組織の誤りを防ぎ、より質の高い結論を導く原動力となる。\n\n質の高い結論を導くために必要なこととして述べられているのはどれか。",
+    "choices": [
+      "1. 多様な視点から建設的な議論を行うこと",
+      "2. 全員が最初から同じ意見に賛成すること",
+      "3. 反対意見を持つ人を会議から外すこと",
+      "4. 会議の参加人数をできるだけ減らすこと"
+    ],
+    "answer": "1. 多様な視点から建設的な議論を行うこと",
+    "explanation": "The final sentence highlights 建設的な対立を恐れず、多様な視点から議論を戦わせること.",
+    "source": "JLPT N1 Workbook Q102 (Analytical Passage)"
+  },
+  {
+    "id": "N1-103",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章D】\n読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。\n\n筆者が考える「読書」の本質とは何か。",
+    "choices": [
+      "1. 著者の思考と自分の経験を照らし合わせる内面的な対話",
+      "2. できるだけ多くの文字情報を短時間で処理すること",
+      "3. 自分の価値観を変えずに知識だけを暗記すること",
+      "4. 専門書を何冊も並べて比較すること"
+    ],
+    "answer": "1. 著者の思考と自分の経験を照らし合わせる内面的な対話",
+    "explanation": "The text defines reading as 自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営み.",
+    "source": "JLPT N1 Workbook Q103 (Academic Critique)"
+  },
+  {
+    "id": "N1-104",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章D】\n読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。\n\n「極めて豊かな読書体験」と筆者が評価するのはどのような場合か。",
+    "choices": [
+      "1. 難解な本を一言も迷わずに読み終えた場合",
+      "2. 著者の意見に完全に無批判で同意した場合",
+      "3. 一冊の本から膨大な暗記項目を得た場合",
+      "4. 読書を通じて自分の価値観が揺さぶられた場合"
+    ],
+    "answer": "4. 読書を通じて自分の価値観が揺さぶられた場合",
+    "explanation": "The last sentence states: その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言える.",
+    "source": "JLPT N1 Workbook Q104 (Academic Critique)"
+  },
+  {
+    "id": "N1-105",
+    "exam": "N1",
+    "section": "reading",
+    "question": "【文章D】\n読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。\n\nこの文章の趣旨に最も合うものはどれか。",
+    "choices": [
+      "1. 情報の少ない本は読む価値が乏しい",
+      "2. 読書は情報収集の効率を上げるために行うべきだ",
+      "3. 自分の経験と異なる本は避けた方がよい",
+      "4. 知識の量よりも、思考を深める対話の過程に読書の価値がある"
+    ],
+    "answer": "4. 知識の量よりも、思考を深める対話の過程に読書の価値がある",
+    "explanation": "The author emphasizes that even if knowledge gained is small, having one's values shaken through inner dialogue makes reading deeply valuable.",
+    "source": "JLPT N1 Workbook Q105 (Academic Critique)"
+  }
+]
