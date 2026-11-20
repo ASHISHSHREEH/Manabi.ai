@@ -57,18 +57,36 @@ test("stripChoiceLabel removes leading choice numbers/letters without dropping n
   assert.equal(stripChoiceLabel("plain"), "plain");
 });
 
-test("prepareSessionQuestions shuffles choice order while preserving exact correctness", () => {
+test("prepareSessionQuestions shuffles choice order while preserving exact correctness and explanations", () => {
+  const withChoiceExplanations: Question = {
+    ...sampleQuestion,
+    choice_explanations: [
+      "Wrong: のに means even though.",
+      "Correct: から means because.",
+      "Wrong: ので is softer reason.",
+      "Wrong: ても means even if.",
+    ],
+  };
+
   let seed = 0.2;
   const deterministicRandom = () => {
     seed = (seed + 0.37) % 1;
     return seed;
   };
 
-  const [prepared] = prepareSessionQuestions([sampleQuestion], deterministicRandom);
+  const [prepared] = prepareSessionQuestions([withChoiceExplanations], deterministicRandom);
   assert.equal(prepared.choices.length, 4);
 
   const correctChoices = prepared.choices.filter((c) => c.isCorrect);
   assert.equal(correctChoices.length, 1);
   assert.equal(correctChoices[0].displayText, "から");
   assert.equal(correctChoices[0].originalIndex, 1);
+  assert.equal(correctChoices[0].explanation, "Correct: から means because.");
+
+  for (const choice of prepared.choices) {
+    assert.equal(
+      choice.explanation,
+      withChoiceExplanations.choice_explanations?.[choice.originalIndex]
+    );
+  }
 });

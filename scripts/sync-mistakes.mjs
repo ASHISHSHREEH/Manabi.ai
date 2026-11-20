@@ -122,12 +122,16 @@ export function validateAndConvertRows(rows) {
     const section = get("section").toLowerCase();
     const questionText = get("question");
     const rawChoices = get("choices");
+    const rawChoiceExplanations = get("choice_explanations");
     const answerText = get("answer");
     const choices = rawChoices
       ? rawChoices
           .split("|")
           .map((c) => c.trim())
           .filter(Boolean)
+      : [];
+    const choiceExplanations = rawChoiceExplanations
+      ? rawChoiceExplanations.split("|").map((c) => c.trim())
       : [];
 
     const rowErrors = [];
@@ -144,6 +148,15 @@ export function validateAndConvertRows(rows) {
     }
     if (!questionText) rowErrors.push("missing question");
     if (choices.length < 2) rowErrors.push("choices must have at least 2 options separated by |");
+    if (choiceExplanations.length > 0) {
+      if (choiceExplanations.length !== choices.length) {
+        rowErrors.push(
+          `choice_explanations count (${choiceExplanations.length}) must match choices count (${choices.length})`
+        );
+      } else if (choiceExplanations.some((e) => !e)) {
+        rowErrors.push("choice_explanations cannot contain empty entries");
+      }
+    }
     if (!answerText) rowErrors.push("missing answer");
     else if (choices.length >= 2 && !isValidAnswerForChoices(answerText, choices)) {
       rowErrors.push(`answer "${answerText}" does not match any choice`);
@@ -164,6 +177,7 @@ export function validateAndConvertRows(rows) {
       answer: answerText,
       ...(get("my_wrong_answer") ? { my_wrong_answer: get("my_wrong_answer") } : {}),
       explanation: get("explanation"),
+      ...(choiceExplanations.length > 0 ? { choice_explanations: choiceExplanations } : {}),
       ...(get("source") ? { source: get("source") } : {}),
     });
   }

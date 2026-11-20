@@ -224,6 +224,59 @@ export function QuizRunner({
                 </p>
               )}
 
+              {currentSessionItem.choices.some((c) => c.explanation) && (
+                <div className="mt-3.5 border-t border-current/15 pt-3">
+                  <p className="text-xs font-bold uppercase tracking-wide opacity-75">
+                    All Options (English Breakdown)
+                  </p>
+                  <ul className="mt-2 space-y-2">
+                    {currentSessionItem.choices.map((choice, idx) => {
+                      const isUserWrongPick =
+                        !choice.isCorrect && selectedChoiceIndex === idx;
+                      const itemStyle = choice.isCorrect
+                        ? "border-emerald-300/80 bg-white/90 text-slate-900"
+                        : isUserWrongPick
+                          ? "border-rose-300/80 bg-white/90 text-slate-900"
+                          : "border-slate-200/80 bg-white/75 text-slate-800";
+                      const tagStyle = choice.isCorrect
+                        ? "bg-emerald-100 text-emerald-800"
+                        : isUserWrongPick
+                          ? "bg-rose-100 text-rose-800"
+                          : "bg-slate-100 text-slate-600";
+                      const tagLabel = choice.isCorrect
+                        ? "Correct"
+                        : isUserWrongPick
+                          ? "Your pick · Wrong"
+                          : "Wrong";
+
+                      return (
+                        <li
+                          key={`breakdown-${currentQuestion.id}-${choice.originalIndex}`}
+                          className={`rounded-xl border px-3 py-2 text-xs leading-relaxed sm:text-sm ${itemStyle}`}
+                        >
+                          <div className="flex flex-wrap items-center gap-1.5 font-semibold">
+                            <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-slate-300 text-[11px] text-slate-600">
+                              {idx + 1}
+                            </span>
+                            <span>{choice.displayText}</span>
+                            <span
+                              className={`ml-auto rounded-md px-1.5 py-0.5 text-[11px] font-semibold ${tagStyle}`}
+                            >
+                              {tagLabel}
+                            </span>
+                          </div>
+                          {choice.explanation && (
+                            <p className="mt-1 pl-6 text-slate-600">
+                              {choice.explanation}
+                            </p>
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
+
               {currentQuestion.my_wrong_answer && (
                 <p className="mt-2 text-xs opacity-80">
                   Original mistake logged: {currentQuestion.my_wrong_answer}

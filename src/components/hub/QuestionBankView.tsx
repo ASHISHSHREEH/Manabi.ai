@@ -53,7 +53,7 @@ export function QuestionBankView({
       if (statusFilter === "mastered" && (!p || !p.last_correct)) return false;
 
       if (qLower) {
-        const hay = `${item.id} ${item.question} ${item.explanation} ${item.source ?? ""}`.toLowerCase();
+        const hay = `${item.id} ${item.question} ${item.explanation} ${(item.choice_explanations ?? []).join(" ")} ${item.source ?? ""}`.toLowerCase();
         if (!hay.includes(qLower)) return false;
       }
 

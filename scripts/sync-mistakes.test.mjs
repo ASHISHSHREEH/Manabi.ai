@@ -42,3 +42,28 @@ test("validateAndConvertRows flags invalid exam, section, duplicate id, and bad 
   assert.match(errors[0], /invalid section "spelling"/);
   assert.match(errors[0], /does not match any choice/);
 });
+
+test("validateAndConvertRows parses choice_explanations and flags length mismatch", () => {
+  const validInput = [
+    "id,exam,section,question,choices,answer,my_wrong_answer,explanation,choice_explanations,source",
+    'JFT-001,JFT,vocabulary,テスト,A | B,B,,B is correct,"Wrong: means A. | Correct: means B.",Book Q1',
+  ].join("\n");
+
+  const valid = validateAndConvertRows(parseCsv(validInput));
+  assert.deepEqual(valid.errors, []);
+  assert.deepEqual(valid.questions[0].choice_explanations, [
+    "Wrong: means A.",
+    "Correct: means B.",
+  ]);
+  assert.equal(valid.questions[0].source, "Book Q1");
+
+  const mismatchInput = [
+    "id,exam,section,question,choices,answer,my_wrong_answer,explanation,choice_explanations,source",
+    "JFT-002,JFT,vocabulary,テスト,A | B,A,,ok,Only one explanation,Book Q2",
+  ].join("\n");
+
+  const invalid = validateAndConvertRows(parseCsv(mismatchInput));
+  assert.equal(invalid.questions.length, 0);
+  assert.equal(invalid.errors.length, 1);
+  assert.match(invalid.errors[0], /choice_explanations count \(1\) must match choices count \(2\)/);
+});

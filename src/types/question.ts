@@ -13,6 +13,7 @@ export interface Question {
   answer: string;
   my_wrong_answer?: string;
   explanation: string;
+  choice_explanations?: string[];
   source?: string;
 }
 

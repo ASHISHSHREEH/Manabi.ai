@@ -5,6 +5,7 @@ export interface ShuffledChoice {
   originalText: string;
   originalIndex: number;
   isCorrect: boolean;
+  explanation?: string;
 }
 
 export interface SessionQuestion {
@@ -85,6 +86,9 @@ export function shuffleQuestionChoices(
     originalText: choice,
     originalIndex: idx,
     isCorrect: isChoiceCorrect(question, choice, idx),
+    ...(question.choice_explanations?.[idx]
+      ? { explanation: question.choice_explanations[idx] }
+      : {}),
   }));
 
   for (let i = items.length - 1; i > 0; i--) {
