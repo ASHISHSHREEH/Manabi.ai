@@ -24,6 +24,13 @@ const LEVELS = [
     dotClass: "bg-sky-500",
   },
   {
+    id: "N4",
+    shortLabel: "N4",
+    label: "JLPT N4",
+    activeClass: "bg-amber-600 text-white border-amber-600 shadow-xs",
+    dotClass: "bg-amber-500",
+  },
+  {
     id: "N3",
     shortLabel: "N3",
     label: "JLPT N3",
@@ -69,7 +76,7 @@ export function LevelSwitcher({
 
   return (
     <div className="border-b border-slate-200 bg-white">
-      <div className="mx-auto grid max-w-5xl grid-cols-5 gap-1.5 px-3 py-2.5 sm:flex sm:flex-wrap sm:items-center sm:gap-2 sm:px-6">
+      <div className="mx-auto grid max-w-5xl grid-cols-3 gap-1.5 px-3 py-2.5 sm:flex sm:flex-wrap sm:items-center sm:gap-2 sm:px-6">
         {allLevels.map((lvl) => {
           const count =
             lvl.id === "ALL"
