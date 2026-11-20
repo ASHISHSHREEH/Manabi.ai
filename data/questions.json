@@ -11548,5 +11548,5339 @@
       "Look while running — even more dangerous!"
     ],
     "source": "JFT-Basic Workbook Q100 (Reading)"
+  },
+  {
+    "id": "N2-151",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい事業の【展開】に期待が高まる。",
+    "choices": [
+      "1. てんかい",
+      "2. てんげ",
+      "3. でんかい",
+      "4. てんがい"
+    ],
+    "answer": "1. てんかい",
+    "explanation": "展開 (てんかい) means 'development/expansion/deployment'.",
+    "choice_explanations": [
+      "Correct: てんかい (展開) = development / expansion / rollout.",
+      "てんげ: 開 is かい here, not げ.",
+      "でんかい: 展 is unvoiced てん, not でん.",
+      "てんがい: 開 stays unvoiced かい in 展開 (not がい)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q21 (Kanji Reading)"
+  },
+  {
+    "id": "N2-152",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は【冷静】に状況を判断した。",
+    "choices": [
+      "1. れいぜい",
+      "2. れいしょう",
+      "3. れいせい",
+      "4. りょうせい"
+    ],
+    "answer": "3. れいせい",
+    "explanation": "冷静 (れいせい) means 'calm/cool-headed'.",
+    "choice_explanations": [
+      "れいぜい: 静 stays unvoiced せい in 冷静.",
+      "れいしょう: Wrong reading for 静 (冷笑 れいしょう = cold sneer).",
+      "Correct: れいせい (冷静) = calm / cool-headed.",
+      "りょうせい: 冷 is れい, not りょう."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q22 (Kanji Reading)"
+  },
+  {
+    "id": "N2-153",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この地域は伝統が【継承】されている。",
+    "choices": [
+      "1. きょうしょう",
+      "2. けいそう",
+      "3. けいしょう",
+      "4. けいじょう"
+    ],
+    "answer": "3. けいしょう",
+    "explanation": "継承 (けいしょう) means 'inheritance/succession'.",
+    "choice_explanations": [
+      "きょうしょう: 継 is けい, not きょう.",
+      "けいそう: 承 is しょう, not そう (係争 けいそう = dispute).",
+      "Correct: けいしょう (継承) = succession / inheritance.",
+      "けいじょう: 承 stays unvoiced しょう (計上 けいじょう = appropriation)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q23 (Kanji Reading)"
+  },
+  {
+    "id": "N2-154",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "製品の【欠陥】が見つかり回収された。",
+    "choices": [
+      "1. けっけん",
+      "2. けつかん",
+      "3. げっかん",
+      "4. けっかん"
+    ],
+    "answer": "4. けっかん",
+    "explanation": "欠陥 (けっかん) means 'defect/flaw'.",
+    "choice_explanations": [
+      "けっけん: 陥 is かん, not けん.",
+      "けつかん: けつ + かん contracts with small っ -> けっかん (血管 けっかん = blood vessel).",
+      "げっかん: 欠 is unvoiced け, not げ (月刊 = monthly).",
+      "Correct: けっかん (欠陥) = defect / flaw."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q24 (Kanji Reading)"
+  },
+  {
+    "id": "N2-155",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "予算の【承認】を得る必要がある。",
+    "choices": [
+      "1. そうにん",
+      "2. じょうにん",
+      "3. しょうじん",
+      "4. しょうにん"
+    ],
+    "answer": "4. しょうにん",
+    "explanation": "承認 (しょうにん) means 'approval/authorization'.",
+    "choice_explanations": [
+      "そうにん: 承 is しょう, not そう.",
+      "じょうにん: 承 is unvoiced しょう, not じょう (常任 = standing/permanent).",
+      "しょうじん: 認 is にん, not じん (精進 しょうじん = devotion).",
+      "Correct: しょうにん (承認) = approval / consent."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q25 (Kanji Reading)"
+  },
+  {
+    "id": "N2-156",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は【優秀】な成績で卒業した。",
+    "choices": [
+      "1. ゆうしゅう",
+      "2. ゆうじゅう",
+      "3. ようしゅう",
+      "4. ゆしゅう"
+    ],
+    "answer": "1. ゆうしゅう",
+    "explanation": "優秀 (ゆうしゅう) means 'excellent/superior'.",
+    "choice_explanations": [
+      "Correct: ゆうしゅう (優秀) = excellent / outstanding.",
+      "ゆうじゅう: 秀 stays unvoiced しゅう (優柔不断 = indecisive).",
+      "ようしゅう: 優 is ゆう, not よう.",
+      "ゆしゅう: Both vowels must be long: ゆうしゅう."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q26 (Kanji Reading)"
+  },
+  {
+    "id": "N2-157",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "仕事の【負担】を減らす工夫をする。",
+    "choices": [
+      "1. ふだん",
+      "2. ぶたん",
+      "3. おいたん",
+      "4. ふたん"
+    ],
+    "answer": "4. ふたん",
+    "explanation": "負担 (ふたん) means 'burden/load'.",
+    "choice_explanations": [
+      "ふだん: 担 is unvoiced たん here (普段 ふだん = usually).",
+      "ぶたん: 負 is ふ, not ぶ.",
+      "おいたん: おう is kun-reading of 負, not used in 負担.",
+      "Correct: ふたん (負担) = burden / load / responsibility."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q27 (Kanji Reading)"
+  },
+  {
+    "id": "N2-158",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "両国の【貿易】額が増加している。",
+    "choices": [
+      "1. ほうえき",
+      "2. もうえき",
+      "3. ぼうえき",
+      "4. ぼういき"
+    ],
+    "answer": "3. ぼうえき",
+    "explanation": "貿易 (ぼうえき) means 'international trade'.",
+    "choice_explanations": [
+      "ほうえき: 貿 is voiced ぼう, not ほう.",
+      "もうえき: 貿 is ぼう, not もう.",
+      "Correct: ぼうえき (貿易) = foreign trade.",
+      "ぼういき: 易 is えき (exchange/trade), not いき."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q28 (Kanji Reading)"
+  },
+  {
+    "id": "N2-159",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この薬は【副作用】が少ない。",
+    "choices": [
+      "1. ぷくさよう",
+      "2. ふくざよう",
+      "3. ふくさよう",
+      "4. ふさよう"
+    ],
+    "answer": "3. ふくさよう",
+    "explanation": "副作用 (ふくさよう) means 'side effect'.",
+    "choice_explanations": [
+      "ぷくさよう: 副 is ふく, never ぷく.",
+      "ふくざよう: 作 stays unvoiced さ.",
+      "Correct: ふくさよう (副作用) = side effect.",
+      "ふさよう: Missing く in 副 (ふく)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q29 (Kanji Reading)"
+  },
+  {
+    "id": "N2-160",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議の【議事録】を作成する。",
+    "choices": [
+      "1. きじろく",
+      "2. ぎじりょく",
+      "3. ぎじろく",
+      "4. ぎしりょく"
+    ],
+    "answer": "3. ぎじろく",
+    "explanation": "議事録 (ぎじろく) means 'meeting minutes'.",
+    "choice_explanations": [
+      "きじろく: 議 is voiced ぎ, not き.",
+      "ぎじりょく: 録 is ろく, not りょく.",
+      "Correct: ぎじろく (議事録) = minutes of a meeting.",
+      "ぎしりょく: 事 is じ and 録 is ろく."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q30 (Kanji Reading)"
+  },
+  {
+    "id": "N2-161",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "相手の発言を【ひてい】する。",
+    "choices": [
+      "1. 非定",
+      "2. 比定",
+      "3. 否定",
+      "4. 批定"
+    ],
+    "answer": "3. 否定",
+    "explanation": "否定 (ひてい) means 'denial/negation'.",
+    "choice_explanations": [
+      "非定: 非 means 'non-/un-', not 'deny'.",
+      "比定: 比 means 'compare'.",
+      "Correct: 否定 (ひてい) = denial / negation / refutation.",
+      "批定: 批 means 'criticize' (批判)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q51 (Orthography)"
+  },
+  {
+    "id": "N2-162",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい規則を【じゅんしゅ】する。",
+    "choices": [
+      "1. 遵守",
+      "2. 純守",
+      "3. 準守",
+      "4. 順守"
+    ],
+    "answer": "1. 遵守",
+    "explanation": "遵守 (じゅんしゅ) means 'observance/compliance (with rules)'.",
+    "choice_explanations": [
+      "Correct: 遵守 (じゅんしゅ) = compliance / obeying rules.",
+      "純守: 純 means 'pure' (純粋).",
+      "準守: 準 means 'quasi-/standard' (準備/基準).",
+      "順守: Sometimes used as a replacement spelling, though 遵守 is the standard official kanji in JLPT."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q52 (Orthography)"
+  },
+  {
+    "id": "N2-163",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "事実を【しょうめい】する資料を提出した。",
+    "choices": [
+      "1. 証明",
+      "2. 照明",
+      "3. 承明",
+      "4. 正明"
+    ],
+    "answer": "1. 証明",
+    "explanation": "証明 (しょうめい) means 'proof/verification'.",
+    "choice_explanations": [
+      "Correct: 証明 (しょうめい) = proof / verification.",
+      "照明: 照明 (しょうめい) = lighting / illumination.",
+      "承明: Not a word.",
+      "正明: Incorrect kanji (正解 = correct answer)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q53 (Orthography)"
+  },
+  {
+    "id": "N2-164",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この商品は【きちょう】な存在だ。",
+    "choices": [
+      "1. 貴重",
+      "2. 気重",
+      "3. 基重",
+      "4. 奇重"
+    ],
+    "answer": "1. 貴重",
+    "explanation": "貴重 (きちょう) means 'precious/valuable'.",
+    "choice_explanations": [
+      "Correct: 貴重 (きちょう) = precious / valuable.",
+      "気重: Not used for 貴重な; 気が重い means 'reluctant'.",
+      "基重: Not a word.",
+      "奇重: Not a word (奇 = strange/rare)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q54 (Orthography)"
+  },
+  {
+    "id": "N2-165",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "計画を【えんき】することになった。",
+    "choices": [
+      "1. 園期",
+      "2. 遠期",
+      "3. 延期",
+      "4. 延記"
+    ],
+    "answer": "3. 延期",
+    "explanation": "延期 (えんき) means 'postponement'.",
+    "choice_explanations": [
+      "園期: 園 means 'garden/park'.",
+      "遠期: 遠 means 'far'.",
+      "Correct: 延期 (えんき) = postponement / delay.",
+      "延記: 記 means 'write/record', not 'period/date' (期)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q55 (Orthography)"
+  },
+  {
+    "id": "N2-166",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "相手の提案に【どうい】する。",
+    "choices": [
+      "1. 動意",
+      "2. 導意",
+      "3. 同異",
+      "4. 同意"
+    ],
+    "answer": "4. 同意",
+    "explanation": "同意 (どうい) means 'agreement/consent'.",
+    "choice_explanations": [
+      "動意: 動 means 'move', not 'same' (同).",
+      "導意: 導 means 'guide/lead'.",
+      "同異: 異 means 'different', not 'mind/meaning' (意).",
+      "Correct: 同意 (どうい) = agreement / consent."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q56 (Orthography)"
+  },
+  {
+    "id": "N2-167",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "生活の【きぼ】を縮小する。",
+    "choices": [
+      "1. 規模",
+      "2. 規摸",
+      "3. 基模",
+      "4. 気模"
+    ],
+    "answer": "1. 規模",
+    "explanation": "規模 (きぼ) means 'scale/scope'.",
+    "choice_explanations": [
+      "Correct: 規模 (きぼ) = scale / scope.",
+      "規摸: 摸 uses hand radical 扌 instead of tree radical 木 (模).",
+      "基模: 基 means 'foundation', not 規 (standard).",
+      "気模: Not a word."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q57 (Orthography)"
+  },
+  {
+    "id": "N2-168",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "事件の【げんいん】を究明する。",
+    "choices": [
+      "1. 元因",
+      "2. 限因",
+      "3. 原員",
+      "4. 原因"
+    ],
+    "answer": "4. 原因",
+    "explanation": "原因 (げんいん) means 'cause/origin'.",
+    "choice_explanations": [
+      "元因: Wrong kanji for げん (元 means origin/former, not 原).",
+      "限因: 限 means 'limit'.",
+      "原員: 員 means 'member', not 'cause/factor' (因).",
+      "Correct: 原因 (げんいん) = cause."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q58 (Orthography)"
+  },
+  {
+    "id": "N2-169",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この地域は工業（ ）が急速に進んでいる。",
+    "choices": [
+      "1. 化",
+      "2. 的",
+      "3. 性",
+      "4. 度"
+    ],
+    "answer": "1. 化",
+    "explanation": "工業化 (こうぎょうか) means 'industrialization'.",
+    "choice_explanations": [
+      "Correct: 化 — 工業化 (こうぎょうか) = industrialization.",
+      "的: 工業的 means 'industrial' (adjective modifier), doesn't fit が進んでいる as a process.",
+      "性: 性 means 'nature/property' (可能性), not process '-ization'.",
+      "度: 度 means 'degree/level'."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q74 (Word Formation)"
+  },
+  {
+    "id": "N2-170",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "（ ）年、異常気象が続いている。",
+    "choices": [
+      "1. 旧",
+      "2. 遠",
+      "3. 近",
+      "4. 新"
+    ],
+    "answer": "3. 近",
+    "explanation": "近年 (きんねん) means 'in recent years'.",
+    "choice_explanations": [
+      "旧: 旧年 means 'last year / old year' (used in greetings, not 'recent years').",
+      "遠: Not a standard compound for years.",
+      "Correct: 近 — 近年 (きんねん) = recent years.",
+      "新: 新年 (しんねん) means 'New Year'."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q75 (Word Formation)"
+  },
+  {
+    "id": "N2-171",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この資料は社（ ）秘なので持ち出し厳禁だ。",
+    "choices": [
+      "1. 内",
+      "2. 外",
+      "3. 間",
+      "4. 中"
+    ],
+    "answer": "2. 外",
+    "explanation": "社外秘 (しゃがいひ) means 'confidential / not to be disclosed outside the company'.",
+    "choice_explanations": [
+      "内: Not the standard compound (社外秘 literally means 'secret from outside the company').",
+      "Correct: 外 — 社外秘 (しゃがいひ) = confidential / internal use only.",
+      "間: Not a valid compound.",
+      "中: Not a valid compound."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q76 (Word Formation)"
+  },
+  {
+    "id": "N2-172",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は（ ）時間労働を改善しようとしている。",
+    "choices": [
+      "1. 長",
+      "2. 短",
+      "3. 高",
+      "4. 低"
+    ],
+    "answer": "1. 長",
+    "explanation": "長時間労働 (ちょうじかんろうどう) means 'long working hours'.",
+    "choice_explanations": [
+      "Correct: 長 — 長時間労働 = excessive/long working hours.",
+      "短: 短時間労働 is part-time/short-hour work, which isn't a problem people try to reform.",
+      "高: Doesn't attach to 時間労働.",
+      "低: Doesn't attach to 時間労働."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q77 (Word Formation)"
+  },
+  {
+    "id": "N2-173",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この商品は（ ）国でも人気が高い。",
+    "choices": [
+      "1. 諸",
+      "2. 全",
+      "3. 毎",
+      "4. 各"
+    ],
+    "answer": "1. 諸",
+    "explanation": "諸国 (しょこく) means 'various countries'.",
+    "choice_explanations": [
+      "Correct: 諸 — 諸国 (しょこく) = various countries / foreign countries (wait: note 各国 かっこく also exists, here 諸国しょこく is the set answer).",
+      "全: 全国 (ぜんこく) means 'nationwide / the whole country' (though the workbook key specifies 諸国).",
+      "毎: 毎 attaches to 毎日/毎年, not 国.",
+      "各: 各国 (かっこく) is also a word, though workbook answer key is 諸."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q78 (Word Formation)"
+  },
+  {
+    "id": "N2-174",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この法案は国会で激しい（ ）の末に可決された。",
+    "choices": [
+      "1. 雑談",
+      "2. 挨拶",
+      "3. 議論",
+      "4. 相談"
+    ],
+    "answer": "3. 議論",
+    "explanation": "激しい議論 (heated debate) fits a bill passing in parliament.",
+    "choice_explanations": [
+      "雑談 (ざつだん) = idle chitchat.",
+      "挨拶 (あいさつ) = greeting.",
+      "Correct: 議論 (ぎろん) = debate / argument ('passed after heated debate').",
+      "相談 (そうだん) = consultation."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q104 (Context)"
+  },
+  {
+    "id": "N2-175",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "新しい技術が（ ）され、生産性が大幅に向上した。",
+    "choices": [
+      "1. 廃止",
+      "2. 中断",
+      "3. 延期",
+      "4. 実用化"
+    ],
+    "answer": "4. 実用化",
+    "explanation": "実用化される (put into practical use) explains productivity rising.",
+    "choice_explanations": [
+      "廃止 (はいし) = abolition.",
+      "中断 (ちゅうだん) = interruption / suspension.",
+      "延期 (えんき) = postponement.",
+      "Correct: 実用化 (じつようか) = practical application / commercialization."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q105 (Context)"
+  },
+  {
+    "id": "N2-176",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼は約束を破ったことで、周囲の（ ）を失った。",
+    "choices": [
+      "1. 信頼",
+      "2. 疑問",
+      "3. 不満",
+      "4. 不安"
+    ],
+    "answer": "1. 信頼",
+    "explanation": "信頼を失う (しんらいをうしなう) means 'to lose trust'.",
+    "choice_explanations": [
+      "Correct: 信頼 (しんらい) = trust ('lost everyone's trust by breaking his promise').",
+      "疑問 (ぎもん) = doubt / question.",
+      "不満 (ふまん) = dissatisfaction.",
+      "不安 (ふあん) = anxiety / unease."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q106 (Context)"
+  },
+  {
+    "id": "N2-177",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この問題は表面的な対策だけでは（ ）解決しない。",
+    "choices": [
+      "1. 偶然に",
+      "2. 部分的に",
+      "3. 一時的に",
+      "4. 根本的に"
+    ],
+    "answer": "4. 根本的に",
+    "explanation": "根本的に解決しない ('will not be fundamentally solved') contrasts with 表面的な対策 ('superficial measures').",
+    "choice_explanations": [
+      "偶然に = by chance / accidentally.",
+      "部分的に = partially.",
+      "一時的に = temporarily.",
+      "Correct: 根本的に (こんぽんてきに) = fundamentally / at the root."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q107 (Context)"
+  },
+  {
+    "id": "N2-178",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "景気の悪化に伴い、消費者の節約（ ）が高まっている。",
+    "choices": [
+      "1. 意識",
+      "2. 感情",
+      "3. 知識",
+      "4. 記憶"
+    ],
+    "answer": "1. 意識",
+    "explanation": "節約意識 (せつやくいしき) means 'cost-saving awareness/mindset'.",
+    "choice_explanations": [
+      "Correct: 意識 (いしき) — 節約意識が高まる = cost-saving consciousness is rising.",
+      "感情 (かんじょう) = emotion / feeling.",
+      "知識 (ちしき) = knowledge.",
+      "記憶 (きおく) = memory."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q108 (Context)"
+  },
+  {
+    "id": "N2-179",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼女は忙しい合間を（ ）て、資格の勉強を続けている。",
+    "choices": [
+      "1. 折っ",
+      "2. 結ん",
+      "3. 縫っ",
+      "4. 切っ"
+    ],
+    "answer": "3. 縫っ",
+    "explanation": "合間を縫う (あいまをぬう) is an idiom meaning 'to find/squeeze in spare moments between busy tasks'.",
+    "choice_explanations": [
+      "折っ (折る) = fold / break.",
+      "結ん (結ぶ) = tie / bind.",
+      "Correct: 縫っ (縫う) — 合間を縫う = weave through spare moments / find time amidst a busy schedule.",
+      "切っ (切る) = cut."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q109 (Context)"
+  },
+  {
+    "id": "N2-180",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "この地域の人口は年々（ ）傾向にある。",
+    "choices": [
+      "1. 上昇",
+      "2. 発展",
+      "3. 拡大",
+      "4. 減少"
+    ],
+    "answer": "4. 減少",
+    "explanation": "減少傾向 (げんしょうけいこう) means 'declining trend'.",
+    "choice_explanations": [
+      "上昇 (じょうしょう) = rise (used for prices/temperatures, not population).",
+      "発展 (はってん) = development / growth.",
+      "拡大 (かくだい) = expansion.",
+      "Correct: 減少 (げんしょう) — 減少傾向 = declining trend."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q110 (Context)"
+  },
+  {
+    "id": "N2-181",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼の説明は専門用語が多く、一般の人には（ ）しにくかった。",
+    "choices": [
+      "1. 誤解",
+      "2. 無視",
+      "3. 否定",
+      "4. 理解"
+    ],
+    "answer": "4. 理解",
+    "explanation": "理解しにくい means 'hard to understand'.",
+    "choice_explanations": [
+      "誤解 (ごかい) = misunderstanding (jargon makes it hard to understand, not hard to misunderstand).",
+      "無視 (むし) = ignore.",
+      "否定 (ひてい) = deny.",
+      "Correct: 理解 (りかい) = understand ('hard for laypeople to understand')."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q111 (Context)"
+  },
+  {
+    "id": "N2-182",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "プロジェクトの成功は、チーム全員の（ ）にかかっている。",
+    "choices": [
+      "1. 対立",
+      "2. 協力",
+      "3. 競争",
+      "4. 孤立"
+    ],
+    "answer": "2. 協力",
+    "explanation": "協力 (きょうりょく, cooperation) determines team success.",
+    "choice_explanations": [
+      "対立 (たいりつ) = conflict / opposition.",
+      "Correct: 協力 (きょうりょく) = cooperation ('depends on everyone's cooperation').",
+      "競争 (きょうそう) = competition.",
+      "孤立 (こりつ) = isolation."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q112 (Context)"
+  },
+  {
+    "id": "N2-183",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "災害に備えて、地域の（ ）訓練が実施された。",
+    "choices": [
+      "1. 防災",
+      "2. 予防",
+      "3. 防火",
+      "4. 防犯"
+    ],
+    "answer": "1. 防災",
+    "explanation": "防災訓練 (ぼうさいくんれん) means 'disaster preparedness drill'.",
+    "choice_explanations": [
+      "Correct: 防災 (ぼうさい) = disaster prevention / preparedness (matches 災害 'disaster').",
+      "予防 (よぼう) = prevention (typically disease/illness).",
+      "防火 (ぼうか) = fire prevention only (too narrow for general 災害).",
+      "防犯 (ぼうはん) = crime prevention."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q113 (Context)"
+  },
+  {
+    "id": "N2-184",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】うっかり",
+    "choices": [
+      "1. うっかり計画通りに仕事を進めた。",
+      "2. うっかり鍵を家に忘れてきてしまった。",
+      "3. うっかり毎日運動を続けている。",
+      "4. うっかり真剣に話を聞いた。"
+    ],
+    "answer": "2. うっかり鍵を家に忘れてきてしまった。",
+    "explanation": "うっかり means 'inadvertently/carelessly'.",
+    "choice_explanations": [
+      "Wrong: proceeding according to plan is deliberate, not careless.",
+      "Correct: うっかり鍵を家に忘れてきてしまった = 'I carelessly left my keys at home'.",
+      "Wrong: continuing daily exercise is intentional effort.",
+      "Wrong: listening seriously is intentional, opposite of うっかり."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q128 (Usage)"
+  },
+  {
+    "id": "N2-185",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "彼の態度は【きわめて】冷静だった。",
+    "choices": [
+      "1. 少し",
+      "2. まったく",
+      "3. 非常に",
+      "4. たまに"
+    ],
+    "answer": "3. 非常に",
+    "explanation": "極めて (きわめて) means 'extremely' (= 非常に).",
+    "choice_explanations": [
+      "少し = a little.",
+      "まったく = completely (typically with negatives or 違う/同じ).",
+      "Correct: 非常に = extremely / very (= 極めて).",
+      "たまに = occasionally."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q134 (Paraphrases)"
+  },
+  {
+    "id": "N2-186",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "その計画は【おおむね】順調に進んでいる。",
+    "choices": [
+      "1. 少しも",
+      "2. 完全に",
+      "3. 急に",
+      "4. だいたい"
+    ],
+    "answer": "4. だいたい",
+    "explanation": "おおむね means 'generally / for the most part' (= だいたい).",
+    "choice_explanations": [
+      "少しも (+ negative) = not at all.",
+      "完全に = completely (stronger than おおむね 'roughly/generally').",
+      "急に = suddenly.",
+      "Correct: だいたい = generally / mostly (= おおむね)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q135 (Paraphrases)"
+  },
+  {
+    "id": "N2-187",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "会議は【ただちに】再開された。",
+    "choices": [
+      "1. 翌日",
+      "2. ゆっくり",
+      "3. あとで",
+      "4. すぐに"
+    ],
+    "answer": "4. すぐに",
+    "explanation": "直ちに (ただちに) means 'immediately' (= すぐに).",
+    "choice_explanations": [
+      "翌日 = the next day.",
+      "ゆっくり = slowly.",
+      "あとで = later.",
+      "Correct: すぐに = immediately / at once (= 直ちに)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q136 (Paraphrases)"
+  },
+  {
+    "id": "N2-188",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】せっかく",
+    "choices": [
+      "1. せっかく雨が降って電車が止まった。",
+      "2. せっかくの休日なのに、一日中仕事になってしまった。",
+      "3. 彼はせっかく遅刻してしまった。",
+      "4. せっかく宿題を忘れた。"
+    ],
+    "answer": "2. せっかくの休日なのに、一日中仕事になってしまった。",
+    "explanation": "せっかくの休日なのに expresses regret that a precious holiday was spoiled by work.",
+    "choice_explanations": [
+      "Wrong: rain stopping trains isn't a hard-won/precious plan.",
+      "Correct: せっかくの休日なのに = 'Even though it was my precious day off, I ended up working all day'.",
+      "Wrong: being late is not precious.",
+      "Wrong: forgetting homework doesn't use せっかく."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q137 (Usage)"
+  },
+  {
+    "id": "N2-189",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】わざわざ",
+    "choices": [
+      "1. わざわざ雨が降ってきたので傘を買った。",
+      "2. 彼はわざわざ風邪をひいてしまった。",
+      "3. 遠いところをわざわざお越しいただき、ありがとうございます。",
+      "4. わざわざ寝坊して遅刻した。"
+    ],
+    "answer": "3. 遠いところをわざわざお越しいただき、ありがとうございます。",
+    "explanation": "わざわざ means 'going out of one's way / taking the trouble to'.",
+    "choice_explanations": [
+      "Wrong: buying an umbrella because it started raining isn't 'going out of one's way'.",
+      "Wrong: catching a cold isn't deliberate.",
+      "Correct: わざわざお越しいただき = 'Thank you for taking the trouble to come all this way'.",
+      "Wrong: oversleeping isn't done on purpose as a favor/effort."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q138 (Usage)"
+  },
+  {
+    "id": "N2-190",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】思わぬ",
+    "choices": [
+      "1. 思わぬトラブルが発生し、作業が遅れた。",
+      "2. 思わぬ毎日同じ時間に起きている。",
+      "3. このケーキは思わぬ甘い。",
+      "4. 明日は思わぬ晴れるでしょう。"
+    ],
+    "answer": "1. 思わぬトラブルが発生し、作業が遅れた。",
+    "explanation": "思わぬ (おもわぬ) means 'unexpected / unforeseen'.",
+    "choice_explanations": [
+      "Correct: 思わぬトラブル = an unexpected trouble occurred.",
+      "Wrong: 思わぬ modifies nouns directly, not sentences like 毎日.",
+      "Wrong: 思わぬ cannot directly modify an い-adjective (甘い).",
+      "Wrong: 思わぬ cannot directly modify a verb (晴れる) — would be 思わず/意外に."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q139 (Usage)"
+  },
+  {
+    "id": "N2-191",
+    "exam": "N2",
+    "section": "vocabulary",
+    "question": "【用法】やがて",
+    "choices": [
+      "1. やがて昨日映画を見に行った。",
+      "2. 彼はやがて背が高い。",
+      "3. 春が過ぎ、やがて暑い夏がやってくる。",
+      "4. この本はやがて面白い。"
+    ],
+    "answer": "3. 春が過ぎ、やがて暑い夏がやってくる。",
+    "explanation": "やがて means 'before long / eventually / soon'.",
+    "choice_explanations": [
+      "Wrong: やがて points to future/progression over time, not 昨日.",
+      "Wrong: やがて doesn't describe a static state like 'tall'.",
+      "Correct: 春が過ぎ、やがて暑い夏がやってくる = 'Spring passes, and before long hot summer arrives'.",
+      "Wrong: doesn't modify static quality 面白い."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q140 (Usage)"
+  },
+  {
+    "id": "N2-192",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この映画は大人（ ）、子どもでも楽しめる内容だ。",
+    "choices": [
+      "1. どころか",
+      "2. ものの",
+      "3. のみならず",
+      "4. ばかりに"
+    ],
+    "answer": "3. のみならず",
+    "explanation": "のみならず means 'not only... but also'.",
+    "choice_explanations": [
+      "どころか = far from / let alone.",
+      "ものの = although.",
+      "Correct: のみならず = not only (adults), but even children can enjoy it.",
+      "ばかりに = simply because (bad result)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q166 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-193",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は医者である（ ）、小説家としても活躍している。",
+    "choices": [
+      "1. どころか",
+      "2. 一方",
+      "3. せいで",
+      "4. ばかりに"
+    ],
+    "answer": "2. 一方",
+    "explanation": "一方 (いっぽう) means 'on the other hand / while also (being a novelist)'.",
+    "choice_explanations": [
+      "どころか = far from.",
+      "Correct: 一方 = while being (a doctor), on the other hand he is active as a novelist.",
+      "せいで = because of (negative).",
+      "ばかりに = just because."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q167 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-194",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は泣く（ ）笑う（ ）、複雑な表情をしていた。",
+    "choices": [
+      "1. たり／たり",
+      "2. やら／やら",
+      "3. なり／なり",
+      "4. だの／だの"
+    ],
+    "answer": "2. やら／やら",
+    "explanation": "～やら～やら expresses a mix of emotions/actions ('half crying, half laughing').",
+    "choice_explanations": [
+      "たり／たり requires past た-form (泣いたり笑ったり), NOT dictionary form 泣く/笑う.",
+      "Correct: ～やら～やら attaches to dictionary form: 'half crying, half laughing'.",
+      "なり／なり means 'either do X or Y' (suggestion/choice).",
+      "だの／だの lists complaints/examples, doesn't fit mixed simultaneous facial expression."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q168 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-195",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "どんなに困難（ ）、最後までやり抜くつもりだ。",
+    "choices": [
+      "1. であるからには",
+      "2. であるものの",
+      "3. であるばかりに",
+      "4. であろうと"
+    ],
+    "answer": "4. であろうと",
+    "explanation": "であろうと means 'even if / no matter how (difficult it may be)'.",
+    "choice_explanations": [
+      "であるからには = now that / since (doesn't follow どんなに).",
+      "であるものの = although.",
+      "であるばかりに = simply because.",
+      "Correct: どんなに～であろうと = no matter how difficult it may be."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q169 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-196",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "会議に遅れた（ ）、資料まで忘れてしまった。",
+    "choices": [
+      "1. 上に",
+      "2. ものの",
+      "3. ばかりに",
+      "4. うちに"
+    ],
+    "answer": "1. 上に",
+    "explanation": "た + 上に means 'not only (was I late), on top of that (I forgot the handouts)'.",
+    "choice_explanations": [
+      "Correct: 上に = on top of / in addition to (being late, I even forgot the documents).",
+      "ものの = although (contrast).",
+      "ばかりに = simply because.",
+      "うちに = while."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q170 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-197",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "この仕事は経験者（ ）難しいだろう。",
+    "choices": [
+      "1. ばかり",
+      "2. でさえ",
+      "3. のみ",
+      "4. しか"
+    ],
+    "answer": "2. でさえ",
+    "explanation": "でさえ means 'even (for an experienced person, it would be difficult)'.",
+    "choice_explanations": [
+      "ばかり = only / just.",
+      "Correct: でさえ = even ('Even for someone experienced, this job would be tough').",
+      "のみ = only (doesn't fit 'difficult' contrast).",
+      "しか (+ negative) = only (requires a negative verb, not 難しいだろう)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q171 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-198",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼女の話を聞く（ ）、相当苦労したようだ。",
+    "choices": [
+      "1. からして",
+      "2. ところをみると",
+      "3. につけ",
+      "4. ばかりに"
+    ],
+    "answer": "2. ところをみると",
+    "explanation": "ところをみると means 'judging from (hearing her story, it seems she went through a lot)'.",
+    "choice_explanations": [
+      "からして = judging just from (attaches to nouns, not verbs like 聞く).",
+      "Correct: ところをみると = judging from the way / seeing that (I hear her story).",
+      "につけ = whenever / every time.",
+      "ばかりに = simply because."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q172 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-199",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "健康を維持する（ ）、適度な運動と睡眠が欠かせない。",
+    "choices": [
+      "1. に際して",
+      "2. 上で",
+      "3. にかけては",
+      "4. にあたって"
+    ],
+    "answer": "2. 上で",
+    "explanation": "上で (うえで) means 'in doing X / when it comes to maintaining health'.",
+    "choice_explanations": [
+      "に際して = on the occasion of (one-time formal event).",
+      "Correct: 上で = in doing / when it comes to maintaining health.",
+      "にかけては = when it comes to (someone's unmatched skill/excellence).",
+      "にあたって = on the occasion of starting a special milestone."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q173 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N2-200",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "彼は ＿＿ ＿＿ ★ ＿＿ 認めようとしない。（★に入るものはどれか）",
+    "choices": [
+      "1. ミスを",
+      "2. 自分の",
+      "3. なかなか",
+      "4. したのに"
+    ],
+    "answer": "4. したのに",
+    "explanation": "Order: 自分の (2) ミスを (1) したのに (4) なかなか (3) -> ★ is したのに (4).",
+    "choice_explanations": [
+      "ミスを = mistake (slot 2).",
+      "自分の = his own (slot 1).",
+      "なかなか = not easily (slot 4, precedes 認めようとしない).",
+      "Correct (slot 3): したのに = even though he made (it), he won't readily admit it."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q175 (Sentence Composition)"
+  },
+  {
+    "id": "N2-201",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "日本へ ＿＿ ＿＿ ★ ＿＿ なってきた。（★に入るものはどれか）",
+    "choices": [
+      "1. 慣れて",
+      "2. 生活にも",
+      "3. 来てから",
+      "4. ようやく"
+    ],
+    "answer": "2. 生活にも",
+    "explanation": "Order: 来てから (3) ようやく (4) 生活にも (2) 慣れて (1) -> ★ is 生活にも (2).",
+    "choice_explanations": [
+      "慣れて = getting used to (slot 4, connects to なってきた 'came to').",
+      "Correct (slot 3): 生活にも = to daily life as well (来てからようやく生活にも慣れてきた).",
+      "来てから = since coming (slot 1: 日本へ来てから).",
+      "ようやく = finally / gradually (slot 2)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q176 (Sentence Composition)"
+  },
+  {
+    "id": "N2-202",
+    "exam": "N2",
+    "section": "grammar",
+    "question": "来月のイベントに ＿＿ ＿＿ ★ ＿＿ 進めている。（★に入るものはどれか）",
+    "choices": [
+      "1. 向けて",
+      "2. 着々と",
+      "3. 準備を",
+      "4. 今"
+    ],
+    "answer": "3. 準備を",
+    "explanation": "Order: 向けて (1) 今 (4) 準備を (3) 着々と (2) -> ★ is 準備を (3).",
+    "choice_explanations": [
+      "向けて = toward (slot 1: イベントに向けて).",
+      "着々と = steadily (slot 4, modifies 進めている).",
+      "Correct (slot 3): 準備を = preparations (向けて今準備を着々と進めている).",
+      "今 = now (slot 2)."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q182 (Sentence Composition)"
+  },
+  {
+    "id": "N2-203",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【Passage F (Communication Essay)】\nコミュニケーションにおいて大切なのは、自分の言いたいことを一方的に伝えることではなく、相手の話を最後まで聴く姿勢である。相手が何を求めているのかを正確に汲み取ることができれば、余計な誤解を防ぎ、より円滑な人間関係を築くことができる。\n\n筆者がコミュニケーションで最も大切だと述べているのは何か。",
+    "choices": [
+      "1. 誤解を恐れずに結論だけを急ぐこと",
+      "2. 自分の意見をできるだけ多く話すこと",
+      "3. 相手の話を最後まで聴き、意図を汲み取ること",
+      "4. 相手と意見が合わないときは黙ること"
+    ],
+    "answer": "3. 相手の話を最後まで聴き、意図を汲み取ること",
+    "explanation": "The passage states: 大切なのは...相手の話を最後まで聴く姿勢である, and 相手が何を求めているのかを正確に汲み取る.",
+    "choice_explanations": [
+      "Rushing to conclusions regardless of misunderstandings — opposite of avoiding misunderstandings.",
+      "Speaking one's own opinions as much as possible — explicitly contrasted with one-sided speaking.",
+      "Correct: Listening to the other person to the end and grasping their intent.",
+      "Staying silent when disagreeing — not mentioned."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q199 (Communication Essay)"
+  },
+  {
+    "id": "N2-204",
+    "exam": "N2",
+    "section": "reading",
+    "question": "【Passage F (Communication Essay)】\nコミュニケーションにおいて大切なのは、自分の言いたいことを一方的に伝えることではなく、相手の話を最後まで聴く姿勢である。相手が何を求めているのかを正確に汲み取ることができれば、余計な誤解を防ぎ、より円滑な人間関係を築くことができる。\n\n相手の求めていることを正確に汲み取ると、どのような効果があるか。",
+    "choices": [
+      "1. 会話の時間を半分に短縮できる",
+      "2. 自分の意見を通しやすくなる",
+      "3. 相手を説得する必要がなくなる",
+      "4. 余計な誤解を防ぎ、円滑な人間関係を築ける"
+    ],
+    "answer": "4. 余計な誤解を防ぎ、円滑な人間関係を築ける",
+    "explanation": "The final sentence states: 余計な誤解を防ぎ、より円滑な人間関係を築くことができる.",
+    "choice_explanations": [
+      "Cutting conversation time in half — not stated.",
+      "Making it easier to push through one's own opinion — misses the focus on mutual understanding.",
+      "Eliminating the need to persuade — not stated.",
+      "Correct: Prevents unnecessary misunderstandings and builds smoother relationships."
+    ],
+    "source": "JLPT N2 Workbook (200Q) Q200 (Communication Essay)"
+  },
+  {
+    "id": "JFT-101",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "毎朝、7時に家を【出ます】。",
+    "choices": [
+      "1. かえります",
+      "2. きます",
+      "3. はいります",
+      "4. でます"
+    ],
+    "answer": "4. でます",
+    "explanation": "出る (でる) means 'to leave / go out'.",
+    "choice_explanations": [
+      "かえります (帰ります) = to return home.",
+      "きます (来ます) = to come.",
+      "はいります (入ります) = to enter (would be 家に入ります).",
+      "Correct: でます (出ます) = to leave / go out ('leave home at 7 AM')."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q26 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-102",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "駅の前に大きな【病院】があります。",
+    "choices": [
+      "1. びょういん",
+      "2. びょうき",
+      "3. びよういん",
+      "4. がっこう"
+    ],
+    "answer": "1. びょういん",
+    "explanation": "病院 (びょういん) means 'hospital'. 美容院 (びよういん) is a beauty salon.",
+    "choice_explanations": [
+      "Correct: びょういん (病院) = hospital.",
+      "びょうき (病気) = illness / sickness.",
+      "びよういん (美容院) = hair / beauty salon (short よ, not ょう!).",
+      "がっこう (学校) = school."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q27 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-103",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "今日はとても【暑い】ですね。",
+    "choices": [
+      "1. あたたかい",
+      "2. さむい",
+      "3. すずしい",
+      "4. あつい"
+    ],
+    "answer": "4. あつい",
+    "explanation": "暑い (あつい) means 'hot (weather)'.",
+    "choice_explanations": [
+      "あたたかい (暖かい) = warm.",
+      "さむい (寒い) = cold (weather).",
+      "すずしい (涼しい) = cool / refreshing.",
+      "Correct: あつい (暑い) = hot (weather)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q28 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-104",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "友達に【手紙】を書きました。",
+    "choices": [
+      "1. ふうとう",
+      "2. きって",
+      "3. てがみ",
+      "4. はがき"
+    ],
+    "answer": "3. てがみ",
+    "explanation": "手紙 (てがみ) means 'letter'.",
+    "choice_explanations": [
+      "ふうとう (封筒) = envelope.",
+      "きって (切手) = postage stamp.",
+      "Correct: てがみ (手紙) = letter.",
+      "はがき (葉書) = postcard."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q29 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-105",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "この【漢字】の読み方を教えてください。",
+    "choices": [
+      "1. かたかな",
+      "2. ひらがな",
+      "3. ことば",
+      "4. かんじ"
+    ],
+    "answer": "4. かんじ",
+    "explanation": "漢字 (かんじ) means 'kanji'.",
+    "choice_explanations": [
+      "かたかな = katakana.",
+      "ひらがな = hiragana.",
+      "ことば (言葉) = word / language.",
+      "Correct: かんじ (漢字) = kanji / Chinese characters."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q30 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-106",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "毎週水曜日に【会議】があります。",
+    "choices": [
+      "1. りょこう",
+      "2. かいぎ",
+      "3. れんしゅう",
+      "4. しけん"
+    ],
+    "answer": "2. かいぎ",
+    "explanation": "会議 (かいぎ) means 'meeting/conference'.",
+    "choice_explanations": [
+      "りょこう (旅行) = trip / travel.",
+      "Correct: かいぎ (会議) = meeting / conference.",
+      "れんしゅう (練習) = practice.",
+      "しけん (試験) = exam / test."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q31 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-107",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "テーブルの上に【りんご】が三つあります。",
+    "choices": [
+      "1. みかん",
+      "2. バナナ",
+      "3. いちご",
+      "4. 林檎"
+    ],
+    "answer": "4. 林檎",
+    "explanation": "林檎 (りんご) is the kanji for 'apple'.",
+    "choice_explanations": [
+      "みかん = mandarin orange (not りんご).",
+      "バナナ = banana.",
+      "いちご = strawberry.",
+      "Correct: 林檎 (りんご) = apple."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q32 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-108",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "明日、友達が日本へ【き】ます。",
+    "choices": [
+      "1. 帰",
+      "2. 出",
+      "3. 行",
+      "4. 来"
+    ],
+    "answer": "4. 来",
+    "explanation": "来る (くる / きます) means 'to come'.",
+    "choice_explanations": [
+      "帰 (かえる/かえります) = return.",
+      "出 (でる/でます) = go out / leave.",
+      "行 (いく/いきます) = go.",
+      "Correct: 来 (くる/きます) = come ('A friend is coming to Japan tomorrow')."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q33 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-109",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "仕事が（ ）から、みんなでご飯を食べに行きましょう。",
+    "choices": [
+      "1. 終わった",
+      "2. 休んだ",
+      "3. 始まった",
+      "4. 働いた"
+    ],
+    "answer": "1. 終わった",
+    "explanation": "仕事が終わってから ('after work finishes') fits going out to eat together.",
+    "choice_explanations": [
+      "Correct: 終わった (おわった) = finished ('after work finishes, let's go eat').",
+      "休んだ = rested / took off.",
+      "始まった = started (you don't go out to eat right after work starts).",
+      "働いた = worked (仕事が働いた is ungrammatical)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q34 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-110",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "この部屋は窓が大きくて、とても（ ）です。",
+    "choices": [
+      "1. 暗い",
+      "2. 狭い",
+      "3. 汚い",
+      "4. 明るい"
+    ],
+    "answer": "4. 明るい",
+    "explanation": "明るい (あかるい, bright) matches having large windows.",
+    "choice_explanations": [
+      "暗い (くらい) = dark (contradicts large windows).",
+      "狭い (せまい) = narrow / small.",
+      "汚い (きたない) = dirty.",
+      "Correct: 明るい (あかるい) = bright ('The windows are big so it's very bright')."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q35 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-111",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "冷蔵庫に（ ）飲み物が入っています。",
+    "choices": [
+      "1. 熱い",
+      "2. 重い",
+      "3. 冷たい",
+      "4. 辛い"
+    ],
+    "answer": "3. 冷たい",
+    "explanation": "冷たい (つめたい, cold to the touch/drink) is used for cold drinks in a fridge.",
+    "choice_explanations": [
+      "熱い (あつい) = hot (wouldn't be kept hot inside a fridge).",
+      "重い (おもい) = heavy.",
+      "Correct: 冷たい (つめたい) = cold (for drinks/objects).",
+      "辛い (からい) = spicy."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q36 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-112",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "明日は大切なテストがあるので、早く（ ）と思います。",
+    "choices": [
+      "1. 遊ぼう",
+      "2. 寝よう",
+      "3. 起きよう",
+      "4. 働こう"
+    ],
+    "answer": "2. 寝よう",
+    "explanation": "早く寝ようと思います ('I think I will go to bed early') fits preparing for an important test.",
+    "choice_explanations": [
+      "遊ぼう = let's play (doesn't fit preparing for an exam tonight).",
+      "Correct: 寝よう (ねよう) = go to sleep ('I think I'll go to bed early').",
+      "起きよう = wake up (less natural alone here vs going to bed early because of tomorrow's test).",
+      "働こう = work."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q37 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-113",
+    "exam": "JFT",
+    "section": "vocabulary",
+    "question": "すみませんが、エアコンの温度を少し（ ）ください。",
+    "choices": [
+      "1. 閉めて",
+      "2. 消して",
+      "3. 下げて",
+      "4. 降りて"
+    ],
+    "answer": "3. 下げて",
+    "explanation": "温度を下げる (おんどをさげる) means 'to lower the temperature'.",
+    "choice_explanations": [
+      "閉めて = close (doors/windows, not temperature).",
+      "消して = turn off (temperature cannot be 'turned off').",
+      "Correct: 下げて (さげて) = lower ('Please lower the AC temperature slightly').",
+      "降りて = get off / go down (intransitive, doesn't take 温度を)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q38 (Script & Vocabulary)"
+  },
+  {
+    "id": "JFT-114",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「すみません、今、何時ですか。」\nB「えっと、ちょうど3時（ ）。」",
+    "choices": [
+      "1. ます",
+      "2. です",
+      "3. あります",
+      "4. います"
+    ],
+    "answer": "2. です",
+    "explanation": "Stating the time politely ends with です.",
+    "choice_explanations": [
+      "ます = verb ending, cannot follow a noun like 3時.",
+      "Correct: です = is ('Let's see, it is just 3 o'clock').",
+      "あります = exists (for things/events, not telling the time).",
+      "います = exists (animate)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q64 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-115",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「このりんご、一つ（ ）ですか。」\nB「150円です。」",
+    "choices": [
+      "1. なんばん",
+      "2. いくら",
+      "3. どこ",
+      "4. いくつ"
+    ],
+    "answer": "2. いくら",
+    "explanation": "いくら asks 'how much (price)?'.",
+    "choice_explanations": [
+      "なんばん = what number.",
+      "Correct: いくら = how much ('How much is one of these apples?').",
+      "どこ = where.",
+      "いくつ = how many / how old."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q65 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-116",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「誕生日に何をもらいましたか。」\nB「友達（ ）時計をもらいました。」",
+    "choices": [
+      "1. へ",
+      "2. を",
+      "3. に",
+      "4. で"
+    ],
+    "answer": "3. に",
+    "explanation": "もらう marks the giver with に (or から): 友達に時計をもらいました.",
+    "choice_explanations": [
+      "へ = direction ('to'), wrong for receiving from someone.",
+      "を = object marker (already used on 時計を!).",
+      "Correct: に = from (marks the giver with もらいます).",
+      "で = place of action / means."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q66 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-117",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「すみません、ちょっと（ ）を借りてもいいですか。」\nB「はい、どうぞ。これを使ってください。」",
+    "choices": [
+      "1. ペン",
+      "2. でんしゃ",
+      "3. ドア",
+      "4. てんき"
+    ],
+    "answer": "1. ペン",
+    "explanation": "ペンを借りる ('to borrow a pen') is the only logical item to hand over ('これを使ってください').",
+    "choice_explanations": [
+      "Correct: ペン = pen ('May I borrow a pen? — Yes, use this one').",
+      "でんしゃ = train (you don't borrow a train).",
+      "ドア = door (you open/close a door, don't borrow it).",
+      "てんき = weather."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q67 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-118",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「これから病院へ行くんです。」\nB「そうですか。（ ）。」",
+    "choices": [
+      "1. いらっしゃい",
+      "2. ごちそうさま",
+      "3. お大事に",
+      "4. おめでとう"
+    ],
+    "answer": "3. お大事に",
+    "explanation": "お大事に (おだいじに) means 'Take care / Get well soon' when someone is sick or going to the doctor.",
+    "choice_explanations": [
+      "いらっしゃい = welcome.",
+      "ごちそうさま = thank you for the meal.",
+      "Correct: お大事に = 'Take care / Hope you feel better'.",
+      "おめでとう = congratulations (inappropriate for going to the hospital!)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q68 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-119",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「週末、映画を見に行きませんか。」\nB「いいですね。（ ）。」",
+    "choices": [
+      "1. ぜひ行きましょう",
+      "2. 行かないでください",
+      "3. 行かなくてもいいです",
+      "4. 行ってはいけません"
+    ],
+    "answer": "1. ぜひ行きましょう",
+    "explanation": "ぜひ行きましょう ('Yes, let's definitely go!') is the natural positive acceptance.",
+    "choice_explanations": [
+      "Correct: ぜひ行きましょう = 'Let's definitely go!'.",
+      "行かないでください = 'Please don't go' (contradicts いいですね!).",
+      "行かなくてもいいです = 'You don't have to go'.",
+      "行ってはいけません = 'You must not go'."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q69 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-120",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「あ、すみません。足を踏んでしまいました。」\nB「いいえ、（ ）。」",
+    "choices": [
+      "1. 大丈夫ですよ",
+      "2. こちらこそ",
+      "3. お願いします",
+      "4. いただきます"
+    ],
+    "answer": "1. 大丈夫ですよ",
+    "explanation": "大丈夫ですよ ('It's okay / No problem') is the standard response to an apology.",
+    "choice_explanations": [
+      "Correct: 大丈夫ですよ = 'No, it's all right / No problem'.",
+      "こちらこそ = 'Same here / Likewise' (doesn't answer 'I stepped on your foot').",
+      "お願いします = 'Please'.",
+      "いただきます = said before a meal."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q70 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-121",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「漢字が難しくて、なかなか覚えられません。」\nB「毎日少しずつ（ ）覚えられるようになりますよ。」",
+    "choices": [
+      "1. 書かないで",
+      "2. 書いては",
+      "3. 書かなくても",
+      "4. 書けば"
+    ],
+    "answer": "4. 書けば",
+    "explanation": "Conditional 書けば ('if you write a little every day, you will become able to remember them').",
+    "choice_explanations": [
+      "書かないで = without writing (wouldn't help you memorize kanji).",
+      "書いては = if you write (typically leads to something bad like ～てはいけない).",
+      "書かなくても = even without writing.",
+      "Correct: 書けば = if you write (conditional ば-form)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q71 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-122",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「昨日のテスト、どうでしたか。」\nB「あまり（ ）です。」",
+    "choices": [
+      "1. いいでした",
+      "2. よかったです",
+      "3. よくなかった",
+      "4. よくないでした"
+    ],
+    "answer": "3. よくなかった",
+    "explanation": "あまり + negative: いい -> よくなかったです ('wasn't very good').",
+    "choice_explanations": [
+      "いいでした: Unnatural/ungrammatical; past of いい is よかった, negative past is よくなかった.",
+      "よかったです: Positive past, cannot follow あまり (requires negative).",
+      "Correct: よくなかった (です) = wasn't very good.",
+      "よくないでした: Non-standard conjugation (standard polite past negative of いい is よくなかったです / よくありませんでした)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q72 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-123",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「ここでタバコを吸ってもいいですか。」\nB「すみません、ここは（ ）なんです。」",
+    "choices": [
+      "1. 無料",
+      "2. 禁煙",
+      "3. 自由",
+      "4. 安全"
+    ],
+    "answer": "2. 禁煙",
+    "explanation": "禁煙 (きんえん) means 'no smoking'.",
+    "choice_explanations": [
+      "無料 (むりょう) = free of charge.",
+      "Correct: 禁煙 (きんえん) = no smoking.",
+      "自由 (じゆう) = free / unrestricted (contradicts すみません).",
+      "安全 (あんぜん) = safe."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q73 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-124",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「日本に来て、もう半年になりますね。」\nB「はい、時間が経つのは本当に（ ）ですね。」",
+    "choices": [
+      "1. 遅い",
+      "2. 短い",
+      "3. 長い",
+      "4. 早い"
+    ],
+    "answer": "4. 早い",
+    "explanation": "時間が経つのは早い ('Time flies / passes quickly').",
+    "choice_explanations": [
+      "遅い (おそい) = slow / late.",
+      "短い (みじかい) = short (length/duration, not the speed of time passing).",
+      "長い (ながい) = long.",
+      "Correct: 早い (はやい) = fast ('Time really passes quickly')."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q74 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-125",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「すみません、この近くにおいしいラーメン屋さんはありますか。」\nB「はい、駅の前（ ）『さくら』という店がありますよ。」",
+    "choices": [
+      "1. と",
+      "2. に",
+      "3. を",
+      "4. へ"
+    ],
+    "answer": "2. に",
+    "explanation": "Location of existence (あります) takes the particle に.",
+    "choice_explanations": [
+      "と = and / with / quotation.",
+      "Correct: に = at / in ('There is a shop called Sakura in front of the station').",
+      "を = object marker (not used with あります).",
+      "へ = direction toward (motion verbs)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q75 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-126",
+    "exam": "JFT",
+    "section": "grammar",
+    "question": "A「明日、雨が降るでしょうか。」\nB「天気予報によると、午後は（ ）そうです。」",
+    "choices": [
+      "1. 晴れ",
+      "2. 晴れて",
+      "3. 晴れる",
+      "4. 晴れた"
+    ],
+    "answer": "3. 晴れる",
+    "explanation": "Hearsay ～そうです ('I heard that...') attaches to the plain dictionary form: 晴れるそうです.",
+    "choice_explanations": [
+      "晴れ (ます-stem + そう) means 'looks like it's about to clear up', NOT hearsay after 天気予報によると.",
+      "晴れて (て-form) does not connect to そうです.",
+      "Correct: 晴れる (plain dictionary form + そうです) = 'According to the forecast, it will be sunny in the afternoon'.",
+      "晴れた (past) refers to past weather, not tomorrow."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q76 (Conversation & Expression)"
+  },
+  {
+    "id": "JFT-127",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 23 (Buying Train Ticket)】\n客「すみません、東京駅までの切符を買いたいんですが、いくらですか。」\n駅員「東京駅までは320円です。あちらの青い券売機で買えますよ。」\n\n東京駅までの切符はいくらですか。",
+    "choices": [
+      "1. 300円",
+      "2. 420円",
+      "3. 230円",
+      "4. 320円"
+    ],
+    "answer": "4. 320円",
+    "explanation": "The station staff says: 東京駅までは320円です.",
+    "choice_explanations": [
+      "300 yen — wrong amount.",
+      "420 yen — wrong amount.",
+      "230 yen — digits reversed.",
+      "Correct: 320 yen (東京駅までは320円です)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q102 (Listening Script)"
+  },
+  {
+    "id": "JFT-128",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 24 (Work Shift Change)】\n店長「タナカさん、今週の金曜日のシフトなんだけど、朝の9時からではなくて、10時からお願いできるかな。」\nタナカ「はい、10時からですね。わかりました。」\n\nタナカさんは今週の金曜日、何時から働きますか。",
+    "choices": [
+      "1. 8時から",
+      "2. 10時から",
+      "3. 9時から",
+      "4. 11時から"
+    ],
+    "answer": "2. 10時から",
+    "explanation": "The manager asks for 10時から and Tanaka confirms 10時からですね.",
+    "choice_explanations": [
+      "From 8:00 — not mentioned.",
+      "Correct: From 10:00 (9時からではなくて、10時から).",
+      "From 9:00 — that was the previous time (9時からではなくて = NOT 9:00).",
+      "From 11:00 — not mentioned."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q103 (Listening Script)"
+  },
+  {
+    "id": "JFT-129",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 25 (Lost Umbrella)】\n客「すみません、昨日この電車に傘を忘れてしまったんですが。」\n駅員「どんな傘ですか。」\n客「黒い折り畳み傘で、持ち手に赤いシールが貼ってあります。」\n\nお客さんが忘れた傘はどれですか。",
+    "choices": [
+      "1. 青い折り畳み傘",
+      "2. 赤いシールが貼ってある黒い折り畳み傘",
+      "3. 黒いシールが貼ってある赤い長い傘",
+      "4. シールのない黒い傘"
+    ],
+    "answer": "2. 赤いシールが貼ってある黒い折り畳み傘",
+    "explanation": "The customer describes it as 黒い折り畳み傘で、持ち手に赤いシールが貼ってあります.",
+    "choice_explanations": [
+      "Blue folding umbrella — wrong color (customer said black 黒い).",
+      "Correct: Black folding umbrella with a red sticker on the handle.",
+      "Red long umbrella with a black sticker — colors and type reversed.",
+      "Black umbrella without a sticker — wrong; has a red sticker."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q104 (Listening Script)"
+  },
+  {
+    "id": "JFT-130",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 26 (Pharmacy)】\n薬剤師「このお薬は朝と夜、ご飯を食べた後に飲んでください。お昼は飲まなくていいです。水かぬるま湯で飲んでくださいね。」\n\nこの薬はいつ飲みますか。",
+    "choices": [
+      "1. 朝・昼・夜の食後",
+      "2. 朝と夜の食後",
+      "3. 食事の前",
+      "4. 寝る前だけ"
+    ],
+    "answer": "2. 朝と夜の食後",
+    "explanation": "The pharmacist says: 朝と夜、ご飯を食べた後に飲んでください。お昼は飲まなくていいです.",
+    "choice_explanations": [
+      "After breakfast, lunch, and dinner — wrong; explicitly says no need at noon (お昼は飲まなくていい).",
+      "Correct: After breakfast and dinner (朝と夜、ご飯を食べた後).",
+      "Before meals — wrong; ご飯を食べた後 means AFTER eating.",
+      "Only before bed — wrong; twice daily after morning & evening meals."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q105 (Listening Script)"
+  },
+  {
+    "id": "JFT-131",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 27 (Weather Forecast)】\nアナウンサー「明日の天気をお伝えします。午前中はよく晴れますが、夕方から雲が広がり、夜遅くには雨が降るでしょう。お帰りが遅くなる方は傘をお持ちください。」\n\n明日の午前中の天気はどうですか。",
+    "choices": [
+      "1. 雨が降る",
+      "2. よく晴れる",
+      "3. 雪が降る",
+      "4. 曇り"
+    ],
+    "answer": "2. よく晴れる",
+    "explanation": "The forecast states: 午前中はよく晴れます.",
+    "choice_explanations": [
+      "Rain — rain is expected late at night (夜遅く), not morning.",
+      "Correct: Very sunny / clear (午前中はよく晴れます).",
+      "Snow — not mentioned.",
+      "Cloudy — clouds spread from evening (夕方から), not morning."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q106 (Listening Script)"
+  },
+  {
+    "id": "JFT-132",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 28 (Cafe Order)】\n店員「ご注文はお決まりですか。」\n客「ホットコーヒーを一つと、チーズケーキをお願いします。あ、ここで食べます。」\n店員「かしこまりました。お席までお持ちしますので、番号札を持ってお待ちください。」\n\nお客さんはどうしますか。",
+    "choices": [
+      "1. 自分でコーヒーを運ぶ",
+      "2. 番号札を持って席で待つ",
+      "3. レジの前で立って待つ",
+      "4. 持ち帰り用の袋をもらう"
+    ],
+    "answer": "2. 番号札を持って席で待つ",
+    "explanation": "The staff says: お席までお持ちしますので、番号札を持ってお待ちください.",
+    "choice_explanations": [
+      "Carry the coffee yourself — wrong; staff says お席までお持ちします ('we will bring it to your seat').",
+      "Correct: Take the number tag and wait at a seat.",
+      "Stand waiting in front of the register — wrong.",
+      "Get a takeout bag — customer explicitly says ここで食べます ('I will eat here')."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q107 (Listening Script)"
+  },
+  {
+    "id": "JFT-133",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 29 (Apartment Water Outage)】\nアナウンス「お知らせいたします。水道管の工事のため、本日午後1時から3時まで、このマンション全体で水が出なくなります。ご注意ください。」\n\n水が出ないのは何時から何時までですか。",
+    "choices": [
+      "1. 一日中",
+      "2. 午後1時から3時まで",
+      "3. 午後1時から5時まで",
+      "4. 午前1時から3時まで"
+    ],
+    "answer": "2. 午後1時から3時まで",
+    "explanation": "The announcement says: 本日午後1時から3時まで.",
+    "choice_explanations": [
+      "All day — wrong; only 2 hours.",
+      "Correct: From 1:00 PM to 3:00 PM.",
+      "From 1:00 PM to 5:00 PM — wrong end time (until 3:00, not 5:00).",
+      "From 1:00 AM to 3:00 AM — wrong AM/PM (午後 = PM, not 午前 = AM)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q108 (Listening Script)"
+  },
+  {
+    "id": "JFT-134",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 30 (Asking About a Package)】\n男「あれ、机の上にあった大きい箱、どこに行ったか知ってる？」\n女「あ、さっき山田さんが倉庫に持っていったよ。棚の一番下に置いたって言ってた。」\n\n大きい箱は今どこにありますか。",
+    "choices": [
+      "1. 倉庫の棚の一番下",
+      "2. 机の上",
+      "3. 倉庫の棚の一番上",
+      "4. 山田さんの車の中"
+    ],
+    "answer": "1. 倉庫の棚の一番下",
+    "explanation": "She says: 倉庫に持っていったよ。棚の一番下に置いたって言ってた.",
+    "choice_explanations": [
+      "Correct: On the bottom shelf in the warehouse (倉庫の棚の一番下).",
+      "On the desk — that's where it WAS earlier.",
+      "On the top shelf in the warehouse — opposite of 一番下 (bottom).",
+      "In Yamada's car — not mentioned."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q109 (Listening Script)"
+  },
+  {
+    "id": "JFT-135",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 31 (School Sports Day)】\n先生「来週の運動会は、雨が降ったら体育館で行います。晴れたら予定通り校庭で行います。朝7時に学校のホームページでお知らせしますので、確認してください。」\n\n雨が降った場合、運動会はどこで行いますか。",
+    "choices": [
+      "1. 校庭",
+      "2. 教室",
+      "3. 中止になる",
+      "4. 体育館"
+    ],
+    "answer": "4. 体育館",
+    "explanation": "The teacher says: 雨が降ったら体育館で行います.",
+    "choice_explanations": [
+      "Schoolyard (校庭) — that is if it is sunny (晴れたら).",
+      "Classroom — not mentioned.",
+      "Canceled — wrong; it moves indoors instead of canceling.",
+      "Correct: Gymnasium (雨が降ったら体育館で行います)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q110 (Listening Script)"
+  },
+  {
+    "id": "JFT-136",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 32 (Recycling Plastic Bottles)】\n先輩「ペットボトルを捨てるときは、まず中身を空にして軽く水ですすいでください。それから、キャップとラベルを外して、青いゴミ箱に入れてください。」\n\nペットボトルを捨てるとき、外さなければならないものは何ですか。",
+    "choices": [
+      "1. キャップとラベル",
+      "2. 何も外さなくていい",
+      "3. キャップだけ",
+      "4. ラベルだけ"
+    ],
+    "answer": "1. キャップとラベル",
+    "explanation": "The instruction says: キャップとラベルを外して.",
+    "choice_explanations": [
+      "Correct: Both the cap and label (キャップとラベルを外して).",
+      "Nothing needs to be removed — wrong.",
+      "Only the cap — misses the label.",
+      "Only the label — misses the cap."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q111 (Listening Script)"
+  },
+  {
+    "id": "JFT-137",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 33 (Calling in Sick)】\nリー「もしもし、お疲れ様です。リーです。すみません、今朝から少し熱があって、頭も痛いんです。今日はお休みさせていただいてもよろしいでしょうか。」\n課長「わかりました。無理しないで、ゆっくり休んでくださいね。」\n\nリーさんはなぜ会社を休みますか。",
+    "choices": [
+      "1. 市役所に行くから",
+      "2. 熱と頭痛があるから",
+      "3. 家族が病気だから",
+      "4. 電車が止まったから"
+    ],
+    "answer": "2. 熱と頭痛があるから",
+    "explanation": "Lee says: 今朝から少し熱があって、頭も痛いんです.",
+    "choice_explanations": [
+      "Going to city hall — not mentioned.",
+      "Correct: Has a fever and headache (熱があって、頭も痛い).",
+      "Family member is sick — Lee is the one who is sick.",
+      "Trains stopped — not mentioned."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q112 (Listening Script)"
+  },
+  {
+    "id": "JFT-138",
+    "exam": "JFT",
+    "section": "listening",
+    "question": "【Script 34 (Store Discount)】\n店員「お客様、こちらのジャケットはただいま20%引きになっております。さらに、アプリ会員の方はレジにて10%引きになりますよ。」\n\nこのジャケットは今、誰でも何%引きで買えますか。",
+    "choices": [
+      "1. 10%引き",
+      "2. 30%引き",
+      "3. 20%引き",
+      "4. 半額"
+    ],
+    "answer": "3. 20%引き",
+    "explanation": "Anyone gets 20% off (ただいま20%引き); the extra 10% is only for app members.",
+    "choice_explanations": [
+      "10% off — 10% is the extra member discount only.",
+      "30% off — total for app members only, not 'anyone' (誰でも).",
+      "Correct: 20% off (base sale available to anyone).",
+      "Half price (50% off) — not mentioned."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q113 (Listening Script)"
+  },
+  {
+    "id": "JFT-139",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【駐輪場のご案内】\n● 利用時間：5:00〜24:00\n● 料金：最初の2時間無料、その後4時間ごとに100円\n※ 24:00を過ぎると出庫できなくなりますのでご注意ください。\n\n自転車を3時間停めた場合、料金はいくらですか。",
+    "choices": [
+      "1. 300円",
+      "2. 0円（無料）",
+      "3. 200円",
+      "4. 100円"
+    ],
+    "answer": "4. 100円",
+    "explanation": "The first 2 hours are free, and the 3rd hour falls into the next 4-hour block (100 yen).",
+    "choice_explanations": [
+      "300 yen — wrong math.",
+      "0 yen (free) — only up to 2 hours is free.",
+      "200 yen — would be for over 6 hours (2 free + 4 + ...).",
+      "Correct: 100 yen (2 hours free + 1 hour in the first paid 4-hour block = 100 yen)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q139 (Reading)"
+  },
+  {
+    "id": "JFT-140",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【駐輪場のご案内】\n● 利用時間：5:00〜24:00\n● 料金：最初の2時間無料、その後4時間ごとに100円\n※ 24:00を過ぎると出庫できなくなりますのでご注意ください。\n\n午前1時に自転車を出すことはできますか。",
+    "choices": [
+      "1. できない",
+      "2. 100円払えばできる",
+      "3. いつでもできる",
+      "4. 2時間以内ならできる"
+    ],
+    "answer": "1. できない",
+    "explanation": "24:00を過ぎると出庫できなくなります ('You cannot take your bicycle out after midnight').",
+    "choice_explanations": [
+      "Correct: Cannot (1:00 AM is after 24:00 / closed until 5:00 AM).",
+      "Can if you pay 100 yen — false; facility is closed 24:00–5:00.",
+      "Anytime — false.",
+      "If within 2 hours — false; hours are 5:00–24:00."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q140 (Reading)"
+  },
+  {
+    "id": "JFT-141",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【Company Email】\n社員の皆様へ\n来週の月曜日（24日）に、新しい社員証を配布します。午前10時から午後4時までの間に、3階の総務部まで受け取りに来てください。その際、古い社員証と引き換えになりますので、必ず持参してください。\n\n新しい社員証を受け取るとき、何を持っていかなければなりませんか。",
+    "choices": [
+      "1. 印鑑",
+      "2. 古い社員証",
+      "3. 写真",
+      "4. パスポート"
+    ],
+    "answer": "2. 古い社員証",
+    "explanation": "It states: 古い社員証と引き換えになりますので、必ず持参してください ('Bring your old employee ID to exchange').",
+    "choice_explanations": [
+      "Seal/stamp (印鑑) — not requested.",
+      "Correct: Old employee ID card (古い社員証).",
+      "Photo — not requested.",
+      "Passport — not requested."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q141 (Reading)"
+  },
+  {
+    "id": "JFT-142",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【Company Email】\n社員の皆様へ\n来週の月曜日（24日）に、新しい社員証を配布します。午前10時から午後4時までの間に、3階の総務部まで受け取りに来てください。その際、古い社員証と引き換えになりますので、必ず持参してください。\n\nどこで新しい社員証を受け取りますか。",
+    "choices": [
+      "1. 3階の総務部",
+      "2. 1階の受付",
+      "3. 食堂",
+      "4. 2階の会議室"
+    ],
+    "answer": "1. 3階の総務部",
+    "explanation": "It states: 3階の総務部まで受け取りに来てください.",
+    "choice_explanations": [
+      "Correct: General Affairs Dept. on the 3rd floor (3階の総務部).",
+      "1st floor reception — wrong floor/office.",
+      "Cafeteria — not mentioned.",
+      "2nd floor meeting room — wrong floor/room."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q142 (Reading)"
+  },
+  {
+    "id": "JFT-143",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【洗濯表示のメモ】\n● 洗濯機で洗えます（水温30℃まで）。\n● 漂白剤（ひょうはくざい）は使えません。\n● 乾燥機は使わないでください。日陰でつり干ししてください。\n\nこの服を乾かすとき、どうしますか。",
+    "choices": [
+      "1. 乾燥機で乾かす",
+      "2. アイロンで乾かす",
+      "3. 日陰でつり干しする",
+      "4. 直射日光の下で干す"
+    ],
+    "answer": "3. 日陰でつり干しする",
+    "explanation": "The label instructs: 乾燥機は使わないでください。日陰でつり干ししてください ('Do not use a dryer; hang dry in the shade').",
+    "choice_explanations": [
+      "Use a dryer — explicitly forbidden (乾燥機は使わないでください).",
+      "Dry with an iron — not instructed.",
+      "Correct: Hang dry in the shade (日陰でつり干ししてください).",
+      "Dry in direct sunlight — wrong; says 日陰 (shade)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q143 (Reading)"
+  },
+  {
+    "id": "JFT-144",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【Short Blog Post】\n昨日、近所の公園で桜祭りが開かれました。少し風が冷たかったですが、満開の桜の下でお弁当を食べるのはとても気持ちよかったです。来年は家族も一緒に連れてきたいです。\n\n筆者は桜祭りで何をしましたか。",
+    "choices": [
+      "1. 家族と一緒に写真をたくさん撮った",
+      "2. 桜の下でお弁当を食べた",
+      "3. ステージで歌を歌った",
+      "4. 寒かったので何も食べずに帰った"
+    ],
+    "answer": "2. 桜の下でお弁当を食べた",
+    "explanation": "The post says: 満開の桜の下でお弁当を食べるのはとても気持ちよかったです.",
+    "choice_explanations": [
+      "Took lots of photos with family — family wasn't there yet ('want to bring family next year').",
+      "Correct: Ate a bento under the cherry blossoms (桜の下でお弁当を食べた).",
+      "Sang on stage — not mentioned.",
+      "Went home without eating because it was cold — wrong; ate bento despite cool breeze."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q144 (Reading)"
+  },
+  {
+    "id": "JFT-145",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【ご予約内容の確認】\nお名前：グエン様\n日時：12月10日（木）19:00〜\n人数：4名様（禁煙席）\n※ 当日のキャンセルはキャンセル料がかかる場合があります。変更は前日までにお電話ください。\n\n予約を変更したいとき、いつまでに連絡しなければなりませんか。",
+    "choices": [
+      "1. 12月10日の朝まで",
+      "2. 予約の変更はできない",
+      "3. 12月10日の19:00まで",
+      "4. 12月9日（前日）まで"
+    ],
+    "answer": "4. 12月9日（前日）まで",
+    "explanation": "変更は前日までにお電話ください ('Please call by the day before').",
+    "choice_explanations": [
+      "Morning of Dec 10 — Dec 10 is same-day (当日); must call by day before.",
+      "Cannot change reservation — wrong; changes allowed by the day before.",
+      "Until 19:00 on Dec 10 — that is reservation time, too late.",
+      "Correct: By Dec 9, the day before (12月9日（前日）まで)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q145 (Reading)"
+  },
+  {
+    "id": "JFT-146",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【地震が起きたら】\n1. まず机の下などに隠れて、頭を守ってください。\n2. 揺れがおさまったら、火を消して、逃げ道確保のためにドアを開けてください。\n3. 建物から出るときは、慌てずにエレベーターを使わず階段を使ってください。\n\n地震が起きたとき、一番最初に何をしますか。",
+    "choices": [
+      "1. 机の下などに隠れて頭を守る",
+      "2. 荷物を持って走る",
+      "3. すぐにエレベーターに乗る",
+      "4. 窓から外を見る"
+    ],
+    "answer": "1. 机の下などに隠れて頭を守る",
+    "explanation": "Step 1 instructs: まず机の下などに隠れて、頭を守ってください.",
+    "choice_explanations": [
+      "Correct: Hide under a desk etc. and protect your head.",
+      "Grab bags and run — dangerous; hide under desk first.",
+      "Take the elevator right away — explicitly forbidden in step 3.",
+      "Look out the window — not instructed."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q146 (Reading)"
+  },
+  {
+    "id": "JFT-147",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【地震が起きたら】\n1. まず机の下などに隠れて、頭を守ってください。\n2. 揺れがおさまったら、火を消して、逃げ道確保のためにドアを開けてください。\n3. 建物から出るときは、慌てずにエレベーターを使わず階段を使ってください。\n\n揺れがおさまった後、なぜドアを開けますか。",
+    "choices": [
+      "1. 逃げ道を確保するため",
+      "2. 外の音を確認するため",
+      "3. 部屋を涼しくするため",
+      "4. 近所の人と話すため"
+    ],
+    "answer": "1. 逃げ道を確保するため",
+    "explanation": "It states: 逃げ道確保のためにドアを開けてください ('to secure an escape route').",
+    "choice_explanations": [
+      "Correct: To secure an escape route (逃げ道確保のため).",
+      "To check sounds outside — not stated.",
+      "To cool down the room — not stated.",
+      "To talk to neighbors — not stated."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q147 (Reading)"
+  },
+  {
+    "id": "JFT-148",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【子ども向け 絵本の読み聞かせ会】\n日時：毎月第2日曜日 14:00〜14:40\n場所：中央図書館 1階 おはなしの部屋\n対象：3歳〜小学生のお子様と保護者\n定員：先着20名（予約不要）\n\nこのイベントに参加できるのは誰ですか。",
+    "choices": [
+      "1. 大人だけ",
+      "2. 3歳〜小学生の子どもと保護者",
+      "3. 図書館のスタッフのみ",
+      "4. 中学生と高校生"
+    ],
+    "answer": "2. 3歳〜小学生の子どもと保護者",
+    "explanation": "対象：3歳〜小学生のお子様と保護者.",
+    "choice_explanations": [
+      "Adults only — wrong; for children age 3 to elementary school plus guardians.",
+      "Correct: Children age 3 to elementary school and their guardians.",
+      "Library staff only — wrong.",
+      "Middle and high school students — above elementary age target."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q148 (Reading)"
+  },
+  {
+    "id": "JFT-149",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【レシート】\nおにぎり（梅） 130円\n緑茶 500ml 140円\nレジ袋 3円\n小計 273円\n消費税 22円\n合計 295円\nお預かり 500円\nお釣り 205円\n\nお釣りはいくらですか。",
+    "choices": [
+      "1. 205円",
+      "2. 500円",
+      "3. 273円",
+      "4. 295円"
+    ],
+    "answer": "1. 205円",
+    "explanation": "お釣り (change) is 205円.",
+    "choice_explanations": [
+      "Correct: 205 yen (お釣り 205円).",
+      "500 yen — amount tendered (お預かり).",
+      "273 yen — subtotal before tax (小計).",
+      "295 yen — total price (合計)."
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q149 (Reading)"
+  },
+  {
+    "id": "JFT-150",
+    "exam": "JFT",
+    "section": "reading",
+    "question": "【更衣室のご利用について】\n● ロッカーの鍵は帰宅時に必ず受付へ返却してください。\n● 貴重品はロッカーに入れず、各自で管理するか事務所に預けてください。\n● 飲食は禁止です。食事は2階の休憩室をご利用ください。\n\n更衣室でしてはいけないことは何ですか。",
+    "choices": [
+      "1. 鍵を受付に返すこと",
+      "2. 食べたり飲んだりすること",
+      "3. ロッカーを使うこと",
+      "4. 着替えること"
+    ],
+    "answer": "2. 食べたり飲んだりすること",
+    "explanation": "飲食は禁止です ('Eating and drinking are prohibited').",
+    "choice_explanations": [
+      "Returning key to reception — REQUIRED when going home.",
+      "Correct: Eating or drinking (飲食は禁止です).",
+      "Using lockers — allowed (just don't put valuables inside).",
+      "Changing clothes — that's what a locker/changing room (更衣室) is for!"
+    ],
+    "source": "JFT-Basic Workbook (150Q) Q150 (Reading)"
+  },
+  {
+    "id": "N4-001",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのう、【図書館】で本を借りました。",
+    "choices": [
+      "1. とうしょかん",
+      "2. としょがん",
+      "3. どしょかん",
+      "4. としょかん"
+    ],
+    "answer": "4. としょかん",
+    "explanation": "図書館 (としょかん) means 'library'.",
+    "choice_explanations": [
+      "とうしょかん: 図 is short と, not とう.",
+      "としょがん: 館 stays unvoiced かん, not がん.",
+      "どしょかん: 図 is unvoiced と, not ど.",
+      "Correct: としょかん (図書館) = library."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q1 (Kanji Reading)"
+  },
+  {
+    "id": "N4-002",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたは【特別】な日です。",
+    "choices": [
+      "1. とくへつ",
+      "2. とくべつ",
+      "3. とうべつ",
+      "4. どくべつ"
+    ],
+    "answer": "2. とくべつ",
+    "explanation": "特別 (とくべつ) means 'special'.",
+    "choice_explanations": [
+      "とくへつ: 別 voices to べつ here, not へつ.",
+      "Correct: とくべつ (特別) = special.",
+      "とうべつ: 特 is とく, not とう.",
+      "どくべつ: 特 is unvoiced とく, not どく."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q2 (Kanji Reading)"
+  },
+  {
+    "id": "N4-003",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【漢字】の意味がわかりません。",
+    "choices": [
+      "1. はんじ",
+      "2. がんじ",
+      "3. かんじ",
+      "4. かんし"
+    ],
+    "answer": "3. かんじ",
+    "explanation": "漢字 (かんじ) means 'kanji / Chinese character'.",
+    "choice_explanations": [
+      "はんじ: 漢 is かん, not はん.",
+      "がんじ: 漢 is unvoiced かん, not がん.",
+      "Correct: かんじ (漢字) = kanji.",
+      "かんし: 字 is じ, not し (監視 かんし = surveillance)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q3 (Kanji Reading)"
+  },
+  {
+    "id": "N4-004",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "駅まで【急いで】歩きました。",
+    "choices": [
+      "1. およいで",
+      "2. あるいて",
+      "3. はしって",
+      "4. いそいで"
+    ],
+    "answer": "4. いそいで",
+    "explanation": "急ぐ (いそぐ) means 'to hurry'.",
+    "choice_explanations": [
+      "およいで: 泳いで (to swim).",
+      "あるいて: 歩いて (walking).",
+      "はしって: 走って (running).",
+      "Correct: いそいで (急いで) = hurriedly / in a hurry."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q4 (Kanji Reading)"
+  },
+  {
+    "id": "N4-005",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "部屋の【電気】をつけてください。",
+    "choices": [
+      "1. てんぎ",
+      "2. てんき",
+      "3. でんぎ",
+      "4. でんき"
+    ],
+    "answer": "4. でんき",
+    "explanation": "電気 (でんき) means 'electricity / light'. 天気 (てんき) is weather.",
+    "choice_explanations": [
+      "てんぎ: Both kanji wrong.",
+      "てんき (天気) = weather, not 電.",
+      "でんぎ: 気 is unvoiced き, not ぎ.",
+      "Correct: でんき (電気) = electricity / light."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q5 (Kanji Reading)"
+  },
+  {
+    "id": "N4-006",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "父は毎日【新聞】を読みます。",
+    "choices": [
+      "1. しんぷん",
+      "2. しんぶん",
+      "3. にいぶん",
+      "4. じんぶん"
+    ],
+    "answer": "2. しんぶん",
+    "explanation": "新聞 (しんぶん) means 'newspaper'.",
+    "choice_explanations": [
+      "しんぷん: 聞 voices to ぶん (with b), not ぷん (with p).",
+      "Correct: しんぶん (新聞) = newspaper.",
+      "にいぶん: 新 is しん here, not にい.",
+      "じんぶん: 新 is unvoiced しん, not じん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q6 (Kanji Reading)"
+  },
+  {
+    "id": "N4-007",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "来週、【東京】へ出張します。",
+    "choices": [
+      "1. とうきょう",
+      "2. ひがしきょう",
+      "3. とうきょ",
+      "4. ときょう"
+    ],
+    "answer": "1. とうきょう",
+    "explanation": "東京 (とうきょう) is Tokyo.",
+    "choice_explanations": [
+      "Correct: とうきょう (東京) = Tokyo.",
+      "ひがしきょう: Uses kun-reading ひがし instead of on-reading とう.",
+      "とうきょ: Missing long vowel う on 京 (きょう).",
+      "ときょう: Missing long vowel う on 東 (とう)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q7 (Kanji Reading)"
+  },
+  {
+    "id": "N4-008",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【料理】はとてもおいしいです。",
+    "choices": [
+      "1. ろうり",
+      "2. りょうり",
+      "3. りゅうり",
+      "4. りょうい"
+    ],
+    "answer": "2. りょうり",
+    "explanation": "料理 (りょうり) means 'cooking / dish'.",
+    "choice_explanations": [
+      "ろうり: 料 is りょう, not ろう.",
+      "Correct: りょうり (料理) = cooking / cuisine / dish.",
+      "りゅうり: 料 is りょう, not りゅう.",
+      "りょうい: 理 is り, not い."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q8 (Kanji Reading)"
+  },
+  {
+    "id": "N4-009",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "夏休みに海に【旅行】に行きました。",
+    "choices": [
+      "1. りょごう",
+      "2. りょこう",
+      "3. りょうこう",
+      "4. ろこう"
+    ],
+    "answer": "2. りょこう",
+    "explanation": "旅行 (りょこう) means 'travel / trip'.",
+    "choice_explanations": [
+      "りょごう: 行 stays unvoiced こう here.",
+      "Correct: りょこう (旅行) = trip / travel.",
+      "りょうこう: 旅 is short りょ, not りょう (良好 = favorable).",
+      "ろこう: 旅 is りょ, not ろ."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q9 (Kanji Reading)"
+  },
+  {
+    "id": "N4-010",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "田中さんはとても【親切】な人です。",
+    "choices": [
+      "1. おやせつ",
+      "2. しんせつ",
+      "3. しんぜつ",
+      "4. じんせつ"
+    ],
+    "answer": "2. しんせつ",
+    "explanation": "親切 (しんせつ) means 'kind/helpful'.",
+    "choice_explanations": [
+      "おやせつ: Uses kun-reading おや (parent) instead of on-reading しん.",
+      "Correct: しんせつ (親切) = kind / helpful.",
+      "しんぜつ: 切 stays unvoiced せつ.",
+      "じんせつ: 親 is unvoiced しん, not じん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q10 (Kanji Reading)"
+  },
+  {
+    "id": "N4-011",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あそこに高い【建物】があります。",
+    "choices": [
+      "1. けんもの",
+      "2. たてぶつ",
+      "3. たてもの",
+      "4. たてもん"
+    ],
+    "answer": "3. たてもの",
+    "explanation": "建物 (たてもの) means 'building'.",
+    "choice_explanations": [
+      "けんもの: 建 uses kun-reading たて here, not けん.",
+      "たてぶつ: 物 uses kun-reading もの here, not ぶつ.",
+      "Correct: たてもの (建物) = building.",
+      "たてもん: Casual spoken contraction, standard reading is たてもの."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q11 (Kanji Reading)"
+  },
+  {
+    "id": "N4-012",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "毎日【運動】をしていますか。",
+    "choices": [
+      "1. うんと",
+      "2. おんどう",
+      "3. くんどう",
+      "4. うんどう"
+    ],
+    "answer": "4. うんどう",
+    "explanation": "運動 (うんどう) means 'exercise'.",
+    "choice_explanations": [
+      "うんと: Adverb meaning 'a great deal'.",
+      "おんどう: 運 is うん, not おん.",
+      "くんどう: 運 is うん, not くん.",
+      "Correct: うんどう (運動) = exercise / movement."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q12 (Kanji Reading)"
+  },
+  {
+    "id": "N4-013",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【質問】に答えてください。",
+    "choices": [
+      "1. しつもん",
+      "2. じつもん",
+      "3. しつぶん",
+      "4. しちもん"
+    ],
+    "answer": "1. しつもん",
+    "explanation": "質問 (しつもん) means 'question'.",
+    "choice_explanations": [
+      "Correct: しつもん (質問) = question.",
+      "じつもん: 質 is unvoiced しつ, not じつ.",
+      "しつぶん: 問 is もん, not ぶん.",
+      "しちもん: 質 is しつ, not しち."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q13 (Kanji Reading)"
+  },
+  {
+    "id": "N4-014",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "友達に【住所】を教えました。",
+    "choices": [
+      "1. すみしょ",
+      "2. じゅしょ",
+      "3. じゅうしょ",
+      "4. ちゅうしょ"
+    ],
+    "answer": "3. じゅうしょ",
+    "explanation": "住所 (じゅうしょ) means 'address'.",
+    "choice_explanations": [
+      "すみしょ: 住 uses on-reading じゅう, not kun-reading すむ.",
+      "じゅしょ: Missing long vowel う on 住 (じゅう).",
+      "Correct: じゅうしょ (住所) = address.",
+      "ちゅうしょ: 住 is voiced じゅう, not ちゅう."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q14 (Kanji Reading)"
+  },
+  {
+    "id": "N4-015",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのうの夜、【映画】を見ました。",
+    "choices": [
+      "1. えいご",
+      "2. ようが",
+      "3. えいが",
+      "4. えいか"
+    ],
+    "answer": "3. えいが",
+    "explanation": "映画 (えいが) means 'movie'.",
+    "choice_explanations": [
+      "えいご (英語) = English language.",
+      "ようが (洋画) = Western film (different kanji).",
+      "Correct: えいが (映画) = movie / film.",
+      "えいか: 画 is voiced が, not か."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q15 (Kanji Reading)"
+  },
+  {
+    "id": "N4-016",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この道は【危険】ですから気をつけて。",
+    "choices": [
+      "1. きけん",
+      "2. きげん",
+      "3. ぎけん",
+      "4. あぶけん"
+    ],
+    "answer": "1. きけん",
+    "explanation": "危険 (きけん) means 'dangerous'.",
+    "choice_explanations": [
+      "Correct: きけん (危険) = dangerous / danger.",
+      "きげん: 期限/機嫌 (deadline/mood), 険 is けん.",
+      "ぎけん: 危 is unvoiced き, not ぎ.",
+      "あぶけん: Mixes kun-reading あぶない with on-reading けん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q16 (Kanji Reading)"
+  },
+  {
+    "id": "N4-017",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "誕生日に【写真】をたくさん撮りました。",
+    "choices": [
+      "1. しょしん",
+      "2. じゃしん",
+      "3. しゃしん",
+      "4. しゃじん"
+    ],
+    "answer": "3. しゃしん",
+    "explanation": "写真 (しゃしん) means 'photograph'.",
+    "choice_explanations": [
+      "しょしん: 写 is しゃ, not しょ (初心 = original intention).",
+      "じゃしん: 写 is unvoiced しゃ, not じゃ (邪心 = evil mind).",
+      "Correct: しゃしん (写真) = photograph.",
+      "しゃじん: 真 is unvoiced しん, not じん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q17 (Kanji Reading)"
+  },
+  {
+    "id": "N4-018",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "母は【病院】で働いています。",
+    "choices": [
+      "1. びょいん",
+      "2. びょういん",
+      "3. ひょういん",
+      "4. びよういん"
+    ],
+    "answer": "2. びょういん",
+    "explanation": "病院 (びょういん) means 'hospital'.",
+    "choice_explanations": [
+      "びょいん: Missing long vowel う on 病 (びょう).",
+      "Correct: びょういん (病院) = hospital.",
+      "ひょういん: 病 is voiced びょう, not ひょう.",
+      "びよういん: 美容院 (beauty salon) has short よ instead of ょう."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q18 (Kanji Reading)"
+  },
+  {
+    "id": "N4-019",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きょうは【気分】があまりよくないです。",
+    "choices": [
+      "1. ぎぶん",
+      "2. きふん",
+      "3. けぶん",
+      "4. きぶん"
+    ],
+    "answer": "4. きぶん",
+    "explanation": "気分 (きぶん) means 'feeling / mood'.",
+    "choice_explanations": [
+      "ぎぶん: 気 is unvoiced き, not ぎ.",
+      "きふん: 分 voices to ぶん here, not ふん.",
+      "けぶん: 気 is き here, not け.",
+      "Correct: きぶん (気分) = feeling / mood."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q19 (Kanji Reading)"
+  },
+  {
+    "id": "N4-020",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "教室の【窓】を開けましょう。",
+    "choices": [
+      "1. かべ",
+      "2. と",
+      "3. ゆか",
+      "4. まど"
+    ],
+    "answer": "4. まど",
+    "explanation": "窓 (まど) means 'window'.",
+    "choice_explanations": [
+      "かべ (壁) = wall.",
+      "と (戸) = sliding door.",
+      "ゆか (床) = floor.",
+      "Correct: まど (窓) = window."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q20 (Kanji Reading)"
+  },
+  {
+    "id": "N4-021",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "兄は【大学】で経済を勉強しています。",
+    "choices": [
+      "1. おおがく",
+      "2. だいかく",
+      "3. だいがく",
+      "4. たいがく"
+    ],
+    "answer": "3. だいがく",
+    "explanation": "大学 (だいがく) means 'university'.",
+    "choice_explanations": [
+      "おおがく: Uses kun-reading おおきい instead of on-reading だい.",
+      "だいかく: 学 voices to がく in 大学.",
+      "Correct: だいがく (大学) = university / college.",
+      "たいがく: 退学 = dropping out of school; 大 is だい in 大学."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q21 (Kanji Reading)"
+  },
+  {
+    "id": "N4-022",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【地図】を見てください。",
+    "choices": [
+      "1. じず",
+      "2. ちづ",
+      "3. ちと",
+      "4. ちず"
+    ],
+    "answer": "4. ちず",
+    "explanation": "地図 (ちず) means 'map'.",
+    "choice_explanations": [
+      "じず: 地 is ち here, not じ.",
+      "ちづ: Standard kana spelling is ちず (with ず), not ちづ.",
+      "ちと: 図 is ず here, not と (図書館 uses と).",
+      "Correct: ちず (地図) = map."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q22 (Kanji Reading)"
+  },
+  {
+    "id": "N4-023",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたの朝、早く【起】きます。",
+    "choices": [
+      "1. ね",
+      "2. い",
+      "3. き",
+      "4. おき"
+    ],
+    "answer": "4. おき",
+    "explanation": "起きる (おきる) means 'to wake up'.",
+    "choice_explanations": [
+      "ね (寝る) = sleep.",
+      "い (行く) = go.",
+      "き (来る/着る) = come / wear.",
+      "Correct: おき (起きる) = wake up / get up."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q23 (Kanji Reading)"
+  },
+  {
+    "id": "N4-024",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "日本の【音楽】が好きです。",
+    "choices": [
+      "1. おんらく",
+      "2. おとがく",
+      "3. おんがく",
+      "4. おんかく"
+    ],
+    "answer": "3. おんがく",
+    "explanation": "音楽 (おんがく) means 'music'.",
+    "choice_explanations": [
+      "おんらく: 楽 is がく here, not らく.",
+      "おとがく: 音 uses on-reading おん here, not おと.",
+      "Correct: おんがく (音楽) = music.",
+      "おんかく: Missing voicing on 楽 (がく, not かく)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q24 (Kanji Reading)"
+  },
+  {
+    "id": "N4-025",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【問題】は少し難しいです。",
+    "choices": [
+      "1. もんだい",
+      "2. もんたい",
+      "3. ぶんだい",
+      "4. といだい"
+    ],
+    "answer": "1. もんだい",
+    "explanation": "問題 (もんだい) means 'problem / question'.",
+    "choice_explanations": [
+      "Correct: もんだい (問題) = problem / question.",
+      "もんたい: 題 is voiced だい, not たい.",
+      "ぶんだい: 問 is もん, not ぶん.",
+      "といだい: Uses kun-reading とい instead of on-reading もん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q25 (Kanji Reading)"
+  },
+  {
+    "id": "N4-026",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きょうは【夕方】から雨が降るそうです。",
+    "choices": [
+      "1. ゆがた",
+      "2. ゆうがた",
+      "3. ゆうほう",
+      "4. せきがた"
+    ],
+    "answer": "2. ゆうがた",
+    "explanation": "夕方 (ゆうがた) means 'evening / late afternoon'.",
+    "choice_explanations": [
+      "ゆがた: Missing long vowel う on 夕 (ゆう).",
+      "Correct: ゆうがた (夕方) = evening / dusk.",
+      "ゆうほう: 方 is かた/がた here, not ほう.",
+      "せきがた: Wrong reading for 夕."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q26 (Kanji Reading)"
+  },
+  {
+    "id": "N4-027",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "公園で犬を【散歩】させています。",
+    "choices": [
+      "1. さんほ",
+      "2. さんぽ",
+      "3. さんぼ",
+      "4. ざんぽ"
+    ],
+    "answer": "2. さんぽ",
+    "explanation": "散歩 (さんぽ) means 'a walk / stroll'.",
+    "choice_explanations": [
+      "さんほ: 歩 becomes ぽ after ん in 散歩.",
+      "Correct: さんぽ (散歩) = walk / stroll.",
+      "さんぼ: 半濁音 ぽ (with p), not ぼ (with b).",
+      "ざんぽ: 散 is unvoiced さん, not ざん."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q27 (Kanji Reading)"
+  },
+  {
+    "id": "N4-028",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この漢字の【意味】を調べました。",
+    "choices": [
+      "1. いいみ",
+      "2. いんみ",
+      "3. こころみ",
+      "4. いみ"
+    ],
+    "answer": "4. いみ",
+    "explanation": "意味 (いみ) means 'meaning'.",
+    "choice_explanations": [
+      "いいみ: 意 is short い, not いい.",
+      "いんみ: No ん in 意 (い).",
+      "こころみ: 試み = attempt/trial, wrong kanji.",
+      "Correct: いみ (意味) = meaning / sense."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q28 (Kanji Reading)"
+  },
+  {
+    "id": "N4-029",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "来月、【引越し】をする予定です。",
+    "choices": [
+      "1. ひきこし",
+      "2. いんこし",
+      "3. ひっこじ",
+      "4. ひっこし"
+    ],
+    "answer": "4. ひっこし",
+    "explanation": "引越し (ひっこし) means 'moving (house)'.",
+    "choice_explanations": [
+      "ひきこし: Contracts to small っ (ひっこし).",
+      "いんこし: 引 uses kun-reading ひく -> ひっ, not いん.",
+      "ひっこじ: 越し stays unvoiced こし, not こじ.",
+      "Correct: ひっこし (引越し) = moving house."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q29 (Kanji Reading)"
+  },
+  {
+    "id": "N4-030",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "お【茶】を一杯いかがですか。",
+    "choices": [
+      "1. さ",
+      "2. た",
+      "3. ちゃ",
+      "4. じゃ"
+    ],
+    "answer": "3. ちゃ",
+    "explanation": "お茶 (おちゃ) means 'tea'.",
+    "choice_explanations": [
+      "さ: 喫茶 (きっさ) uses さ, not お茶.",
+      "た: Wrong reading.",
+      "Correct: ちゃ — お茶 (おちゃ) = tea.",
+      "じゃ: Tea is unvoiced ちゃ."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q30 (Kanji Reading)"
+  },
+  {
+    "id": "N4-031",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "毎日、日本語を【べんきょう】しています。",
+    "choices": [
+      "1. 弁強",
+      "2. 勉強",
+      "3. 勉教",
+      "4. 免強"
+    ],
+    "answer": "2. 勉強",
+    "explanation": "勉強 (べんきょう) means 'study'.",
+    "choice_explanations": [
+      "弁強: 弁 means speech/valve (弁当), not study.",
+      "Correct: 勉強 (べんきょう) = study.",
+      "勉教: 教 means teach (教育), not 強.",
+      "免強: 免 means exempt/avoid, missing 力 radical."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q31 (Orthography)"
+  },
+  {
+    "id": "N4-032",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたの【てんき】はどうですか。",
+    "choices": [
+      "1. 電気",
+      "2. 天記",
+      "3. 転気",
+      "4. 天気"
+    ],
+    "answer": "4. 天気",
+    "explanation": "天気 (てんき) means 'weather'.",
+    "choice_explanations": [
+      "電気 (でんき) = electricity / light.",
+      "天記: 記 means record, not 気.",
+      "転気: 転 means turn/revolve (自転車).",
+      "Correct: 天気 (てんき) = weather."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q32 (Orthography)"
+  },
+  {
+    "id": "N4-033",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "駅で友達を【ま】っています。",
+    "choices": [
+      "1. 時",
+      "2. 持",
+      "3. 特",
+      "4. 待"
+    ],
+    "answer": "4. 待",
+    "explanation": "待つ (まつ) means 'to wait'. 持つ is もつ (to hold).",
+    "choice_explanations": [
+      "時 (とき) = time / hour.",
+      "持 (もつ) = to hold / have (hand radical 扌, not 彳!).",
+      "特 (とく) = special (cow radical 牜).",
+      "Correct: 待 (まつ) = to wait (person/step radical 彳)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q33 (Orthography)"
+  },
+  {
+    "id": "N4-034",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【みせ】のパンはおいしいです。",
+    "choices": [
+      "1. 度",
+      "2. 屋",
+      "3. 席",
+      "4. 店"
+    ],
+    "answer": "4. 店",
+    "explanation": "店 (みせ) means 'shop / store'.",
+    "choice_explanations": [
+      "度 (ど/たび) = degree / time.",
+      "屋 (や) = suffix for shops (パン屋), never read みせ.",
+      "席 (せき) = seat.",
+      "Correct: 店 (みせ) = shop / store."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q34 (Orthography)"
+  },
+  {
+    "id": "N4-035",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのう、【かぞく】と電話で話しました。",
+    "choices": [
+      "1. 家続",
+      "2. 加族",
+      "3. 家足",
+      "4. 家族"
+    ],
+    "answer": "4. 家族",
+    "explanation": "家族 (かぞく) means 'family'.",
+    "choice_explanations": [
+      "家続: 続 means continue (続く).",
+      "加族: 加 means add (参加).",
+      "家足: 足 means foot / be enough.",
+      "Correct: 家族 (かぞく) = family."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q35 (Orthography)"
+  },
+  {
+    "id": "N4-036",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "荷物を【おく】りました。",
+    "choices": [
+      "1. 贈",
+      "2. 送",
+      "3. 起",
+      "4. 置"
+    ],
+    "answer": "2. 送",
+    "explanation": "送る (おくる) means 'to send (a package/letter)'. 贈る is for gifts.",
+    "choice_explanations": [
+      "贈 (おくる) = to present a gift/award; shipping parcels uses 送.",
+      "Correct: 送 (おくる) = to send (a parcel/letter).",
+      "起 (おきる/おこす) = wake up / raise.",
+      "置 (おく) = place / put down (takes 荷物を置きました, not おくりました)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q36 (Orthography)"
+  },
+  {
+    "id": "N4-037",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "夏は【うみ】で泳ぐのが楽しいです。",
+    "choices": [
+      "1. 海",
+      "2. 川",
+      "3. 湖",
+      "4. 池"
+    ],
+    "answer": "1. 海",
+    "explanation": "海 (うみ) means 'sea / ocean'.",
+    "choice_explanations": [
+      "Correct: 海 (うみ) = sea / ocean.",
+      "川 (かわ) = river.",
+      "湖 (みずうみ) = lake.",
+      "池 (いけ) = pond."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q37 (Orthography)"
+  },
+  {
+    "id": "N4-038",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "テーブルの上に花を【お】きました。",
+    "choices": [
+      "1. 押",
+      "2. 送",
+      "3. 置",
+      "4. 起"
+    ],
+    "answer": "3. 置",
+    "explanation": "置く (おく) means 'to place / put'.",
+    "choice_explanations": [
+      "押 (おす) = push / press.",
+      "送 (おくる) = send.",
+      "Correct: 置 (おく) = put / place.",
+      "起 (おきる) = get up."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q38 (Orthography)"
+  },
+  {
+    "id": "N4-039",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "日本語の【しけん】に合格しました。",
+    "choices": [
+      "1. 視験",
+      "2. 紙験",
+      "3. 試験",
+      "4. 試検"
+    ],
+    "answer": "3. 試験",
+    "explanation": "試験 (しけん) means 'exam / test'.",
+    "choice_explanations": [
+      "視験: 視 means vision (テレビ/視力).",
+      "紙験: 紙 means paper.",
+      "Correct: 試験 (しけん) = examination / test.",
+      "試検: 検 means inspect/check (検査), not 験 (horse radical 馬)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q39 (Orthography)"
+  },
+  {
+    "id": "N4-040",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【まち】は静かで住みやすいです。",
+    "choices": [
+      "1. 区",
+      "2. 町",
+      "3. 市",
+      "4. 村"
+    ],
+    "answer": "2. 町",
+    "explanation": "町 (まち) means 'town'.",
+    "choice_explanations": [
+      "区 (く) = ward.",
+      "Correct: 町 (まち) = town / neighborhood.",
+      "市 (し) = city.",
+      "村 (むら) = village."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q40 (Orthography)"
+  },
+  {
+    "id": "N4-041",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "夜、空にきれいな【ほし】が見えます。",
+    "choices": [
+      "1. 風",
+      "2. 星",
+      "3. 雲",
+      "4. 月"
+    ],
+    "answer": "2. 星",
+    "explanation": "星 (ほし) means 'star'.",
+    "choice_explanations": [
+      "風 (かぜ) = wind.",
+      "Correct: 星 (ほし) = star.",
+      "雲 (くも) = cloud.",
+      "月 (つき) = moon."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q41 (Orthography)"
+  },
+  {
+    "id": "N4-042",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "毎日【しごと】が忙しいです。",
+    "choices": [
+      "1. 私事",
+      "2. 仕事",
+      "3. 死事",
+      "4. 史事"
+    ],
+    "answer": "2. 仕事",
+    "explanation": "仕事 (しごと) means 'work / job'.",
+    "choice_explanations": [
+      "私事 (わたくしごと) = personal/private matter.",
+      "Correct: 仕事 (しごと) = work / job.",
+      "死事: Not a word (死 = death).",
+      "史事: Not a word (史 = history)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q42 (Orthography)"
+  },
+  {
+    "id": "N4-043",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あたらしい【ようふく】を買いました。",
+    "choices": [
+      "1. 様服",
+      "2. 洋服",
+      "3. 要服",
+      "4. 洋復"
+    ],
+    "answer": "2. 洋服",
+    "explanation": "洋服 (ようふく) means 'Western-style clothes'.",
+    "choice_explanations": [
+      "様服: 様 means manner/appearance (様子), not 洋 (Western).",
+      "Correct: 洋服 (ようふく) = clothes (Western-style).",
+      "要服: 要 means need/important.",
+      "洋復: 復 means return/repeat (復習), not 服 (clothes)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q43 (Orthography)"
+  },
+  {
+    "id": "N4-044",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この【みず】は冷たくておいしいです。",
+    "choices": [
+      "1. 氷",
+      "2. 湯",
+      "3. 水",
+      "4. 茶"
+    ],
+    "answer": "3. 水",
+    "explanation": "水 (みず) means 'water'.",
+    "choice_explanations": [
+      "氷 (こおり) = ice.",
+      "湯 (ゆ/おゆ) = hot water.",
+      "Correct: 水 (みず) = water.",
+      "茶 (ちゃ/おちゃ) = tea."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q44 (Orthography)"
+  },
+  {
+    "id": "N4-045",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "日曜日に友達と【あそ】びました。",
+    "choices": [
+      "1. 進",
+      "2. 遊",
+      "3. 返",
+      "4. 運"
+    ],
+    "answer": "2. 遊",
+    "explanation": "遊ぶ (あそぶ) means 'to play / hang out'.",
+    "choice_explanations": [
+      "進 (すすむ) = advance.",
+      "Correct: 遊 (あそぶ) = play / hang out.",
+      "返 (かえす) = return something.",
+      "運 (はこぶ) = carry / transport."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q45 (Orthography)"
+  },
+  {
+    "id": "N4-046",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "図書館で本を【か】りました。",
+    "choices": [
+      "1. 貸",
+      "2. 買",
+      "3. 借",
+      "4. 替"
+    ],
+    "answer": "3. 借",
+    "explanation": "借りる (かりる) means 'to borrow'.",
+    "choice_explanations": [
+      "貸 (かす) = to lend.",
+      "買 (かう) = to buy.",
+      "Correct: 借 (かりる) = to borrow.",
+      "替 (かえる) = to exchange / replace."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q46 (Orthography)"
+  },
+  {
+    "id": "N4-047",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きょうはとても【あつ】いですね。",
+    "choices": [
+      "1. 厚",
+      "2. 温",
+      "3. 熱",
+      "4. 暑"
+    ],
+    "answer": "4. 暑",
+    "explanation": "暑い (あつい) is used for hot weather; 熱い is for hot objects/liquids.",
+    "choice_explanations": [
+      "厚 (あつい) = thick (for books, clothes).",
+      "温 (あたたかい) = warm.",
+      "熱 (あつい) = hot to the touch (soup, fever, surface), NOT weather/air.",
+      "Correct: 暑 (あつい) = hot (weather/climate)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q47 (Orthography)"
+  },
+  {
+    "id": "N4-048",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "駅まで【ちか】いですから、歩いて行けます。",
+    "choices": [
+      "1. 速",
+      "2. 遠",
+      "3. 近",
+      "4. 遅"
+    ],
+    "answer": "3. 近",
+    "explanation": "近い (ちかい) means 'near / close'.",
+    "choice_explanations": [
+      "速 (はやい) = fast / quick.",
+      "遠 (とおい) = far.",
+      "Correct: 近 (ちかい) = near / close.",
+      "遅 (おそい) = slow / late."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q48 (Orthography)"
+  },
+  {
+    "id": "N4-049",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "テストの【こたえ】を紙に書いてください。",
+    "choices": [
+      "1. 問",
+      "2. 答",
+      "3. 合",
+      "4. 話"
+    ],
+    "answer": "2. 答",
+    "explanation": "答え (こたえ) means 'answer'.",
+    "choice_explanations": [
+      "問 (とい) = question.",
+      "Correct: 答 (こたえ) = answer.",
+      "合 (あう/あわせる) = match / combine.",
+      "話 (はなし) = talk / story."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q49 (Orthography)"
+  },
+  {
+    "id": "N4-050",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "かばんの中に【さいふ】が入っています。",
+    "choices": [
+      "1. 財布",
+      "2. 在布",
+      "3. 材布",
+      "4. 財部"
+    ],
+    "answer": "1. 財布",
+    "explanation": "財布 (さいふ) means 'wallet'.",
+    "choice_explanations": [
+      "Correct: 財布 (さいふ) = wallet / purse.",
+      "在布: 在 means exist/be in.",
+      "材布: 材 means material/wood.",
+      "財部: 部 means section/department (not 布 cloth)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q50 (Orthography)"
+  },
+  {
+    "id": "N4-051",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "部屋が暑いので、（ ）をつけましょう。",
+    "choices": [
+      "1. ドア",
+      "2. ラジオ",
+      "3. テレビ",
+      "4. エアコン"
+    ],
+    "answer": "4. エアコン",
+    "explanation": "エアコン (air conditioner) cools a hot room.",
+    "choice_explanations": [
+      "ドア = door (you open 開ける a door, not つける).",
+      "ラジオ = radio (doesn't cool a hot room).",
+      "テレビ = TV.",
+      "Correct: エアコン = air conditioner."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q51 (Context)"
+  },
+  {
+    "id": "N4-052",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのう、デパートで新しい靴を（ ）。",
+    "choices": [
+      "1. 売りました",
+      "2. 作りました",
+      "3. 買いました",
+      "4. 洗いました"
+    ],
+    "answer": "3. 買いました",
+    "explanation": "Buying new shoes at a department store uses 買いました.",
+    "choice_explanations": [
+      "売りました = sold (customers buy, not sell, at a department store).",
+      "作りました = made.",
+      "Correct: 買いました = bought ('bought new shoes at a department store').",
+      "洗いました = washed."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q52 (Context)"
+  },
+  {
+    "id": "N4-053",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この道は狭いので、車に（ ）ください。",
+    "choices": [
+      "1. 約束して",
+      "2. 気をつけて",
+      "3. 心配して",
+      "4. 安心して"
+    ],
+    "answer": "2. 気をつけて",
+    "explanation": "気をつけて (be careful) fits a narrow road with cars.",
+    "choice_explanations": [
+      "約束して = promise.",
+      "Correct: 気をつけて = be careful ('Watch out for cars since this road is narrow').",
+      "心配して = worry.",
+      "安心して = feel relieved."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q53 (Context)"
+  },
+  {
+    "id": "N4-054",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "友達が来るので、部屋をきれいに（ ）。",
+    "choices": [
+      "1. 掃除しました",
+      "2. 散歩しました",
+      "3. 洗濯しました",
+      "4. 料理しました"
+    ],
+    "answer": "1. 掃除しました",
+    "explanation": "掃除する (そうじする) means 'to clean (a room)'.",
+    "choice_explanations": [
+      "Correct: 掃除しました = cleaned ('cleaned my room cleanly because a friend is coming').",
+      "散歩しました = took a walk.",
+      "洗濯しました = washed clothes (laundry).",
+      "料理しました = cooked."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q54 (Context)"
+  },
+  {
+    "id": "N4-055",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "日本の生活は最初は大変でしたが、今はもう（ ）。",
+    "choices": [
+      "1. 忘れました",
+      "2. 困りました",
+      "3. 疲れました",
+      "4. 慣れました"
+    ],
+    "answer": "4. 慣れました",
+    "explanation": "慣れる (なれる) means 'to get used to'.",
+    "choice_explanations": [
+      "忘れました = forgot.",
+      "困りました = had trouble (contradicts 今はもう after が 'but').",
+      "疲れました = got tired.",
+      "Correct: 慣れました = got used to ('was tough at first, but now I'm used to it')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q55 (Context)"
+  },
+  {
+    "id": "N4-056",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたの朝、7時に（ ）つもりです。",
+    "choices": [
+      "1. 帰る",
+      "2. 休む",
+      "3. 起きる",
+      "4. 寝る"
+    ],
+    "answer": "3. 起きる",
+    "explanation": "起きる (to wake up) fits 7:00 AM.",
+    "choice_explanations": [
+      "帰る = go home (unusual at 7 AM morning).",
+      "休む = rest / take off.",
+      "Correct: 起きる = wake up ('I intend to get up at 7 AM tomorrow').",
+      "寝る = go to sleep (unusual at 7 AM)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q56 (Context)"
+  },
+  {
+    "id": "N4-057",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この（ ）はとても便利で、毎日使っています。",
+    "choices": [
+      "1. きぶん",
+      "2. おと",
+      "3. てんき",
+      "4. アプリ"
+    ],
+    "answer": "4. アプリ",
+    "explanation": "アプリ (app) is something convenient used every day.",
+    "choice_explanations": [
+      "きぶん (気分) = mood/feeling.",
+      "おと (音) = sound.",
+      "てんき (天気) = weather.",
+      "Correct: アプリ = smartphone app ('This app is very convenient')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q57 (Context)"
+  },
+  {
+    "id": "N4-058",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "おなかがすいたので、何か（ ）に行きましょう。",
+    "choices": [
+      "1. 飲み",
+      "2. 聞き",
+      "3. 食べ",
+      "4. 見"
+    ],
+    "answer": "3. 食べ",
+    "explanation": "おなかがすいた (I'm hungry) -> 食べに行きましょう (let's go eat).",
+    "choice_explanations": [
+      "飲み = drink (for thirsty のどがかわいた, not hungry おなかがすいた).",
+      "聞き = listen.",
+      "Correct: 食べ = eat ('Since I'm hungry, let's go eat something').",
+      "見 = look/watch."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q58 (Context)"
+  },
+  {
+    "id": "N4-059",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "雨が降ってきたから、洗濯物を（ ）に入れます。",
+    "choices": [
+      "1. 外",
+      "2. 部屋",
+      "3. 庭",
+      "4. 駅"
+    ],
+    "answer": "2. 部屋",
+    "explanation": "When it rains, bring laundry into the room (部屋).",
+    "choice_explanations": [
+      "外 (そと) = outside (opposite — it's raining outside!).",
+      "Correct: 部屋 (へや) = room ('bring laundry inside the room').",
+      "庭 (にわ) = garden/yard (still outdoors!).",
+      "駅 (えき) = station."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q59 (Context)"
+  },
+  {
+    "id": "N4-060",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この質問は（ ）すぎて、私にはわかりません。",
+    "choices": [
+      "1. 難し",
+      "2. 嬉し",
+      "3. 楽し",
+      "4. 易し"
+    ],
+    "answer": "1. 難し",
+    "explanation": "難しい (むずかしい, difficult) explains why the speaker doesn't understand.",
+    "choice_explanations": [
+      "Correct: 難し (難しい) = difficult ('This question is too difficult').",
+      "嬉し (嬉しい) = happy.",
+      "楽し (楽しい) = fun.",
+      "易し (易しい) = easy (contradicts 'I don't understand')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q60 (Context)"
+  },
+  {
+    "id": "N4-061",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "電話が（ ）いますよ。早く出てください。",
+    "choices": [
+      "1. 止まって",
+      "2. 消えて",
+      "3. 泣いて",
+      "4. 鳴って"
+    ],
+    "answer": "4. 鳴って",
+    "explanation": "電話が鳴る (でんわがなる) means 'the phone is ringing'.",
+    "choice_explanations": [
+      "止まって = stopped.",
+      "消えて = disappeared / went out.",
+      "泣いて = crying (for people/animals, not phones).",
+      "Correct: 鳴って (鳴る) = ringing ('The phone is ringing, answer quickly!')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q61 (Context)"
+  },
+  {
+    "id": "N4-062",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのうの夜、遅くまで起きていたので、とても（ ）です。",
+    "choices": [
+      "1. 暑い",
+      "2. 忙しい",
+      "3. 寒い",
+      "4. 眠い"
+    ],
+    "answer": "4. 眠い",
+    "explanation": "Staying up late makes you sleepy (眠い, ねむい).",
+    "choice_explanations": [
+      "暑い = hot (weather).",
+      "忙しい = busy.",
+      "寒い = cold.",
+      "Correct: 眠い (ねむい) = sleepy."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q62 (Context)"
+  },
+  {
+    "id": "N4-063",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "先生の話がよく聞こえないので、もう少し（ ）声で話してください。",
+    "choices": [
+      "1. 大きい",
+      "2. 低い",
+      "3. 小さい",
+      "4. 高い"
+    ],
+    "answer": "1. 大きい",
+    "explanation": "大きい声 (loud/bigger voice) helps when you can't hear well.",
+    "choice_explanations": [
+      "Correct: 大きい = loud/big voice ('Please speak a little louder').",
+      "低い = low-pitched voice.",
+      "小さい = quiet/soft voice (would make it even harder to hear!).",
+      "高い = high-pitched voice."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q63 (Context)"
+  },
+  {
+    "id": "N4-064",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "このバスは駅の前で（ ）ますか。",
+    "choices": [
+      "1. 終わり",
+      "2. 止まり",
+      "3. 始まり",
+      "4. 変わり"
+    ],
+    "answer": "2. 止まり",
+    "explanation": "バスが止まる (the bus stops) at the station.",
+    "choice_explanations": [
+      "終わり = ends.",
+      "Correct: 止まり (止まる) = stops ('Does this bus stop in front of the station?').",
+      "始まり = starts.",
+      "変わり = changes."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q64 (Context)"
+  },
+  {
+    "id": "N4-065",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたはテストですから、今晩しっかり（ ）します。",
+    "choices": [
+      "1. 買い物",
+      "2. 旅行",
+      "3. 復習",
+      "4. 散歩"
+    ],
+    "answer": "3. 復習",
+    "explanation": "復習 (ふくしゅう, review) is done before a test.",
+    "choice_explanations": [
+      "買い物 = shopping.",
+      "旅行 = travel.",
+      "Correct: 復習 = review / studying over learned material.",
+      "散歩 = walk / stroll."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q65 (Context)"
+  },
+  {
+    "id": "N4-066",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "このセーターはとても（ ）て、冬にぴったりです。",
+    "choices": [
+      "1. 寒く",
+      "2. 重く",
+      "3. 暖かく",
+      "4. 涼しく"
+    ],
+    "answer": "3. 暖かく",
+    "explanation": "暖かい (あたたかい, warm) fits a sweater in winter.",
+    "choice_explanations": [
+      "寒く (寒い) = cold.",
+      "重く (重い) = heavy.",
+      "Correct: 暖かく (暖かい) = warm ('perfect for winter').",
+      "涼しく (涼しい) = cool / breezy (for summer/autumn)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q66 (Context)"
+  },
+  {
+    "id": "N4-067",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "駅で友達に（ ）会いました。",
+    "choices": [
+      "1. たまたま",
+      "2. めったに",
+      "3. ぜったい",
+      "4. かならず"
+    ],
+    "answer": "1. たまたま",
+    "explanation": "たまたま means 'by chance / coincidentally'.",
+    "choice_explanations": [
+      "Correct: たまたま = by chance / happened to meet.",
+      "めったに (+ negative) = rarely (cannot be used with positive 会いました).",
+      "ぜったい = definitely (used for certainty/commands, not an unexpected past meeting).",
+      "かならず = surely / without fail."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q67 (Context)"
+  },
+  {
+    "id": "N4-068",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "仕事が終わってから、みんなで（ ）を飲みに行きました。",
+    "choices": [
+      "1. ご飯",
+      "2. お茶",
+      "3. ケーキ",
+      "4. パン"
+    ],
+    "answer": "2. お茶",
+    "explanation": "飲みに行く (to go drink) takes a beverage like お茶.",
+    "choice_explanations": [
+      "ご飯 = meal/rice (you eat 食べる rice, not drink 飲む).",
+      "Correct: お茶 = tea ('went for tea/drinks together after work').",
+      "ケーキ = cake (solid food).",
+      "パン = bread (solid food)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q68 (Context)"
+  },
+  {
+    "id": "N4-069",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この箱は（ ）ですから、一人で持てます。",
+    "choices": [
+      "1. 高い",
+      "2. 大きい",
+      "3. 軽い",
+      "4. 重い"
+    ],
+    "answer": "3. 軽い",
+    "explanation": "軽い (かるい, light) explains why one person can carry it.",
+    "choice_explanations": [
+      "高い = tall / expensive.",
+      "大きい = big (doesn't make it easy for 1 person to carry).",
+      "Correct: 軽い (かるい) = light in weight ('I can carry it alone').",
+      "重い (おもい) = heavy (opposite — hard to carry alone)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q69 (Context)"
+  },
+  {
+    "id": "N4-070",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "パスポートを（ ）ので、飛行機に乗れませんでした。",
+    "choices": [
+      "1. 覚えた",
+      "2. 忘れた",
+      "3. 使った",
+      "4. 見つけた"
+    ],
+    "answer": "2. 忘れた",
+    "explanation": "Forgetting your passport (忘れた) prevents boarding a plane.",
+    "choice_explanations": [
+      "覚えた = remembered / memorized.",
+      "Correct: 忘れた = forgot ('forgot my passport so couldn't board the plane').",
+      "使った = used.",
+      "見つけた = found."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q70 (Context)"
+  },
+  {
+    "id": "N4-071",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "毎日野菜を食べると、（ ）にいいですよ。",
+    "choices": [
+      "1. 足",
+      "2. 手",
+      "3. 体",
+      "4. 頭"
+    ],
+    "answer": "3. 体",
+    "explanation": "体にいい (good for the body/health) is the standard phrase.",
+    "choice_explanations": [
+      "足 = leg/foot.",
+      "手 = hand.",
+      "Correct: 体 (からだ) — 体にいい = good for your health/body.",
+      "頭 = head (頭がいい = smart, doesn't fit eating vegetables daily)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q71 (Context)"
+  },
+  {
+    "id": "N4-072",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この漢字の（ ）を辞書で調べました。",
+    "choices": [
+      "1. 作り方",
+      "2. 食べ方",
+      "3. 読み方",
+      "4. 歩き方"
+    ],
+    "answer": "3. 読み方",
+    "explanation": "Looking up the reading (読み方) of a kanji in a dictionary.",
+    "choice_explanations": [
+      "作り方 = how to make.",
+      "食べ方 = how to eat.",
+      "Correct: 読み方 = how to read / pronunciation.",
+      "歩き方 = how to walk."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q72 (Context)"
+  },
+  {
+    "id": "N4-073",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "部屋を出て行くとき、電気を（ ）ください。",
+    "choices": [
+      "1. 閉めて",
+      "2. 開けて",
+      "3. つけて",
+      "4. 消して"
+    ],
+    "answer": "4. 消して",
+    "explanation": "電気を消す (to turn off the light) when leaving a room.",
+    "choice_explanations": [
+      "閉めて = close (for doors/windows, not lights).",
+      "開けて = open (for doors/windows).",
+      "つけて = turn on (opposite when leaving!).",
+      "Correct: 消して = turn off ('Please turn off the light when leaving the room')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q73 (Context)"
+  },
+  {
+    "id": "N4-074",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "田中さんはピアノを（ ）のがとても上手です。",
+    "choices": [
+      "1. 歌う",
+      "2. 叩く",
+      "3. 弾く",
+      "4. 吹く"
+    ],
+    "answer": "3. 弾く",
+    "explanation": "ピアノを弾く (ひく) is the verb for playing string/keyboard instruments.",
+    "choice_explanations": [
+      "歌う (うたう) = sing (for songs 歌を歌う).",
+      "叩く (たたく) = hit/strike (for drums 太鼓を叩く).",
+      "Correct: 弾く (ひく) = play (piano/guitar/violin).",
+      "吹く (ふく) = blow (wind instruments like flute)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q74 (Context)"
+  },
+  {
+    "id": "N4-075",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "来週の旅行が（ ）で、毎日わくわくしています。",
+    "choices": [
+      "1. 心配",
+      "2. 大変",
+      "3. 楽しみ",
+      "4. 残念"
+    ],
+    "answer": "3. 楽しみ",
+    "explanation": "楽しみ (looking forward to) matches feeling excited (わくわく).",
+    "choice_explanations": [
+      "心配 = worry/anxious.",
+      "大変 = tough/hard.",
+      "Correct: 楽しみ (たのしみ) = looking forward to / exciting anticipation.",
+      "残念 = regrettable / too bad."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q75 (Context)"
+  },
+  {
+    "id": "N4-076",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "このテストは【やさしい】です。",
+    "choices": [
+      "1. むずかしいです",
+      "2. かんたんです",
+      "3. みじかいです",
+      "4. ながいです"
+    ],
+    "answer": "2. かんたんです",
+    "explanation": "やさしい (easy/simple) means かんたんです.",
+    "choice_explanations": [
+      "むずかしいです = difficult (opposite).",
+      "Correct: かんたんです = simple / easy (= やさしい).",
+      "みじかいです = short.",
+      "ながいです = long."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q76 (Paraphrases)"
+  },
+  {
+    "id": "N4-077",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "きのうは【ずっと】家にいました。",
+    "choices": [
+      "1. ときどき",
+      "2. 一日中",
+      "3. たまに",
+      "4. 少しの間"
+    ],
+    "answer": "2. 一日中",
+    "explanation": "ずっと (the whole time) matches 一日中 (all day long).",
+    "choice_explanations": [
+      "ときどき = sometimes.",
+      "Correct: 一日中 (いちにちじゅう) = all day long / continuously (= ずっと).",
+      "たまに = occasionally.",
+      "少しの間 = for a short while (opposite of ずっと)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q77 (Paraphrases)"
+  },
+  {
+    "id": "N4-078",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "彼は【すぐ】戻ってきます。",
+    "choices": [
+      "1. ゆっくり",
+      "2. なかなか",
+      "3. もうすぐ",
+      "4. あとで"
+    ],
+    "answer": "3. もうすぐ",
+    "explanation": "すぐ means 'soon / right away' (= もうすぐ).",
+    "choice_explanations": [
+      "ゆっくり = slowly.",
+      "なかなか = hardly / quite.",
+      "Correct: もうすぐ = very soon / in a moment (= すぐ).",
+      "あとで = later (doesn't emphasize immediacy like すぐ/もうすぐ)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q78 (Paraphrases)"
+  },
+  {
+    "id": "N4-079",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この町は【にぎやか】です。",
+    "choices": [
+      "1. 人がいなくて静か",
+      "2. 人が多くて楽しい",
+      "3. とても暗い",
+      "4. とても寒い"
+    ],
+    "answer": "2. 人が多くて楽しい",
+    "explanation": "にぎやか means 'lively / bustling'.",
+    "choice_explanations": [
+      "人がいなくて静か = quiet with no people (opposite).",
+      "Correct: 人が多くて楽しい = lively with many people (= にぎやか).",
+      "とても暗い = very dark.",
+      "とても寒い = very cold."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q79 (Paraphrases)"
+  },
+  {
+    "id": "N4-080",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "日本の料理は【だいたい】好きです。",
+    "choices": [
+      "1. けっして",
+      "2. ほとんど",
+      "3. すこしも",
+      "4. ぜんぜん"
+    ],
+    "answer": "2. ほとんど",
+    "explanation": "だいたい means 'mostly / generally' (= ほとんど).",
+    "choice_explanations": [
+      "けっして (+ negative) = never.",
+      "Correct: ほとんど = mostly / almost all (= だいたい).",
+      "すこしも (+ negative) = not at all.",
+      "ぜんぜん (+ negative) = not at all."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q80 (Paraphrases)"
+  },
+  {
+    "id": "N4-081",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "友達と【やくそく】をしました。",
+    "choices": [
+      "1. 手紙を捨てました",
+      "2. けんかをしました",
+      "3. 電話を切りました",
+      "4. 会う時間を決めました"
+    ],
+    "answer": "4. 会う時間を決めました",
+    "explanation": "約束する (to make a promise/appointment) matches deciding a time to meet.",
+    "choice_explanations": [
+      "手紙を捨てました = threw away a letter.",
+      "けんかをしました = had a fight/quarrel.",
+      "電話を切りました = hung up the phone.",
+      "Correct: 会う時間を決めました = set a time to meet (made an appointment)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q81 (Paraphrases)"
+  },
+  {
+    "id": "N4-082",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この部屋は【せまい】ですね。",
+    "choices": [
+      "1. ひろくない",
+      "2. あたたかくない",
+      "3. あかるくない",
+      "4. しずかでない"
+    ],
+    "answer": "1. ひろくない",
+    "explanation": "せまい (narrow/small) is the opposite of ひろい (spacious).",
+    "choice_explanations": [
+      "Correct: ひろくない = not spacious / small (= せまい).",
+      "あたたかくない = not warm (= 寒い).",
+      "あかるくない = not bright (= 暗い).",
+      "しずかでない = not quiet (= うるさい)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q82 (Paraphrases)"
+  },
+  {
+    "id": "N4-083",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "父は【たまに】料理をします。",
+    "choices": [
+      "1. ぜんぜん",
+      "2. ときどき",
+      "3. まいにち",
+      "4. いつも"
+    ],
+    "answer": "2. ときどき",
+    "explanation": "たまに means 'occasionally / once in a while' (= ときどき).",
+    "choice_explanations": [
+      "ぜんぜん (+ negative) = never / not at all.",
+      "Correct: ときどき = sometimes / occasionally (= たまに).",
+      "まいにち = every day.",
+      "いつも = always."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q83 (Paraphrases)"
+  },
+  {
+    "id": "N4-084",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "この靴は【じょうぶ】です。",
+    "choices": [
+      "1. おもい",
+      "2. こわれにくい",
+      "3. こわれやすい",
+      "4. かるい"
+    ],
+    "answer": "2. こわれにくい",
+    "explanation": "丈夫 (じょうぶ) means 'sturdy / durable' (= hard to break).",
+    "choice_explanations": [
+      "おもい = heavy.",
+      "Correct: こわれにくい = hard to break / sturdy (= じょうぶ).",
+      "こわれやすい = easy to break / fragile (opposite).",
+      "かるい = light."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q84 (Paraphrases)"
+  },
+  {
+    "id": "N4-085",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "あしたは【たぶん】雨が降るでしょう。",
+    "choices": [
+      "1. かならず",
+      "2. おそらく",
+      "3. ぜったいに",
+      "4. けっして"
+    ],
+    "answer": "2. おそらく",
+    "explanation": "たぶん means 'probably' (= おそらく).",
+    "choice_explanations": [
+      "かならず = surely / 100%.",
+      "Correct: おそらく = probably / likely (= たぶん).",
+      "ぜったいに = absolutely.",
+      "けっして (+ negative) = never."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q85 (Paraphrases)"
+  },
+  {
+    "id": "N4-086",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】びっくりする",
+    "choices": [
+      "1. このりんごはびっくりしておいしいです。",
+      "2. 毎日びっくりして学校へ行きます。",
+      "3. 大きい音がして、びっくりしました。",
+      "4. 明日はびっくりする天気でしょう。"
+    ],
+    "answer": "3. 大きい音がして、びっくりしました。",
+    "explanation": "びっくりする means 'to be surprised/startled'.",
+    "choice_explanations": [
+      "Wrong: びっくりする doesn't mean 'very/extremely' delicious.",
+      "Wrong: doesn't mean 'happily/eagerly' going to school every day.",
+      "Correct: 大きい音がして、びっくりしました = 'There was a loud noise and I was startled'.",
+      "Wrong: weather itself isn't 'surprising' this way."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q86 (Usage)"
+  },
+  {
+    "id": "N4-087",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】あんしんする",
+    "choices": [
+      "1. 雨が降って、とても安心しました。",
+      "2. テストに合格して、安心しました。",
+      "3. 毎日安心に朝ごはんを食べます。",
+      "4. 財布をなくして、安心しました。"
+    ],
+    "answer": "2. テストに合格して、安心しました。",
+    "explanation": "安心する (あんしんする) means 'to feel relieved'.",
+    "choice_explanations": [
+      "Wrong: rain alone isn't typically relief after worry.",
+      "Correct: テストに合格して、安心しました = 'I passed the test and felt relieved'.",
+      "Wrong: あんしんに isn't how you describe eating breakfast.",
+      "Wrong: losing a wallet causes worry (しんぱい), not relief!"
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q87 (Usage)"
+  },
+  {
+    "id": "N4-088",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】てつだう",
+    "choices": [
+      "1. 電車を手伝って学校へ行きました。",
+      "2. テレビを手伝って見ました。",
+      "3. 友達の宿題を手伝って食べました。",
+      "4. 母の料理を手伝いました。"
+    ],
+    "answer": "4. 母の料理を手伝いました。",
+    "explanation": "手伝う (てつだう) means 'to help / assist' (someone with a task).",
+    "choice_explanations": [
+      "Wrong: you ride a train (乗って), you don't 'help' a train.",
+      "Wrong: you don't 'help' watching TV.",
+      "Wrong: 'helped friend's homework and ate it' makes no sense.",
+      "Correct: 母の料理を手伝いました = 'I helped my mother with cooking'."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q88 (Usage)"
+  },
+  {
+    "id": "N4-089",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】だんだん",
+    "choices": [
+      "1. だんだん1時に駅で会いましょう。",
+      "2. きのうだんだん映画を見ました。",
+      "3. 春になって、だんだん暖かくなりました。",
+      "4. このケーキはだんだん甘いです。"
+    ],
+    "answer": "3. 春になって、だんだん暖かくなりました。",
+    "explanation": "だんだん means 'gradually' (used with changes over time).",
+    "choice_explanations": [
+      "Wrong: meeting at 1 o'clock is a fixed time, not gradual change.",
+      "Wrong: watching a movie yesterday isn't a gradual state change.",
+      "Correct: 春になって、だんだん暖かくなりました = 'Spring came and it gradually got warmer'.",
+      "Wrong: cake sweetness is static, not becoming sweeter over time."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q89 (Usage)"
+  },
+  {
+    "id": "N4-090",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】おくりもの",
+    "choices": [
+      "1. 毎朝、学校へ贈り物をして行きます。",
+      "2. 誕生日に友達から素敵な贈り物をもらいました。",
+      "3. 冷蔵庫の中に贈り物が入っています。",
+      "4. この道は贈り物が多くて危ないです。"
+    ],
+    "answer": "2. 誕生日に友達から素敵な贈り物をもらいました。",
+    "explanation": "贈り物 (おくりもの) means 'gift / present'.",
+    "choice_explanations": [
+      "Wrong: 贈り物をする doesn't mean commuting to school.",
+      "Correct: 誕生日に友達から素敵な贈り物をもらいました = 'I got a lovely gift from a friend on my birthday'.",
+      "Wrong: fridges hold food/drinks, not presents in general.",
+      "Wrong: roads don't have dangerous 'presents' (maybe 車 'cars')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q90 (Usage)"
+  },
+  {
+    "id": "N4-091",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】しんぱい",
+    "choices": [
+      "1. おいしいケーキを食べて心配です。",
+      "2. 毎日楽しくて心配です。",
+      "3. テストで100点を取って心配です。",
+      "4. 妹が夜遅くまで帰らないので、心配です。"
+    ],
+    "answer": "4. 妹が夜遅くまで帰らないので、心配です。",
+    "explanation": "心配 (しんぱい) means 'worried / anxious'.",
+    "choice_explanations": [
+      "Wrong: eating tasty cake isn't worrying.",
+      "Wrong: having fun every day isn't worrying.",
+      "Wrong: getting 100/100 on a test makes you happy, not worried.",
+      "Correct: 妹が夜遅くまで帰らないので、心配です = 'My little sister hasn't come home late at night, so I'm worried'."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q91 (Usage)"
+  },
+  {
+    "id": "N4-092",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】まにあう",
+    "choices": [
+      "1. このシャツはサイズが間に合います。",
+      "2. 友達と約束の場所に間に合って食べました。",
+      "3. 急いで走ったので、8時の電車に間に合いました。",
+      "4. 日本語が上手に間に合いました。"
+    ],
+    "answer": "3. 急いで走ったので、8時の電車に間に合いました。",
+    "explanation": "間に合う (まにあう) means 'to be in time for (a train/appointment)'.",
+    "choice_explanations": [
+      "Wrong: size 'fitting' is サイズが合います, NOT 間に合います (being in time).",
+      "Wrong: awkward; you say 約束の時間に間に合いました (in time for the appointment), not a place directly + ate.",
+      "Correct: 8時の電車に間に合いました = 'I ran fast and made it in time for the 8:00 train'.",
+      "Wrong: 'in time for Japanese skill' makes no sense."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q92 (Usage)"
+  },
+  {
+    "id": "N4-093",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】たのしむ",
+    "choices": [
+      "1. 週末は家族と旅行を楽しみました。",
+      "2. 風邪をひいて楽しむことができません。",
+      "3. 財布を落として楽しみました。",
+      "4. 宿題を忘れて楽しみました。"
+    ],
+    "answer": "1. 週末は家族と旅行を楽しみました。",
+    "explanation": "楽しむ (たのしむ) means 'to enjoy (an activity/trip)'.",
+    "choice_explanations": [
+      "Correct: 週末は家族と旅行を楽しみました = 'I enjoyed a trip with my family on the weekend'.",
+      "Wrong: missing object (what you can't enjoy).",
+      "Wrong: losing a wallet isn't enjoyable!",
+      "Wrong: forgetting homework isn't enjoyable!"
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q93 (Usage)"
+  },
+  {
+    "id": "N4-094",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】こまる",
+    "choices": [
+      "1. おいしい料理を食べて、困りました。",
+      "2. 友達が親切にしてくれて、困りました。",
+      "3. 道がわからなくて、とても困りました。",
+      "4. 試験に合格して、困りました。"
+    ],
+    "answer": "3. 道がわからなくて、とても困りました。",
+    "explanation": "困る (こまる) means 'to be in trouble / at a loss'.",
+    "choice_explanations": [
+      "Wrong: eating delicious food isn't troubling.",
+      "Wrong: a friend being kind makes you happy/grateful, not troubled.",
+      "Correct: 道がわからなくて、とても困りました = 'I didn't know the way and was really in trouble'.",
+      "Wrong: passing an exam makes you happy, not troubled."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q94 (Usage)"
+  },
+  {
+    "id": "N4-095",
+    "exam": "N4",
+    "section": "vocabulary",
+    "question": "【用法】やくにたつ",
+    "choices": [
+      "1. あの映画は役に立って長いです。",
+      "2. この辞書は日本語の勉強にとても役に立ちます。",
+      "3. きのう役に立つパンを買いました。",
+      "4. 雨が降って役に立ちました。"
+    ],
+    "answer": "2. この辞書は日本語の勉強にとても役に立ちます。",
+    "explanation": "役に立つ (やくにたつ) means 'to be useful / helpful'.",
+    "choice_explanations": [
+      "Wrong: movies aren't 'useful and long'.",
+      "Correct: この辞書は日本語の勉強にとても役に立ちます = 'This dictionary is very useful for studying Japanese'.",
+      "Wrong: bread is delicious/tasty, not 'useful'.",
+      "Wrong: 'it rained and was useful' is incomplete/unnatural without context."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q95 (Usage)"
+  },
+  {
+    "id": "N4-096",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "日本へ来て（ ）、半年になります。",
+    "choices": [
+      "1. ばかり",
+      "2. から",
+      "3. まで",
+      "4. ながら"
+    ],
+    "answer": "2. から",
+    "explanation": "てから means 'since (coming to Japan)'.",
+    "choice_explanations": [
+      "ばかり = just did (doesn't pair with 'it's been half a year' like てから).",
+      "Correct: てから = since / after ('It has been half a year since I came to Japan').",
+      "まで = until (attaches to dictionary form/nouns, not て-form).",
+      "ながら = while doing (attaches to verb stem, not て-form)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q96 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-097",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "あした、雨が（ ）、出かけません。",
+    "choices": [
+      "1. 降れば",
+      "2. 降ったら",
+      "3. 降るなら",
+      "4. 降ると"
+    ],
+    "answer": "2. 降ったら",
+    "explanation": "たら expresses a specific future condition ('if it rains tomorrow, I won't go out').",
+    "choice_explanations": [
+      "降れば = general/hypothetical conditional; less natural for a specific one-time event tomorrow with volitional 出かけません.",
+      "Correct: 降ったら = if it rains (tomorrow) — standard N4 conditional for specific future conditions + speaker intention.",
+      "降るなら = if it's the case that it'll rain (contextual advice/suggestion).",
+      "降ると = natural/habitual consequence ('whenever X, Y automatically happens' — CANNOT be followed by speaker's intention/negative volition 出かけません!)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q97 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-098",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "日本語が少しずつ話せる（ ）なりました。",
+    "choices": [
+      "1. ものに",
+      "2. ことに",
+      "3. そうに",
+      "4. ように"
+    ],
+    "answer": "4. ように",
+    "explanation": "Dictionary/potential form + ようになる means 'to become able to / reach a state where...'.",
+    "choice_explanations": [
+      "ものに = no such grammar 話せるものになる.",
+      "ことになりました = 'it has been decided that' (external decision, not gaining ability).",
+      "そうに = looks like (attaches to ます-stem, not potential form 話せる).",
+      "Correct: ようになる = came to be able to ('gradually became able to speak Japanese')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q98 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-099",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "毎日、運動する（ ）しています。",
+    "choices": [
+      "1. ものに",
+      "2. ために",
+      "3. ように",
+      "4. ことに"
+    ],
+    "answer": "3. ように",
+    "explanation": "ようにしている expresses making an ongoing effort/habit ('I try to exercise every day').",
+    "choice_explanations": [
+      "ものに: Not a grammar pattern here.",
+      "ために = in order to (doesn't attach to しています to mean 'try to').",
+      "Correct: ようにしています = make an effort / try to ('I try to exercise every day').",
+      "ことにしています = 'I have made it a rule to' (Note: ようにしている emphasizes ongoing effort; workbook key selects 3 ように)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q99 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-100",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "この本はとても（ ）やすいです。",
+    "choices": [
+      "1. 読んで",
+      "2. 読む",
+      "3. 読んだ",
+      "4. 読み"
+    ],
+    "answer": "4. 読み",
+    "explanation": "Verb masu-stem + やすい means 'easy to (read)'.",
+    "choice_explanations": [
+      "読んで (て-form) does not connect to やすい.",
+      "読む (dictionary form) does not connect to やすい.",
+      "読んだ (past form) does not connect to やすい.",
+      "Correct: 読み (ます-stem) + やすい = easy to read."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q100 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-101",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "先生はもう（ ）かもしれません。",
+    "choices": [
+      "1. 帰り",
+      "2. 帰った",
+      "3. 帰って",
+      "4. 帰る"
+    ],
+    "answer": "2. 帰った",
+    "explanation": "Plain past + かもしれません means 'might have (already gone home)'.",
+    "choice_explanations": [
+      "帰り (ます-stem) cannot precede かもしれません.",
+      "Correct: 帰った + かもしれません = might have already gone home (matches もう 'already').",
+      "帰って (て-form) cannot precede かもしれません.",
+      "帰る (present/future) contradicts もう ('already')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q101 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-102",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "図書館では大きな声で（ ）はいけません。",
+    "choices": [
+      "1. 話して",
+      "2. 話さ",
+      "3. 話した",
+      "4. 話す"
+    ],
+    "answer": "1. 話して",
+    "explanation": "てはいけません means 'must not / is not allowed to'.",
+    "choice_explanations": [
+      "Correct: 話して (て-form) + はいけません = must not talk loudly.",
+      "話さ (ない-stem) does not connect to はいけません.",
+      "話した (past) does not connect to はいけません.",
+      "話す (dictionary form) does not connect to はいけません."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q102 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-103",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "熱がなければ、薬を（ ）てもいいです。",
+    "choices": [
+      "1. 飲まなく",
+      "2. 飲まない",
+      "3. 飲んで",
+      "4. 飲まな"
+    ],
+    "answer": "1. 飲まなく",
+    "explanation": "なくて + もいいです (飲まなくてもいいです) means 'you don't have to take the medicine'.",
+    "choice_explanations": [
+      "Correct: 飲まなく (+ てもいいです) = you don't have to drink/take (if you have no fever).",
+      "飲まない: Cannot connect directly to てもいいです (needs なくてもいい).",
+      "飲んで (positive): Would mean 'if you have NO fever, you may take medicine' — illogical!",
+      "飲まな: Incomplete stem without く."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q103 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-104",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "友達（ ）誕生日プレゼントをもらいました。",
+    "choices": [
+      "1. を",
+      "2. へ",
+      "3. で",
+      "4. に"
+    ],
+    "answer": "4. に",
+    "explanation": "もらう marks the giver with に (or から).",
+    "choice_explanations": [
+      "を = direct object marker (already on プレゼントを).",
+      "へ = direction toward.",
+      "で = place/means.",
+      "Correct: に = from (marks the person you receive something from with もらいます)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q104 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-105",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "私は母（ ）セーターを作ってもらいました。",
+    "choices": [
+      "1. に",
+      "2. へ",
+      "3. で",
+      "4. を"
+    ],
+    "answer": "1. に",
+    "explanation": "てもらう marks the person who did the favor with に.",
+    "choice_explanations": [
+      "Correct: に = by/from ('I had my mother knit a sweater for me').",
+      "へ = direction.",
+      "で = means/location.",
+      "を = object marker (already on セーターを)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q105 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-106",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "山田さんはあした東京へ行く（ ）です。",
+    "choices": [
+      "1. まま",
+      "2. 予定",
+      "3. もの",
+      "4. こと"
+    ],
+    "answer": "2. 予定",
+    "explanation": "行く予定です means 'plans to go'.",
+    "choice_explanations": [
+      "まま = as-is / unchanged state (usually follows た-form).",
+      "Correct: 行く予定 (よてい) です = plans to go / is scheduled to go.",
+      "もの = thing / general explanation.",
+      "こと = nominalizer (would mean a rule/advice, not a travel schedule)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q106 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-107",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "このケーキはおいし（ ）ですね。",
+    "choices": [
+      "1. よう",
+      "2. みたい",
+      "3. そう",
+      "4. らしい"
+    ],
+    "answer": "3. そう",
+    "explanation": "い-adj stem + そう ('looks delicious') drops the final い: おいしそうです.",
+    "choice_explanations": [
+      "よう requires full adjective おいしいようです.",
+      "みたい requires full adjective おいしいみたいです.",
+      "Correct: おいし + そう (ですね) = 'looks delicious!' (い-adj drops い before そう).",
+      "らしい requires full adjective おいしいらしいです."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q107 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-108",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "天気予報によると、きょうは雨が降る（ ）です。",
+    "choices": [
+      "1. つもり",
+      "2. そう",
+      "3. はず",
+      "4. よう"
+    ],
+    "answer": "2. そう",
+    "explanation": "Dictionary form + そうです (after 'according to...') expresses hearsay ('I heard it will rain').",
+    "choice_explanations": [
+      "つもり = personal intention ('rain intends to fall' is wrong!).",
+      "Correct: 降る + そうです = 'According to the weather forecast, it is going to rain' (hearsay).",
+      "はず = logical expectation (doesn't follow 天気予報によると as directly as hearsay そうです).",
+      "よう = personal observation/impression, not report ～によると."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q108 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-109",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "きのう、宿題を（ ）しまいました。",
+    "choices": [
+      "1. 忘れた",
+      "2. 忘れて",
+      "3. 忘れる",
+      "4. 忘れ"
+    ],
+    "answer": "2. 忘れて",
+    "explanation": "てしまう expresses regret or completion ('unfortunately forgot my homework').",
+    "choice_explanations": [
+      "忘れた (past) does not precede しまいました.",
+      "Correct: 忘れて (て-form) + しまいました = unfortunately forgot.",
+      "忘れる (dictionary form) does not precede しまいました.",
+      "忘れ (ます-stem) does not precede しまいました."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q109 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-110",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "音楽を（ ）ながら、勉強します。",
+    "choices": [
+      "1. 聞いて",
+      "2. 聞く",
+      "3. 聞いた",
+      "4. 聞き"
+    ],
+    "answer": "4. 聞き",
+    "explanation": "Verb masu-stem + ながら means 'while doing (listening to music)'.",
+    "choice_explanations": [
+      "聞いて (て-form) does not connect to ながら.",
+      "聞く (dictionary form) does not connect to ながら.",
+      "聞いた (past) does not connect to ながら.",
+      "Correct: 聞き (ます-stem) + ながら = while listening to music."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q110 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-111",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "日本へ行った（ ）がありますか。",
+    "choices": [
+      "1. とき",
+      "2. こと",
+      "3. はず",
+      "4. もの"
+    ],
+    "answer": "2. こと",
+    "explanation": "た + ことがある means 'have the experience of (having been to Japan)'.",
+    "choice_explanations": [
+      "とき = when (行ったとき = when I went, not 'have ever been').",
+      "Correct: 行ったことがありますか = 'Have you ever been to Japan?'.",
+      "はず = supposed to.",
+      "もの = thing."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q111 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-112",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "部屋に誰もいない（ ）です。",
+    "choices": [
+      "1. こと",
+      "2. そう",
+      "3. つもり",
+      "4. よう"
+    ],
+    "answer": "4. よう",
+    "explanation": "Plain form + ようです means 'it seems that (nobody is in the room)'.",
+    "choice_explanations": [
+      "こと: 誰もいないことです doesn't mean 'seems like'.",
+      "そう: Hearsay そうです without source doesn't fit as well; appearance そう drops い/ない -> なさそう, not いないそう.",
+      "つもり = intention ('nobody intends to' makes no sense).",
+      "Correct: いない + ようです = 'It looks like / seems nobody is in the room'."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q112 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-113",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "夏休みに国へ帰る（ ）です。",
+    "choices": [
+      "1. まま",
+      "2. つもり",
+      "3. そう",
+      "4. よう"
+    ],
+    "answer": "2. つもり",
+    "explanation": "Dictionary form + つもりです expresses personal intention ('I intend to return home').",
+    "choice_explanations": [
+      "まま = as-is state (usually follows past た-form).",
+      "Correct: 帰るつもりです = 'I plan / intend to return to my country during summer break'.",
+      "そう = hearsay ('I heard I'm going home' is unnatural for your own vacation plan).",
+      "よう = seems like."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q113 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-114",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "このパソコンは田中さん（ ）使われています。",
+    "choices": [
+      "1. で",
+      "2. を",
+      "3. へ",
+      "4. に"
+    ],
+    "answer": "4. に",
+    "explanation": "Passive verb (使われています) marks the agent with に.",
+    "choice_explanations": [
+      "で = location/means (not the person using it in passive).",
+      "を = object marker (already passive subject パソコンは).",
+      "へ = direction.",
+      "Correct: に = by ('This computer is being used by Tanaka')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q114 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-115",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "雨が降っている（ ）、サッカーをしました。",
+    "choices": [
+      "1. ので",
+      "2. ため",
+      "3. のに",
+      "4. から"
+    ],
+    "answer": "3. のに",
+    "explanation": "のに means 'even though (it was raining, we played soccer)'.",
+    "choice_explanations": [
+      "ので = because ('because it was raining, we played soccer' — illogical!).",
+      "ため = because of (illogical).",
+      "Correct: のに = even though / although ('Even though it was raining, we played soccer').",
+      "から = because (illogical)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q115 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-116",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "バスが遅れた（ ）、授業に間に合いませんでした。",
+    "choices": [
+      "1. のに",
+      "2. けれど",
+      "3. が",
+      "4. ので"
+    ],
+    "answer": "4. ので",
+    "explanation": "ので expresses reason/cause ('because the bus was late').",
+    "choice_explanations": [
+      "のに = even though (contradicts missing class due to late bus).",
+      "けれど = but (requires polite/contrast, not cause).",
+      "が = but.",
+      "Correct: ので = because ('Because the bus was late, I couldn't make it to class in time')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q116 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-117",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "この漢字は難しく（ ）、読めません。",
+    "choices": [
+      "1. に",
+      "2. て",
+      "3. で",
+      "4. く"
+    ],
+    "answer": "2. て",
+    "explanation": "い-adj te-form (難しくて) expresses cause/reason.",
+    "choice_explanations": [
+      "に = target/location (cannot follow 難しく).",
+      "Correct: て (難しくて) = difficult, so ('This kanji is difficult, so I can't read it').",
+      "で = な-adj/nounて-form, NOT い-adjective.",
+      "く = incomplete adverbial form (needs て for cause)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q117 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-118",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "今、ちょうど昼ご飯を食べる（ ）です。",
+    "choices": [
+      "1. ところ",
+      "2. ばかり",
+      "3. こと",
+      "4. もの"
+    ],
+    "answer": "1. ところ",
+    "explanation": "Dictionary form + ところです means 'just about to (eat lunch)'.",
+    "choice_explanations": [
+      "Correct: ところです (after dictionary form) = 'I am just about to eat lunch right now' (matches 今、ちょうど).",
+      "ばかり = just did (requires past た-form, not dictionary form 食べる).",
+      "こと: 食べることです doesn't express 'right about to'.",
+      "もの = thing / general fact."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q118 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-119",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "さっき家へ帰ってきた（ ）です。",
+    "choices": [
+      "1. ところ",
+      "2. つもり",
+      "3. ばかり",
+      "4. はず"
+    ],
+    "answer": "3. ばかり",
+    "explanation": "た + ばかりです means 'just did (came home a moment ago)'.",
+    "choice_explanations": [
+      "ところ: 帰ってきたところ also means 'just returned', though ばかり (after た-form with さっき) is the primary workbook answer key here.",
+      "つもり = intention (cannot follow past た-form 帰ってきた).",
+      "Correct: ばかりです (after た-form) = 'I just got home a little while ago'.",
+      "はず = expectation ('supposed to have come home', doesn't match personal さっき)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q119 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-120",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "時間がありませんから、早く（ ）なければなりません。",
+    "choices": [
+      "1. 行く",
+      "2. 行って",
+      "3. 行か",
+      "4. 行き"
+    ],
+    "answer": "3. 行か",
+    "explanation": "ない-stem + なければなりません means 'must / have to (go quickly)'.",
+    "choice_explanations": [
+      "行く (dictionary form) does not connect to なければなりません.",
+      "行って (て-form) does not connect to なければなりません.",
+      "Correct: 行か (ない-stem of 行く) + なければなりません = must go.",
+      "行き (ます-stem) does not connect to なければなりません."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q120 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-121",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "週末は映画を見（ ）、買い物をしたりします。",
+    "choices": [
+      "1. たら",
+      "2. ながら",
+      "3. て",
+      "4. たり"
+    ],
+    "answer": "4. たり",
+    "explanation": "～たり～たりします lists representative actions.",
+    "choice_explanations": [
+      "たら = if/when (doesn't pair with 買い物をしたり).",
+      "ながら = while doing (doesn't pair with したりします).",
+      "て = sequence ('watch a movie and then...'), doesn't pair with たり.",
+      "Correct: たり (見たり、買い物をしたりします) = do things like watching movies and shopping."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q121 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-122",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "この部屋は明る（ ）、広いです。",
+    "choices": [
+      "1. くては",
+      "2. くで",
+      "3. いで",
+      "4. くて"
+    ],
+    "answer": "4. くて",
+    "explanation": "Connecting two い-adjectives uses ～くて (明るくて、広いです).",
+    "choice_explanations": [
+      "くては = 'if it is...', usually leads to a negative result.",
+      "くで: Non-existent conjugation (never add で after く).",
+      "いで: Never attach で directly to い-adjective.",
+      "Correct: くて (明るくて、広いです) = bright and spacious."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q122 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-123",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "きょうは寒い（ ）、風も強いです。",
+    "choices": [
+      "1. から",
+      "2. し",
+      "3. で",
+      "4. て"
+    ],
+    "answer": "2. し",
+    "explanation": "Plain form + し lists multiple reasons/facts ('it's cold, and furthermore windy').",
+    "choice_explanations": [
+      "から = because (doesn't combine naturally with も 'also' as a parallel list).",
+      "Correct: し = and what's more / and also ('Today it's cold, and the wind is strong too').",
+      "で = cannot attach directly to い-adjective 寒い.",
+      "て = cannot attach directly after full 寒い (would be 寒くて)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q123 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-124",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "子どもが寝ている（ ）、掃除をしました。",
+    "choices": [
+      "1. あいだに",
+      "2. まえに",
+      "3. ながら",
+      "4. あとで"
+    ],
+    "answer": "1. あいだに",
+    "explanation": "あいだに means 'while (the child was sleeping, I finished cleaning)'.",
+    "choice_explanations": [
+      "Correct: あいだに = while / during the time that (child was sleeping, I cleaned).",
+      "まえに = before (requires dictionary form 寝るまえに, not 寝ている).",
+      "ながら = while the SAME person does two actions simultaneously (attaches to verb stem, not ている).",
+      "あとで = after (requires past た-form 寝たあとで)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q124 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-125",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "あしたの会議には必ず出席する（ ）に決めました。",
+    "choices": [
+      "1. こと",
+      "2. よう",
+      "3. はず",
+      "4. もの"
+    ],
+    "answer": "1. こと",
+    "explanation": "ことに決めました / ことにしました expresses making a decision.",
+    "choice_explanations": [
+      "Correct: 出席することに決めました = 'I decided to definitely attend tomorrow's meeting'.",
+      "よう: 出席するように決めました is not standard (uses こと).",
+      "はず: Cannot connect to に決めました.",
+      "もの: Cannot connect to に決めました."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q125 (Sentential Grammar 1)"
+  },
+  {
+    "id": "N4-126",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "きのう ＿＿ ＿＿ ★ ＿＿ おいしかったです。（★に入るものはどれか）",
+    "choices": [
+      "1. レストランの",
+      "2. 料理は",
+      "3. 行った",
+      "4. とても"
+    ],
+    "answer": "2. 料理は",
+    "explanation": "Order: 行った (3) レストランの (1) 料理は (2) とても (4) -> ★ is 料理は (2).",
+    "choice_explanations": [
+      "レストランの = of the restaurant (slot 2).",
+      "Correct (slot 3): 料理は = food/dishes (昨日行ったレストランの料理はとてもおいしかったです).",
+      "行った = went (slot 1: modifies レストラン).",
+      "とても = very (slot 4, modifies おいしかったです)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q126 (Sentence Composition)"
+  },
+  {
+    "id": "N4-127",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "日本語が ＿＿ ＿＿ ★ ＿＿ 勉強しています。（★に入るものはどれか）",
+    "choices": [
+      "1. なる",
+      "2. 上手に",
+      "3. 毎日",
+      "4. ように"
+    ],
+    "answer": "4. ように",
+    "explanation": "Order: 上手に (2) なる (1) ように (4) 毎日 (3) -> ★ is ように (4).",
+    "choice_explanations": [
+      "なる = become (slot 2: 上手になる).",
+      "上手に = skillful (slot 1).",
+      "毎日 = every day (slot 4, modifies 勉強しています).",
+      "Correct (slot 3): ように = so that (日本語が上手になるように毎日勉強しています)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q127 (Sentence Composition)"
+  },
+  {
+    "id": "N4-128",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "あしたは ＿＿ ＿＿ ★ ＿＿ つもりです。（★に入るものはどれか）",
+    "choices": [
+      "1. 友達と",
+      "2. 買い物に",
+      "3. 行く",
+      "4. デパートへ"
+    ],
+    "answer": "2. 買い物に",
+    "explanation": "Order: 友達と (1) デパートへ (4) 買い物に (2) 行く (3) -> ★ is 買い物に (2).",
+    "choice_explanations": [
+      "友達と = with a friend (slot 1).",
+      "Correct (slot 3): 買い物に = to shop (友達とデパートへ買い物に行くつもりです).",
+      "行く = go (slot 4, precedes つもりです).",
+      "デパートへ = to the department store (slot 2)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q128 (Sentence Composition)"
+  },
+  {
+    "id": "N4-129",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "私は ＿＿ ＿＿ ★ ＿＿ もらいました。（★に入るものはどれか）",
+    "choices": [
+      "1. 母に",
+      "2. 作って",
+      "3. ケーキを",
+      "4. おいしい"
+    ],
+    "answer": "3. ケーキを",
+    "explanation": "Order: 母に (1) おいしい (4) ケーキを (3) 作って (2) -> ★ is ケーキを (3).",
+    "choice_explanations": [
+      "母に = by/from my mother (slot 1).",
+      "作って = make (slot 4, precedes もらいました).",
+      "Correct (slot 3): ケーキを = cake (母においしいケーキを作ってもらいました).",
+      "おいしい = delicious (slot 2, modifies ケーキ)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q129 (Sentence Composition)"
+  },
+  {
+    "id": "N4-130",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "この本は ＿＿ ＿＿ ★ ＿＿ わかりやすいです。（★に入るものはどれか）",
+    "choices": [
+      "1. 絵が",
+      "2. 多くて",
+      "3. 説明も",
+      "4. とても"
+    ],
+    "answer": "3. 説明も",
+    "explanation": "Order: 絵が (1) 多くて (2) 説明も (3) とても (4) -> ★ is 説明も (3).",
+    "choice_explanations": [
+      "絵が = pictures (slot 1).",
+      "多くて = many, and (slot 2).",
+      "Correct (slot 3): 説明も = explanations too (絵が多くて説明もとてもわかりやすいです).",
+      "とても = very (slot 4, modifies わかりやすいです)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q130 (Sentence Composition)"
+  },
+  {
+    "id": "N4-131",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "駅へ ＿＿ ＿＿ ★ ＿＿ 乗りました。（★に入るものはどれか）",
+    "choices": [
+      "1. 歩いて",
+      "2. 行って",
+      "3. 電車に",
+      "4. それから"
+    ],
+    "answer": "4. それから",
+    "explanation": "Order: 歩いて (1) 行って (2) それから (4) 電車に (3) -> ★ is それから (4).",
+    "choice_explanations": [
+      "歩いて = walking (slot 1).",
+      "行って = went, and (slot 2).",
+      "電車に = onto the train (slot 4, precedes 乗りました).",
+      "Correct (slot 3): それから = and then (歩いて行ってそれから電車に乗りました)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q131 (Sentence Composition)"
+  },
+  {
+    "id": "N4-132",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "毎日 ＿＿ ＿＿ ★ ＿＿ います。（★に入るものはどれか）",
+    "choices": [
+      "1. 寝る",
+      "2. 歯を",
+      "3. みがいて",
+      "4. 前に"
+    ],
+    "answer": "2. 歯を",
+    "explanation": "Order: 寝る (1) 前に (4) 歯を (2) みがいて (3) -> ★ is 歯を (2).",
+    "choice_explanations": [
+      "寝る = sleep (slot 1).",
+      "Correct (slot 3): 歯を = teeth (寝る前に歯をみがいています).",
+      "みがいて = brush (slot 4, precedes います).",
+      "前に = before (slot 2)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q132 (Sentence Composition)"
+  },
+  {
+    "id": "N4-133",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "夏休みに ＿＿ ＿＿ ★ ＿＿ 思っています。（★に入るものはどれか）",
+    "choices": [
+      "1. 北海道へ",
+      "2. 行きたい",
+      "3. 家族と",
+      "4. と"
+    ],
+    "answer": "2. 行きたい",
+    "explanation": "Order: 家族と (3) 北海道へ (1) 行きたい (2) と (4) -> ★ is 行きたい (2).",
+    "choice_explanations": [
+      "北海道へ = to Hokkaido (slot 2).",
+      "Correct (slot 3): 行きたい = want to go (家族と北海道へ行きたいと思っています).",
+      "家族と = with my family (slot 1).",
+      "と = quotation particle (slot 4, precedes 思っています)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q133 (Sentence Composition)"
+  },
+  {
+    "id": "N4-134",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "この問題は ＿＿ ＿＿ ★ ＿＿ わかりません。（★に入るものはどれか）",
+    "choices": [
+      "1. 難しくて",
+      "2. 私には",
+      "3. ぜんぜん",
+      "4. とても"
+    ],
+    "answer": "2. 私には",
+    "explanation": "Order: とても (4) 難しくて (1) 私には (2) ぜんぜん (3) -> ★ is 私には (2).",
+    "choice_explanations": [
+      "難しくて = difficult, so (slot 2).",
+      "Correct (slot 3): 私には = for me (とても難しくて私にはぜんぜんわかりません).",
+      "ぜんぜん = not at all (slot 4, precedes わかりません).",
+      "とても = very (slot 1, modifies 難しくて)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q134 (Sentence Composition)"
+  },
+  {
+    "id": "N4-135",
+    "exam": "N4",
+    "section": "grammar",
+    "question": "日本へ ＿＿ ＿＿ ★ ＿＿ なりました。（★に入るものはどれか）",
+    "choices": [
+      "1. 来て",
+      "2. 話せる",
+      "3. 日本語が",
+      "4. から"
+    ],
+    "answer": "3. 日本語が",
+    "explanation": "Order: 来て (1) から (4) 日本語が (3) 話せる (2) -> ★ is 日本語が (3).",
+    "choice_explanations": [
+      "来て = came (slot 1).",
+      "話せる = can speak (slot 4; note: standard grammar is 日本語が話せるように, here workbook omits ように directly before なりました).",
+      "Correct (slot 3): 日本語が = Japanese (来てから日本語が話せる[ように]なりました).",
+      "から = since (slot 2: 来てから)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q135 (Sentence Composition)"
+  },
+  {
+    "id": "N4-136",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage A (Text Grammar)】\n私は今年の4月に日本へ来ました。最初は日本語があまり話せなくて、スーパーで買い物をするときもとても困りました。でも、毎日日本語学校で勉強したり、友達と話したりしている【Q136】、少しずつわかるようになりました。今では一人で病院へ行く【Q137】。これからも毎日練習して、もっと上手になりたい【Q138】。\n\n【Q136】に入る最もよいものはどれか。",
+    "choices": [
+      "1. まえに",
+      "2. あとで",
+      "3. ために",
+      "4. うちに"
+    ],
+    "answer": "4. うちに",
+    "explanation": "うちに ('while doing X, a change occurred naturally') fits 'while studying and talking with friends, I gradually came to understand'.",
+    "choice_explanations": [
+      "まえに = before (cannot follow ている).",
+      "あとで = after (requires past た-form).",
+      "ために = in order to (doesn't pair smoothly with gradual change after している).",
+      "Correct: うちに = while ('while studying and talking every day, I gradually came to understand')."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q136 (Text Grammar)"
+  },
+  {
+    "id": "N4-137",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage A (Text Grammar)】\n私は今年の4月に日本へ来ました。最初は日本語があまり話せなくて、スーパーで買い物をするときもとても困りました。でも、毎日日本語学校で勉強したり、友達と話したりしている【Q136】、少しずつわかるようになりました。今では一人で病院へ行く【Q137】。これからも毎日練習して、もっと上手になりたい【Q138】。\n\n【Q137】に入る最もよいものはどれか。",
+    "choices": [
+      "1. つもりです",
+      "2. こともできます",
+      "3. はずです",
+      "4. ばかりです"
+    ],
+    "answer": "2. こともできます",
+    "explanation": "こともできます means 'I can even (go to the hospital alone)'.",
+    "choice_explanations": [
+      "つもりです = intend to (doesn't contrast with 今では 'by now' skill progress).",
+      "Correct: こともできます = can even ('Now I can even go to the hospital alone').",
+      "はずです = supposed to.",
+      "ばかりです = just did (doesn't follow dictionary form 行く)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q137 (Text Grammar)"
+  },
+  {
+    "id": "N4-138",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage A (Text Grammar)】\n私は今年の4月に日本へ来ました。最初は日本語があまり話せなくて、スーパーで買い物をするときもとても困りました。でも、毎日日本語学校で勉強したり、友達と話したりしている【Q136】、少しずつわかるようになりました。今では一人で病院へ行く【Q137】。これからも毎日練習して、もっと上手になりたい【Q138】。\n\n【Q138】に入る最もよいものはどれか。",
+    "choices": [
+      "1. と思います",
+      "2. と言います",
+      "3. と聞きました",
+      "4. でしょう"
+    ],
+    "answer": "1. と思います",
+    "explanation": "と思います expresses the speaker's own wish/thought ('I think I want to become even better').",
+    "choice_explanations": [
+      "Correct: と思います = I think / I feel ('I think I want to get even better').",
+      "と言います = is called / they say.",
+      "と聞きました = I heard that (weird for your own desire ～たい!).",
+      "でしょう = probably (unnatural right after 自分の ～たい)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q138 (Text Grammar)"
+  },
+  {
+    "id": "N4-139",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage B (Short Email)】\nリーさんへ\nあしたのパーティーのことですが、場所が「さくらレストラン」から「みどりカフェ」に変わりました。駅の南口を出て、右へ2分歩いたところです。時間は同じ午後6時からです。遅れないで来てくださいね。\n田中\n\nパーティーはどこで開かれますか。",
+    "choices": [
+      "1. さくらレストラン",
+      "2. 駅の北口",
+      "3. 田中さんの家",
+      "4. みどりカフェ"
+    ],
+    "answer": "4. みどりカフェ",
+    "explanation": "The email states: 場所が「さくらレストラン」から「みどりカフェ」に変わりました.",
+    "choice_explanations": [
+      "Sakura Restaurant — that was the OLD venue before the change.",
+      "North Exit of the station — email says South Exit (南口), and that's directions, not the venue name.",
+      "Tanaka's house — Tanaka is the sender, not the party location.",
+      "Correct: Midori Cafe (「さくらレストラン」から「みどりカフェ」に変わりました)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q139 (Short Email)"
+  },
+  {
+    "id": "N4-140",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage B (Short Email)】\nリーさんへ\nあしたのパーティーのことですが、場所が「さくらレストラン」から「みどりカフェ」に変わりました。駅の南口を出て、右へ2分歩いたところです。時間は同じ午後6時からです。遅れないで来てくださいね。\n田中\n\nパーティーは何時からですか。",
+    "choices": [
+      "1. 午後6時から",
+      "2. 午後8時から",
+      "3. 午後2時から",
+      "4. 午前6時から"
+    ],
+    "answer": "1. 午後6時から",
+    "explanation": "It says: 時間は同じ午後6時からです.",
+    "choice_explanations": [
+      "Correct: From 6:00 PM (時間は同じ午後6時からです).",
+      "From 8:00 PM — wrong hour.",
+      "From 2:00 PM — 2分 is '2 minutes walk', not 2:00 PM.",
+      "From 6:00 AM — wrong AM/PM (午後 = PM)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q140 (Short Email)"
+  },
+  {
+    "id": "N4-141",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage B (Short Email)】\nリーさんへ\nあしたのパーティーのことですが、場所が「さくらレストラン」から「みどりカフェ」に変わりました。駅の南口を出て、右へ2分歩いたところです。時間は同じ午後6時からです。遅れないで来てくださいね。\n田中\n\nみどりカフェはどこにありますか。",
+    "choices": [
+      "1. 駅の南口から左へ歩いて2分のところ",
+      "2. さくらレストランの隣",
+      "3. 駅の東口の前",
+      "4. 駅の南口から右へ歩いて2分のところ"
+    ],
+    "answer": "4. 駅の南口から右へ歩いて2分のところ",
+    "explanation": "It states: 駅の南口を出て、右へ2分歩いたところです.",
+    "choice_explanations": [
+      "Left from South Exit — wrong direction (text says 右へ 'to the right').",
+      "Next to Sakura Restaurant — not stated.",
+      "In front of East Exit — text says 南口 (South Exit).",
+      "Correct: 2 minutes' walk right from the station's South Exit."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q141 (Short Email)"
+  },
+  {
+    "id": "N4-142",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage C (Short Essay)】\n私の趣味は写真を撮ることです。休みの日にはよくカメラを持って公園や山へ行きます。きれいな花や鳥の写真を撮ると、とても嬉しい気持ちになります。撮った写真はいつも家族や友達に見せています。みんなが「きれいだね」と言ってくれると、また撮りに行きたくなります。\n\n筆者の趣味は何ですか。",
+    "choices": [
+      "1. 写真を撮ること",
+      "2. 山に登ることだけ",
+      "3. 花を育てること",
+      "4. 絵を描くこと"
+    ],
+    "answer": "1. 写真を撮ること",
+    "explanation": "The first sentence states: 私の趣味は写真を撮ることです.",
+    "choice_explanations": [
+      "Correct: Taking photos (私の趣味は写真を撮ることです).",
+      "Only climbing mountains — they go to parks and mountains to take photos.",
+      "Growing flowers — they photograph flowers, not grow them.",
+      "Drawing pictures — not mentioned."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q142 (Short Essay)"
+  },
+  {
+    "id": "N4-143",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage C (Short Essay)】\n私の趣味は写真を撮ることです。休みの日にはよくカメラを持って公園や山へ行きます。きれいな花や鳥の写真を撮ると、とても嬉しい気持ちになります。撮った写真はいつも家族や友達に見せています。みんなが「きれいだね」と言ってくれると、また撮りに行きたくなります。\n\n筆者は撮った写真をどうしていますか。",
+    "choices": [
+      "1. 家族や友達に見せている",
+      "2. すぐ消している",
+      "3. 誰にも見せないでしまっている",
+      "4. お店で売っている"
+    ],
+    "answer": "1. 家族や友達に見せている",
+    "explanation": "The text says: 撮った写真はいつも家族や友達に見せています.",
+    "choice_explanations": [
+      "Correct: Shows them to family and friends (家族や友達に見せています).",
+      "Deletes them right away — opposite.",
+      "Puts them away without showing anyone — opposite.",
+      "Sells them at a store — not stated."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q143 (Short Essay)"
+  },
+  {
+    "id": "N4-144",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage C (Short Essay)】\n私の趣味は写真を撮ることです。休みの日にはよくカメラを持って公園や山へ行きます。きれいな花や鳥の写真を撮ると、とても嬉しい気持ちになります。撮った写真はいつも家族や友達に見せています。みんなが「きれいだね」と言ってくれると、また撮りに行きたくなります。\n\nどんなときに「また撮りに行きたくなります」か。",
+    "choices": [
+      "1. 雨が降ったとき",
+      "2. 仕事が忙しいとき",
+      "3. みんなが「きれいだね」と言ってくれたとき",
+      "4. カメラが壊れたとき"
+    ],
+    "answer": "3. みんなが「きれいだね」と言ってくれたとき",
+    "explanation": "The last sentence states: みんなが「きれいだね」と言ってくれると、また撮りに行きたくなります.",
+    "choice_explanations": [
+      "When it rains — not mentioned.",
+      "When work is busy — not mentioned.",
+      "Correct: When everyone says 'How pretty!' (みんなが「きれいだね」と言ってくれると).",
+      "When the camera breaks — not mentioned."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q144 (Short Essay)"
+  },
+  {
+    "id": "N4-145",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage D (Store Notice)】\n【パン屋からのお知らせ】\nいつもご利用ありがとうございます。来週の月曜日（11月25日）はお店の掃除のため、お休みいたします。火曜日からは通常通り朝8時から営業いたします。なお、火曜日は先着50名様にコーヒーを一杯サービスいたします。\n\n11月25日（月）はどうして休みですか。",
+    "choices": [
+      "1. 祝日だから",
+      "2. 新しいパンを作るため",
+      "3. 店長が旅行に行くから",
+      "4. お店の掃除のため"
+    ],
+    "answer": "4. お店の掃除のため",
+    "explanation": "The notice says: お店の掃除のため、お休みいたします.",
+    "choice_explanations": [
+      "Because it is a holiday — not stated.",
+      "To make new bread — not stated.",
+      "Because the manager is traveling — not stated.",
+      "Correct: For cleaning the shop (お店の掃除のため)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q145 (Store Notice)"
+  },
+  {
+    "id": "N4-146",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage D (Store Notice)】\n【パン屋からのお知らせ】\nいつもご利用ありがとうございます。来週の月曜日（11月25日）はお店の掃除のため、お休みいたします。火曜日からは通常通り朝8時から営業いたします。なお、火曜日は先着50名様にコーヒーを一杯サービスいたします。\n\n火曜日に何か特別なことはありますか。",
+    "choices": [
+      "1. パンが全部半額になる",
+      "2. 先着50名にコーヒーが一杯無料になる",
+      "3. お休みになる",
+      "4. 朝9時に開く"
+    ],
+    "answer": "2. 先着50名にコーヒーが一杯無料になる",
+    "explanation": "It states: 火曜日は先着50名様にコーヒーを一杯サービスいたします.",
+    "choice_explanations": [
+      "All bread half price — not stated (サービス here means complimentary/free coffee).",
+      "Correct: A free cup of coffee for the first 50 customers (先着50名様にコーヒーを一杯サービス).",
+      "Closed — Monday is closed; Tuesday is open.",
+      "Opens at 9 AM — notice says 朝8時から (from 8 AM)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q146 (Store Notice)"
+  },
+  {
+    "id": "N4-147",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage D (Store Notice)】\n【パン屋からのお知らせ】\nいつもご利用ありがとうございます。来週の月曜日（11月25日）はお店の掃除のため、お休みいたします。火曜日からは通常通り朝8時から営業いたします。なお、火曜日は先着50名様にコーヒーを一杯サービスいたします。\n\n普段、このパン屋は何時から開きますか。",
+    "choices": [
+      "1. 朝10時から",
+      "2. 朝9時から",
+      "3. 朝7時から",
+      "4. 朝8時から"
+    ],
+    "answer": "4. 朝8時から",
+    "explanation": "通常通り朝8時から営業いたします means normally open from 8:00 AM.",
+    "choice_explanations": [
+      "From 10 AM — wrong.",
+      "From 9 AM — wrong.",
+      "From 7 AM — wrong.",
+      "Correct: From 8:00 AM (通常通り朝8時から)."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q147 (Store Notice)"
+  },
+  {
+    "id": "N4-148",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage E (Daily Schedule Note)】\n今週の土曜日、日本語教室のみんなで京都へ行く予定です。朝8時に東京駅に集合して、新幹線で行きます。昼ご飯は京都のお寺の近くで食べます。夕方5時ごろ東京へ帰ってくる予定です。歩きやすい靴で来てください。\n\nどうやって京都へ行きますか。",
+    "choices": [
+      "1. 飛行機で行く",
+      "2. 新幹線で行く",
+      "3. バスで行く",
+      "4. 車で行く"
+    ],
+    "answer": "2. 新幹線で行く",
+    "explanation": "It states: 新幹線で行きます ('going by Shinkansen').",
+    "choice_explanations": [
+      "By airplane — wrong.",
+      "Correct: By Shinkansen bullet train (新幹線で行きます).",
+      "By bus — wrong.",
+      "By car — wrong."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q148 (Daily Schedule Note)"
+  },
+  {
+    "id": "N4-149",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage E (Daily Schedule Note)】\n今週の土曜日、日本語教室のみんなで京都へ行く予定です。朝8時に東京駅に集合して、新幹線で行きます。昼ご飯は京都のお寺の近くで食べます。夕方5時ごろ東京へ帰ってくる予定です。歩きやすい靴で来てください。\n\n参加する人は何に気をつけなければなりませんか。",
+    "choices": [
+      "1. 傘を持たないこと",
+      "2. 朝7時に京都駅に集まること",
+      "3. 歩きやすい靴で来ること",
+      "4. お弁当を持ってくること"
+    ],
+    "answer": "3. 歩きやすい靴で来ること",
+    "explanation": "The note advises: 歩きやすい靴で来てください ('Please come in comfortable walking shoes').",
+    "choice_explanations": [
+      "Not bringing an umbrella — not mentioned.",
+      "Meeting at Kyoto Station at 7 AM — wrong time & place (8 AM at Tokyo Station!).",
+      "Correct: Coming in comfortable walking shoes (歩きやすい靴で来てください).",
+      "Bringing a bento — they are eating lunch near a temple in Kyoto."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q149 (Daily Schedule Note)"
+  },
+  {
+    "id": "N4-150",
+    "exam": "N4",
+    "section": "reading",
+    "question": "【Passage E (Daily Schedule Note)】\n今週の土曜日、日本語教室のみんなで京都へ行く予定です。朝8時に東京駅に集合して、新幹線で行きます。昼ご飯は京都のお寺の近くで食べます。夕方5時ごろ東京へ帰ってくる予定です。歩きやすい靴で来てください。\n\n東京へは何時ごろ帰ってきますか。",
+    "choices": [
+      "1. 夕方5時ごろ",
+      "2. 昼12時ごろ",
+      "3. 夜10時ごろ",
+      "4. 朝8時ごろ"
+    ],
+    "answer": "1. 夕方5時ごろ",
+    "explanation": "It states: 夕方5時ごろ東京へ帰ってくる予定です.",
+    "choice_explanations": [
+      "Correct: Around 5:00 PM (夕方5時ごろ東京へ帰ってくる予定).",
+      "Around 12:00 PM noon — wrong.",
+      "Around 10:00 PM — wrong.",
+      "Around 8:00 AM — that is meeting/departure time in the morning."
+    ],
+    "source": "JLPT N4 Workbook (150Q) Q150 (Daily Schedule Note)"
   }
 ]

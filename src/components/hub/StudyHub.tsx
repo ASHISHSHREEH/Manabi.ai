@@ -28,7 +28,7 @@ const LEVEL_META: Record<
 > = {
   ALL: {
     title: "All Exams Combined",
-    subtitle: "JFT-Basic, JLPT N3, N2, and N1",
+    subtitle: "JFT-Basic, JLPT N4, N3, N2, and N1",
     bannerBg: "from-slate-900 to-slate-800 text-white",
     btnBg: "bg-white text-slate-900 hover:bg-slate-100",
   },
@@ -37,6 +37,12 @@ const LEVEL_META: Record<
     subtitle: "Everyday Japanese & sample test mistakes",
     bannerBg: "from-sky-700 to-sky-600 text-white",
     btnBg: "bg-white text-sky-900 hover:bg-sky-50",
+  },
+  N4: {
+    title: "JLPT N4",
+    subtitle: "Elementary Kanji, Vocab, Grammar & Reading",
+    bannerBg: "from-amber-600 to-amber-500 text-white",
+    btnBg: "bg-white text-amber-900 hover:bg-amber-50",
   },
   N3: {
     title: "JLPT N3",
