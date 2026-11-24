@@ -1,0 +1,32 @@
+{
+  "name": "jft-exam-prep",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:mobile": "next dev -H 0.0.0.0",
+    "dev:public": "node scripts/public-server.mjs --mode=dev",
+    "build": "next build",
+    "start": "next start",
+    "start:public": "node scripts/public-server.mjs --mode=start",
+    "lint": "next lint",
+    "sync": "node scripts/sync-mistakes.mjs",
+    "test": "node --test scripts/sync-mistakes.test.mjs && node --experimental-strip-types --test src/lib/quiz.test.ts src/lib/analytics.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^1.75.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.11.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "cloudflared": "^0.7.3",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0"
+  }
+}
