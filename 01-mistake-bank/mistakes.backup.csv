@@ -1,0 +1,406 @@
+id,exam,section,question,choices,answer,my_wrong_answer,explanation,source,times_seen,times_correct,last_seen
+N3-001,N3,vocabulary,この【書類】を部長に渡してください。,1. しょりゅう | 2. しょるい | 3. しゅるい | 4. しょうるい,2. しょるい,,書類 (しょるい) means 'documents/papers'. しゅるい is 種類 (kind/type).,JLPT N3 Workbook Q1 (Kanji Reading),0,0,
+N3-002,N3,vocabulary,駅の近くで【迷子】になってしまった。,1. まいこ | 2. めいご | 3. まいご | 4. めいし,3. まいご,,迷子 (まいご) means 'lost child'. Note the rendaku (voicing) from こ to ご.,JLPT N3 Workbook Q2 (Kanji Reading),0,0,
+N3-003,N3,vocabulary,毎日【規則】正しい生活を送っている。,1. きそく | 2. きっそく | 3. きぞく | 4. ぎそく,1. きそく,,規則 (きそく) means 'rule/regulation'. きそくただしい means 'well-regulated/regular'.,JLPT N3 Workbook Q3 (Kanji Reading),0,0,
+N3-004,N3,vocabulary,来月の旅行の【予定】を立てましょう。,1. よだい | 2. よじょう | 3. ようてい | 4. よてい,4. よてい,,予定 (よてい) means 'schedule/plan'. 予 is read よ and 定 is てい here.,JLPT N3 Workbook Q4 (Kanji Reading),0,0,
+N3-005,N3,vocabulary,彼の【性格】はとても明るい。,1. せいがく | 2. しょうかく | 3. せいかく | 4. せいかつ,3. せいかく,,性格 (せいかく) means 'personality/character'. せいかつ is 生活 (daily life).,JLPT N3 Workbook Q5 (Kanji Reading),0,0,
+N3-006,N3,vocabulary,この箱は【壊れ】やすいので気をつけて。,1. こわれ | 2. たおれ | 3. くずれ | 4. わかれ,1. こわれ,,壊れる (こわれる) is an intransitive verb meaning 'to break'. くずれる is 崩れる (to collapse).,JLPT N3 Workbook Q6 (Kanji Reading),0,0,
+N3-007,N3,vocabulary,会議の【結果】をメールで知らせます。,1. けっか | 2. けつか | 3. けつが | 4. けいか,1. けっか,,結果 (けっか) means 'result/outcome'. けいか is 経過 (progress/passage).,JLPT N3 Workbook Q7 (Kanji Reading),0,0,
+N3-008,N3,vocabulary,今日は【気温】が急に下がった。,1. きおん | 2. けおん | 3. きねつ | 4. きうん,1. きおん,,気温 (きおん) means 'air temperature'. 気 (き) + 温 (おん).,JLPT N3 Workbook Q8 (Kanji Reading),0,0,
+N3-009,N3,vocabulary,窓から【新鮮】な空気が入ってくる。,1. しんぜん | 2. にいせん | 3. しんせん | 4. じんせん,3. しんせん,,新鮮 (しんせん) means 'fresh'. Both kanji take their standard on'yomi.,JLPT N3 Workbook Q9 (Kanji Reading),0,0,
+N3-010,N3,vocabulary,友達に【招待】されてパーティーに行った。,1. じょうたい | 2. そうたい | 3. しょうだい | 4. しょうたい,4. しょうたい,,招待 (しょうたい) means 'invitation'. じょうたい is 状態 (condition/state).,JLPT N3 Workbook Q10 (Kanji Reading),0,0,
+N3-011,N3,vocabulary,この仕事には【経験】が必要です。,1. けいけん | 2. けいげん | 3. けいかん | 4. きょうけん,1. けいけん,,経験 (けいけん) means 'experience'. けいげん is 軽減 (reduction).,JLPT N3 Workbook Q11 (Kanji Reading),0,0,
+N3-012,N3,vocabulary,電車が【遅れ】てすみません。,1. おくれ | 2. はなれ | 3. かくれ | 4. わすれ,1. おくれ,,"遅れる (おくれる) means 'to be delayed/late'. 離れる is はなれる, 隠れる is かくれる.",JLPT N3 Workbook Q12 (Kanji Reading),0,0,
+N3-013,N3,vocabulary,新しい【技術】を学ぶのは楽しい。,1. ぎじゅつ | 2. きしゅつ | 3. ぎしゅつ | 4. きじゅつ,1. ぎじゅつ,,技術 (ぎじゅつ) means 'technology/technique'. きじゅつ is 記述 (description).,JLPT N3 Workbook Q13 (Kanji Reading),0,0,
+N3-014,N3,vocabulary,彼女は【留学】のために貯金している。,1. りゅうがく | 2. なががく | 3. りゅうかく | 4. るがく,1. りゅうがく,,留学 (りゅうがく) means 'studying abroad'. 留 takes りゅう here.,JLPT N3 Workbook Q14 (Kanji Reading),0,0,
+N3-015,N3,vocabulary,テストの【範囲】が広くて大変だ。,1. はんみ | 2. ほうい | 3. ばんい | 4. はんい,4. はんい,,範囲 (はんい) means 'scope/range'. 範 (はん) + 囲 (い).,JLPT N3 Workbook Q15 (Kanji Reading),0,0,
+N3-016,N3,vocabulary,雨が【激しく】降ってきた。,1. はげしく | 2. さびしく | 3. けわしく | 4. きびしく,1. はげしく,,激しい (はげしい) means 'intense/fierce/heavy (rain)'. 厳しい is きびしい (strict).,JLPT N3 Workbook Q16 (Kanji Reading),0,0,
+N3-017,N3,vocabulary,この店の【評判】はとてもいい。,1. びょうばん | 2. へいばん | 3. ひょうはん | 4. ひょうばん,4. ひょうばん,,評判 (ひょうばん) means 'reputation'. Note the voicing on 判 -> ばん.,JLPT N3 Workbook Q17 (Kanji Reading),0,0,
+N3-018,N3,vocabulary,ゴミを【燃やす】場所が決まっている。,1. ひやす | 2. こがす | 3. かわかす | 4. もやす,4. もやす,,燃やす (もやす) is a transitive verb meaning 'to burn'. 冷やす is ひやす (to cool).,JLPT N3 Workbook Q18 (Kanji Reading),0,0,
+N3-019,N3,vocabulary,昨日の【地震】で棚の本が落ちた。,1. ちじん | 2. じしん | 3. ちしん | 4. じじん,2. じしん,,地震 (じしん) means 'earthquake'. 知人 is ちじん (acquaintance).,JLPT N3 Workbook Q19 (Kanji Reading),0,0,
+N3-020,N3,vocabulary,健康のために【運動】を始めた。,1. くんどう | 2. うんと | 3. おんどう | 4. うんどう,4. うんどう,,運動 (うんどう) means 'exercise/movement'. 運 (うん) + 動 (どう).,JLPT N3 Workbook Q20 (Kanji Reading),0,0,
+N3-021,N3,vocabulary,来週の会議に【しゅっせき】します。,1. 出関 | 2. 出積 | 3. 出席 | 4. 出跡,3. 出席,,"出席 (しゅっせき) means 'attendance'. 積 is accumulation, 跡 is trace.",JLPT N3 Workbook Q21 (Orthography),0,0,
+N3-022,N3,vocabulary,この問題は少し【ふくざつ】ですね。,1. 福雑 | 2. 腹雑 | 3. 複雑 | 4. 復雑,3. 複雑,,複雑 (ふくざつ) means 'complicated'. 複 (multiple/compound) + 雑 (mixed).,JLPT N3 Workbook Q22 (Orthography),0,0,
+N3-023,N3,vocabulary,友達の【けっこん】式に呼ばれた。,1. 結婚 | 2. 結昏 | 3. 決婚 | 4. 欠婚,1. 結婚,,結婚 (けっこん) means 'marriage'. 結 (tie/bind) + 婚 (marriage).,JLPT N3 Workbook Q23 (Orthography),0,0,
+N3-024,N3,vocabulary,荷物を【あずけ】てから買い物に行った。,1. 授け | 2. 預け | 3. 助け | 4. 届け,2. 預け,,預ける (あずける) means 'to deposit/leave (something in someone's care)'.,JLPT N3 Workbook Q24 (Orthography),0,0,
+N3-025,N3,vocabulary,試験に【ごうかく】して本当にうれしい。,1. 合確 | 2. 合格 | 3. 合客 | 4. 合各,2. 合格,,合格 (ごうかく) means 'passing an exam'. 格 means standard/rank.,JLPT N3 Workbook Q25 (Orthography),0,0,
+N3-026,N3,vocabulary,日本の【ぶんか】に興味があります。,1. 文化 | 2. 文科 | 3. 分科 | 4. 文花,1. 文化,,文化 (ぶんか) means 'culture'. 分科 is a branch/department.,JLPT N3 Workbook Q26 (Orthography),0,0,
+N3-027,N3,vocabulary,夜遅くに電話をかけて【もうしわけ】ない。,1. 申し和 | 2. 申し分 | 3. 申し別 | 4. 申し訳,4. 申し訳,,申し訳ない (もうしわけない) means 'inexcusable / I am sorry'. 訳 means reason/excuse.,JLPT N3 Workbook Q27 (Orthography),0,0,
+N3-028,N3,vocabulary,健康のため、野菜を【ちゅうしん】に食べている。,1. 忠心 | 2. 中心 | 3. 仲心 | 4. 中真,2. 中心,,中心 (ちゅうしん) means 'center/focus'. 忠心 means loyalty.,JLPT N3 Workbook Q28 (Orthography),0,0,
+N3-029,N3,vocabulary,この川はとても【ふか】いので危ない。,1. 太 | 2. 広 | 3. 遠 | 4. 深,4. 深,,"深い (ふかい) means 'deep'. 広 is wide, 遠 is far, 太 is thick.",JLPT N3 Workbook Q29 (Orthography),0,0,
+N3-030,N3,vocabulary,彼女の【ゆめ】は医者になることだ。,1. 想 | 2. 願 | 3. 望 | 4. 夢,4. 夢,,"夢 (ゆめ) means 'dream'. 望 is のぞみ (hope), 願 is ねがい (wish).",JLPT N3 Workbook Q30 (Orthography),0,0,
+N3-031,N3,vocabulary,毎日日記を【つづ】けるのは難しい。,1. 読 | 2. 残 | 3. 続 | 4. 書,3. 続,,続ける (つづける) means 'to continue'. 残す is のこす (to leave behind).,JLPT N3 Workbook Q31 (Orthography),0,0,
+N3-032,N3,vocabulary,空港でパスポートを【かくにん】された。,1. 覚認 | 2. 各認 | 3. 確任 | 4. 確認,4. 確認,,確認 (かくにん) means 'confirmation/verification'.,JLPT N3 Workbook Q32 (Orthography),0,0,
+N3-033,N3,vocabulary,山の上から見た【けしき】は最高だった。,1. 計色 | 2. 景色 | 3. 形色 | 4. 景式,2. 景色,,景色 (けしき) means 'scenery/view'.,JLPT N3 Workbook Q33 (Orthography),0,0,
+N3-034,N3,vocabulary,約束の時間を【まも】ってください。,1. 守 | 2. 見 | 3. 待 | 4. 保,1. 守,,守る (まもる) means 'to keep (a promise)/obey/protect'. 保つ is たもつ.,JLPT N3 Workbook Q34 (Orthography),0,0,
+N3-035,N3,vocabulary,駅の前でバスを【のりか】えた。,1. 乗り替 | 2. 乗り代 | 3. 乗り換 | 4. 乗り変,3. 乗り換,,乗り換える (のりかえる) means 'to transfer (trains/buses)'. 換 is used for exchanging/switching transport.,JLPT N3 Workbook Q35 (Orthography),0,0,
+N3-036,N3,vocabulary,この仕事は一人でやるのは無理なので、誰かに（ ）してもらおう。,1. 努力 | 2. 協力 | 3. 反対 | 4. 競争,2. 協力,,"協力 (きょうりょく, cooperation/help) fits 'cannot do it alone, so ask someone to cooperate'.",JLPT N3 Workbook Q36 (Context),0,0,
+N3-037,N3,vocabulary,部屋が（ ）いるから、すぐに片付けなさい。,1. 並んで | 2. 散らかって | 3. 片付いて | 4. 集まって,2. 散らかって,,"散らかる (ちらかる) means 'to be messy/scattered', which logically leads to 'clean it up right away'.",JLPT N3 Workbook Q37 (Context),0,0,
+N3-038,N3,vocabulary,先生の説明はとても（ ）わかりやすかった。,1. ざんねんで | 2. ていねいで | 3. ふべんで | 4. しつれいで,2. ていねいで,,"丁寧 (ていねい, polite/careful/thorough) makes an explanation easy to understand.",JLPT N3 Workbook Q38 (Context),0,0,
+N3-039,N3,vocabulary,最近（ ）が続いていて、なかなか寝られない。,1. バランス | 2. チャンス | 3. サービス | 4. ストレス,4. ストレス,,ストレス (stress) causes difficulty sleeping.,JLPT N3 Workbook Q39 (Context),0,0,
+N3-040,N3,vocabulary,このレストランは値段も安いし、味も（ ）だ。,1. 最高 | 2. 普通 | 3. 特別 | 4. 最低,1. 最高,,"値段も安いし (prices are cheap, and...) pairs positively with 最高 (the best).",JLPT N3 Workbook Q40 (Context),0,0,
+N3-041,N3,vocabulary,火事の原因について、警察が詳しく（ ）いる。,1. 調べて | 2. 考えて | 3. 探して | 4. 見つけて,1. 調べて,,"調べる (しらべる, to investigate/examine) is used for investigating the cause of a fire.",JLPT N3 Workbook Q41 (Context),0,0,
+N3-042,N3,vocabulary,彼の話はいつも（ ）があって面白い。,1. ユーモア | 2. マナー | 3. ルール | 4. サイン,1. ユーモア,,ユーモア (humor) makes someone's stories funny/interesting.,JLPT N3 Workbook Q42 (Context),0,0,
+N3-043,N3,vocabulary,せっかく作った料理を（ ）しまった。,1. おちて | 2. ながれて | 3. あふれて | 4. こぼして,4. こぼして,,"こぼす (transitive: to spill) takes を. あふれる, ながれる, おちる are intransitive.",JLPT N3 Workbook Q43 (Context),0,0,
+N3-044,N3,vocabulary,新しいパソコンを買ったので、古いのは（ ）にした。,1. 準備 | 2. 処分 | 3. 整理 | 4. 保存,2. 処分,,処分する (しょぶんする) means 'to dispose of / get rid of'.,JLPT N3 Workbook Q44 (Context),0,0,
+N3-045,N3,vocabulary,会議の時間が近づいているので、みんな（ ）ください。,1. 急いで | 2. 迷って | 3. 遅れて | 4. 慌てて,1. 急いで,,"急ぐ (いそぐ, to hurry) is the natural request; 慌てる means to panic.",JLPT N3 Workbook Q45 (Context),0,0,
+N3-046,N3,vocabulary,この靴は少し（ ）から、もう一つ大きいサイズにします。,1. かるい | 2. ゆるい | 3. おもい | 4. きつい,4. きつい,,"きつい means 'tight', which explains choosing one size larger.",JLPT N3 Workbook Q46 (Context),0,0,
+N3-047,N3,vocabulary,雨が降るかどうか（ ）なので、傘を持って行こう。,1. 安心 | 2. 危険 | 3. 確実 | 4. 微妙,4. 微妙,,"微妙 (びみょう, uncertain/borderline) explains bringing an umbrella just in case.",JLPT N3 Workbook Q47 (Context),0,0,
+N3-048,N3,vocabulary,山田さんは仕事が速いだけでなく、とても（ ）だ。,1. 正確 | 2. 簡単 | 3. 複雑 | 4. 適当,1. 正確,,"正確 (せいかく, accurate) contrasts positively with 'not only fast, but also accurate'.",JLPT N3 Workbook Q48 (Context),0,0,
+N3-049,N3,vocabulary,電車の中で席を（ ）お年寄りに感謝された。,1. かえしたら | 2. わたしたら | 3. ゆずったら | 4. かしたら,3. ゆずったら,,席をゆずる (to give up one's seat) is the standard collocation.,JLPT N3 Workbook Q49 (Context),0,0,
+N3-050,N3,vocabulary,この薬を飲めば、熱が（ ）下がるはずです。,1. たまに | 2. けっして | 3. めったに | 4. しだいに,4. しだいに,,次第に (しだいに) means 'gradually'. めったに and けっして require negative verbs.,JLPT N3 Workbook Q50 (Context),0,0,
+N3-051,N3,vocabulary,この問題は【たいへん】難しい。,1. すこし | 2. ぜんぜん | 3. だんだん | 4. とても,4. とても,,大変 (たいへん) as an adverb means 'very/extremely' (= とても).,JLPT N3 Workbook Q51 (Paraphrases),0,0,
+N3-052,N3,vocabulary,彼は【めったに】怒らない人だ。,1. かならず | 2. いつも | 3. ほとんど | 4. ときどき,3. ほとんど,,"めったに～ない means 'rarely/hardly ever', equivalent to ほとんど～ない.",JLPT N3 Workbook Q52 (Paraphrases),0,0,
+N3-053,N3,vocabulary,駅前の店が【ついに】閉店した。,1. とうとう | 2. まだ | 3. もうすぐ | 4. すぐに,1. とうとう,,"ついに means 'finally/at last' (= とうとう), often after a long wait.",JLPT N3 Workbook Q53 (Paraphrases),0,0,
+N3-054,N3,vocabulary,会議は【ほぼ】予定通りに終わった。,1. すこしも | 2. まったく | 3. ぴったり | 4. だいたい,4. だいたい,,ほぼ means 'almost/approximately' (= だいたい).,JLPT N3 Workbook Q54 (Paraphrases),0,0,
+N3-055,N3,vocabulary,明日の天気は【おそらく】晴れだろう。,1. けっして | 2. たぶん | 3. ぜったい | 4. かならず,2. たぶん,,おそらく means 'probably/likely' (= たぶん).,JLPT N3 Workbook Q55 (Paraphrases),0,0,
+N3-056,N3,vocabulary,弟は【あいかわらず】ゲームばかりしている。,1. いつもと同じように | 2. 前と違って | 3. 珍しく | 4. 急に,1. いつもと同じように,,相変わらず (あいかわらず) means 'as usual / same as before'.,JLPT N3 Workbook Q56 (Paraphrases),0,0,
+N3-057,N3,vocabulary,この機械の使い方は【単純】だ。,1. べんり | 2. かんたん | 3. あんぜん | 4. ふくざつ,2. かんたん,,単純 (たんじゅん) means 'simple/uncomplicated' (= かんたん).,JLPT N3 Workbook Q57 (Paraphrases),0,0,
+N3-058,N3,vocabulary,友達と【たまたま】駅で会った。,1. ぐうぜん | 2. まいにち | 3. わざと | 4. かならず,1. ぐうぜん,,たまたま means 'by chance/coincidentally' (= 偶然).,JLPT N3 Workbook Q58 (Paraphrases),0,0,
+N3-059,N3,vocabulary,【用法】せっかく,1. せっかく毎日朝ごはんを食べている。 | 2. せっかく試験に落ちて、とても悲しい。 | 3. せっかく雨が降ったから、傘を持って行こう。 | 4. せっかく来たのだから、ゆっくりしていってください。,4. せっかく来たのだから、ゆっくりしていってください。,,"せっかく expresses 'with much trouble/special effort', used in positive/regretful contexts like 'since you came all this way'.",JLPT N3 Workbook Q59 (Usage),0,0,
+N3-060,N3,vocabulary,【用法】うっかり,1. うっかりテストで100点を取った。 | 2. うっかり約束の時間を忘れてしまった。 | 3. うっかり毎日ジョギングをしている。 | 4. うっかり丁寧に手紙を書いた。,2. うっかり約束の時間を忘れてしまった。,,うっかり means 'carelessly/inadvertently' (forgetting or making a mistake).,JLPT N3 Workbook Q60 (Usage),0,0,
+N3-061,N3,vocabulary,【用法】もっとも,1. 最もご飯を食べてから寝ました。 | 2. クラスで最も背が高いのは田中さんです。 | 3. 最も雨が降っているので出かけない。 | 4. 明日は最も忙しいかもしれません。,2. クラスで最も背が高いのは田中さんです。,,"最も (もっとも) means 'most' (superlative), modifying adjectives/adverbs like 背が高い.",JLPT N3 Workbook Q61 (Usage),0,0,
+N3-062,N3,vocabulary,【用法】おとなしい,1. おとなしい値段で買い物ができた。 | 2. 駅の前はおとなしくて人が少ない。 | 3. この犬はとてもおとなしくて、全然ほえない。 | 4. 今日のテストはおとなしくて簡単だった。,3. この犬はとてもおとなしくて、全然ほえない。,,"おとなしい describes a person or animal that is gentle, quiet, and well-behaved.",JLPT N3 Workbook Q62 (Usage),0,0,
+N3-063,N3,vocabulary,【用法】かなう,1. ずっと頑張ってきた夢がついにかなった。 | 2. この箱は大きすぎて部屋のかなわない。 | 3. 美味しい料理がテーブルにかなっている。 | 4. 友達と公園でかなうことにした。,1. ずっと頑張ってきた夢がついにかなった。,,叶う (かなう) means '(a wish/dream) comes true'.,JLPT N3 Workbook Q63 (Usage),0,0,
+N3-064,N3,vocabulary,【用法】ぴったり,1. このシャツはサイズがぴったりだ。 | 2. 彼はぴったり日本語が上手になった。 | 3. テストの結果がぴったり心配だ。 | 4. 雨がぴったり降っていて外に出られない。,1. このシャツはサイズがぴったりだ。,,"ぴったり means 'exact fit / spot on' (size, time, match).",JLPT N3 Workbook Q64 (Usage),0,0,
+N3-065,N3,vocabulary,【用法】もったいない,1. 試験に合格して、とてももったいない。 | 2. 時間がもったいないからゆっくり休もう。 | 3. まだ食べられるのに捨てるなんてもったいない。 | 4. 友達が親切にしてくれてもったいない。,3. まだ食べられるのに捨てるなんてもったいない。,,もったいない means 'wasteful / too good to waste'.,JLPT N3 Workbook Q65 (Usage),0,0,
+N3-066,N3,grammar,日本へ来て（ ）、もう三年になります。,1. ながら | 2. まで | 3. ばかり | 4. から,4. から,,"てから means 'since (doing something)', fitting 'it has been 3 years since coming to Japan'.",JLPT N3 Workbook Q66 (Sentential Grammar 1),0,0,
+N3-067,N3,grammar,彼は忙しい（ ）、いつも笑顔で対応してくれる。,1. にもかかわらず | 2. おかげで | 3. せいで | 4. ために,1. にもかかわらず,,"にもかかわらず means 'despite / in spite of' (busy, yet always smiling).",JLPT N3 Workbook Q67 (Sentential Grammar 1),0,0,
+N3-068,N3,grammar,雨が降っている（ ）、洗濯物を外に干してしまった。,1. のに | 2. から | 3. ため | 4. ので,1. のに,,のに expresses 'even though / despite' with surprise or regret.,JLPT N3 Workbook Q68 (Sentential Grammar 1),0,0,
+N3-069,N3,grammar,この本は子供（ ）、大人でも楽しめる内容だ。,1. だけでなく | 2. ばかりで | 3. にとって | 4. しかない,1. だけでなく,,"だけでなく means 'not only (children), but also (adults)'.",JLPT N3 Workbook Q69 (Sentential Grammar 1),0,0,
+N3-070,N3,grammar,寝る（ ）、歯を磨くようにしています。,1. ながら | 2. あとで | 3. うちに | 4. 前に,4. 前に,,Dictionary form + 前に means 'before (sleeping)'.,JLPT N3 Workbook Q70 (Sentential Grammar 1),0,0,
+N3-071,N3,grammar,最近、太ってきた（ ）気がする。,1. みたいな | 2. らしい | 3. そうな | 4. ような,4. ような,,～ような気がする means 'I have a feeling that...'.,JLPT N3 Workbook Q71 (Sentential Grammar 1),0,0,
+N3-072,N3,grammar,彼女が来る（ ）、会議を始めましょう。,1. のを待って | 2. せいで | 3. ばかりに | 4. うちに,1. のを待って,,"のを待って means 'wait for her to arrive, then start'.",JLPT N3 Workbook Q72 (Sentential Grammar 1),0,0,
+N3-073,N3,grammar,先生（ ）、学生の気持ちを理解することが大切だ。,1. にとって | 2. について | 3. に対して | 4. によって,1. にとって,,にとって means 'for / from the perspective of (a teacher)'.,JLPT N3 Workbook Q73 (Sentential Grammar 1),0,0,
+N3-074,N3,grammar,風が強く吹いている（ ）、電車が止まった。,1. せいで | 2. おかげで | 3. ために | 4. ように,1. せいで,,"せいで is used for negative causes ('because of the strong wind, trains stopped'). おかげで is for positive results.",JLPT N3 Workbook Q74 (Sentential Grammar 1),0,0,
+N3-075,N3,grammar,日本に留学する（ ）、日本語を勉強しています。,1. ように | 2. ものに | 3. ことに | 4. ために,4. ために,,Dictionary form + ために expresses clear purpose ('in order to study abroad').,JLPT N3 Workbook Q75 (Sentential Grammar 1),0,0,
+N3-076,N3,grammar,毎日練習した（ ）、ピアノが上手に弾けるようになった。,1. のに | 2. せいで | 3. おかげで | 4. ばかりに,3. おかげで,,おかげで expresses gratitude for a positive outcome ('thanks to practicing every day').,JLPT N3 Workbook Q76 (Sentential Grammar 1),0,0,
+N3-077,N3,grammar,この漢字は難しくて、何度書いても（ ）。,1. 覚えるべきだ | 2. 覚えるはずだ | 3. 覚えてしまう | 4. 覚えられない,4. 覚えられない,,"ても + negative potential (覚えられない, 'even if I write it many times, I cannot memorize it').",JLPT N3 Workbook Q77 (Sentential Grammar 1),0,0,
+N3-078,N3,grammar,明日は大切な会議があるので、遅れない（ ）早く家を出ます。,1. ことに | 2. ために | 3. ように | 4. そうに,3. ように,,Negative verb + ように means 'so that I won't be late'.,JLPT N3 Workbook Q78 (Sentential Grammar 1),0,0,
+N3-079,N3,grammar,田中さんは昨日遅くまで起きていた（ ）、今日はとても眠そうだ。,1. みたいで | 2. そうで | 3. らしく | 4. ようで,3. らしく,,Plain past + らしく expresses hearsay/conjecture based on evidence ('seems to have stayed up late').,JLPT N3 Workbook Q79 (Sentential Grammar 1),0,0,
+N3-080,N3,grammar,健康のために、毎日30分歩く（ ）している。,1. ように | 2. ところに | 3. ものに | 4. ことに,4. ことに,,ことにしている expresses a personal habit or ongoing decision ('make it a rule to walk 30 min').,JLPT N3 Workbook Q80 (Sentential Grammar 1),0,0,
+N3-081,N3,grammar,電車に乗った（ ）、財布を忘れたことに気づいた。,1. あいだに | 2. とたんに | 3. まえに | 4. うちに,2. とたんに,,"た + とたんに means 'the moment / just as (I got on the train, I noticed...)'.",JLPT N3 Workbook Q81 (Sentential Grammar 1),0,0,
+N3-082,N3,grammar,この問題は小学生（ ）解けるほど簡単だ。,1. だけ | 2. でも | 3. しか | 4. ばかり,2. でも,,でも means 'even (an elementary student) can solve it'.,JLPT N3 Workbook Q82 (Sentential Grammar 1),0,0,
+N3-083,N3,grammar,せっかく作った（ ）、誰も食べてくれなかった。,1. し | 2. のに | 3. から | 4. ので,2. のに,,"のに shows disappointment ('even though I went to the trouble of making it, no one ate it').",JLPT N3 Workbook Q83 (Sentential Grammar 1),0,0,
+N3-084,N3,grammar,来週の旅行が（ ）でならない。,1. 楽しむ | 2. 楽しみ | 3. 楽しく | 4. 楽しんだ,2. 楽しみ,,楽しみでならない means 'cannot help looking forward to' (てならない attaches to な-adj/い-adj stems).,JLPT N3 Workbook Q84 (Sentential Grammar 1),0,0,
+N3-085,N3,grammar,この映画は何度見（ ）面白い。,1. なら | 2. ても | 3. たら | 4. れば,2. ても,,"何度 + て-form + も means 'no matter how many times (I watch it), it is interesting'.",JLPT N3 Workbook Q85 (Sentential Grammar 1),0,0,
+N3-086,N3,grammar,昨日買った本は、＿＿ ＿＿ ★ ＿＿ 面白かった。（★に入るものはどれか）,1. 思っていた | 2. 以上に | 3. 私が | 4. ずっと,2. 以上に,,Order: 私が (3) 思っていた (1) 以上に (2) ずっと (4) -> ★ is 以上に (2). Meaning: 'much more interesting than I had thought'.,JLPT N3 Workbook Q86 (Sentence Composition),0,0,
+N3-087,N3,grammar,健康の ＿＿ ＿＿ ★ ＿＿ ようにしている。（★に入るものはどれか）,1. ために | 2. 毎日 | 3. 野菜を | 4. 食べる,3. 野菜を,,"Order: ために (1) 毎日 (2) 野菜を (3) 食べる (4) -> ★ is 野菜を (3). Meaning: 'For health, I try to eat vegetables every day'.",JLPT N3 Workbook Q87 (Sentence Composition),0,0,
+N3-088,N3,grammar,日本語が ＿＿ ＿＿ ★ ＿＿ 勉強しています。（★に入るものはどれか）,1. なる | 2. 上手に | 3. 毎日 | 4. ように,4. ように,,Order: 上手に (2) なる (1) ように (4) 毎日 (3) -> ★ is ように (4). Meaning: 'I study every day so that I become good at Japanese'.,JLPT N3 Workbook Q88 (Sentence Composition),0,0,
+N3-089,N3,grammar,駅の近くにある ＿＿ ＿＿ ★ ＿＿ おいしいです。（★に入るものはどれか）,1. 店の | 2. ケーキは | 3. とても | 4. 新しい,2. ケーキは,,Order: 新しい (4) 店の (1) ケーキは (2) とても (3) -> ★ is ケーキは (2).,JLPT N3 Workbook Q89 (Sentence Composition),0,0,
+N3-090,N3,grammar,彼は ＿＿ ＿＿ ★ ＿＿ 遅刻したことがない。（★に入るものはどれか）,1. 一度も | 2. 入社して | 3. これまで | 4. から,3. これまで,,Order: 入社して (2) から (4) これまで (3) 一度も (1) -> ★ is これまで (3).,JLPT N3 Workbook Q90 (Sentence Composition),0,0,
+N3-091,N3,grammar,雨が ＿＿ ＿＿ ★ ＿＿ ことにした。（★に入るものはどれか）,1. 降ってきた | 2. 帰る | 3. ので | 4. 早く,4. 早く,,Order: 降ってきた (1) ので (3) 早く (4) 帰る (2) -> ★ is 早く (4).,JLPT N3 Workbook Q91 (Sentence Composition),0,0,
+N3-092,N3,grammar,この仕事は ＿＿ ＿＿ ★ ＿＿ 大変だ。（★に入るものはどれか）,1. 時間が | 2. 思った | 3. より | 4. かかって,1. 時間が,,Order: 思った (2) より (3) 時間が (1) かかって (4) -> ★ is 時間が (1).,JLPT N3 Workbook Q92 (Sentence Composition),0,0,
+N3-093,N3,grammar,母が ＿＿ ＿＿ ★ ＿＿ 食べます。（★に入るものはどれか）,1. 作って | 2. 料理を | 3. くれた | 4. おいしく,2. 料理を,,Order: 作って (1) くれた (3) 料理を (2) おいしく (4) -> ★ is 料理を (2).,JLPT N3 Workbook Q93 (Sentence Composition),0,0,
+N3-094,N3,grammar,友達に ＿＿ ＿＿ ★ ＿＿ 返さなければならない。（★に入るものはどれか）,1. 借りた | 2. 今日中に | 3. 本を | 4. 早く,2. 今日中に,,Order: 借りた (1) 本を (3) 今日中に (2) 早く (4) -> ★ is 今日中に (2).,JLPT N3 Workbook Q94 (Sentence Composition),0,0,
+N3-095,N3,grammar,日本へ ＿＿ ＿＿ ★ ＿＿ なりました。（★に入るものはどれか）,1. 来て | 2. 食べられる | 3. 納豆が | 4. から,3. 納豆が,,"Order: 来て (1) から (4) 納豆が (3) 食べられる (2) -> ★ is 納豆が (3). Meaning: 'Since coming to Japan, I became able to eat natto'.",JLPT N3 Workbook Q95 (Sentence Composition),0,0,
+N3-096,N3,reading,"【文章A】
+日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物も飲む【Q98】。
+
+【Q96】に入る最もよいものはどれか。",1. ことがあります | 2. つもりです | 3. ばかりです | 4. はずです,1. ことがあります,,ことがあります (after dictionary form) means 'sometimes happens / there are cases where...'.,JLPT N3 Workbook Q96 (Text Grammar),0,0,
+N3-097,N3,reading,"【文章A】
+日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物も飲む【Q98】。
+
+【Q97】に入る最もよいものはどれか。",1. 大切な | 2. 大切に | 3. 大切だ | 4. 大切で,3. 大切だ,,"Before と (quoted speech と言われています), な-adjectives take the plain form だ: 大切だ.",JLPT N3 Workbook Q97 (Text Grammar),0,0,
+N3-098,N3,reading,"【文章A】
+日本の夏はとても蒸し暑いです。そのため、夏には冷たい飲み物やアイスクリームをたくさん食べる人が増えます。しかし、冷たいものばかり食べていると、お腹の調子が悪くなる【Q96】。ですから、夏でも温かいお茶やスープを飲むことが【Q97】と言われています。私も去年までは冷たいものばかり食べていましたが、今年は温かい飲み物も飲む【Q98】。
+
+【Q98】に入る最もよいものはどれか。",1. ことにしています | 2. ようにしています | 3. ことになりました | 4. ようになりました,2. ようにしています,,ようにしています expresses an ongoing effort/habit ('I am trying to drink warm drinks too').,JLPT N3 Workbook Q98 (Text Grammar),0,0,
+N3-099,N3,reading,"【文章B】
+最近、自転車で通勤する会社員が増えている。電車に乗るより時間がかかることもあるが、満員電車に乗らなくて済むし、毎日の運動にもなるからだ。さらに、交通費の節約にもなるため、これからも自転車通勤をする人は増えていくだろう。
+
+この文章によると、自転車で通勤する理由として書いていないものはどれか。",1. 毎日の運動になるから | 2. 電車より必ず早く着くから | 3. 満員電車に乗らなくていいから | 4. 交通費を節約できるから,2. 電車より必ず早く着くから,,"The passage says 電車に乗るより時間がかかることもある ('it can take longer than the train'), so 'always arrives faster' is false.",JLPT N3 Workbook Q99 (Short Reading),0,0,
+N3-100,N3,reading,"【文章B】
+最近、自転車で通勤する会社員が増えている。電車に乗るより時間がかかることもあるが、満員電車に乗らなくて済むし、毎日の運動にもなるからだ。さらに、交通費の節約にもなるため、これからも自転車通勤をする人は増えていくだろう。
+
+筆者はこれから自転車通勤をする人はどうなると考えているか。",1. 増えていくと思う | 2. 変わらないと思う | 3. 分からないと書いている | 4. 減っていくと思う,1. 増えていくと思う,,The final sentence explicitly states これからも自転車通勤をする人は増えていくだろう ('will likely continue to increase').,JLPT N3 Workbook Q100 (Short Reading),0,0,
+N3-101,N3,reading,"【文章C】
+新しい言語を学ぶとき、単語をたくさん覚えることはもちろん大切ですが、それだけでは実際に会話をするのは難しいです。文法の基本を理解し、短い文でもいいから自分で作って声に出して練習することが必要です。最初は間違えることを恥ずかしいと思うかもしれませんが、間違いを恐れずに話すことで、少しずつ自信がついてきます。
+
+筆者が言いたいことは何か。",1. 間違えないように、完璧に文法を覚えてから話すべきだ | 2. 単語を覚えるだけでなく、声に出して話す練習が大切だ | 3. 一人で静かに本を読むことが一番いい練習方法だ | 4. 単語をたくさん覚えれば、すぐに会話ができるようになる,2. 単語を覚えるだけでなく、声に出して話す練習が大切だ,,"The author emphasizes not just memorizing words, but making sentences, speaking aloud, and not fearing mistakes.",JLPT N3 Workbook Q101 (Mid-size Reading),0,0,
+N3-102,N3,reading,"【文章C】
+新しい言語を学ぶとき、単語をたくさん覚えることはもちろん大切ですが、それだけでは実際に会話をするのは難しいです。文法の基本を理解し、短い文でもいいから自分で作って声に出して練習することが必要です。最初は間違えることを恥ずかしいと思うかもしれませんが、間違いを恐れずに話すことで、少しずつ自信がついてきます。
+
+「自信がついてきます」とあるが、どうすれば自信がつくか。",1. 間違いを恐れずに話すこと | 2. 恥ずかしいと思わないように単語だけ覚えること | 3. 長い文だけを暗記すること | 4. 絶対に間違えないこと,1. 間違いを恐れずに話すこと,,The text directly says 間違いを恐れずに話すことで、少しずつ自信がついてきます.,JLPT N3 Workbook Q102 (Mid-size Reading),0,0,
+N3-103,N3,reading,"【文章D：図書館からのお知らせ】
+来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。
+
+10月12日（月）に図書館でできることは何か。",1. 返却ポストにDVDを返すこと | 2. 返却ポストに本を返すこと | 3. カウンターで本を借りること | 4. 図書館の中で本を読むこと,2. 返却ポストに本を返すこと,,"The library is closed all day (終日休館), but books can be returned to the return post (返却ポスト). DVDs/CDs cannot go in the post.",JLPT N3 Workbook Q103 (Information Notice),0,0,
+N3-104,N3,reading,"【文章D：図書館からのお知らせ】
+来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。
+
+DVDやCDを返したい人はどうしなければならないか。",1. 10月12日に返却ポストに入れる | 2. 郵送で図書館に送る | 3. 10月13日以降にカウンターへ返す | 4. 正面玄関の前に置いておく,3. 10月13日以降にカウンターへ返す,,The notice instructs: 10月13日（火）以降の開館時間にカウンターへお返しください.,JLPT N3 Workbook Q104 (Information Notice),0,0,
+N3-105,N3,reading,"【文章D：図書館からのお知らせ】
+来週の月曜日（10月12日）は建物の電気点検のため、終日休館いたします。本の返却は正面玄関横の「返却ポスト」をご利用ください。なお、DVDやCDは壊れやすいため、ポストには入れず、10月13日（火）以降の開館時間にカウンターへお返しください。
+
+なぜ10月12日は休館するのか。",1. 建物の電気点検があるため | 2. 祝日だから | 3. 本の整理をするため | 4. 新しい本を入れるため,1. 建物の電気点検があるため,,The notice states: 建物の電気点検のため、終日休館いたします ('closed all day for building electrical inspection').,JLPT N3 Workbook Q105 (Information Notice),0,0,
+N2-001,N2,vocabulary,この計画には多くの【課題】が残されている。,1. かだい | 2. かせい | 3. かてい | 4. かた,1. かだい,,課題 (かだい) means 'issue/task/assignment'. 過程 is かてい (process).,JLPT N2 Workbook Q1 (Kanji Reading),0,0,
+N2-002,N2,vocabulary,彼は【柔軟】な考え方の持ち主だ。,1. にゅうらん | 2. じゅうなん | 3. じゅうらん | 4. にゅうなん,2. じゅうなん,,柔軟 (じゅうなん) means 'flexible/pliable'. 柔 takes じゅう here.,JLPT N2 Workbook Q2 (Kanji Reading),0,0,
+N2-003,N2,vocabulary,経済の【回復】にはまだ時間がかかる。,1. かいふく | 2. かいふう | 3. えふく | 4. かいぶく,1. かいふく,,回復 (かいふく) means 'recovery/restoration'.,JLPT N2 Workbook Q3 (Kanji Reading),0,0,
+N2-004,N2,vocabulary,会議での発言を【控える】ことにした。,1. ささえる | 2. おさえる | 3. かかえる | 4. ひかえる,4. ひかえる,,控える (ひかえる) means 'to refrain from / hold back'. 抱える is かかえる.,JLPT N2 Workbook Q4 (Kanji Reading),0,0,
+N2-005,N2,vocabulary,新製品の【普及】率が急速に高まっている。,1. ぶきゅう | 2. ふきゅう | 3. ふきょう | 4. ふぎゅう,2. ふきゅう,,普及 (ふきゅう) means 'diffusion/spread (of technology/products)'.,JLPT N2 Workbook Q5 (Kanji Reading),0,0,
+N2-006,N2,vocabulary,彼女の【誠実】な態度に感心した。,1. せつじつ | 2. せいしつ | 3. せいじつ | 4. じょうじつ,3. せいじつ,,誠実 (せいじつ) means 'sincere/honest'. 性質 is せいしつ (nature/property).,JLPT N2 Workbook Q6 (Kanji Reading),0,0,
+N2-007,N2,vocabulary,道路の【混雑】を避けて早朝に出発した。,1. こんざつ | 2. こんぞう | 3. ごんざつ | 4. こんさつ,1. こんざつ,,混雑 (こんざつ) means 'congestion/crowding'.,JLPT N2 Workbook Q7 (Kanji Reading),0,0,
+N2-008,N2,vocabulary,予算を【削減】する必要が生じた。,1. けずげん | 2. さくげん | 3. さくけん | 4. しょうげん,2. さくげん,,削減 (さくげん) means 'reduction/cutback'. 削 takes さく in compounds.,JLPT N2 Workbook Q8 (Kanji Reading),0,0,
+N2-009,N2,vocabulary,その噂はまったくの【誤解】だ。,1. ごかい | 2. こかい | 3. ごげ | 4. あやかい,1. ごかい,,誤解 (ごかい) means 'misunderstanding'.,JLPT N2 Workbook Q9 (Kanji Reading),0,0,
+N2-010,N2,vocabulary,環境問題を【深刻】に受け止めている。,1. ふかこく | 2. しんこく | 3. じんこく | 4. しんごく,2. しんこく,,深刻 (しんこく) means 'serious/grave/severe'.,JLPT N2 Workbook Q10 (Kanji Reading),0,0,
+N2-011,N2,vocabulary,事件の【背景】を詳しく調査する。,1. はいえい | 2. はいけい | 3. せけい | 4. はいぎょう,2. はいけい,,背景 (はいけい) means 'background/context'.,JLPT N2 Workbook Q11 (Kanji Reading),0,0,
+N2-012,N2,vocabulary,自分の意見を【主張】するだけでは解決しない。,1. すちょう | 2. しゅちょう | 3. しゅじょう | 4. しゅうしょう,2. しゅちょう,,主張 (しゅちょう) means 'assertion/claim/insistence'.,JLPT N2 Workbook Q12 (Kanji Reading),0,0,
+N2-013,N2,vocabulary,この地域は自然が【豊か】だ。,1. ゆたか | 2. おだやか | 3. にぎやか | 4. あざやか,1. ゆたか,,"豊か (ゆたか) means 'abundant/rich'. 穏やか is おだやか, 鮮やか is あざやか.",JLPT N2 Workbook Q13 (Kanji Reading),0,0,
+N2-014,N2,vocabulary,規則に【違反】すると罰金が科される。,1. いばん | 2. ちはん | 3. いはん | 4. だはん,3. いはん,,違反 (いはん) means 'violation/breach'.,JLPT N2 Workbook Q14 (Kanji Reading),0,0,
+N2-015,N2,vocabulary,彼は【裕福】な家庭で育った。,1. ゆふく | 2. ゆうぶく | 3. ゆうふく | 4. ようふく,3. ゆうふく,,裕福 (ゆうふく) means 'wealthy/affluent'.,JLPT N2 Workbook Q15 (Kanji Reading),0,0,
+N2-016,N2,vocabulary,プロジェクトの責任者に【にんめい】された。,1. 任命 | 2. 人命 | 3. 認命 | 4. 任名,1. 任命,,任命 (にんめい) means 'appointment (to a position)'.,JLPT N2 Workbook Q16 (Orthography),0,0,
+N2-017,N2,vocabulary,二つの案を【ひかく】して検討しよう。,1. 非較 | 2. 比格 | 3. 比較 | 4. 皮較,3. 比較,,比較 (ひかく) means 'comparison'.,JLPT N2 Workbook Q17 (Orthography),0,0,
+N2-018,N2,vocabulary,相手の立場を【そんちょう】することが大切だ。,1. 尊重 | 2. 尊長 | 3. 存重 | 4. 損重,1. 尊重,,尊重 (そんちょう) means 'respect/esteem'.,JLPT N2 Workbook Q18 (Orthography),0,0,
+N2-019,N2,vocabulary,仕事の【こうりつ】を上げる工夫をする。,1. 効律 | 2. 効率 | 3. 高率 | 4. 行率,2. 効率,,効率 (こうりつ) means 'efficiency'.,JLPT N2 Workbook Q19 (Orthography),0,0,
+N2-020,N2,vocabulary,地震に備えて食料を【たくわ】えておく。,1. 貯 | 2. 備 | 3. 蓄 | 4. 積,3. 蓄,,蓄える (たくわえる) means 'to store up / stockpile'.,JLPT N2 Workbook Q20 (Orthography),0,0,
+N2-021,N2,vocabulary,会議の日程を【ちょうせい】する。,1. 調整 | 2. 長整 | 3. 調正 | 4. 調制,1. 調整,,調整 (ちょうせい) means 'adjustment/coordination'.,JLPT N2 Workbook Q21 (Orthography),0,0,
+N2-022,N2,vocabulary,彼の説明には【むじゅん】がある。,1. 矛順 | 2. 無順 | 3. 無盾 | 4. 矛盾,4. 矛盾,,矛盾 (むじゅん) means 'contradiction' (literally spear and shield).,JLPT N2 Workbook Q22 (Orthography),0,0,
+N2-023,N2,vocabulary,新しい制度を【どうにゅう】する。,1. 動入 | 2. 道入 | 3. 導入 | 4. 同入,3. 導入,,導入 (どうにゅう) means 'introduction/adoption (of a system)'.,JLPT N2 Workbook Q23 (Orthography),0,0,
+N2-024,N2,vocabulary,この商品は品質が【ほしょう】されている。,1. 保正 | 2. 保商 | 3. 補証 | 4. 保証,4. 保証,,保証 (ほしょう) means 'guarantee/warranty'.,JLPT N2 Workbook Q24 (Orthography),0,0,
+N2-025,N2,vocabulary,目標を【たっせい】するために努力する。,1. 達精 | 2. 達成 | 3. 達正 | 4. 立成,2. 達成,,達成 (たっせい) means 'achievement/accomplishment'.,JLPT N2 Workbook Q25 (Orthography),0,0,
+N2-026,N2,vocabulary,長年の【どりょく】が実を結んだ。,1. 努力 | 2. 努カ | 3. 奴力 | 4. 怒力,1. 努力,,努力 (どりょく) means 'effort/endeavor'.,JLPT N2 Workbook Q26 (Orthography),0,0,
+N2-027,N2,vocabulary,会議の内容を【きろく】に残す。,1. 機録 | 2. 記録 | 3. 既録 | 4. 記緑,2. 記録,,記録 (きろく) means 'record/minutes'. 緑 is green.,JLPT N2 Workbook Q27 (Orthography),0,0,
+N2-028,N2,vocabulary,両国の関係が【かいぜん】された。,1. 改善 | 2. 改前 | 3. 快善 | 4. 改全,1. 改善,,改善 (かいぜん) means 'improvement'.,JLPT N2 Workbook Q28 (Orthography),0,0,
+N2-029,N2,vocabulary,正確なデータを【しゅうしゅう】する。,1. 収拾 | 2. 集収 | 3. 収集 | 4. 修集,3. 収集,,収集 (しゅうしゅう) means 'collection/gathering (data)'. 収拾 means getting a situation under control.,JLPT N2 Workbook Q29 (Orthography),0,0,
+N2-030,N2,vocabulary,住民の意見を【はんえい】させた計画だ。,1. 判映 | 2. 半映 | 3. 反映 | 4. 反影,3. 反映,,反映 (はんえい) means 'reflection (of opinions/trends)'.,JLPT N2 Workbook Q30 (Orthography),0,0,
+N2-031,N2,vocabulary,この書類は（ ）完成のままだ。,1. 未 | 2. 無 | 3. 不 | 4. 非,1. 未,,未完成 (みかんせい) means 'incomplete / not yet finished'.,JLPT N2 Workbook Q31 (Word Formation),0,0,
+N2-032,N2,vocabulary,この地域は交通が（ ）便だ。,1. 未 | 2. 非 | 3. 不 | 4. 無,3. 不,,不便 (ふべん) means 'inconvenient'.,JLPT N2 Workbook Q32 (Word Formation),0,0,
+N2-033,N2,vocabulary,彼は（ ）常識な行動をとることがある。,1. 未 | 2. 反 | 3. 非 | 4. 不,3. 非,,非常識 (ひじょうしき) means 'lacking common sense / absurd'.,JLPT N2 Workbook Q33 (Word Formation),0,0,
+N2-034,N2,vocabulary,参加（ ）を事前に提出してください。,1. 費 | 2. 賃 | 3. 料 | 4. 代,1. 費,,"参加費 (さんかひ) means 'participation fee'. 料金 is fee/charge, 家賃 is rent.",JLPT N2 Workbook Q34 (Word Formation),0,0,
+N2-035,N2,vocabulary,今月の電気（ ）が先月より高かった。,1. 費 | 2. 代 | 3. 賃 | 4. 賞,2. 代,,電気代 (でんきだい) is the standard term for 'electricity bill'.,JLPT N2 Workbook Q35 (Word Formation),0,0,
+N2-036,N2,vocabulary,彼女は子ども（ ）の絵本を書いている。,1. 向き | 2. 用 | 3. 向け | 4. 風,3. 向け,,子ども向け (こどもむけ) means 'aimed at / intended for children'.,JLPT N2 Workbook Q36 (Word Formation),0,0,
+N2-037,N2,vocabulary,会議の開始（ ）刻が迫っている。,1. 期 | 2. 度 | 3. 時 | 4. 間,3. 時,,開始時刻 (かいしじこく) means 'starting time (point in time)'.,JLPT N2 Workbook Q37 (Word Formation),0,0,
+N2-038,N2,vocabulary,この薬は食（ ）に飲んでください。,1. 中 | 2. 後 | 3. 外 | 4. 内,2. 後,,食後 (しょくご) means 'after a meal'.,JLPT N2 Workbook Q38 (Word Formation),0,0,
+N2-039,N2,vocabulary,この問題は社会（ ）な関心を集めている。,1. 化 | 2. 的 | 3. 風 | 4. 性,2. 的,,社会的 (しゃかいてき) means 'social' (na-adjective).,JLPT N2 Workbook Q39 (Word Formation),0,0,
+N2-040,N2,vocabulary,作業の効率（ ）を図ることが急務だ。,1. 化 | 2. 度 | 3. 性 | 4. 的,1. 化,,効率化 (こうりつか) means 'streamlining / making more efficient'.,JLPT N2 Workbook Q40 (Word Formation),0,0,
+N2-041,N2,vocabulary,予算の都合上、この計画は（ ）せざるを得ない。,1. 決断 | 2. 納得 | 3. 断念 | 4. 満足,3. 断念,,断念する (だんねんする) means 'to give up / abandon (a plan)'.,JLPT N2 Workbook Q41 (Context),0,0,
+N2-042,N2,vocabulary,彼の説明はとても（ ）いて、誰にでも理解できた。,1. 簡潔で | 2. 過剰で | 3. 曖昧で | 4. 複雑で,1. 簡潔で,,"簡潔 (かんけつ, concise/brief) explains why anyone could understand it.",JLPT N2 Workbook Q42 (Context),0,0,
+N2-043,N2,vocabulary,長年の経験が（ ）て、難題を解決できた。,1. 働き | 2. 進み | 3. 生き | 4. 動き,3. 生き,,経験が生きる (experience comes into play / proves useful) is a standard N2 collocation.,JLPT N2 Workbook Q43 (Context),0,0,
+N2-044,N2,vocabulary,新しい環境になかなか（ ）ずに悩んでいる。,1. ととのえ | 2. なじめ | 3. おさまり | 4. かたまり,2. なじめ,,馴染む (なじむ) means 'to adapt/fit in to a new environment'.,JLPT N2 Workbook Q44 (Context),0,0,
+N2-045,N2,vocabulary,事実を（ ）に伝えることが報道の使命だ。,1. たまたま | 2. うっかり | 3. わざわざ | 4. ありのまま,4. ありのまま,,ありのまま means 'as it is / truthfully without distortion'.,JLPT N2 Workbook Q45 (Context),0,0,
+N2-046,N2,vocabulary,この街は昔ながらの風景が今も（ ）残っている。,1. 薄く | 2. 軽く | 3. 色濃く | 4. 浅く,3. 色濃く,,色濃く残る (いろこくのこる) means 'to remain strongly / vividly'.,JLPT N2 Workbook Q46 (Context),0,0,
+N2-047,N2,vocabulary,両者の意見が（ ）して、会議が長引いた。,1. 一致 | 2. 対立 | 3. 妥協 | 4. 協力,2. 対立,,"対立 (たいりつ, conflict/opposition) explains why the meeting dragged on.",JLPT N2 Workbook Q47 (Context),0,0,
+N2-048,N2,vocabulary,気温の上昇に（ ）、電力の消費量が増えている。,1. 対し | 2. 向かい | 3. 伴い | 4. 従い,3. 伴い,,"伴う (ともなう, to accompany) fits 'along with rising temperatures, power use increases'.",JLPT N2 Workbook Q48 (Context),0,0,
+N2-049,N2,vocabulary,彼はいつも（ ）を張って、失敗を認めようとしない。,1. 気力 | 2. 勇気 | 3. 意地 | 4. 自信,3. 意地,,意地を張る (いじをはる) is an idiom meaning 'to be stubborn / obstinate'.,JLPT N2 Workbook Q49 (Context),0,0,
+N2-050,N2,vocabulary,この商品はデザインが（ ）いるため、若者に人気がある。,1. 省略されて | 2. 洗練されて | 3. 混乱して | 4. 停滞して,2. 洗練されて,,洗練される (せんれんされる) means 'to be refined/sophisticated'.,JLPT N2 Workbook Q50 (Context),0,0,
+N2-051,N2,vocabulary,突然の質問に（ ）て、うまく答えられなかった。,1. 落ち着い | 2. 戸惑っ | 3. 納得し | 4. 安心し,2. 戸惑っ,,戸惑う (とまどう) means 'to be bewildered/at a loss'.,JLPT N2 Workbook Q51 (Context),0,0,
+N2-052,N2,vocabulary,この契約書の内容を十分に（ ）した上で署名してください。,1. 省略 | 2. 把握 | 3. 無視 | 4. 想像,2. 把握,,把握する (はあくする) means 'to grasp/understand thoroughly'.,JLPT N2 Workbook Q52 (Context),0,0,
+N2-053,N2,vocabulary,健康を維持するには、適度な運動が（ ）。,1. 違いない | 2. 欠かせない | 3. 限らない | 4. 構わない,2. 欠かせない,,欠かせない (かかせない) means 'indispensable/essential'.,JLPT N2 Workbook Q53 (Context),0,0,
+N2-054,N2,vocabulary,彼の行動は周囲の（ ）を買ってしまった。,1. 反感 | 2. 共感 | 3. 安心 | 4. 好感,1. 反感,,反感を買う (はんかんをかう) means 'to incur antipathy/resentment'.,JLPT N2 Workbook Q54 (Context),0,0,
+N2-055,N2,vocabulary,新しい技術の開発に（ ）が注がれている。,1. 体力 | 2. 総力 | 3. 視力 | 4. 気力,2. 総力,,総力を注ぐ (そうりょくをそそぐ) means 'to devote all-out effort'.,JLPT N2 Workbook Q55 (Context),0,0,
+N2-056,N2,vocabulary,会議は【すみやかに】終了した。,1. ゆっくりと | 2. しだいに | 3. たまに | 4. ただちに,4. ただちに,,速やかに (すみやかに) means 'promptly/swiftly' (= ただちに/すぐに).,JLPT N2 Workbook Q56 (Paraphrases),0,0,
+N2-057,N2,vocabulary,その件については【あらかじめ】連絡しておいた。,1. 急に | 2. 後で | 3. 事前に | 4. 偶然,3. 事前に,,あらかじめ means 'in advance/beforehand' (= 事前に).,JLPT N2 Workbook Q57 (Paraphrases),0,0,
+N2-058,N2,vocabulary,彼の話は【おおまか】で分かりにくかった。,1. くわしい | 2. だいたいの | 3. せいかくな | 4. きびしい,2. だいたいの,,大まか (おおまか) means 'rough/broad/general' (= だいたいの).,JLPT N2 Workbook Q58 (Paraphrases),0,0,
+N2-059,N2,vocabulary,この計画は【ひとまず】保留にしよう。,1. とりあえず | 2. 完全に | 3. 永久に | 4. 絶対に,1. とりあえず,,ひとまず means 'for the time being / for now' (= とりあえず).,JLPT N2 Workbook Q59 (Paraphrases),0,0,
+N2-060,N2,vocabulary,二人の関係は【次第に】悪化していった。,1. いっきに | 2. ますます | 3. たちまち | 4. だんだん,4. だんだん,,次第に (しだいに) means 'gradually' (= だんだん).,JLPT N2 Workbook Q60 (Paraphrases),0,0,
+N2-061,N2,vocabulary,その提案は【いたって】合理的だ。,1. すこし | 2. きわめて | 3. めったに | 4. まったく,2. きわめて,,いたって means 'extremely/exceedingly' (= きわめて).,JLPT N2 Workbook Q61 (Paraphrases),0,0,
+N2-062,N2,vocabulary,彼は【せっかく】の機会を逃してしまった。,1. つまらない | 2. おそろしい | 3. めずらしい | 4. もったいない,4. もったいない,,せっかくの means 'hard-won / precious / valuable (opportunity)'.,JLPT N2 Workbook Q62 (Paraphrases),0,0,
+N2-063,N2,vocabulary,この問題は【きわめて】重要だ。,1. ほぼ | 2. たまに | 3. 非常に | 4. 少し,3. 非常に,,極めて (きわめて) means 'extremely/very' (= 非常に).,JLPT N2 Workbook Q63 (Paraphrases),0,0,
+N2-064,N2,vocabulary,【用法】おそれがある,1. 宝くじに当たるおそれがあるので楽しみだ。 | 2. 明日は天気がいいおそれがある。 | 3. 台風が近づいているため、電車が止まるおそれがある。 | 4. 合格するおそれがあるから頑張ろう。,3. 台風が近づいているため、電車が止まるおそれがある。,,おそれがある is used only for negative/undesirable possibilities ('there is a risk/danger that...').,JLPT N2 Workbook Q64 (Usage),0,0,
+N2-065,N2,vocabulary,【用法】あっさり,1. 交渉が難航すると思ったが、相手はあっさり承諾した。 | 2. 彼はあっさりと10時間働き続けた。 | 3. あっさり勉強しないと試験に落ちる。 | 4. このスープはあっさりしていてとても甘い。,1. 交渉が難航すると思ったが、相手はあっさり承諾した。,,"あっさり means 'readily/easily/without fuss' (or light in flavor, not sweet).",JLPT N2 Workbook Q65 (Usage),0,0,
+N2-066,N2,vocabulary,【用法】手際,1. 料理人の手際がよくて、あっという間に料理が並んだ。 | 2. 天気の手際が悪くて出かけられない。 | 3. この靴は手際がよくて履きやすい。 | 4. 彼は手際が高いので尊敬されている。,1. 料理人の手際がよくて、あっという間に料理が並んだ。,,手際がいい (てぎわがいい) means 'skillful/efficient at handling tasks'.,JLPT N2 Workbook Q66 (Usage),0,0,
+N2-067,N2,vocabulary,【用法】いたずら,1. いたずらに勉強して大学に合格した。 | 2. 彼はいたずらな料理を作るのが得意だ。 | 3. 子どものいたずらで壁に落書きされた。 | 4. 雨がいたずらに降って涼しくなった。,3. 子どものいたずらで壁に落書きされた。,,いたずら means 'mischief/prank'.,JLPT N2 Workbook Q67 (Usage),0,0,
+N2-068,N2,vocabulary,【用法】きっちり,1. 部屋がきっちり汚れていて困った。 | 2. 約束の時間のきっちり10分前に到着した。 | 3. 彼はきっちり寝坊して遅刻した。 | 4. この問題はきっちり分からない。,2. 約束の時間のきっちり10分前に到着した。,,きっちり means 'precisely/exactly/neatly'.,JLPT N2 Workbook Q68 (Usage),0,0,
+N2-069,N2,vocabulary,【用法】相応しい,1. 彼は風邪をひくのに相応しい。 | 2. このケーキは相応しくて美味しい。 | 3. この会場は国際会議を開くのに相応しい。 | 4. 雨が降るのに相応しい傘を買った。,3. この会場は国際会議を開くのに相応しい。,,相応しい (ふさわしい) means 'suitable/appropriate/worthy of'.,JLPT N2 Workbook Q69 (Usage),0,0,
+N2-070,N2,vocabulary,【用法】うっかり,1. うっかり鍵を家に忘れてきてしまった。 | 2. うっかり真剣に話を聞いた。 | 3. うっかり計画通りに仕事を進めた。 | 4. うっかり毎日運動を続けている。,1. うっかり鍵を家に忘れてきてしまった。,,うっかり means 'inadvertently/carelessly'.,JLPT N2 Workbook Q70 (Usage),0,0,
+N2-071,N2,grammar,彼は経験が浅い（ ）、立派に仕事をやり遂げた。,1. おかげで | 2. ついでに | 3. からには | 4. にもかかわらず,4. にもかかわらず,,にもかかわらず means 'despite / in spite of'.,JLPT N2 Workbook Q71 (Sentential Grammar 1),0,0,
+N2-072,N2,grammar,約束した（ ）、必ず守らなければならない。,1. ばかりに | 2. どころか | 3. からには | 4. ものの,3. からには,,"からには means 'now that / since (you promised, you must keep it)'.",JLPT N2 Workbook Q72 (Sentential Grammar 1),0,0,
+N2-073,N2,grammar,あの店は美味しい（ ）、値段も手頃だ。,1. どころか | 2. ものか | 3. ばかりか | 4. せいか,3. ばかりか,,"ばかりか means 'not only (delicious), but also (reasonably priced)'.",JLPT N2 Workbook Q73 (Sentential Grammar 1),0,0,
+N2-074,N2,grammar,忙しくて、昼ご飯を食べる（ ）ではなかった。,1. ばかり | 2. どころ | 3. はず | 4. わけ,2. どころ,,どころではない means 'far from / no time for / out of the question'.,JLPT N2 Workbook Q74 (Sentential Grammar 1),0,0,
+N2-075,N2,grammar,この問題は難しすぎて、私には解け（ ）。,1. かねない | 2. つつある | 3. がちだ | 4. っこない,4. っこない,,Verb masu-stem + っこない means 'there is no way / definitely cannot'.,JLPT N2 Workbook Q75 (Sentential Grammar 1),0,0,
+N2-076,N2,grammar,最近、日本でもキャッシュレス決済が広がり（ ）。,1. がちだ | 2. っぱなしだ | 3. ぎみだ | 4. つつある,4. つつある,,Verb masu-stem + つつある means 'is in the process of / gradually becoming'.,JLPT N2 Workbook Q76 (Sentential Grammar 1),0,0,
+N2-077,N2,grammar,そんな危険な運転をしたら、事故を起こし（ ）。,1. かねない | 2. かねる | 3. っこない | 4. ざるを得ない,1. かねない,,かねない means 'might well / could easily happen (negative outcome)'. かねる means 'cannot / find it hard to'.,JLPT N2 Workbook Q77 (Sentential Grammar 1),0,0,
+N2-078,N2,grammar,台風が直撃したため、イベントは中止（ ）。,1. せざるを得ない | 2. するはずがない | 3. しないではいられない | 4. するわけがない,1. せざるを得ない,,ざるを得ない means 'cannot help but / have no choice but to'.,JLPT N2 Workbook Q78 (Sentential Grammar 1),0,0,
+N2-079,N2,grammar,この映画は子ども（ ）大人にも人気がある。,1. こととて | 2. のみならず | 3. とあって | 4. ばかりに,2. のみならず,,のみならず means 'not only... but also' (formal equivalent of だけでなく).,JLPT N2 Workbook Q79 (Sentential Grammar 1),0,0,
+N2-080,N2,grammar,冬になると、空気が乾燥し（ ）だ。,1. ぎみ | 2. ぬき | 3. かけ | 4. がち,4. がち,,がち means 'tend to / prone to' (often used for recurring/undesirable tendencies).,JLPT N2 Workbook Q80 (Sentential Grammar 1),0,0,
+N2-081,N2,grammar,彼女の話を聞いて、感動（ ）。,1. せざるを得なかった | 2. せずにはいられなかった | 3. するはずがなかった | 4. するわけにはいかなかった,2. せずにはいられなかった,,ずにはいられない means 'cannot help doing / cannot resist (being moved)'.,JLPT N2 Workbook Q81 (Sentential Grammar 1),0,0,
+N2-082,N2,grammar,駅前に新しいビルが建った（ ）、街の雰囲気が変わった。,1. にあたって | 2. をもとに | 3. をはじめ | 4. のをきっかけに,4. のをきっかけに,,をきっかけに means 'with X as a turning point / triggered by X'.,JLPT N2 Workbook Q82 (Sentential Grammar 1),0,0,
+N2-083,N2,grammar,明日の面接（ ）、しっかり準備をしておこう。,1. に対して | 2. に向けて | 3. について | 4. にとって,2. に向けて,,に向けて means 'toward / in preparation for (a future goal or event)'.,JLPT N2 Workbook Q83 (Sentential Grammar 1),0,0,
+N2-084,N2,grammar,彼は大学を卒業した（ ）、就職せずに起業した。,1. ついでに | 2. ばかりに | 3. ものの | 4. からには,3. ものの,,"ものの means 'although / even though (graduated, yet didn't take a regular job)'.",JLPT N2 Workbook Q84 (Sentential Grammar 1),0,0,
+N2-085,N2,grammar,お客様のご要望（ ）、プランを変更いたします。,1. にかけて | 2. に応じて | 3. にわたって | 4. に際して,2. に応じて,,に応じて means 'in accordance with / depending on (customer requests)'.,JLPT N2 Workbook Q85 (Sentential Grammar 1),0,0,
+N2-086,N2,grammar,この仕事は ＿＿ ＿＿ ★ ＿＿ 引き受けることにした。（★に入るものはどれか）,1. 大変だが | 2. やりがいが | 3. あるから | 4. 確かに,2. やりがいが,,Order: 確かに (4) 大変だが (1) やりがいが (2) あるから (3) -> ★ is やりがいが (2).,JLPT N2 Workbook Q86 (Sentence Composition),0,0,
+N2-087,N2,grammar,彼は ＿＿ ＿＿ ★ ＿＿ 認めようとしない。（★に入るものはどれか）,1. ミスを | 2. 自分の | 3. なかなか | 4. したのに,4. したのに,,Order: 自分の (2) ミスを (1) したのに (4) なかなか (3) -> ★ is したのに (4).,JLPT N2 Workbook Q87 (Sentence Composition),0,0,
+N2-088,N2,grammar,日本へ ＿＿ ＿＿ ★ ＿＿ なってきた。（★に入るものはどれか）,1. 慣れて | 2. 生活にも | 3. 来てから | 4. ようやく,2. 生活にも,,Order: 来てから (3) ようやく (4) 生活にも (2) 慣れて (1) -> ★ is 生活にも (2).,JLPT N2 Workbook Q88 (Sentence Composition),0,0,
+N2-089,N2,grammar,会議が ＿＿ ＿＿ ★ ＿＿ しまった。（★に入るものはどれか）,1. 遅れて | 2. 電車が | 3. 始まる時間に | 4. 止まったせいで,4. 止まったせいで,,Order: 始まる時間に (3) 電車が (2) 止まったせいで (4) 遅れて (1) -> ★ is 止まったせいで (4).,JLPT N2 Workbook Q89 (Sentence Composition),0,0,
+N2-090,N2,grammar,どんなに ＿＿ ＿＿ ★ ＿＿ あきらめてはいけない。（★に入るものはどれか）,1. 途中で | 2. 難しくても | 3. 問題が | 4. 絶対に,1. 途中で,,Order: 問題が (3) 難しくても (2) 途中で (1) 絶対に (4) -> ★ is 途中で (1).,JLPT N2 Workbook Q90 (Sentence Composition),0,0,
+N2-091,N2,grammar,健康のためには、 ＿＿ ＿＿ ★ ＿＿ 大切だ。（★に入るものはどれか）,1. 運動する | 2. だけでなく | 3. 食事に気をつける | 4. ことも,1. 運動する,,Order: 食事に気をつける (3) だけでなく (2) 運動する (1) ことも (4) -> ★ is 運動する (1).,JLPT N2 Workbook Q91 (Sentence Composition),0,0,
+N2-092,N2,grammar,彼女は ＿＿ ＿＿ ★ ＿＿ いつも忙しい。（★に入るものはどれか）,1. 仕事 | 2. だけでなく | 3. 育児も | 4. あって,3. 育児も,,Order: 仕事 (1) だけでなく (2) 育児も (3) あって (4) -> ★ is 育児も (3).,JLPT N2 Workbook Q92 (Sentence Composition),0,0,
+N2-093,N2,grammar,その映画は ＿＿ ＿＿ ★ ＿＿ 感動した。（★に入るものはどれか）,1. 思わず | 2. 泣いてしまう | 3. ほど | 4. 素晴らしい内容で,2. 泣いてしまう,,Order: 素晴らしい内容で (4) 思わず (1) 泣いてしまう (2) ほど (3) -> ★ is 泣いてしまう (2).,JLPT N2 Workbook Q93 (Sentence Composition),0,0,
+N2-094,N2,grammar,来月のイベントに ＿＿ ＿＿ ★ ＿＿ 進めている。（★に入るものはどれか）,1. 向けて | 2. 着々と | 3. 準備を | 4. 今,3. 準備を,,Order: 向けて (1) 今 (4) 準備を (3) 着々と (2) -> ★ is 準備を (3).,JLPT N2 Workbook Q94 (Sentence Composition),0,0,
+N2-095,N2,grammar,この商品は ＿＿ ＿＿ ★ ＿＿ 売れている。（★に入るものはどれか）,1. 機能性 | 2. だけでなく | 3. デザインも | 4. 優れているため,3. デザインも,,Order: 機能性 (1) だけでなく (2) デザインも (3) 優れているため (4) -> ★ is デザインも (3).,JLPT N2 Workbook Q95 (Sentence Composition),0,0,
+N2-096,N2,reading,"【文章A】
+近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。
+
+【Q96】に入る最もよいものはどれか。",1. ことから | 2. せいで | 3. にもかかわらず | 4. ものの,1. ことから,,"ことから indicates a reason/basis ('because commuting time disappears, many say time with family increased').",JLPT N2 Workbook Q96 (Text Grammar),0,0,
+N2-097,N2,reading,"【文章A】
+近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。
+
+【Q97】に入る最もよいものはどれか。",1. ような | 2. といった | 3. はずの | 4. という,4. という,,という指摘 ('the point/criticism that...') is the standard appositive connector.,JLPT N2 Workbook Q97 (Text Grammar),0,0,
+N2-098,N2,reading,"【文章A】
+近年、リモートワークが普及するにつれて、働く場所を自由に選べる人が増えている。通勤時間がなくなる【Q96】、家族と過ごす時間が増えたという声も多い。しかし、その一方で、同僚とのコミュニケーションが不足しがちだ【Q97】指摘もある。効率よく働くためには、オンラインと対面をうまく組み合わせること【Q98】求められている。
+
+【Q98】に入る最もよいものはどれか。",1. を | 2. が | 3. に | 4. で,2. が,,"求められている is passive ('is being demanded/required'), so the subject takes が.",JLPT N2 Workbook Q98 (Text Grammar),0,0,
+N2-099,N2,reading,"【文章B】
+「失敗は成功のもと」とはよく言われるが、ただ失敗を繰り返すだけでは意味がない。大切なのは、なぜ失敗したのかを冷静に分析し、次に同じ過ちを犯さないための対策を立てることだ。失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない。
+
+筆者が最も言いたいことは何か。",1. 失敗の原因を分析し、次に活かす姿勢が大切だ | 2. 失敗したらすぐに諦めて別の方法を探すべきだ | 3. 失敗しないように、新しいことには挑戦しない方がいい | 4. 失敗は何度繰り返しても自然に成功につながる,1. 失敗の原因を分析し、次に活かす姿勢が大切だ,,"The author argues that repeating mistakes isn't enough; one must analyze the cause and plan countermeasures, rather than fearing failure.",JLPT N2 Workbook Q99 (Short Passage),0,0,
+N2-100,N2,reading,"【文章B】
+「失敗は成功のもと」とはよく言われるが、ただ失敗を繰り返すだけでは意味がない。大切なのは、なぜ失敗したのかを冷静に分析し、次に同じ過ちを犯さないための対策を立てることだ。失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない。
+
+筆者が「最大の失敗」だと述べているのは何か。",1. 失敗の原因を分析すること | 2. 失敗を恐れて何もしないこと | 3. 同じ過ちを一度だけ犯すこと | 4. 成功のもとを忘れること,2. 失敗を恐れて何もしないこと,,The last sentence explicitly states: 失敗を恐れて何もしないことこそが、最大の失敗なのかもしれない.,JLPT N2 Workbook Q100 (Short Passage),0,0,
+N2-101,N2,reading,"【文章C】
+現代社会では、スマートフォンの普及により、いつでもどこでも膨大な情報にアクセスできるようになった。しかし、情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている。ただ受け身で情報を消費するのではなく、情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている。
+
+現代社会における情報の問題点として挙げられているのはどれか。",1. 誰も情報を発信しようとしないこと | 2. 必要な情報にまったくアクセスできないこと | 3. スマートフォンが高価で普及していないこと | 4. 情報が多すぎて真偽を見極めにくいこと,4. 情報が多すぎて真偽を見極めにくいこと,,The text states: 情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている.,JLPT N2 Workbook Q101 (Mid-size Passage),0,0,
+N2-102,N2,reading,"【文章C】
+現代社会では、スマートフォンの普及により、いつでもどこでも膨大な情報にアクセスできるようになった。しかし、情報があまりにも多すぎるため、何が正しくて何が誤りなのかを見極めることが難しくなっている。ただ受け身で情報を消費するのではなく、情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている。
+
+情報に対してどのような姿勢が重要だと述べているか。",1. 受け身のまま素早く情報を消費すること | 2. 他人の意見だけを信じること | 3. スマートフォンを使わないようにすること | 4. 発信源や根拠を自分で確認すること,4. 発信源や根拠を自分で確認すること,,The final sentence states: 情報の発信源や根拠を自ら確認する姿勢が、これまで以上に重要になっている.,JLPT N2 Workbook Q102 (Mid-size Passage),0,0,
+N2-103,N2,reading,"【文章D：社員研修のご案内】
+新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。
+
+この研修に参加できるのは誰か。",1. 社外の取引先担当者 | 2. 新入社員と入社3年以内の社員 | 3. 入社5年以上の管理職のみ | 4. 人事部の社員全員,2. 新入社員と入社3年以内の社員,,The notice specifies: 新入社員および入社3年以内の社員を対象に.,JLPT N2 Workbook Q103 (Business Notice),0,0,
+N2-104,N2,reading,"【文章D：社員研修のご案内】
+新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。
+
+申し込みについて正しいものはどれか。",1. 11月20日に直接第2会議室へ行けばよい | 2. 11月13日までに鈴木さんにメールで申し込む | 3. 定員はないのでいつでも申し込める | 4. 電話で人事部に申し込む必要がある,2. 11月13日までに鈴木さんにメールで申し込む,,It states: 11月13日（金）までに人事部の鈴木までメールでお申し込みください.,JLPT N2 Workbook Q104 (Business Notice),0,0,
+N2-105,N2,reading,"【文章D：社員研修のご案内】
+新入社員および入社3年以内の社員を対象に、ビジネス文書作成研修を実施します。日時は11月20日（金）14:00〜16:30、場所は第2会議室です。参加希望者は11月13日（金）までに人事部の鈴木までメールでお申し込みください。なお、定員（30名）に達し次第、締め切らせていただきます。
+
+締め切りについて注意すべき点は何か。",1. 11月13日を過ぎても延長されること | 2. 30名に達すると期限前でも締め切られること | 3. 参加費を事前に振り込む必要があること | 4. 全員参加が義務付けられていること,2. 30名に達すると期限前でも締め切られること,,定員（30名）に達し次第、締め切らせていただきます means registration closes as soon as 30 people sign up.,JLPT N2 Workbook Q105 (Business Notice),0,0,
+N1-001,N1,vocabulary,彼の意見には【妥当】性がある。,1. だとう | 2. たどう | 3. だどう | 4. たとう,1. だとう,,妥当 (だとう) means 'valid/appropriate/sound'.,JLPT N1 Workbook Q1 (Kanji Reading),0,0,
+N1-002,N1,vocabulary,この問題は【曖昧】な表現が多い。,1. あんまい | 2. あいま | 3. あいまい | 4. いまい,3. あいまい,,曖昧 (あいまい) means 'ambiguous/vague'.,JLPT N1 Workbook Q2 (Kanji Reading),0,0,
+N1-003,N1,vocabulary,環境保護の【観点】から議論する。,1. かんてん | 2. けんてん | 3. かんてい | 4. みんてん,1. かんてん,,観点 (かんてん) means 'viewpoint/standpoint'.,JLPT N1 Workbook Q3 (Kanji Reading),0,0,
+N1-004,N1,vocabulary,新技術が産業の【衰退】を食い止めた。,1. すいたい | 2. すいた | 3. おとろたい | 4. さいたい,1. すいたい,,衰退 (すいたい) means 'decline/decay'.,JLPT N1 Workbook Q4 (Kanji Reading),0,0,
+N1-005,N1,vocabulary,彼女は【緻密】な計画を立てた。,1. しみつ | 2. ちびつ | 3. じみつ | 4. ちみつ,4. ちみつ,,緻密 (ちみつ) means 'meticulous/minute/intricate'.,JLPT N1 Workbook Q5 (Kanji Reading),0,0,
+N1-006,N1,vocabulary,双方の主張は【乖離】している。,1. はり | 2. けいり | 3. かいり | 4. きり,3. かいり,,乖離 (かいり) means 'estrangement/divergence/gap'.,JLPT N1 Workbook Q6 (Kanji Reading),0,0,
+N1-007,N1,vocabulary,その発言は【傲慢】だと批判された。,1. ごうばん | 2. きょうまん | 3. ごうまん | 4. こうまん,3. ごうまん,,傲慢 (ごうまん) means 'arrogant/haughty'.,JLPT N1 Workbook Q7 (Kanji Reading),0,0,
+N1-008,N1,vocabulary,資料を【網羅】的に調査した。,1. もうろ | 2. あみら | 3. もうら | 4. ぼうら,3. もうら,,網羅 (もうら) means 'comprehensive coverage / exhaustive'.,JLPT N1 Workbook Q8 (Kanji Reading),0,0,
+N1-009,N1,vocabulary,彼は【頑固】で人の話を聞かない。,1. かんこ | 2. がんご | 3. がんこ | 4. げんこ,3. がんこ,,頑固 (がんこ) means 'stubborn/obstinate'.,JLPT N1 Workbook Q9 (Kanji Reading),0,0,
+N1-010,N1,vocabulary,経済の【停滞】が長期化している。,1. ていたい | 2. ていだい | 3. ちょうたい | 4. じょうたい,1. ていたい,,停滞 (ていたい) means 'stagnation'.,JLPT N1 Workbook Q10 (Kanji Reading),0,0,
+N1-011,N1,vocabulary,事件の【真相】を究明する。,1. じそう | 2. しんしょう | 3. しんそう | 4. しんぞう,3. しんそう,,真相 (しんそう) means 'the truth / real facts'.,JLPT N1 Workbook Q11 (Kanji Reading),0,0,
+N1-012,N1,vocabulary,この地域は【肥沃】な土地が広がっている。,1. ひよく | 2. びよく | 3. こよく | 4. ひよう,1. ひよく,,肥沃 (ひよく) means 'fertile (soil/land)'.,JLPT N1 Workbook Q12 (Kanji Reading),0,0,
+N1-013,N1,vocabulary,彼の態度は【謙虚】そのものだ。,1. かんきょ | 2. けんきょ | 3. げんきょ | 4. けんこ,2. けんきょ,,謙虚 (けんきょ) means 'humble/modest'.,JLPT N1 Workbook Q13 (Kanji Reading),0,0,
+N1-014,N1,vocabulary,契約の【履行】を求める。,1. りこう | 2. りぎょう | 3. れいこう | 4. ろこう,1. りこう,,履行 (りこう) means 'fulfillment/performance (of a contract)'.,JLPT N1 Workbook Q14 (Kanji Reading),0,0,
+N1-015,N1,vocabulary,古い慣習を【踏襲】する。,1. どうしゅう | 2. とうじゅう | 3. ふしゅう | 4. とうしゅう,4. とうしゅう,,踏襲 (とうしゅう) means 'following in the footsteps of / adhering to precedent'.,JLPT N1 Workbook Q15 (Kanji Reading),0,0,
+N1-016,N1,vocabulary,その説明は【冗長】すぎる。,1. きょうちょう | 2. ちょうちょう | 3. じょうなが | 4. じょうちょう,4. じょうちょう,,冗長 (じょうちょう) means 'redundant/verbose/wordy'.,JLPT N1 Workbook Q16 (Kanji Reading),0,0,
+N1-017,N1,vocabulary,被害の【甚大】さに言葉を失った。,1. じんだい | 2. しんだい | 3. ぜんだい | 4. かんだい,1. じんだい,,甚大 (じんだい) means 'enormous/immense (damage)'.,JLPT N1 Workbook Q17 (Kanji Reading),0,0,
+N1-018,N1,vocabulary,計画を【遂行】する責任がある。,1. すいぎょう | 2. じゅこう | 3. ついこう | 4. すいこう,4. すいこう,,遂行 (すいこう) means 'execution/accomplishment (of a task)'.,JLPT N1 Workbook Q18 (Kanji Reading),0,0,
+N1-019,N1,vocabulary,彼の功績を【讃える】。,1. となえる | 2. かぞえる | 3. おさえる | 4. たたえる,4. たたえる,,讃える (たたえる) means 'to praise/extol'.,JLPT N1 Workbook Q19 (Kanji Reading),0,0,
+N1-020,N1,vocabulary,事態は【逼迫】している。,1. ふくはく | 2. びっぱく | 3. ひっぱく | 4. しっぱく,3. ひっぱく,,逼迫 (ひっぱく) means 'tight/tense/strained (situation or supply)'.,JLPT N1 Workbook Q20 (Kanji Reading),0,0,
+N1-021,N1,vocabulary,彼の主張は論理が（ ）していて、説得力がある。,1. 一貫 | 2. 分散 | 3. 混乱 | 4. 中断,1. 一貫,,一貫する (いっかんする) means 'to be consistent'.,JLPT N1 Workbook Q21 (Context),0,0,
+N1-022,N1,vocabulary,長引く不況が企業の経営を（ ）している。,1. 緩和 | 2. 応援 | 3. 圧迫 | 4. 促進,3. 圧迫,,圧迫する (あっぱくする) means 'to put pressure on / squeeze'.,JLPT N1 Workbook Q22 (Context),0,0,
+N1-023,N1,vocabulary,この問題は根本的な原因を（ ）しない限り解決しない。,1. 省略 | 2. 妥協 | 3. 究明 | 4. 放棄,3. 究明,,究明する (きゅうめいする) means 'to investigate thoroughly / get to the bottom of'.,JLPT N1 Workbook Q23 (Context),0,0,
+N1-024,N1,vocabulary,彼女は周囲の批判を（ ）せず、自分の信念を貫いた。,1. 目 | 2. 耳 | 3. 手 | 4. 気,4. 気,,気にする (to mind/worry about) -> 気にせず means 'without minding'.,JLPT N1 Workbook Q24 (Context),0,0,
+N1-025,N1,vocabulary,新しい法律の施行により、規制が大幅に（ ）された。,1. 緩和 | 2. 悪化 | 3. 停滞 | 4. 激化,1. 緩和,,緩和 (かんわ) means 'easing/relaxation (of regulations)'.,JLPT N1 Workbook Q25 (Context),0,0,
+N1-026,N1,vocabulary,両国の首脳は経済協力の強化で（ ）に達した。,1. 紛争 | 2. 対立 | 3. 決裂 | 4. 合意,4. 合意,,合意に達する (ごういにたっする) means 'to reach an agreement'.,JLPT N1 Workbook Q26 (Context),0,0,
+N1-027,N1,vocabulary,その発言は事実無根であり、断じて（ ）できない。,1. 否定 | 2. 容認 | 3. 批判 | 4. 拒絶,2. 容認,,容認する (ようにんする) means 'to tolerate/condone/accept'.,JLPT N1 Workbook Q27 (Context),0,0,
+N1-028,N1,vocabulary,技術革新が社会のあり方を（ ）から変えつつある。,1. 根底 | 2. 末端 | 3. 周辺 | 4. 表面,1. 根底,,根底から変える (こんていからかえる) means 'to change from the very foundation'.,JLPT N1 Workbook Q28 (Context),0,0,
+N1-029,N1,vocabulary,彼は豊富な知識を（ ）して、難解な問題を解説した。,1. 消費 | 2. 無視 | 3. 駆使 | 4. 放棄,3. 駆使,,駆使する (くしする) means 'to make full use of / command'.,JLPT N1 Workbook Q29 (Context),0,0,
+N1-030,N1,vocabulary,景気の先行きに対する（ ）感が広がっている。,1. 不透明 | 2. 単純 | 3. 明白 | 4. 確実,1. 不透明,,不透明感 (ふとうめいかん) means 'sense of uncertainty/lack of clarity'.,JLPT N1 Workbook Q30 (Context),0,0,
+N1-031,N1,vocabulary,この調査結果は従来の仮説を（ ）ものだ。,1. 守る | 2. 支える | 3. 継ぐ | 4. 覆す,4. 覆す,,覆す (くつがえす) means 'to overturn/upset (a theory or hypothesis)'.,JLPT N1 Workbook Q31 (Context),0,0,
+N1-032,N1,vocabulary,限られた資源を有効に（ ）することが求められている。,1. 浪費 | 2. 破棄 | 3. 活用 | 4. 放置,3. 活用,,活用する (かつようする) means 'to put to practical/effective use'.,JLPT N1 Workbook Q32 (Context),0,0,
+N1-033,N1,vocabulary,彼の提案は現実味に（ ）、実現は困難だ。,1. 乏しく | 2. 富み | 3. 溢れ | 4. 満ち,1. 乏しく,,乏しい (とぼしい) means 'lacking/scarce' (現実味に乏しい = lacking realism).,JLPT N1 Workbook Q33 (Context),0,0,
+N1-034,N1,vocabulary,災害発生時には、迅速かつ的確な（ ）が不可欠だ。,1. 傍観 | 2. 逃避 | 3. 放置 | 4. 対処,4. 対処,,対処 (たいしょ) means 'dealing with / coping / response'.,JLPT N1 Workbook Q34 (Context),0,0,
+N1-035,N1,vocabulary,この地域の伝統文化は、世代を超えて（ ）されている。,1. 破壊 | 2. 継承 | 3. 断絶 | 4. 廃止,2. 継承,,継承する (けいしょうする) means 'to inherit/pass down'.,JLPT N1 Workbook Q35 (Context),0,0,
+N1-036,N1,vocabulary,会議は予定の時間を過ぎても（ ）がつかなかった。,1. 集約 | 2. 収集 | 3. 収拾 | 4. 開始,3. 収拾,,収拾がつかない (しゅうしゅうがつかない) means 'to get out of hand / cannot be settled'.,JLPT N1 Workbook Q36 (Context),0,0,
+N1-037,N1,vocabulary,彼の功績は業界内で高く（ ）されている。,1. 軽視 | 2. 誤解 | 3. 評価 | 4. 批判,3. 評価,,高く評価される means 'to be highly evaluated/regarded'.,JLPT N1 Workbook Q37 (Context),0,0,
+N1-038,N1,vocabulary,証拠が（ ）しているため、断定的なことは言えない。,1. 明確 | 2. 過剰 | 3. 不十分 | 4. 完璧,3. 不十分,,証拠が不十分 (insufficient evidence) explains why one cannot make a definitive statement.,JLPT N1 Workbook Q38 (Context),0,0,
+N1-039,N1,vocabulary,急激な変化に（ ）できず、戸惑う人も多い。,1. 適応 | 2. 反発 | 3. 抵抗 | 4. 拒否,1. 適応,,適応する (てきおうする) means 'to adapt/adjust to'.,JLPT N1 Workbook Q39 (Context),0,0,
+N1-040,N1,vocabulary,この条項は契約の（ ）に関わる重要な部分だ。,1. 余白 | 2. 装飾 | 3. 枝葉 | 4. 根幹,4. 根幹,,根幹 (こんかん) means 'foundation/core/essence'. 枝葉 is minor details.,JLPT N1 Workbook Q40 (Context),0,0,
+N1-041,N1,vocabulary,彼の説明は【的を射て】いる。,1. 曖昧で | 2. 核心をついて | 3. 見当違いで | 4. 遠回しで,2. 核心をついて,,的を射る (まとをいる) means 'to hit the mark / be spot-on' (= 核心をつく).,JLPT N1 Workbook Q41 (Paraphrases),0,0,
+N1-042,N1,vocabulary,この計画は【頓挫】してしまった。,1. 拡大して | 2. 行き詰まって | 3. 順調に進んで | 4. 完成して,2. 行き詰まって,,頓挫する (とんざする) means 'to hit a snag / stall' (= 行き詰まる).,JLPT N1 Workbook Q42 (Paraphrases),0,0,
+N1-043,N1,vocabulary,彼女は【抜本的】な改革を主張した。,1. 根本的な | 2. 一時的な | 3. 部分的な | 4. 表面的な,1. 根本的な,,抜本的 (ばっぽんてき) means 'drastic/fundamental' (= 根本的).,JLPT N1 Workbook Q43 (Paraphrases),0,0,
+N1-044,N1,vocabulary,その意見は【一理ある】と思う。,1. もっともな点がある | 2. 根拠がない | 3. まったく誤りだ | 4. 理解不能だ,1. もっともな点がある,,一理ある (いちりある) means 'there is some truth/reason to it'.,JLPT N1 Workbook Q44 (Paraphrases),0,0,
+N1-045,N1,vocabulary,事態は【刻々と】変化している。,1. ゆっくりと | 2. 突然 | 3. まれに | 4. 一瞬ごとに,4. 一瞬ごとに,,刻々と (こっこくと) means 'moment by moment / with every passing second'.,JLPT N1 Workbook Q45 (Paraphrases),0,0,
+N1-046,N1,vocabulary,彼は【私利私欲】のために働いているのではない。,1. 社会の発展 | 2. 他人の幸福 | 3. 名誉と誇り | 4. 自分の利益,4. 自分の利益,,私利私欲 (しりしよく) means 'self-interest / personal greed'.,JLPT N1 Workbook Q46 (Paraphrases),0,0,
+N1-047,N1,vocabulary,この規則は【形骸化】している。,1. 新しく作られた | 2. 厳格になっている | 3. 広く守られている | 4. 実質を失っている,4. 実質を失っている,,形骸化 (けいがいか) means 'becoming a mere formality / losing substance'.,JLPT N1 Workbook Q47 (Paraphrases),0,0,
+N1-048,N1,vocabulary,両者の間には【埋まらない溝】がある。,1. 共通の目標 | 2. 一時的な誤解 | 3. 深い信頼関係 | 4. 解消できない対立,4. 解消できない対立,,埋まらない溝 (an unbridgeable gap) refers to an irreconcilable divide/conflict.,JLPT N1 Workbook Q48 (Paraphrases),0,0,
+N1-049,N1,vocabulary,その提案は【机上の空論】にすぎない。,1. 画期的な発見 | 2. 実現不可能な理論 | 3. 実績のある方法 | 4. 具体的な計画,2. 実現不可能な理論,,机上の空論 (きじょうのくうろん) means 'armchair theory / impractical theory'.,JLPT N1 Workbook Q49 (Paraphrases),0,0,
+N1-050,N1,vocabulary,彼は【並外れた】集中力の持ち主だ。,1. ごく普通の | 2. 桁違いの | 3. 不安定な | 4. 平均以下の,2. 桁違いの,,並外れた (なみはずれた) means 'extraordinary / out of the ordinary'.,JLPT N1 Workbook Q50 (Paraphrases),0,0,
+N1-051,N1,vocabulary,問題の本質を【見極める】必要がある。,1. 正確に見抜く | 2. 曖昧にする | 3. 無視する | 4. 後回しにする,1. 正確に見抜く,,見極める (みきわめる) means 'to ascertain / discern accurately'.,JLPT N1 Workbook Q51 (Paraphrases),0,0,
+N1-052,N1,vocabulary,この措置は【暫定的】なものだ。,1. 仮の | 2. 恒久的な | 3. 絶対的な | 4. 最終的な,1. 仮の,,暫定的 (ざんていてき) means 'provisional / temporary' (= 仮の).,JLPT N1 Workbook Q52 (Paraphrases),0,0,
+N1-053,N1,vocabulary,彼の態度は【終始】一貫していた。,1. 最後だけ | 2. 途中まで | 3. 最初から最後まで | 4. 時々,3. 最初から最後まで,,終始 (しゅうし) means 'from start to finish / throughout'.,JLPT N1 Workbook Q53 (Paraphrases),0,0,
+N1-054,N1,vocabulary,そのニュースは世間に【波紋を広げた】。,1. 大きな反響 | 2. 完全な無関心 | 3. 小さな誤解 | 4. 静かな安堵,1. 大きな反響,,波紋を広げる (はもんをひろげる) means 'to cause ripples / stir up a wide reaction'.,JLPT N1 Workbook Q54 (Paraphrases),0,0,
+N1-055,N1,vocabulary,彼女は【毅然】とした態度で対応した。,1. おどおどした | 2. 無責任な | 3. 感情的な | 4. 堂々として揺るがない,4. 堂々として揺るがない,,毅然 (きぜん) means 'resolute/firm/unwavering'.,JLPT N1 Workbook Q55 (Paraphrases),0,0,
+N1-056,N1,vocabulary,【用法】余儀なくされる,1. 台風の接近により、イベントの中止を余儀なくされた。 | 2. 努力した結果、優勝を余儀なくされた。 | 3. 明日は晴れると余儀なくされている。 | 4. 美味しい料理を食べて、笑顔を余儀なくされた。,1. 台風の接近により、イベントの中止を余儀なくされた。,,余儀なくされる means 'to be forced/compelled to (do something undesirable due to circumstances)'.,JLPT N1 Workbook Q56 (Usage),0,0,
+N1-057,N1,vocabulary,【用法】おぼつかない,1. この料理は味がおぼつかなくて美味しい。 | 2. 久しぶりの運転なので、ハンドルさばきがおぼつかない。 | 3. 彼は仕事が早くておぼつかない人だ。 | 4. 明日の予定がおぼつかないほど楽しみだ。,2. 久しぶりの運転なので、ハンドルさばきがおぼつかない。,,"おぼつかない means 'uncertain/unsteady/doubtful' (e.g., shaky skill or faint memory).",JLPT N1 Workbook Q57 (Usage),0,0,
+N1-058,N1,vocabulary,【用法】ひとしお,1. 毎日ひとしおに朝ごはんを食べている。 | 2. 苦労して合格しただけに、喜びもひとしおだ。 | 3. 雨がひとしお降ってきたので帰ろう。 | 4. この部屋はひとしお広くて快適だ。,2. 苦労して合格しただけに、喜びもひとしおだ。,,"ひとしお means 'all the more / doubly (felt)', typically used with emotions like 喜び or 寂しさ.",JLPT N1 Workbook Q58 (Usage),0,0,
+N1-059,N1,vocabulary,【用法】あながち,1. 彼女はあながち背が高い。 | 2. テストで100点を取ってあながち嬉しい。 | 3. あながち雨が降るから傘を持とう。 | 4. 彼の言っていることも、あながち間違いとは言えない。,4. 彼の言っていることも、あながち間違いとは言えない。,,あながち～ない means 'not necessarily (wrong/false)'—always paired with a negative predicate.,JLPT N1 Workbook Q59 (Usage),0,0,
+N1-060,N1,vocabulary,【用法】うってつけ,1. この靴はサイズがうってつけだ。 | 2. 今日の天気はうってつけが悪い。 | 3. 彼はうってつけに遅刻してしまった。 | 4. この静かな環境は、勉強にうってつけだ。,4. この静かな環境は、勉強にうってつけだ。,,うってつけ means 'ideal/perfectly suited for a purpose'.,JLPT N1 Workbook Q60 (Usage),0,0,
+N1-061,N1,vocabulary,【用法】やむを得ない,1. 試験に合格したことはやむを得ない。 | 2. 悪天候のため、試合が延期になるのはやむを得ない。 | 3. 毎日楽しく過ごすのはやむを得ない。 | 4. 美味しいケーキが食べられてやむを得ない。,2. 悪天候のため、試合が延期になるのはやむを得ない。,,やむを得ない means 'unavoidable / cannot be helped'.,JLPT N1 Workbook Q61 (Usage),0,0,
+N1-062,N1,vocabulary,【用法】かえりみる,1. 明日の天気を省みて傘を買う。 | 2. 過去の失敗を省みて、今後の計画を立て直す。 | 3. 友達の家を省みて遊びに行った。 | 4. 美味しい料理を省みて注文した。,2. 過去の失敗を省みて、今後の計画を立て直す。,,省みる (かえりみる) means 'to reflect on / look back upon (the past)'.,JLPT N1 Workbook Q62 (Usage),0,0,
+N1-063,N1,vocabulary,【用法】すこぶる,1. すこぶる雨が降らない日が多い。 | 2. 彼はすこぶる試験に落ちてしまった。 | 3. この部屋はすこぶる狭いので困る。 | 4. 手術後の経過はすこぶる順調だ。,4. 手術後の経過はすこぶる順調だ。,,"すこぶる means 'extremely/exceedingly', usually modifying positive states like 順調 or 元気.",JLPT N1 Workbook Q63 (Usage),0,0,
+N1-064,N1,vocabulary,【用法】めざましい,1. 今日の夕飯はめざましくて美味しかった。 | 2. めざましい雨が降って道が濡れた。 | 3. 彼はめざましい声で歌っている。 | 4. 近年のAI技術の発展はめざましいものがある。,4. 近年のAI技術の発展はめざましいものがある。,,"目覚ましい (めざましい) means 'remarkable/striking (progress, growth, achievement)'.",JLPT N1 Workbook Q64 (Usage),0,0,
+N1-065,N1,vocabulary,【用法】こぞって,1. こぞって雨が降ってきたので中止になった。 | 2. 新しい店のオープンに、街の人々がこぞって駆けつけた。 | 3. 彼はこぞって一人で部屋にこもっている。 | 4. 私はこぞって昨日寝坊した。,2. 新しい店のオープンに、街の人々がこぞって駆けつけた。,,こぞって means 'all together / en masse / unanimously' (requires a plural subject).,JLPT N1 Workbook Q65 (Usage),0,0,
+N1-066,N1,vocabulary,【用法】さしあたり,1. さしあたり、今できることから始めよう。 | 2. 彼はさしあたり試験に合格した。 | 3. このケーキはさしあたり甘い。 | 4. さしあたり10年後の未来は確定している。,1. さしあたり、今できることから始めよう。,,差し当たり (さしあたり) means 'for the time being / for now'.,JLPT N1 Workbook Q66 (Usage),0,0,
+N1-067,N1,vocabulary,【用法】ひいては,1. 彼はひいては昨日から風邪をひいている。 | 2. この本はひいては面白くて一晩で読んだ。 | 3. ひいては雨が降るかもしれないので注意しよう。 | 4. 個人の努力が、ひいては組織全体の発展につながる。,4. 個人の努力が、ひいては組織全体の発展につながる。,,ひいては means 'and consequently / ultimately / by extension'.,JLPT N1 Workbook Q67 (Usage),0,0,
+N1-068,N1,vocabulary,【用法】まんざら,1. この問題はまんざら簡単すぎる。 | 2. 彼は文句を言いながらも、まんざら嫌でもなさそうだ。 | 3. 彼女はまんざら毎日運動している。 | 4. まんざら雨が降って本当に困った。,2. 彼は文句を言いながらも、まんざら嫌でもなさそうだ。,,まんざら～ない means 'not altogether / not completely (bad/displeased)'.,JLPT N1 Workbook Q68 (Usage),0,0,
+N1-069,N1,vocabulary,【用法】なだめる,1. 壊れた時計を道具でなだめた。 | 2. 部屋のゴミをなだめて捨てた。 | 3. 新しい本を机の上になだめた。 | 4. 泣いている子どもを優しくなだめた。,4. 泣いている子どもを優しくなだめた。,,なだめる means 'to soothe/calm down (someone who is crying or angry)'.,JLPT N1 Workbook Q69 (Usage),0,0,
+N1-070,N1,vocabulary,【用法】しのぐ,1. 朝ごはんをしのいで学校へ行った。 | 2. この靴は軽くてしのぎやすい。 | 3. 今年の売り上げは去年の実績をしのぐ勢いだ。 | 4. 友達と公園でしのぐことにした。,3. 今年の売り上げは去年の実績をしのぐ勢いだ。,,凌ぐ (しのぐ) means 'to surpass/outdo' (or 'to endure/tide over').,JLPT N1 Workbook Q70 (Usage),0,0,
+N1-071,N1,grammar,プロの選手（ ）、そんな初歩的なミスをするとは驚いた。,1. こととて | 2. ものなら | 3. ともあろうものが | 4. ばかりに,3. ともあろうものが,,ともあろうものが means 'someone of such high status/skill (yet made such a basic mistake)'.,JLPT N1 Workbook Q71 (Sentential Grammar 1),0,0,
+N1-072,N1,grammar,彼女の歌声は、聴く人の心を動かさず（ ）。,1. っこない | 2. にはおかない | 3. ざるを得ない | 4. にはいられない,2. にはおかない,,ずにはおかない means 'cannot fail to / inevitably moves (others)'.,JLPT N1 Workbook Q72 (Sentential Grammar 1),0,0,
+N1-073,N1,grammar,法律を知らなかった（ ）、罪は免れない。,1. からには | 2. ものの | 3. ばかりに | 4. とて,4. とて,,とて means 'even if / even though (you didn't know the law)'.,JLPT N1 Workbook Q73 (Sentential Grammar 1),0,0,
+N1-074,N1,grammar,この仕事は、あなたの協力（ ）成り立たない。,1. をよそに | 2. なくして | 3. にかわって | 4. をめぐって,2. なくして,,"なくして(は) means 'without (your cooperation, this work cannot stand)'.",JLPT N1 Workbook Q74 (Sentential Grammar 1),0,0,
+N1-075,N1,grammar,周囲の反対（ ）、彼は自分の計画を強行した。,1. を皮切りに | 2. を契機に | 3. をよそに | 4. を踏まえて,3. をよそに,,をよそに means 'ignoring / paying no heed to (opposition around him)'.,JLPT N1 Workbook Q75 (Sentential Grammar 1),0,0,
+N1-076,N1,grammar,できる（ ）、もう一度やり直したいものだ。,1. ばかりに | 2. ことなら | 3. どころか | 4. ものなら,4. ものなら,,"Potential verb + ものなら means 'if it were possible to (do over, I would want to)'.",JLPT N1 Workbook Q76 (Sentential Grammar 1),0,0,
+N1-077,N1,grammar,彼ほどのベテランが、そんな失敗をする（ ）。,1. にほかならない | 2. までもない | 3. わけにはいかない | 4. はずがない,4. はずがない,,はずがない means 'there is no way / cannot possibly'.,JLPT N1 Workbook Q77 (Sentential Grammar 1),0,0,
+N1-078,N1,grammar,わざわざ説明する（ ）、誰でも知っている事実だ。,1. にあって | 2. までもなく | 3. こととて | 4. のみならず,2. までもなく,,までもなく means 'there is no need to even (explain)'.,JLPT N1 Workbook Q78 (Sentential Grammar 1),0,0,
+N1-079,N1,grammar,この成功は、チーム全員の努力の結果（ ）。,1. にたえない | 2. にすぎない | 3. にかたくない | 4. にほかならない,4. にほかならない,,にほかならない means 'is nothing other than / is precisely due to'.,JLPT N1 Workbook Q79 (Sentential Grammar 1),0,0,
+N1-080,N1,grammar,当時の苦労は、想像（ ）。,1. に及ばない | 2. にほかならない | 3. にたえない | 4. にかたくない,4. にかたくない,,想像にかたくない means 'is not hard to imagine'.,JLPT N1 Workbook Q80 (Sentential Grammar 1),0,0,
+N1-081,N1,grammar,東京公演（ ）、全国ツアーがスタートした。,1. を抜きにして | 2. を限りに | 3. を皮切りに | 4. をよそに,3. を皮切りに,,を皮切りに means 'starting with X (and continuing to others)'.,JLPT N1 Workbook Q81 (Sentential Grammar 1),0,0,
+N1-082,N1,grammar,どんなに忙しかろう（ ）、健康管理は疎かにできない。,1. とも | 2. と | 3. が | 4. つつ,3. が,,Volitional/conjectural + が (忙しかろうが) means 'no matter how busy one may be'.,JLPT N1 Workbook Q82 (Sentential Grammar 1),0,0,
+N1-083,N1,grammar,その件については、今さら議論する（ ）。,1. にかたくない | 2. にたえない | 3. にすぎない | 4. に及ばない,4. に及ばない,,に及ばない means 'there is no need to / does not merit (discussing)'.,JLPT N1 Workbook Q83 (Sentential Grammar 1),0,0,
+N1-084,N1,grammar,親の心配を（ ）、息子は夜遅くまで遊び歩いている。,1. 皮切りに | 2. もとに | 3. よそに | 4. きっかけに,3. よそに,,をよそに means 'ignoring / indifferent to (parents' worry)'.,JLPT N1 Workbook Q84 (Sentential Grammar 1),0,0,
+N1-085,N1,grammar,この地域は自然が豊かな（ ）、冬は雪が非常に多い。,1. あげく | 2. 末に | 3. 反面 | 4. あまり,3. 反面,,反面 (はんめん) means 'on the other hand / while on one hand'.,JLPT N1 Workbook Q85 (Sentential Grammar 1),0,0,
+N1-086,N1,grammar,今回の失敗は ＿＿ ＿＿ ★ ＿＿ ほかならない。（★に入るものはどれか）,1. 確認不足が | 2. 招いた | 3. 結果に | 4. 単なる,2. 招いた,,Order: 単なる (4) 確認不足が (1) 招いた (2) 結果に (3) -> ★ is 招いた (2).,JLPT N1 Workbook Q86 (Sentence Composition),0,0,
+N1-087,N1,grammar,周囲の期待を ＿＿ ＿＿ ★ ＿＿ しまった。（★に入るものはどれか）,1. 背負う | 2. あまり | 3. プレッシャーに | 4. 負けて,3. プレッシャーに,,Order: 背負う (1) あまり (2) プレッシャーに (3) 負けて (4) -> ★ is プレッシャーに (3).,JLPT N1 Workbook Q87 (Sentence Composition),0,0,
+N1-088,N1,grammar,彼の論文は ＿＿ ＿＿ ★ ＿＿ 評価されている。（★に入るものはどれか）,1. 論理の | 2. 明快さ | 3. もさることながら | 4. 独創性が,3. もさることながら,,Order: 論理の (1) 明快さ (2) もさることながら (3) 独創性が (4) -> ★ is もさることながら (3).,JLPT N1 Workbook Q88 (Sentence Composition),0,0,
+N1-089,N1,grammar,この制度は ＿＿ ＿＿ ★ ＿＿ 思われる。（★に入るものはどれか）,1. 見直す | 2. 時代の変化に | 3. 必要が | 4. 即して,1. 見直す,,Order: 時代の変化に (2) 即して (4) 見直す (1) 必要が (3) -> ★ is 見直す (1).,JLPT N1 Workbook Q89 (Sentence Composition),0,0,
+N1-090,N1,grammar,行く手に ＿＿ ＿＿ ★ ＿＿ やり遂げる覚悟だ。（★に入るものはどれか）,1. いかなる | 2. 困難が | 3. あろうとも | 4. 最後まで,3. あろうとも,,Order: いかなる (1) 困難が (2) あろうとも (3) 最後まで (4) -> ★ is あろうとも (3).,JLPT N1 Workbook Q90 (Sentence Composition),0,0,
+N1-091,N1,grammar,長年の努力が ＿＿ ＿＿ ★ ＿＿ 感無量だ。（★に入るものはどれか）,1. ここに | 2. 実を結び | 3. 迎えて | 4. この日を,4. この日を,,Order: 実を結び (2) ここに (1) この日を (4) 迎えて (3) -> ★ is この日を (4).,JLPT N1 Workbook Q91 (Sentence Composition),0,0,
+N1-092,N1,grammar,この問題は ＿＿ ＿＿ ★ ＿＿ 議論すべきだ。（★に入るものはどれか）,1. 視点から | 2. 長期的な | 3. 目先の利益 | 4. にとらわれず,2. 長期的な,,Order: 目先の利益 (3) にとらわれず (4) 長期的な (2) 視点から (1) -> ★ is 長期的な (2).,JLPT N1 Workbook Q92 (Sentence Composition),0,0,
+N1-093,N1,grammar,彼女の態度は ＿＿ ＿＿ ★ ＿＿ ほかにない。（★に入るものはどれか）,1. 誰が見ても | 2. 見事だ | 3. と | 4. 言う,3. と,,Order: 誰が見ても (1) 見事だ (2) と (3) 言う (4) -> ★ is と (3).,JLPT N1 Workbook Q93 (Sentence Composition),0,0,
+N1-094,N1,grammar,今さら ＿＿ ＿＿ ★ ＿＿ 始まらない。（★に入るものはどれか）,1. 過去を | 2. 悔やんだ | 3. ところで | 4. どうにも,3. ところで,,Order: 過去を (1) 悔やんだ (2) ところで (3) どうにも (4) -> ★ is ところで (3).,JLPT N1 Workbook Q94 (Sentence Composition),0,0,
+N1-095,N1,grammar,この計画は ＿＿ ＿＿ ★ ＿＿ 実現しない。（★に入るものはどれか）,1. 関係者の | 2. なくしては | 3. 協力 | 4. とうてい,2. なくしては,,Order: 関係者の (1) 協力 (3) なくしては (2) とうてい (4) -> ★ is なくしては (2).,JLPT N1 Workbook Q95 (Sentence Composition),0,0,
+N1-096,N1,reading,"【文章A】
+科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。
+
+【Q96】に入る最もよいものはどれか。",1. どころではない | 2. 側面も否めない | 3. に及ばない | 4. はずがない,2. 側面も否めない,,側面も否めない ('one cannot deny the aspect that...') fits the critical contrast after しかし.,JLPT N1 Workbook Q96 (Text Grammar),0,0,
+N1-097,N1,reading,"【文章A】
+科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。
+
+【Q97】に入る最もよいものはどれか。",1. のみにとどまらず | 2. はもとより | 3. をよそに | 4. どころか,1. のみにとどまらず,,"のみにとどまらず ('not limited to convenience alone, but also...') links logically to 多角的に検証する.",JLPT N1 Workbook Q97 (Text Grammar),0,0,
+N1-098,N1,reading,"【文章A】
+科学技術の進歩は、人類に計り知れない恩恵をもたらしてきた。しかし、その一方で、倫理的な課題が置き去りにされがちである【Q96】。新しい技術が実用化される際には、利便性【Q97】、社会全体への影響を多角的に検証する姿勢が不可欠である。技術を使う側の意識が伴わなければ、せっかくの進歩も意味をなさない【Q98】。
+
+【Q98】に入る最もよいものはどれか。",1. こととて | 2. と言っても過言ではない | 3. ものがある | 4. にほかならない,2. と言っても過言ではない,,と言っても過言ではない ('it is no exaggeration to say that...') concludes the argument forcefully.,JLPT N1 Workbook Q98 (Text Grammar),0,0,
+N1-099,N1,reading,"【文章B】
+「言葉は時代とともに変化する」という事実を頭では理解していても、いざ自分の使わない新しい表現に出会うと、違和感を覚える人は少なくない。だが、かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない。言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ。
+
+筆者が「枚挙にいとまがない」と述べているのは何か。",1. 言葉が時代とともに消滅していく現象 | 2. かつての新語や俗語が、後に正しい言葉とされた例 | 3. 若者が使う流行語の意味 | 4. 新しい表現に違和感を覚える人の数,2. かつての新語や俗語が、後に正しい言葉とされた例,,The sentence states: かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない.,JLPT N1 Workbook Q99 (Short Essay),0,0,
+N1-100,N1,reading,"【文章B】
+「言葉は時代とともに変化する」という事実を頭では理解していても、いざ自分の使わない新しい表現に出会うと、違和感を覚える人は少なくない。だが、かつて「正しい」とされていた言葉遣いも、さかのぼれば当時の新語や俗語だった例は枚挙にいとまがない。言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ。
+
+筆者の主張として最も適切なものはどれか。",1. 言葉の変化を否定せず、時代を映すものとして楽しむべきだ | 2. 言葉が変わるのは若者の国語力が低下しているからだ | 3. 違和感のない古い表現だけを使い続けるのが望ましい | 4. 正しい言葉遣いを守るため、新語の使用は禁止すべきだ,1. 言葉の変化を否定せず、時代を映すものとして楽しむべきだ,,The conclusion urges: 言葉の変化を嘆くよりも、時代を映す鏡として面白がる余裕を持ちたいものだ.,JLPT N1 Workbook Q100 (Short Essay),0,0,
+N1-101,N1,reading,"【文章C】
+組織における意思決定において、全員の意見が一致することは理想のように思われがちだ。しかし、異論がまったく出ない会議ほど危ういものはない。なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ。建設的な対立を恐れず、多様な視点から議論を戦わせることこそが、組織の誤りを防ぎ、より質の高い結論を導く原動力となる。
+
+なぜ「異論がまったく出ない会議ほど危うい」のか。",1. 参加者が会議の内容に関心を持っていないから | 2. 結論がまとまらずに延期になるから | 3. 会議の時間が予定より長引いてしまうから | 4. 同調圧力や思考停止が隠れている可能性が高いから,4. 同調圧力や思考停止が隠れている可能性が高いから,,The passage explains: なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ.,JLPT N1 Workbook Q101 (Analytical Passage),0,0,
+N1-102,N1,reading,"【文章C】
+組織における意思決定において、全員の意見が一致することは理想のように思われがちだ。しかし、異論がまったく出ない会議ほど危ういものはない。なぜなら、そこには同調圧力や思考停止が潜んでいる可能性が高いからだ。建設的な対立を恐れず、多様な視点から議論を戦わせることこそが、組織の誤りを防ぎ、より質の高い結論を導く原動力となる。
+
+質の高い結論を導くために必要なこととして述べられているのはどれか。",1. 多様な視点から建設的な議論を行うこと | 2. 全員が最初から同じ意見に賛成すること | 3. 反対意見を持つ人を会議から外すこと | 4. 会議の参加人数をできるだけ減らすこと,1. 多様な視点から建設的な議論を行うこと,,The final sentence highlights 建設的な対立を恐れず、多様な視点から議論を戦わせること.,JLPT N1 Workbook Q102 (Analytical Passage),0,0,
+N1-103,N1,reading,"【文章D】
+読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。
+
+筆者が考える「読書」の本質とは何か。",1. 著者の思考と自分の経験を照らし合わせる内面的な対話 | 2. できるだけ多くの文字情報を短時間で処理すること | 3. 自分の価値観を変えずに知識だけを暗記すること | 4. 専門書を何冊も並べて比較すること,1. 著者の思考と自分の経験を照らし合わせる内面的な対話,,The text defines reading as 自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営み.,JLPT N1 Workbook Q103 (Academic Critique),0,0,
+N1-104,N1,reading,"【文章D】
+読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。
+
+「極めて豊かな読書体験」と筆者が評価するのはどのような場合か。",1. 難解な本を一言も迷わずに読み終えた場合 | 2. 著者の意見に完全に無批判で同意した場合 | 3. 一冊の本から膨大な暗記項目を得た場合 | 4. 読書を通じて自分の価値観が揺さぶられた場合,4. 読書を通じて自分の価値観が揺さぶられた場合,,The last sentence states: その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言える.,JLPT N1 Workbook Q104 (Academic Critique),0,0,
+N1-105,N1,reading,"【文章D】
+読書とは、単に文字を追って情報を得る作業ではない。著者の思考の軌跡をたどりながら、自らの経験や知識と照らし合わせ、内面で対話を繰り広げる営みである。たとえ一冊の本から得られる知識がわずかであっても、その対話の過程で自分の価値観が揺さぶられたならば、それは極めて豊かな読書体験と言えるだろう。
+
+この文章の趣旨に最も合うものはどれか。",1. 情報の少ない本は読む価値が乏しい | 2. 読書は情報収集の効率を上げるために行うべきだ | 3. 自分の経験と異なる本は避けた方がよい | 4. 知識の量よりも、思考を深める対話の過程に読書の価値がある,4. 知識の量よりも、思考を深める対話の過程に読書の価値がある,,"The author emphasizes that even if knowledge gained is small, having one's values shaken through inner dialogue makes reading deeply valuable.",JLPT N1 Workbook Q105 (Academic Critique),0,0,

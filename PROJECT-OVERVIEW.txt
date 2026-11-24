@@ -1,0 +1,157 @@
+===========================================================
+ MANABI PREP - Personal Japanese Exam Prep Web App
+ Project Overview
+ Last updated: 2026-11-20
+===========================================================
+
+-----------------------------------------------------------
+1. WHAT THIS IS
+-----------------------------------------------------------
+A personal study dashboard for Japanese exam practice,
+built from a growing "mistake bank" of real questions.
+Covers JFT-Basic and JLPT N1, N2, N3, N4.
+
+Main target level: N2.
+
+It is single-user and private. There are NO accounts, NO
+server, and NO database. All study progress is saved in the
+web browser itself (localStorage), so each device keeps its
+own history.
+
+
+-----------------------------------------------------------
+2. HOW IT WORKS (the simple version)
+-----------------------------------------------------------
+- You write real questions you got wrong into a spreadsheet
+  (CSV file) in the "01-mistake-bank" folder.
+- A command ("npm run sync") checks every row for mistakes
+  and turns the CSV into the app's data file
+  (data/questions.json).
+- The app reads that data file and lets you quiz yourself,
+  browse questions, and see your stats.
+
+One-way flow:
+  mistakes.csv  ->  npm run sync  ->  data/questions.json  ->  app
+
+
+-----------------------------------------------------------
+3. MAIN FEATURES
+-----------------------------------------------------------
+- Study Hub: pick a level, practice by section
+  (vocabulary / grammar / reading / listening), or redo
+  only the questions you missed ("Due").
+- Quiz mode: multiple-choice with shuffled answers,
+  instant right/wrong feedback, and explanations.
+- Question Bank: search and filter all questions by level,
+  section, and status (unseen / missed / mastered).
+- Stats: streak, coverage, accuracy, per-exam and
+  per-section breakdowns, and a 7-day activity chart.
+- Backup: export / import your progress as a JSON file.
+
+
+-----------------------------------------------------------
+4. TECH STACK
+-----------------------------------------------------------
+- Next.js 15 (App Router, static site) + TypeScript
+- Tailwind CSS v4 for styling
+- lucide-react icons, recharts for the weekly chart
+- Data stored only in browser localStorage
+- Designed to deploy free on Vercel
+
+
+-----------------------------------------------------------
+5. FOLDER LAYOUT
+-----------------------------------------------------------
+JFT/
+  01-mistake-bank/
+    mistakes.csv            <- the source questions (you edit this)
+
+  02-web-app/               <- the app
+    scripts/
+      sync-mistakes.mjs     <- checks CSV + builds questions.json
+    data/
+      questions.json        <- generated; DO NOT edit by hand
+    src/
+      types/                <- data shapes (Question, etc.)
+      lib/                  <- core logic (quiz, analytics, storage)
+      hooks/                <- useStudyState (ties it together)
+      components/           <- the UI (hub, quiz, stats, etc.)
+      app/                  <- page + layout
+    CLAUDE.md               <- technical notes / rules
+    PROJECT-OVERVIEW.txt    <- this file
+
+
+-----------------------------------------------------------
+6. COMMON COMMANDS
+-----------------------------------------------------------
+Run these from inside the "02-web-app" folder:
+
+  npm run sync          Check the CSV and rebuild questions.json
+  npm run dev           Run the app locally (http://localhost:3000)
+  npm run dev:mobile    Run so a phone on the SAME Wi-Fi can open it
+  npm run dev:public    Run with a public HTTPS tunnel (ANY Wi-Fi / 4G / 5G)
+  npm run start:public  Run production build with a public HTTPS tunnel
+  npm test              Run the automated tests
+  npm run build         Production build (what Vercel runs)
+
+
+-----------------------------------------------------------
+7. OPENING IT ON YOUR PHONE
+-----------------------------------------------------------
+ANY Wi-Fi or mobile data (live from PC):
+  1. Run:  npm run dev:public
+  2. Wait ~8s for the printed `https://....trycloudflare.com` URL.
+  3. Open that URL from any phone, tablet, or network while the PC runs.
+
+SAME Wi-Fi as the PC:
+  1. Run:  npm run dev:mobile
+  2. On the phone open:  http://<PC-Wi-Fi-IP>:3000
+     (this PC's Wi-Fi IP was 192.168.40.15)
+  3. Windows Firewall must allow inbound port 3000.
+
+24/7 EVEN WHEN PC IS OFF (Vercel):
+  Deploy to Vercel via GitHub and open your permanent
+  https://....vercel.app link from anywhere.
+
+
+-----------------------------------------------------------
+8. DEPLOYING (Vercel)
+-----------------------------------------------------------
+Because the app is static and has no backend, Vercel hosts
+it free and it works from any network.
+
+Two ways:
+  A) One-off:   npx vercel --prod --yes
+  B) Auto:      connect the GitHub repo in the Vercel
+                dashboard, then every "git push" auto-deploys.
+
+Everyday update workflow:
+  npm run sync
+  git add -A
+  git commit -m "update questions"
+  git push            (triggers auto-deploy if set up)
+
+
+-----------------------------------------------------------
+9. CURRENT STATUS (as of 2026-11-20)
+-----------------------------------------------------------
+- Question bank has grown to 450 questions.
+- Build pipeline is healthy: sync, type-check, tests, and
+  build all pass.
+- Local git repo created (initial commit = 315 questions).
+- TO DO: connect this folder to the GitHub remote, commit the
+  updated 450-question data, and push so the live site
+  reflects the latest questions.
+- Possible future tidy-up: split the single mistakes.csv into
+  one file per exam (n1 / n2 / n3 / n4 / jft) so it stays
+  easy to manage as it grows. App would not change.
+
+
+-----------------------------------------------------------
+10. RULES / THINGS NOT TO DO
+-----------------------------------------------------------
+- Do NOT edit data/questions.json by hand (it is generated).
+- No login, accounts, or multi-user features.
+- No backend server, database, or cloud storage.
+- Keep using real exam material, not made-up questions.
+===========================================================

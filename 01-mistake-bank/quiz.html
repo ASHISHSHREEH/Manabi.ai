@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mistake Bank Quiz</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #ffffff; --text: #1f2328; --muted: #6b6f76; --line: #e2e0db;
+    --accent: #3b5bdb; --ok: #2b8a3e; --ok-bg: #ebfbee; --bad: #c92a2a; --bad-bg: #fff5f5;
+    --warn: #a15c00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181b; --card: #212226; --text: #e8e8ea; --muted: #9a9ca3; --line: #34353b;
+      --accent: #748ffc; --ok: #69db7c; --ok-bg: #1d2e22; --bad: #ff8787; --bad-bg: #331d1f;
+      --warn: #ffc078;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.6 "Segoe UI", "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 20px; margin: 0 0 12px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  button, select {
+    font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 8px; padding: 7px 14px; cursor: pointer;
+  }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button:disabled { cursor: default; }
+  .status { min-height: 1.6em; margin: 8px 0 16px; color: var(--muted); font-size: 13px; }
+  .status.ok { color: var(--ok); }
+  .status.warn { color: var(--warn); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; color: var(--muted); font-size: 13px; }
+  .meta .spacer { flex: 1; }
+  .badge { background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
+  .question { font-size: 19px; margin: 16px 0 18px; line-height: 1.8; }
+  .choices { display: grid; gap: 8px; }
+  .choice {
+    display: flex; gap: 12px; align-items: center; text-align: left; padding: 11px 14px;
+    font-size: 16px; transition: border-color .15s, background .15s;
+  }
+  .choice:not(:disabled):hover { border-color: var(--accent); }
+  .choice .num {
+    flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+    background: var(--bg); font-size: 13px; color: var(--muted);
+  }
+  .choice.correct { border-color: var(--ok); background: var(--ok-bg); }
+  .choice.correct .num { background: var(--ok); color: #fff; }
+  .choice.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .choice.wrong .num { background: var(--bad); color: #fff; }
+  .choice.dim { opacity: .55; }
+  .feedback { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 16px; }
+  .verdict { font-size: 18px; font-weight: 600; margin: 0 0 12px; }
+  .verdict.ok { color: var(--ok); }
+  .verdict.bad { color: var(--bad); }
+  .block { border-left: 3px solid var(--line); padding: 4px 0 4px 12px; margin: 0 0 12px; }
+  .block.ok { border-color: var(--ok); }
+  .block.bad { border-color: var(--bad); }
+  .block h3 { font-size: 13px; margin: 0 0 2px; color: var(--muted); font-weight: 600; }
+  .block p { margin: 0; }
+  details { margin-top: 4px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  details ul { margin: 8px 0 0; padding-left: 18px; }
+  details li { margin-bottom: 6px; }
+  .actions { display: flex; justify-content: flex-end; margin-top: 16px; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 10px; }
+  .big { font-size: 28px; font-weight: 600; margin: 4px 0 12px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mistake Bank Quiz</h1>
+  <div class="toolbar">
+    <button id="openBtn" class="primary">Open mistakes.csv</button>
+    <select id="mode" title="Question order">
+      <option value="weak">Weakest first</option>
+      <option value="random">Random</option>
+      <option value="missed">Only ones I've missed</option>
+    </select>
+    <button id="restartBtn" disabled>Restart</button>
+    <button id="downloadBtn" hidden>Download CSV</button>
+  </div>
+  <p id="status" class="status"></p>
+
+  <section id="empty" class="card">
+    <p>Click <b>Open mistakes.csv</b> and choose the file in this folder.</p>
+    <p class="hint">In Edge or Chrome your results (times_seen, times_correct, my_wrong_answer, last_seen) are saved back into the file after every answer. Allow "edit" when the browser asks. In other browsers, use Download CSV when you finish.</p>
+  </section>
+
+  <section id="quiz" class="card" hidden>
+    <div class="meta">
+      <span id="badge" class="badge"></span>
+      <span id="qid"></span>
+      <span class="spacer"></span>
+      <span id="progress"></span>
+      <span id="score"></span>
+    </div>
+    <p id="question" class="question"></p>
+    <div id="choices" class="choices"></div>
+    <div id="feedback" class="feedback" hidden></div>
+    <div class="actions"><button id="nextBtn" class="primary" hidden>Next →</button></div>
+    <p class="hint">Keys: 1–4 to answer, Enter for next.</p>
+  </section>
+
+  <section id="done" class="card" hidden>
+    <p>Finished!</p>
+    <p id="final" class="big"></p>
+    <button id="againBtn" class="primary">Go again</button>
+  </section>
+</main>
+<input type="file" id="fileInput" accept=".csv,text/csv" hidden>
+
+<script>
+const $ = id => document.getElementById(id);
+let header = [], records = [], fileHandle = null, fileName = 'mistakes.csv', hadBOM = false;
+let writeState = 'unknown'; // 'unknown' | 'granted' | 'denied'
+let order = [];
+let queue = [], pos = 0, answered = 0, correctCount = 0, current = null, locked = true, dirty = false;
+
+/* ---------- CSV ---------- */
+function parseCSV(text) {
+  hadBOM = text.charCodeAt(0) === 0xFEFF;
+  if (hadBOM) text = text.slice(1);
+  const rows = []; let row = [], field = '', q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else q = false; }
+      else field += c;
+    } else if (c === '"') q = true;
+    else if (c === ',') { row.push(field); field = ''; }
+    else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+    else if (c !== '\r') field += c;
+  }
+  if (field !== '' || row.length) { row.push(field); rows.push(row); }
+  return rows.filter(r => r.some(f => f.trim() !== ''));
+}
+function toCSV() {
+  const esc = v => { v = v == null ? '' : String(v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+  const lines = [header, ...records.map(r => header.map(h => r[h]))].map(r => r.map(esc).join(','));
+  return (hadBOM ? '﻿' : '') + lines.join('\n') + '\n';
+}
+const splitList = s => (s || '').split('|').map(x => x.trim()).filter(Boolean).map(x => x.replace(/^\d+\s*[.．、)]\s*/, ''));
+const num = v => parseInt(v, 10) || 0;
+const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+
+/* ---------- file open / save ---------- */
+async function openFile() {
+  if (!window.showOpenFilePicker) { $('fileInput').click(); return; }
+  try {
+    [fileHandle] = await showOpenFilePicker({ types: [{ description: 'CSV', accept: { 'text/csv': ['.csv'] } }] });
+    writeState = 'unknown';
+    try { writeState = (await fileHandle.requestPermission({ mode: 'readwrite' })) === 'granted' ? 'granted' : 'denied'; } catch (e) {}
+    const f = await fileHandle.getFile();
+    load(await f.text(), f.name);
+  } catch (e) { if (e.name !== 'AbortError') setStatus('Could not open file: ' + e.message, 'warn'); }
+}
+$('fileInput').addEventListener('change', async e => {
+  const f = e.target.files[0]; if (!f) return;
+  fileHandle = null; writeState = 'denied';
+  load(await f.text(), f.name);
+  e.target.value = '';
+});
+
+async function save() {
+  if (fileHandle && writeState !== 'denied') {
+    try {
+      if (writeState !== 'granted') {
+        writeState = (await fileHandle.requestPermission({ mode: 'readwrite' })) === 'granted' ? 'granted' : 'denied';
+      }
+      if (writeState === 'granted') {
+        const w = await fileHandle.createWritable();
+        await w.write(toCSV()); await w.close();
+        dirty = false; $('downloadBtn').hidden = true;
+        setStatus(`Saved to ${fileName} ✓`, 'ok');
+        return;
+      }
+    } catch (e) { writeState = 'denied'; }
+  }
+  dirty = true; $('downloadBtn').hidden = false;
+  setStatus('Progress is not saved to the file. Click Download CSV and replace your mistakes.csv with it.', 'warn');
+}
+function download() {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([toCSV()], { type: 'text/csv;charset=utf-8' }));
+  a.download = fileName; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  dirty = false;
+}
+function setStatus(msg, cls = '') { const s = $('status'); s.textContent = msg; s.className = 'status ' + cls; }
+
+/* ---------- quiz ---------- */
+function load(text, name) {
+  const rows = parseCSV(text);
+  if (!rows.length) { setStatus('That file is empty.', 'warn'); return; }
+  fileName = name || fileName;
+  header = rows[0].map(h => h.trim());
+  for (const col of ['my_wrong_answer', 'times_seen', 'times_correct', 'last_seen']) if (!header.includes(col)) header.push(col);
+  records = rows.slice(1).map(r => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ''])));
+  $('restartBtn').disabled = false;
+  setStatus(`Loaded ${records.length} questions from ${fileName}` + (writeState === 'granted' ? ' — results save automatically.' : '.'), writeState === 'granted' ? 'ok' : '');
+  start();
+}
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function start() {
+  const mode = $('mode').value;
+  let list = shuffle(records.filter(r => r.question && r.choices && r.answer));
+  if (mode === 'missed') list = list.filter(r => num(r.times_seen) > num(r.times_correct));
+  if (mode !== 'random') {
+    const acc = r => num(r.times_seen) ? num(r.times_correct) / num(r.times_seen) : -1;
+    list.sort((a, b) => acc(a) - acc(b) || (a.last_seen || '').localeCompare(b.last_seen || ''));
+  }
+  queue = list; pos = 0; answered = 0; correctCount = 0;
+  $('empty').hidden = true; $('done').hidden = true;
+  if (!queue.length) {
+    $('quiz').hidden = true; $('empty').hidden = false;
+    $('empty').innerHTML = '<p>No questions match this mode. Try "Weakest first".</p>';
+    return;
+  }
+  $('quiz').hidden = false;
+  show();
+}
+function show() {
+  if (pos >= queue.length) return finish();
+  current = queue[pos]; locked = false;
+  $('badge').textContent = [current.exam, current.section].filter(Boolean).join(' · ');
+  $('qid').textContent = current.id || '';
+  $('progress').textContent = `${pos + 1} / ${queue.length}`;
+  $('score').textContent = answered ? `✓ ${correctCount}/${answered}` : '';
+  $('question').textContent = current.question;
+  const box = $('choices'); box.replaceChildren();
+  const choices = splitList(current.choices);
+  order = shuffle(choices.map((_, i) => i)); // order[displayPos] = original index
+  order.forEach((orig, i) => {
+    const b = document.createElement('button');
+    b.className = 'choice';
+    b.append(el('span', 'num', String(i + 1)), el('span', 'txt', choices[orig]));
+    b.onclick = () => answer(i + 1);
+    box.append(b);
+  });
+  $('feedback').hidden = true; $('nextBtn').hidden = true;
+}
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function block(cls, title, body) { const d = el('div', 'block ' + cls); d.append(el('h3', null, title), el('p', null, body)); return d; }
+
+function answer(shown) {
+  if (locked || !current) return;
+  const choices = splitList(current.choices);
+  if (shown > choices.length) return;
+  locked = true;
+  // k / right are ORIGINAL choice numbers (as in the CSV); disp() gives the number shown on screen
+  const k = order[shown - 1] + 1, right = num(current.answer), ok = k === right;
+  const disp = n => order.indexOf(n - 1) + 1;
+  const notes = splitList(current.choice_explanations);
+  [...$('choices').children].forEach((b, i) => {
+    b.disabled = true;
+    const n = order[i] + 1;
+    if (n === right) b.classList.add('correct');
+    else if (n === k) b.classList.add('wrong');
+    else b.classList.add('dim');
+  });
+
+  answered++; if (ok) correctCount++;
+  current.times_seen = num(current.times_seen) + 1;
+  if (ok) current.times_correct = num(current.times_correct) + 1;
+  else current.my_wrong_answer = String(k);
+  current.last_seen = today();
+  save();
+
+  const fb = $('feedback'); fb.replaceChildren();
+  fb.append(el('p', 'verdict ' + (ok ? 'ok' : 'bad'), ok ? '✓ 正解！ Correct' : '✗ 不正解 Incorrect'));
+  if (!ok) fb.append(block('bad', `Why ${disp(k)}. ${choices[k - 1]} is wrong`, notes[k - 1] || 'This choice does not fit the sentence.'));
+  fb.append(block('ok', `Why ${disp(right)}. ${choices[right - 1] || ''} is right`, current.explanation || notes[right - 1] || ''));
+  const others = order.map(i => i + 1).filter(n => n !== k && n !== right && notes[n - 1]);
+  if (others.length) {
+    const d = el('details'); d.append(el('summary', null, 'The other choices'));
+    const ul = el('ul'); others.forEach(n => ul.append(el('li', null, `${disp(n)}. ${choices[n - 1]}: ${notes[n - 1]}`)));
+    d.append(ul); fb.append(d);
+  }
+  fb.hidden = false;
+  $('score').textContent = `✓ ${correctCount}/${answered}`;
+  $('nextBtn').hidden = false; $('nextBtn').focus();
+}
+function next() { if (!locked) return; pos++; show(); }
+function finish() {
+  $('quiz').hidden = true; $('done').hidden = false;
+  $('final').textContent = `${correctCount} / ${answered} correct`;
+}
+
+$('openBtn').onclick = openFile;
+$('restartBtn').onclick = start;
+$('againBtn').onclick = start;
+$('mode').onchange = () => { if (records.length) start(); };
+$('nextBtn').onclick = next;
+$('downloadBtn').onclick = download;
+document.addEventListener('keydown', e => {
+  if ($('quiz').hidden || e.target.tagName === 'SELECT') return;
+  if (/^[1-9]$/.test(e.key) && !locked) answer(+e.key);
+  else if (e.key === 'Enter' && locked && !$('nextBtn').hidden) { e.preventDefault(); next(); }
+});
+window.addEventListener('beforeunload', e => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
+</script>
+</body>
+</html>

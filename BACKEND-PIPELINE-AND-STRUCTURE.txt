@@ -1,0 +1,281 @@
+===========================================================================
+ MANABI PREP (JFT / JLPT Exam Prep)
+ Backend / Data Pipeline & Project Structure Guide
+ Last updated: 2026-11-20
+===========================================================================
+
+---------------------------------------------------------------------------
+1. ARCHITECTURE MODEL (LOCAL-FIRST, NO RUNTIME BACKEND SERVER)
+---------------------------------------------------------------------------
+This project intentionally uses a zero-server, static build-time data
+pipeline instead of a runtime backend API or database:
+
+  - No backend HTTP server, REST/GraphQL API routes, auth, or SQL/NoSQL DB.
+  - All question content lives in one CSV spreadsheet:
+      01-mistake-bank/mistakes.csv
+  - A Node.js validation and build script compiles that CSV into static
+    read-only JSON inside the Next.js app:
+      02-web-app/scripts/sync-mistakes.mjs  -->  02-web-app/data/questions.json
+  - The Next.js App Router page imports data/questions.json statically and
+    passes the Question[] array into the client UI.
+  - All user progress, streaks, daily activity, targets, and backups live
+    in the browser via window.localStorage (isolated inside storage.ts).
+
+One-way data flow:
+
+  [01-mistake-bank/mistakes.csv]   <-- master content edited here
+                 |
+         (npm run sync)
+    scripts/sync-mistakes.mjs       <-- RFC-4180 CSV parser + row validator
+                 |
+                 v
+  [02-web-app/data/questions.json] <-- generated read-only JSON (never hand-edit)
+                 |
+       (static JSON import)
+                 v
+       [src/app/page.tsx]           <-- HomePage passes questions[] to QuizApp
+                 |
+                 v
+     [src/components/QuizApp.tsx]
+           |             |
+           v             v
+    src/lib/quiz.ts   src/hooks/useStudyState.ts
+                         |                 |
+                         v                 v
+               src/lib/analytics.ts   src/lib/storage.ts
+                                           |
+                                           v
+                                  Browser localStorage
+                            (+ JSON backup export / import)
+
+
+---------------------------------------------------------------------------
+2. FULL WORKSPACE DIRECTORY STRUCTURE
+---------------------------------------------------------------------------
+d:\My projects\JFT\
+├── ROADMAP.md                         # Project phase gates & scope rules
+├── ARCHITECTURE.md                    # High-level workspace architecture
+├── PROJECT-OVERVIEW.txt               # Beginner-friendly overview
+├── BACKEND-PIPELINE-AND-STRUCTURE.txt # This technical pipeline reference
+│
+├── 00-targets/
+│   └── targets.md                     # Target exam dates & baseline notes
+│
+├── 01-mistake-bank/
+│   ├── README.md                      # Spreadsheet column documentation
+│   ├── mistakes.csv                   # Master source of truth (550 questions)
+│   ├── mistakes.backup.csv            # CSV snapshot backup
+│   └── quiz.html                      # Legacy standalone Phase 1 HTML quiz
+│
+├── weekly-checks/
+│   └── template.md                    # Weekly progress review template
+│
+├── resources/
+│   └── README.md                      # Reference materials & study PDFs
+│
+└── 02-web-app/                        # Next.js 15 + React 19 + TypeScript + Tailwind v4
+    ├── CLAUDE.md                      # App constraints & rules
+    ├── package.json                   # Scripts & dependencies
+    ├── next.config.ts
+    ├── tsconfig.json
+    ├── postcss.config.mjs
+    │
+    ├── scripts/
+    │   ├── sync-mistakes.mjs          # Build-time CSV -> JSON pipeline & validator
+    │   └── sync-mistakes.test.mjs     # Unit tests for CSV parsing & validation
+    │
+    ├── data/
+    │   └── questions.json             # Generated 550-question JSON dataset
+    │
+    └── src/
+        ├── types/
+        │   └── question.ts            # Shared TypeScript interfaces & constants
+        │
+        ├── lib/                       # Pure domain logic (no React imports)
+        │   ├── quiz.ts                # Filtering, answer matching, Fisher-Yates shuffle
+        │   ├── quiz.test.ts           # Quiz logic unit tests
+        │   ├── analytics.ts           # Streaks, 7-day history, accuracy aggregation
+        │   ├── analytics.test.ts      # Analytics unit tests
+        │   └── storage.ts             # SOLE module accessing window.localStorage
+        │
+        ├── hooks/
+        │   └── useStudyState.ts       # React hook connecting UI to storage + analytics
+        │
+        ├── components/                # UI grouped by feature (no direct localStorage)
+        │   ├── QuizApp.tsx            # Top-level view router ("hub" | "bank" | "quiz" | "stats")
+        │   ├── layout/
+        │   │   └── TopNav.tsx
+        │   ├── hub/
+        │   │   ├── LevelSwitcher.tsx  # Exam level tabs (ALL, JFT, N3, N2, N1)
+        │   │   ├── StudyHub.tsx       # Dashboard cards & Due/Practice launchers
+        │   │   └── QuestionBankView.tsx # Search & filter across questions
+        │   ├── quiz/
+        │   │   └── QuizRunner.tsx     # Interactive runner, choice shuffle, Prev/Retry/Next,
+        │   │                          # and All Options (English Breakdown) panel
+        │   ├── stats/
+        │   │   ├── StatsView.tsx
+        │   │   └── WeeklyAnalytics.tsx
+        │   └── ui/
+        │       ├── Badge.tsx
+        │       ├── Card.tsx
+        │       └── ProgressBar.tsx
+        │
+        └── app/
+            ├── layout.tsx             # Root HTML layout (suppressHydrationWarning, metadata)
+            ├── globals.css
+            └── page.tsx               # Loads data/questions.json and renders QuizApp
+
+
+---------------------------------------------------------------------------
+3. BUILD-TIME DATA INGESTION PIPELINE (CSV -> JSON)
+---------------------------------------------------------------------------
+Entrypoint: 02-web-app/scripts/sync-mistakes.mjs
+Command:    npm run sync   (run from 02-web-app/)
+
+Step 1 — Read Source CSV
+  Reads: d:\My projects\JFT\01-mistake-bank\mistakes.csv (UTF-8)
+
+Step 2 — RFC-4180 Parsing (`parseCsv`)
+  - Strips optional UTF-8 BOM (`\uFEFF`).
+  - Handles CRLF (`\r\n`), LF (`\n`), and CR (`\r`) line endings.
+  - Preserves commas and multi-line reading passages inside double quotes.
+  - Unescapes doubled quotes (`""` -> `"`).
+  - Drops completely blank trailing/spacer rows.
+
+Step 3 — Schema & Row Validation (`validateAndConvertRows`)
+  Expected 13 CSV columns in mistakes.csv:
+    1. id                   Unique ID (e.g. JFT-001, N3-001, N2-001, N1-001)
+    2. exam                 Exam tag (normalized uppercase)
+    3. section              Section tag (normalized lowercase)
+    4. question             Prompt text (supports multi-line scripts/passages)
+    5. choices              Pipe-separated ("|") options
+    6. answer               Exact option text, prefix ("1.", "A)"), 1-9, or A-Z
+    7. my_wrong_answer      Optional logged mistake
+    8. explanation          Overall explanation shown after answering
+    9. choice_explanations  Optional pipe-separated ("|") per-option English
+                            explanations aligned 1-to-1 with `choices`
+   10. source               Workbook / test reference
+   11. times_seen           Optional spreadsheet tracking column
+   12. times_correct        Optional spreadsheet tracking column
+   13. last_seen            Optional spreadsheet tracking column
+
+  Hard validation rules enforced per row before writing JSON:
+    - Required headers present: id, exam, section, question, choices, answer.
+    - `id` is non-empty and globally unique (no duplicate IDs).
+    - `exam` is in VALID_EXAMS: { JFT, N3, N2, N1, N4 }.
+    - `section` is in VALID_SECTIONS: { vocabulary, grammar, reading, listening }.
+    - `question` is non-empty.
+    - `choices` splits on `|` into at least 2 non-empty options.
+    - If `choice_explanations` is non-empty:
+        * Item count after splitting on `|` must equal `choices.length`.
+        * No item may be blank.
+    - `answer` is non-empty and matches `choices` via `isValidAnswerForChoices`:
+        exact case-insensitive string, numeric index (1..choices.length),
+        letter index (A..Z), or label prefix (e.g., "2." / "B)").
+
+  Fail-safe behavior:
+    If ANY row fails validation, `sync-mistakes.mjs` prints every row error
+    and exits with status code 1 WITHOUT overwriting data/questions.json.
+
+Step 4 — Emit Output JSON
+  Writes pretty-printed JSON array to:
+    02-web-app/data/questions.json
+
+  Output object shape per item (`Question` in src/types/question.ts):
+    {
+      id: string,
+      exam: string,
+      section: string,
+      question: string,
+      choices: string[],
+      answer: string,
+      my_wrong_answer?: string,
+      explanation: string,
+      choice_explanations?: string[],
+      source?: string
+    }
+
+  Current validated dataset totals in data/questions.json:
+    Total:      550 questions
+    By exam:    JFT: 100 | N3: 150 | N2: 150 | N1: 150
+    By section: vocabulary: 310 | grammar: 147 | reading: 68 | listening: 25
+
+
+---------------------------------------------------------------------------
+4. QUIZ RUNTIME & OPTION SHUFFLING PIPELINE
+---------------------------------------------------------------------------
+Handled in pure TypeScript inside 02-web-app/src/lib/quiz.ts:
+
+1. `filterQuestions(questions, exam, section)`
+   - Filters `questions` by selected exam ("ALL" disables) and section.
+
+2. `shuffleQuestionChoices(question)` / `prepareSessionQuestions(questions)`
+   - Maps each raw choice string with its `originalIndex`, `displayText`
+     (stripped of leading "1. " / "B) " via `stripChoiceLabel`), `isCorrect`
+     (`isChoiceCorrect`), and paired `explanation` from
+     `question.choice_explanations?.[idx]`.
+   - Applies Fisher-Yates shuffle to the option array while keeping
+     `isCorrect`, `originalIndex`, and `explanation` bound to each option.
+
+3. `QuizRunner.tsx`
+   - Renders choices in shuffled order with 1..N numbering.
+   - Supports `<- Previous`, `Retry` (re-shuffles current question choices and
+     clears its session selection so you can re-attempt immediately), and
+     `Next ->` / `Finish`.
+   - Whenever a question is answered (whether Correct or Wrong), displays:
+       * Result header ("Correct!" or "Wrong -- Answer: ...")
+       * Overall `explanation`
+       * "All Options (English Breakdown)" listing every option in its
+         current screen order (1..N), tagged Correct / Your pick · Wrong / Wrong,
+         along with its English meaning and reason why it is right or wrong.
+
+
+---------------------------------------------------------------------------
+5. CLIENT-SIDE PERSISTENCE & ANALYTICS PIPELINE
+---------------------------------------------------------------------------
+All browser persistence goes strictly through 02-web-app/src/lib/storage.ts:
+
+  localStorage keys:
+    - "jft-exam-prep-progress-v1"     -> ProgressMap (Record<id, QuestionResult>)
+        Tracks { times_seen, times_correct, last_seen, last_correct } per ID.
+    - "jft-exam-prep-study-state-v1"  -> UserStudyState
+        Tracks { dailyActivity, dailyTarget, tasks }.
+
+  SSR Safety:
+    - Every storage read/write checks `typeof window === "undefined"`.
+    - `useStudyState.ts` starts with empty/default initial state on SSR and
+      hydrates from localStorage inside `useEffect` after client mount to
+      prevent Next.js hydration mismatches.
+
+  Operations exposed by storage.ts:
+    - `loadProgress()`, `loadStudyState()`
+    - `recordQuestionResult(questionId, isCorrect, dateStr)`
+        Atomically updates both per-question stats and today's daily count.
+    - `saveDailyTarget(dailyTarget)` (clamped 5..200)
+    - `saveTasks(tasks)`
+    - `exportBackupJson()` / `importBackupJson(rawJson)`
+        Full JSON snapshot export/restore across devices/browsers.
+    - `clearProgress()`
+
+  Analytics (`src/lib/analytics.ts`, wired via `useStudyState.ts`):
+    - Computes overall summary stats, consecutive study streak days,
+      per-exam breakdowns, per-section breakdowns for the active exam level,
+      and a 7-day rolling activity series for WeeklyAnalytics.tsx.
+
+
+---------------------------------------------------------------------------
+6. COMMANDS & TEST PIPELINE
+---------------------------------------------------------------------------
+Run all npm commands from inside: d:\My projects\JFT\02-web-app
+
+  npm run sync         Validate 01-mistake-bank/mistakes.csv and regenerate
+                       data/questions.json
+  npx tsc --noEmit     Run TypeScript type checker
+  npm test             Run all Node unit tests:
+                         - scripts/sync-mistakes.test.mjs (3 tests)
+                         - src/lib/analytics.test.ts      (3 tests)
+                         - src/lib/quiz.test.ts           (4 tests)
+  npm run dev          Start local Next.js dev server (localhost:3000)
+  npm run dev:mobile   Start Next.js dev server bound to 0.0.0.0 for LAN/mobile
+  npm run build        Create production Next.js static build
+===========================================================================
