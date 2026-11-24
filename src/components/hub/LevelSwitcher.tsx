@@ -75,8 +75,12 @@ export function LevelSwitcher({
   const allLevels = [...LEVELS, ...extraExams];
 
   return (
-    <div className="border-b border-slate-200 bg-white">
-      <div className="mx-auto grid max-w-5xl grid-cols-3 gap-1.5 px-3 py-2.5 sm:flex sm:flex-wrap sm:items-center sm:gap-2 sm:px-6">
+    <div className="border-b border-slate-200/90 bg-slate-50/80">
+      <div
+        role="tablist"
+        aria-label="Exam level filter"
+        className="no-scrollbar mx-auto flex max-w-5xl items-center gap-1.5 overflow-x-auto px-3 py-2 sm:flex-wrap sm:gap-2 sm:px-6 sm:py-2.5"
+      >
         {allLevels.map((lvl) => {
           const count =
             lvl.id === "ALL"
@@ -88,22 +92,24 @@ export function LevelSwitcher({
             <button
               key={lvl.id}
               type="button"
+              role="tab"
+              aria-selected={active}
               onClick={() => onSelectExam(lvl.id)}
-              className={`flex min-h-11 flex-col items-center justify-center rounded-xl border px-1.5 py-1.5 text-center transition sm:min-h-10 sm:flex-row sm:gap-2 sm:rounded-full sm:px-3.5 ${
+              className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition sm:min-h-10 sm:gap-2 sm:px-3.5 ${
                 active
                   ? lvl.activeClass
-                  : "border-slate-200 bg-slate-50 text-slate-700 hover:border-slate-300 hover:bg-white"
+                  : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
               }`}
             >
-              <span className="flex items-center gap-1 text-xs font-bold sm:text-sm">
+              <span className="flex items-center gap-1.5 font-bold sm:text-sm">
                 {!active && (
-                  <span className={`hidden h-2 w-2 rounded-full sm:inline-block ${lvl.dotClass}`} />
+                  <span className={`h-2 w-2 rounded-full ${lvl.dotClass}`} />
                 )}
                 <span className="sm:hidden">{lvl.shortLabel}</span>
                 <span className="hidden sm:inline">{lvl.label}</span>
               </span>
               <span
-                className={`text-[10px] font-medium sm:text-xs ${
+                className={`text-[11px] font-medium tabular-nums sm:text-xs ${
                   active ? "text-white/85" : "text-slate-400"
                 }`}
               >

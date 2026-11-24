@@ -127,20 +127,20 @@ export function StudyHub({
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-2">
-            <div className="rounded-xl bg-white/10 px-2.5 py-2 text-center">
+          <div className="grid grid-cols-3 gap-2 tabular-nums">
+            <div className="rounded-xl bg-white/12 px-2.5 py-2 text-center backdrop-blur-xs sm:min-w-24 sm:px-3.5">
               <p className="text-sm font-bold sm:text-lg">
                 {snapshot.seen}/{snapshot.total}
               </p>
               <p className="text-[10px] text-white/80 sm:text-[11px]">Reviewed</p>
             </div>
-            <div className="rounded-xl bg-white/10 px-2.5 py-2 text-center">
+            <div className="rounded-xl bg-white/12 px-2.5 py-2 text-center backdrop-blur-xs sm:min-w-24 sm:px-3.5">
               <p className="text-sm font-bold sm:text-lg">
                 {snapshot.attempts > 0 ? `${snapshot.accuracyPct}%` : "—"}
               </p>
               <p className="text-[10px] text-white/80 sm:text-[11px]">Accuracy</p>
             </div>
-            <div className="rounded-xl bg-white/10 px-2.5 py-2 text-center">
+            <div className="rounded-xl bg-white/12 px-2.5 py-2 text-center backdrop-blur-xs sm:min-w-24 sm:px-3.5">
               <p className="text-sm font-bold sm:text-lg">
                 {todayAnswered}/{dailyTarget}
               </p>

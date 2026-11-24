@@ -114,7 +114,7 @@ export function QuestionBankView({
             </button>
           ))}
 
-          <span className="ml-auto hidden text-xs text-slate-400 sm:inline">
+          <span className="ml-auto text-xs font-medium text-slate-400 tabular-nums">
             {filtered.length} question{filtered.length === 1 ? "" : "s"}
           </span>
         </div>

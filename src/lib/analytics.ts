@@ -123,12 +123,12 @@ export function computeSummaryStats(
   };
 }
 
-/** Compute per-exam coverage and accuracy for JFT, N3, N2, N1, N4. */
+/** Compute per-exam coverage and accuracy for JFT, N4, N3, N2, N1. */
 export function computeExamBreakdowns(
   questions: Question[],
   progress: ProgressMap
 ): ExamBreakdown[] {
-  const exams = ["JFT", "N3", "N2", "N1", "N4"];
+  const exams = ["JFT", "N4", "N3", "N2", "N1"];
   const result: ExamBreakdown[] = [];
 
   for (const exam of exams) {

@@ -29,8 +29,8 @@ export function TopNav({
   dailyTarget,
 }: TopNavProps) {
   return (
-    <header className="sticky top-0 z-30 border-b border-slate-200 bg-white">
-      <div className="mx-auto flex h-13 max-w-5xl items-center justify-between gap-2 px-3 sm:h-14 sm:px-6">
+    <header className="sticky top-0 z-30 border-b border-slate-200/90 bg-white/95 pt-[env(safe-area-inset-top)] backdrop-blur-md">
+      <div className="mx-auto flex h-12 max-w-5xl items-center justify-between gap-2 px-3 sm:h-14 sm:px-6">
         <button
           type="button"
           onClick={() => onSelectView("hub")}
@@ -39,7 +39,7 @@ export function TopNav({
           <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-xs">
             <BookOpenCheck className="h-4 w-4" />
           </span>
-          <span className="text-sm font-bold tracking-tight text-slate-900 sm:text-base">
+          <span className="whitespace-nowrap text-sm font-bold tracking-tight text-slate-900 sm:text-base">
             Manabi Prep
           </span>
         </button>
@@ -56,8 +56,9 @@ export function TopNav({
               <button
                 key={tab.id}
                 type="button"
+                aria-current={active ? "page" : undefined}
                 onClick={() => onSelectView(tab.id)}
-                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
+                className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
                   active
                     ? "bg-white text-slate-900 shadow-xs"
                     : "text-slate-600 hover:text-slate-900"
@@ -70,7 +71,7 @@ export function TopNav({
           })}
         </nav>
 
-        <div className="flex shrink-0 items-center gap-1.5 text-xs font-semibold">
+        <div className="flex shrink-0 items-center gap-1.5 text-xs font-semibold tabular-nums">
           <span
             title="Consecutive active days"
             className="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2.5 py-1 text-orange-700"
@@ -80,8 +81,9 @@ export function TopNav({
           </span>
           <button
             type="button"
+            title="Daily goal progress"
             onClick={() => onSelectView("stats")}
-            className="inline-flex rounded-full bg-indigo-50 px-2.5 py-1 text-indigo-700 hover:bg-indigo-100"
+            className="inline-flex rounded-full bg-indigo-50 px-2.5 py-1 text-indigo-700 transition hover:bg-indigo-100"
           >
             {todayAnswered}/{dailyTarget}
           </button>
@@ -91,7 +93,7 @@ export function TopNav({
       {/* Compact mobile tab strip inside header (never blocks bottom of screen) */}
       <nav
         aria-label="Mobile navigation"
-        className="grid grid-cols-3 border-t border-slate-100 bg-slate-50/70 sm:hidden"
+        className="grid grid-cols-3 border-t border-slate-100 bg-slate-50/80 sm:hidden"
       >
         {NAV_TABS.map((tab) => {
           const Icon = tab.icon;
@@ -101,6 +103,7 @@ export function TopNav({
             <button
               key={tab.id}
               type="button"
+              aria-current={active ? "page" : undefined}
               onClick={() => onSelectView(tab.id)}
               className={`flex min-h-10 items-center justify-center gap-1.5 border-b-2 text-xs font-semibold transition ${
                 active
