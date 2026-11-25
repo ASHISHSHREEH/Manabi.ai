@@ -9,6 +9,8 @@ import type {
 
 const PROGRESS_KEY = "jft-exam-prep-progress-v1";
 const STUDY_STATE_KEY = "jft-exam-prep-study-state-v1";
+const MOCK_HISTORY_KEY = "manabi-mock-results-v1";
+const MOCK_ACTIVE_KEY = "manabi-mock-active-v1";
 
 export const DEFAULT_EXAM_DATES: Record<string, string> = {
   N2: "2027-07-04",
@@ -267,6 +269,34 @@ export function clearProgress(): void {
   try {
     window.localStorage.removeItem(PROGRESS_KEY);
     window.localStorage.removeItem(STUDY_STATE_KEY);
+    window.localStorage.removeItem(MOCK_HISTORY_KEY);
+    window.localStorage.removeItem(MOCK_ACTIVE_KEY);
+  } catch {
+    // Ignore storage errors
+  }
+}
+
+export function loadLocalJson<T>(key: "mock_history" | "mock_active", fallback: T): T {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const storageKey = key === "mock_history" ? MOCK_HISTORY_KEY : MOCK_ACTIVE_KEY;
+    const raw = window.localStorage.getItem(storageKey);
+    if (!raw) return fallback;
+    return JSON.parse(raw) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+export function saveLocalJson<T>(key: "mock_history" | "mock_active", value: T): void {
+  if (typeof window === "undefined") return;
+  try {
+    const storageKey = key === "mock_history" ? MOCK_HISTORY_KEY : MOCK_ACTIVE_KEY;
+    if (value === null) {
+      window.localStorage.removeItem(storageKey);
+    } else {
+      window.localStorage.setItem(storageKey, JSON.stringify(value));
+    }
   } catch {
     // Ignore storage errors
   }

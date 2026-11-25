@@ -5,6 +5,7 @@ import { LevelSwitcher } from "@/components/hub/LevelSwitcher";
 import { QuestionBankView } from "@/components/hub/QuestionBankView";
 import { StudyHub } from "@/components/hub/StudyHub";
 import { MobileBottomNav, TopNav } from "@/components/layout/TopNav";
+import { MockExamView } from "@/components/mock/MockExamView";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { StatsView } from "@/components/stats/StatsView";
 import { useStudyState } from "@/hooks/useStudyState";
@@ -143,6 +144,24 @@ export default function QuizApp({ questions }: QuizAppProps) {
             onStartQuiz={handleStartQuizFromHub}
             onOpenBank={() => setActiveView("bank")}
             onOpenStats={() => setActiveView("stats")}
+            onOpenMock={() => setActiveView("mock")}
+          />
+        )}
+
+        {activeView === "mock" && (
+          <MockExamView
+            questions={questions}
+            initialExamCode={selectedExam}
+            onSyncAnswerToLocalProgress={recordAnswer}
+            onPracticeWeakestSection={(examCode, section) => {
+              setSelectedExam(examCode);
+              handleStartQuizFromHub({
+                exam: examCode,
+                section,
+                missedOnly: false,
+                limit: 10,
+              });
+            }}
           />
         )}
 

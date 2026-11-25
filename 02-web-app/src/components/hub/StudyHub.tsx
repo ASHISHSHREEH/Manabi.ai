@@ -32,6 +32,7 @@ interface StudyHubProps {
   }) => void;
   onOpenBank: () => void;
   onOpenStats: () => void;
+  onOpenMock: () => void;
 }
 
 const SECTION_LABELS: Record<string, { name: string; jp: string }> = {
@@ -131,6 +132,7 @@ export function StudyHub({
   onStartQuiz,
   onOpenBank,
   onOpenStats,
+  onOpenMock,
 }: StudyHubProps) {
   const [mountedNow, setMountedNow] = useState<Date | null>(null);
   const [editingDate, setEditingDate] = useState(false);
@@ -786,13 +788,22 @@ export function StudyHub({
           >
             Quick practice
           </h2>
-          <button
-            type="button"
-            onClick={onOpenBank}
-            className="cursor-pointer text-xs font-semibold text-indigo-700 hover:underline"
-          >
-            Browse {snapshot.total} Qs →
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={onOpenMock}
+              className="cursor-pointer rounded-full bg-indigo-50 px-3 py-1 text-xs font-bold text-indigo-700 hover:bg-indigo-100"
+            >
+              Timed Mock Exam →
+            </button>
+            <button
+              type="button"
+              onClick={onOpenBank}
+              className="cursor-pointer text-xs font-semibold text-slate-600 hover:text-indigo-700 hover:underline"
+            >
+              Browse {snapshot.total} Qs
+            </button>
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-2">

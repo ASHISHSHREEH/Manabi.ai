@@ -13,10 +13,11 @@ interface TopNavProps {
   onOpenProfile: () => void;
 }
 
-type NavKey = "hub" | "quiz" | "bank" | "stats";
+type NavKey = "hub" | "mock" | "quiz" | "bank" | "stats";
 
-const NAV_ITEMS: { key: NavKey; label: string }[] = [
+const NAV_ITEMS: { key: NavKey; label: string; mobileLabel?: string }[] = [
   { key: "hub", label: "Home" },
+  { key: "mock", label: "Mock Exam", mobileLabel: "Mock" },
   { key: "quiz", label: "Practice" },
   { key: "bank", label: "Questions" },
   { key: "stats", label: "Stats" },
@@ -135,7 +136,7 @@ export function MobileBottomNav({
   return (
     <nav
       aria-label="Mobile Main"
-      className="sticky bottom-0 z-30 mt-auto grid h-16 grid-cols-4 border-t border-slate-200 bg-white pb-[env(safe-area-inset-bottom)] md:hidden"
+      className="sticky bottom-0 z-30 mt-auto grid h-16 grid-cols-5 border-t border-slate-200 bg-white pb-[env(safe-area-inset-bottom)] md:hidden"
     >
       {NAV_ITEMS.map((item) => {
         const active = activeView === item.key;
@@ -154,7 +155,7 @@ export function MobileBottomNav({
                 active ? "bg-indigo-600" : "bg-transparent"
               }`}
             />
-            <span>{item.label}</span>
+            <span>{item.mobileLabel ?? item.label}</span>
           </button>
         );
       })}
