@@ -1,5 +1,6 @@
 import type {
   DailyActivityMap,
+  LastPracticeSession,
   ProgressMap,
   QuestionResult,
   StudyTask,
@@ -8,6 +9,12 @@ import type {
 
 const PROGRESS_KEY = "jft-exam-prep-progress-v1";
 const STUDY_STATE_KEY = "jft-exam-prep-study-state-v1";
+
+export const DEFAULT_EXAM_DATES: Record<string, string> = {
+  N2: "2027-07-04",
+};
+
+export const DEFAULT_PROFILE_NAME = "Ashish";
 
 export const DEFAULT_TASKS: StudyTask[] = [
   {
@@ -34,6 +41,8 @@ export const DEFAULT_STUDY_STATE: UserStudyState = {
   dailyActivity: {},
   dailyTarget: 20,
   tasks: DEFAULT_TASKS,
+  profileName: DEFAULT_PROFILE_NAME,
+  examDates: DEFAULT_EXAM_DATES,
 };
 
 /** Return local calendar date in YYYY-MM-DD format. */
@@ -77,6 +86,23 @@ export function loadStudyState(): UserStudyState {
           ? parsed.dailyTarget
           : 20,
       tasks: Array.isArray(parsed.tasks) ? parsed.tasks : DEFAULT_TASKS,
+      profileName:
+        typeof parsed.profileName === "string" && parsed.profileName.trim()
+          ? parsed.profileName.trim()
+          : DEFAULT_PROFILE_NAME,
+      examDates:
+        parsed.examDates && typeof parsed.examDates === "object"
+          ? { ...DEFAULT_EXAM_DATES, ...parsed.examDates }
+          : DEFAULT_EXAM_DATES,
+      lastBackupAt:
+        typeof parsed.lastBackupAt === "string" ? parsed.lastBackupAt : undefined,
+      lastSession:
+        parsed.lastSession &&
+        typeof parsed.lastSession === "object" &&
+        typeof parsed.lastSession.exam === "string" &&
+        typeof parsed.lastSession.section === "string"
+          ? parsed.lastSession
+          : undefined,
     };
   } catch {
     return DEFAULT_STUDY_STATE;
@@ -151,16 +177,56 @@ export function saveDailyTarget(dailyTarget: number): UserStudyState {
   return next;
 }
 
-export function exportBackupJson(): string {
-  return JSON.stringify(
-    {
-      exportedAt: new Date().toISOString(),
-      progress: loadProgress(),
-      studyState: loadStudyState(),
-    },
-    null,
-    2
-  );
+export function saveProfileName(profileName: string): UserStudyState {
+  const clean = profileName.trim() || DEFAULT_PROFILE_NAME;
+  const next = { ...loadStudyState(), profileName: clean };
+  saveStudyState(next);
+  return next;
+}
+
+export function saveExamDate(exam: string, dateIso: string): UserStudyState {
+  const state = loadStudyState();
+  const nextDates = { ...(state.examDates ?? DEFAULT_EXAM_DATES) };
+  if (dateIso.trim()) {
+    nextDates[exam] = dateIso.trim();
+  } else {
+    delete nextDates[exam];
+  }
+  const next = { ...state, examDates: nextDates };
+  saveStudyState(next);
+  return next;
+}
+
+export function saveLastSession(exam: string, section: string): UserStudyState {
+  const session: LastPracticeSession = {
+    exam,
+    section,
+    updatedAt: new Date().toISOString(),
+  };
+  const next = { ...loadStudyState(), lastSession: session };
+  saveStudyState(next);
+  return next;
+}
+
+export function exportBackupJson(): { json: string; studyState: UserStudyState } {
+  const exportedAt = new Date().toISOString();
+  const nextState: UserStudyState = {
+    ...loadStudyState(),
+    lastBackupAt: exportedAt,
+  };
+  saveStudyState(nextState);
+  return {
+    json: JSON.stringify(
+      {
+        exportedAt,
+        progress: loadProgress(),
+        studyState: nextState,
+      },
+      null,
+      2
+    ),
+    studyState: nextState,
+  };
 }
 
 export function importBackupJson(rawJson: string): {
@@ -181,6 +247,12 @@ export function importBackupJson(rawJson: string): {
     tasks: Array.isArray(parsed.studyState?.tasks)
       ? parsed.studyState.tasks
       : DEFAULT_TASKS,
+    profileName: parsed.studyState?.profileName?.trim() || DEFAULT_PROFILE_NAME,
+    examDates: parsed.studyState?.examDates
+      ? { ...DEFAULT_EXAM_DATES, ...parsed.studyState.examDates }
+      : DEFAULT_EXAM_DATES,
+    lastBackupAt: parsed.studyState?.lastBackupAt,
+    lastSession: parsed.studyState?.lastSession,
   };
   if (typeof window !== "undefined") {
     window.localStorage.setItem(PROGRESS_KEY, JSON.stringify(nextProgress));

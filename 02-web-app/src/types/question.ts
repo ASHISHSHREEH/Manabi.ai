@@ -40,10 +40,20 @@ export interface StudyTask {
   done: boolean;
 }
 
+export interface LastPracticeSession {
+  exam: string;
+  section: string;
+  updatedAt: string;
+}
+
 export interface UserStudyState {
   dailyActivity: DailyActivityMap;
   dailyTarget: number;
   tasks: StudyTask[];
+  profileName?: string;
+  examDates?: Record<string, string>;
+  lastBackupAt?: string;
+  lastSession?: LastPracticeSession;
 }
 
 export type AppView = "hub" | "quiz" | "bank" | "stats";

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { LevelSwitcher } from "@/components/hub/LevelSwitcher";
 import { QuestionBankView } from "@/components/hub/QuestionBankView";
 import { StudyHub } from "@/components/hub/StudyHub";
-import { TopNav } from "@/components/layout/TopNav";
+import { MobileBottomNav, TopNav } from "@/components/layout/TopNav";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { StatsView } from "@/components/stats/StatsView";
 import { useStudyState } from "@/hooks/useStudyState";
@@ -25,6 +25,11 @@ export default function QuizApp({ questions }: QuizAppProps) {
   const {
     progress,
     dailyTarget,
+    profileName,
+    examDates,
+    lastBackupAt,
+    lastSession,
+    bestStreakDays,
     summary,
     levelSnapshot,
     examBreakdowns,
@@ -32,6 +37,9 @@ export default function QuizApp({ questions }: QuizAppProps) {
     weeklySeries,
     recordAnswer,
     updateDailyTarget,
+    updateProfileName,
+    updateExamDate,
+    recordLastSession,
     exportBackup,
     importBackup,
     resetAllProgress,
@@ -48,24 +56,59 @@ export default function QuizApp({ questions }: QuizAppProps) {
     exam: string;
     section: string;
     missedOnly: boolean;
+    limit?: number;
   }) {
+    if (opts.section !== "ALL") {
+      recordLastSession(opts.exam, opts.section);
+    }
     const base = filterQuestions(questions, opts.exam, opts.section);
-    const list = opts.missedOnly
+    const filtered = opts.missedOnly
       ? base.filter((q) => !progress[q.id]?.last_correct)
       : base;
+    const pool = filtered.length > 0 ? filtered : base;
+    const list = opts.limit ? pool.slice(0, opts.limit) : pool;
     launchQuiz(list, "hub");
   }
 
-  const showLevelSwitcher = activeView === "hub" || activeView === "bank";
+  /** Build a prioritized 20-question smart session (wrong -> unseen -> remaining). */
+  function handleStartSmartSession() {
+    const scoped = filterQuestions(questions, selectedExam, "ALL");
+    const wrong = scoped.filter((q) => {
+      const r = progress[q.id];
+      return r && r.times_seen > 0 && !r.last_correct;
+    });
+    const unseen = scoped.filter((q) => !progress[q.id]?.times_seen);
+    const rest = scoped.filter((q) => progress[q.id]?.last_correct);
+    const combined = [...wrong, ...unseen, ...rest].slice(0, 20);
+    launchQuiz(combined.length > 0 ? combined : scoped.slice(0, 20), "hub");
+  }
+
+  function handleOpenProfile() {
+    setActiveView("hub");
+    requestAnimationFrame(() => {
+      document.getElementById("profile")?.scrollIntoView({ behavior: "smooth" });
+    });
+  }
+
+  const wrongCount = filterQuestions(questions, selectedExam, "ALL").filter(
+    (q) => {
+      const r = progress[q.id];
+      return r && r.times_seen > 0 && !r.last_correct;
+    }
+  ).length;
+
+  const showLevelSwitcher = activeView === "bank";
 
   return (
-    <div className="min-h-dvh w-full overflow-x-clip bg-slate-50">
+    <div className="flex min-h-dvh w-full flex-col overflow-x-clip bg-slate-50">
       <TopNav
         activeView={activeView}
-        onSelectView={setActiveView}
         streakDays={summary.streakDays}
-        todayAnswered={summary.todayAnswered}
-        dailyTarget={dailyTarget}
+        profileName={profileName}
+        onSelectView={setActiveView}
+        onStartPractice={handleStartSmartSession}
+        onExportBackup={exportBackup}
+        onOpenProfile={handleOpenProfile}
       />
 
       {showLevelSwitcher && (
@@ -76,14 +119,30 @@ export default function QuizApp({ questions }: QuizAppProps) {
         />
       )}
 
-      <main className="mx-auto w-full max-w-5xl p-3 sm:p-6">
+      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-4 pb-8 md:px-6 md:py-8 md:pb-12">
         {activeView === "hub" && (
           <StudyHub
+            questions={questions}
+            selectedExam={selectedExam}
+            onSelectExam={setSelectedExam}
             snapshot={levelSnapshot}
+            wrongCount={wrongCount}
             todayAnswered={summary.todayAnswered}
             dailyTarget={dailyTarget}
+            streakDays={summary.streakDays}
+            bestStreakDays={bestStreakDays}
+            weeklySeries={weeklySeries}
+            profileName={profileName}
+            examDates={examDates}
+            lastBackupAt={lastBackupAt}
+            lastSession={lastSession}
+            onUpdateProfileName={updateProfileName}
+            onUpdateExamDate={updateExamDate}
+            onExportBackup={exportBackup}
+            onStartSmartSession={handleStartSmartSession}
             onStartQuiz={handleStartQuizFromHub}
             onOpenBank={() => setActiveView("bank")}
+            onOpenStats={() => setActiveView("stats")}
           />
         )}
 
@@ -130,6 +189,14 @@ export default function QuizApp({ questions }: QuizAppProps) {
           />
         )}
       </main>
+
+      {activeView !== "quiz" && (
+        <MobileBottomNav
+          activeView={activeView}
+          onSelectView={setActiveView}
+          onStartPractice={handleStartSmartSession}
+        />
+      )}
     </div>
   );
 }

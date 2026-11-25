@@ -1,0 +1,247 @@
+===========================================================
+ MANABI PREP - Backend / Data Pipeline & Structure
+ Technical reference
+ Last updated: 2026-11-20
+===========================================================
+
+-----------------------------------------------------------
+0. IMPORTANT: THERE IS NO TRADITIONAL BACKEND
+-----------------------------------------------------------
+This app has NO server, NO database, and NO API running at
+runtime. "Backend" here means two things only:
+
+  1. The BUILD-TIME DATA PIPELINE that turns a CSV of
+     questions into a static JSON file.
+  2. The BROWSER STORAGE LAYER (localStorage) that persists
+     a user's progress on their own device.
+
+Everything the user sees is a static site. Questions are
+baked into the page at build time; progress lives in the
+browser. Nothing is sent anywhere.
+
+
+-----------------------------------------------------------
+1. END-TO-END DATA FLOW
+-----------------------------------------------------------
+  [ 01-mistake-bank/mistakes.csv ]        (you edit this)
+              |
+              |  npm run sync
+              v
+  [ scripts/sync-mistakes.mjs ]           (parse + validate)
+              |
+              |  writes (only if 0 errors)
+              v
+  [ data/questions.json ]                 (generated artifact)
+              |
+              |  imported at build time by src/app/page.tsx
+              v
+  [ next build -> static HTML/JS ]        (questions baked in)
+              |
+              |  git push -> Vercel
+              v
+  [ https://....vercel.app ]              (live site)
+              |
+              |  at runtime, in the browser only
+              v
+  [ localStorage ]  <-- progress, daily activity, settings
+
+
+-----------------------------------------------------------
+2. STAGE 1 - THE SYNC SCRIPT (scripts/sync-mistakes.mjs)
+-----------------------------------------------------------
+Run with:  npm run sync
+
+Reads:   ../../01-mistake-bank/mistakes.csv
+Writes:  ../data/questions.json   (pretty-printed, trailing newline)
+
+It is a strict gatekeeper: if ANY row is invalid, it prints
+every error and exits with code 1 WITHOUT writing the JSON.
+This prevents a bad spreadsheet row from corrupting the app.
+
+The script exports pure functions (parseCsv,
+validateAndConvertRows, rowsToQuestions, isValidAnswerForChoices)
+so they can be unit-tested, and only runs the file-writing
+part when executed directly.
+
+2a. CSV PARSING (parseCsv)
+  A proper RFC-4180 parser, not a naive split. Handles:
+    - UTF-8 BOM at the start of the file
+    - CRLF and LF line endings
+    - Commas inside "quoted fields"
+    - Newlines inside quoted fields
+    - Escaped quotes ("") inside a quoted field
+    - Blank lines are dropped
+
+2b. REQUIRED COLUMNS (header row, case-insensitive)
+    id, exam, section, question, choices, answer
+
+2c. OPTIONAL COLUMNS (used if present)
+    my_wrong_answer, explanation, source
+
+    NOTE: the CSV currently also has a "choice_explanations"
+    column (per-choice notes). The sync script does NOT read
+    it yet, so that content never reaches the app. This is a
+    known gap / future enhancement.
+
+2d. PER-ROW VALIDATION (each row must pass all)
+    - id        : present AND unique (no duplicates)
+    - exam      : one of  JFT, N3, N2, N1, N4   (upper-cased)
+    - section   : one of  vocabulary, grammar, reading,
+                  listening                      (lower-cased)
+    - question  : non-empty
+    - choices   : split on "|", trimmed; must have >= 2
+    - answer    : non-empty AND must match a choice
+
+2e. ANSWER MATCHING (isValidAnswerForChoices)
+    The "answer" is considered valid if it matches a choice
+    in ANY of these ways:
+    - Exact text match (case-insensitive) to a choice
+    - A number 1-9 used as a 1-based index into the choices
+    - A letter A-Z used as an index (A=1st, B=2nd, ...)
+    - A prefix/label match (e.g. answer "2." matches the
+      choice that starts with "2.")
+
+    In the current data, answers are stored in full
+    "N. text" form (e.g. "2. しょるい") and match the choice
+    exactly. The same matching logic also lives in the app
+    (src/lib/quiz.ts -> isChoiceCorrect) so grading agrees
+    with validation.
+
+2f. OUTPUT SHAPE (one object per valid row)
+    {
+      "id": "...",
+      "exam": "...",
+      "section": "...",
+      "question": "...",
+      "choices": ["...", "..."],
+      "answer": "...",
+      "my_wrong_answer": "...",   // only if provided
+      "explanation": "...",
+      "source": "..."             // only if provided
+    }
+
+
+-----------------------------------------------------------
+3. STAGE 2 - THE DATA MODEL (src/types/question.ts)
+-----------------------------------------------------------
+Question         : id, exam, section, question, choices[],
+                   answer, my_wrong_answer?, explanation, source?
+QuestionResult   : times_seen, times_correct, last_seen,
+                   last_correct
+ProgressMap      : { [questionId]: QuestionResult }
+DailyActivity    : { answered, correct }
+DailyActivityMap : { [YYYY-MM-DD]: DailyActivity }
+StudyTask        : id, title, due, done
+UserStudyState   : { dailyActivity, dailyTarget, tasks }
+AppView          : "hub" | "quiz" | "bank" | "stats"
+
+Valid tags are defined once and reused:
+  EXAM_OPTIONS    = JFT, N3, N2, N1, N4
+  SECTION_OPTIONS = vocabulary, grammar, reading, listening
+
+
+-----------------------------------------------------------
+4. STAGE 3 - THE BROWSER STORAGE LAYER (src/lib/storage.ts)
+-----------------------------------------------------------
+This is the only file allowed to touch localStorage.
+
+localStorage keys:
+  jft-exam-prep-progress-v1       -> ProgressMap
+  jft-exam-prep-study-state-v1    -> UserStudyState
+
+Key functions:
+  getLocalDateKey()        -> local date as "YYYY-MM-DD"
+  loadProgress()           -> read + guard progress map
+  loadStudyState()         -> read + guard study state
+  recordQuestionResult()   -> on each answer: bumps
+                              times_seen / times_correct /
+                              last_seen / last_correct AND the
+                              day's answered/correct counters
+  saveTasks()              -> save checklist
+  saveDailyTarget()        -> clamp to 5..200 and save
+  exportBackupJson()       -> dump progress + state as JSON
+  importBackupJson()       -> restore from a backup string
+  clearProgress()          -> wipe both keys
+
+Safety: all reads/writes are wrapped so private-mode or
+quota errors never crash the app (they just fall back to
+empty/default data). On the server (no window) it returns
+safe defaults, which avoids hydration mismatches.
+
+
+-----------------------------------------------------------
+5. DERIVED LOGIC (pure, testable)  src/lib/
+-----------------------------------------------------------
+quiz.ts
+  - stripChoiceLabel()        remove "1. " / "A) " prefixes
+  - isChoiceCorrect()         grade a selected choice
+  - filterQuestions()         filter by exam + section
+  - shuffleQuestionChoices()  Fisher-Yates shuffle per question
+  - prepareSessionQuestions() build a quiz session
+
+analytics.ts
+  - calculateStreakDays()     consecutive active days
+  - buildWeeklySeries()       last 7 days for the chart
+  - computeSummaryStats()     totals, accuracy, coverage
+  - computeExamBreakdowns()   per-exam coverage + accuracy
+  - computeLevelSnapshot()    per-section stats for a level
+
+hooks/useStudyState.ts
+  - loads storage on mount, exposes progress + derived stats,
+    and the recordAnswer / backup / reset actions to the UI.
+
+These functions take data in and return data out (no I/O),
+which is why they are covered by the test suite.
+
+
+-----------------------------------------------------------
+6. BUILD PIPELINE (what Vercel runs)
+-----------------------------------------------------------
+Command:  npm run build  ->  next build
+
+  - src/app/page.tsx imports data/questions.json directly, so
+    the questions are embedded into the prerendered page at
+    BUILD time (not fetched at runtime).
+  - Output is fully static: route "/" is prerendered to HTML.
+  - Changing questions therefore requires a REBUILD/redeploy;
+    it is not a live database.
+
+Verify-before-deploy sequence:
+  npm run sync        (regenerate + revalidate data)
+  npx tsc --noEmit    (type check)
+  npm test            (unit tests)
+  npm run build       (production build)
+
+
+-----------------------------------------------------------
+7. DEPLOY PIPELINE (git -> GitHub -> Vercel)
+-----------------------------------------------------------
+  edit CSV
+    -> npm run sync          (rebuild questions.json)
+    -> git add -A
+    -> git commit -m "..."
+    -> git push              (to GitHub)
+    -> Vercel auto-deploys the new build
+
+One-off manual deploy (no GitHub needed):
+    npx vercel --prod --yes
+
+Current status note (2026-11-20):
+  - Local repo exists; initial commit = 315 questions.
+  - CSV has since grown to 450 questions (regenerated,
+    uncommitted).
+  - This folder still has NO git remote configured, so the
+    push + auto-deploy is not wired up yet. Needs: add the
+    GitHub remote, commit the 450-question data, push.
+
+
+-----------------------------------------------------------
+8. POSSIBLE FUTURE CHANGE (input side only)
+-----------------------------------------------------------
+To keep authoring clean as each level grows, the single
+mistakes.csv could be split into one file per exam
+(n1 / n2 / n3 / n4 / jft). The sync script would then read
+and MERGE all of them into the same data/questions.json,
+with cross-file duplicate-id detection. The app, storage,
+build, and deploy stages above would NOT change.
+===========================================================

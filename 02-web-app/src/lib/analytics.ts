@@ -239,3 +239,29 @@ export function computeLevelSnapshot(
     sections,
   };
 }
+
+/** Compute longest historical consecutive-day study streak in local calendar days. */
+export function calculateBestStreakDays(
+  dailyActivity: DailyActivityMap,
+  currentStreak: number = 0
+): number {
+  const activeKeys = Object.keys(dailyActivity)
+    .filter((key) => (dailyActivity[key]?.answered ?? 0) > 0 && /^\d{4}-\d{2}-\d{2}$/.test(key))
+    .sort();
+  if (activeKeys.length === 0) return currentStreak;
+
+  let best = currentStreak;
+  let run = 1;
+  for (let i = 1; i < activeKeys.length; i++) {
+    const prev = new Date(`${activeKeys[i - 1]}T00:00:00`);
+    const curr = new Date(`${activeKeys[i]}T00:00:00`);
+    const diffDays = Math.round((curr.getTime() - prev.getTime()) / 86_400_000);
+    if (diffDays === 1) {
+      run++;
+    } else if (diffDays > 1) {
+      run = 1;
+    }
+    if (run > best) best = run;
+  }
+  return Math.max(best, run, currentStreak);
+}

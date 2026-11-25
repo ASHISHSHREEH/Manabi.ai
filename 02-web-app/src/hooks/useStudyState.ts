@@ -3,12 +3,15 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   buildWeeklySeries,
+  calculateBestStreakDays,
   computeExamBreakdowns,
   computeLevelSnapshot,
   computeSummaryStats,
 } from "@/lib/analytics";
 import {
   clearProgress,
+  DEFAULT_EXAM_DATES,
+  DEFAULT_PROFILE_NAME,
   DEFAULT_STUDY_STATE,
   exportBackupJson,
   importBackupJson,
@@ -16,6 +19,9 @@ import {
   loadStudyState,
   recordQuestionResult,
   saveDailyTarget,
+  saveExamDate,
+  saveLastSession,
+  saveProfileName,
 } from "@/lib/storage";
 import type { ProgressMap, Question, UserStudyState } from "@/types/question";
 
@@ -57,6 +63,11 @@ export function useStudyState(questions: Question[], selectedExam: string) {
     [studyState.dailyActivity]
   );
 
+  const bestStreakDays = useMemo(
+    () => calculateBestStreakDays(studyState.dailyActivity, summary.streakDays),
+    [studyState.dailyActivity, summary.streakDays]
+  );
+
   function recordAnswer(questionId: string, isCorrect: boolean) {
     const res = recordQuestionResult(questionId, isCorrect);
     setProgress(res.progress);
@@ -67,8 +78,21 @@ export function useStudyState(questions: Question[], selectedExam: string) {
     setStudyState(saveDailyTarget(target));
   }
 
+  function updateProfileName(name: string) {
+    setStudyState(saveProfileName(name));
+  }
+
+  function updateExamDate(exam: string, dateIso: string) {
+    setStudyState(saveExamDate(exam, dateIso));
+  }
+
+  function recordLastSession(exam: string, section: string) {
+    setStudyState(saveLastSession(exam, section));
+  }
+
   function exportBackup() {
-    const json = exportBackupJson();
+    const { json, studyState: updatedState } = exportBackupJson();
+    setStudyState(updatedState);
     const blob = new Blob([json], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -93,6 +117,11 @@ export function useStudyState(questions: Question[], selectedExam: string) {
   return {
     progress,
     dailyTarget: studyState.dailyTarget,
+    profileName: studyState.profileName ?? DEFAULT_PROFILE_NAME,
+    examDates: studyState.examDates ?? DEFAULT_EXAM_DATES,
+    lastBackupAt: studyState.lastBackupAt,
+    lastSession: studyState.lastSession,
+    bestStreakDays,
     summary,
     levelSnapshot,
     examBreakdowns,
@@ -100,6 +129,9 @@ export function useStudyState(questions: Question[], selectedExam: string) {
     weeklySeries,
     recordAnswer,
     updateDailyTarget,
+    updateProfileName,
+    updateExamDate,
+    recordLastSession,
     exportBackup,
     importBackup,
     resetAllProgress,

@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   buildWeeklySeries,
+  calculateBestStreakDays,
   calculateStreakDays,
   computeExamBreakdowns,
   computeLevelSnapshot,
@@ -52,6 +53,22 @@ test("buildWeeklySeries returns 7 ordered days ending on reference date", () => 
   assert.equal(series[0].answered, 4);
   assert.equal(series[6].dateKey, "2026-11-19");
   assert.equal(series[6].correct, 6);
+});
+
+test("calculateBestStreakDays finds longest consecutive active run", () => {
+  assert.equal(calculateBestStreakDays({}, 0), 0);
+  assert.equal(
+    calculateBestStreakDays(
+      {
+        "2026-11-10": { answered: 4, correct: 3 },
+        "2026-11-11": { answered: 2, correct: 2 },
+        "2026-11-12": { answered: 8, correct: 7 },
+        "2026-11-15": { answered: 1, correct: 1 },
+      },
+      1
+    ),
+    3
+  );
 });
 
 test("computeSummaryStats, computeExamBreakdowns, and computeLevelSnapshot aggregate real progress", () => {
