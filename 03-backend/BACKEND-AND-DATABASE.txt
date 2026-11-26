@@ -41,11 +41,12 @@ because the backend is not deployed yet.
   alembic/
     versions/765e637c437b_initial_schema.py   The one migration (creates all tables)
   tests/test_mock_engine.py   Engine tests (4 tests, all passing)
-  manabi_prep.db         Local SQLite database file (local only, do not deploy)
+  manabi_prep.db         Local SQLite database file (git-ignored, local only, do not deploy)
   requirements.txt       Python packages
   .env.example           Example environment settings
   Dockerfile             Container image for the API
   docker-compose.yml     Local Postgres 16 + API together
+  .gitignore             Ignores __pycache__/*.pyc, *.db, venvs, and .env
 
 
 3. HOW TO RUN IT
@@ -224,7 +225,11 @@ in the results after submit.
 Start:
   - Full mode: takes each section's question quota from the blueprint (random).
     With question_limit, the limit is split across sections in proportion
-    to the blueprint, so every section is still included.
+    to the blueprint (largest-remainder rounding, capped by how many
+    questions each section actually has), so every section stays represented
+    instead of the sprint being all vocabulary. Implemented in
+    exam_engine._distribute_limit; the web app mirrors the same rule in
+    mockApi.ts for its offline fallback.
   - Section mode: random questions from one section only.
   - The time limit shrinks in proportion if fewer questions are available
     (minimum 5 min full / 3 min section).
@@ -270,8 +275,13 @@ Missing / known limits:
     here; they live only in the browser's localStorage.
   - ai_conversations / ai_messages tables exist but nothing uses them.
   - Seeder does not update questions that were edited in questions.json.
-  - __pycache__ files and manabi_prep.db are tracked in git; they should be
-    in .gitignore instead.
+
+Recently fixed:
+  - __pycache__/*.pyc and manabi_prep.db are no longer tracked in git; a
+    03-backend/.gitignore now excludes them (the old copies were removed
+    from the index with "git rm --cached").
+  - Shortened full mocks (question_limit) now distribute across every
+    section proportionally instead of slicing the first N questions.
 
 
 9. NOTES FOR DEPLOYING ON VERCEL
