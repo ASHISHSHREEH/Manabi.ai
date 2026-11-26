@@ -116,6 +116,25 @@ def test_full_mock_lifecycle_hides_answers_saves_progress_and_tracks_mistakes(cl
         assert mistakes[0]["wrong_count"] >= 1
 
 
+def test_full_mock_with_question_limit_spans_sections(client: TestClient):
+    # A shortened full mock (Sprint preset) must distribute questions across
+    # sections proportionally — not take the first N from the earliest section.
+    start = client.post(
+        "/api/v1/attempts",
+        json={"exam_code": "N2", "mode": "full", "question_limit": 20},
+    )
+    assert start.status_code == 201
+    attempt = start.json()
+    assert len(attempt["questions"]) == 20
+
+    sections = {q["section"] for q in attempt["questions"]}
+    # N2 has vocabulary, grammar, and reading seeded (listening is empty), so a
+    # representative 20-question sample must cover all three — the old
+    # slice-first-20 bug produced vocabulary only.
+    assert sections == {"vocabulary", "grammar", "reading"}
+    assert sum(1 for q in attempt["questions"] if q["section"] == "reading") > 0
+
+
 def test_jlpt_full_mock_checks_sectional_cutoff(client: TestClient):
     start = client.post(
         "/api/v1/attempts",

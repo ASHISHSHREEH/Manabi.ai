@@ -1,0 +1,296 @@
+MANABI PREP - BACKEND & DATABASE REFERENCE
+==========================================
+Folder: 03-backend/
+Last reviewed: 2026-11-26
+
+
+1. WHAT THE BACKEND IS
+----------------------
+A Python FastAPI server that runs timed mock exams (JFT-Basic and JLPT N5-N1),
+grades them with each exam's real scoring rules, and remembers your mistakes.
+
+- Framework : FastAPI + Uvicorn
+- Database  : SQLAlchemy 2.0 ORM, migrations with Alembic
+- DB engine : SQLite file by default (manabi_prep.db)
+              PostgreSQL when DATABASE_URL points to Postgres (psycopg 3 driver)
+- Users     : single user only ("student-default"), no login
+
+The web app (02-web-app) calls this API for mock exams. If the API cannot be
+reached, the web app falls back to running mock exams in the browser and saves
+them in localStorage. The live Vercel site currently always uses that fallback,
+because the backend is not deployed yet.
+
+
+2. FOLDER LAYOUT
+----------------
+03-backend/
+  app/
+    main.py              App start: creates tables, seeds data, adds CORS, mounts routers
+    config.py            Settings from environment variables (DATABASE_URL, CORS_ORIGINS)
+    database.py          SQLAlchemy engine, session, Base class, get_db() dependency
+    models.py            All database tables (see section 5)
+    schemas.py           Pydantic request/response shapes for the API
+    routers/
+      exams.py           /api/v1/exams      - exam catalog
+      attempts.py        /api/v1/attempts   - start, answer, submit, results, history
+      mistakes.py        /api/v1/mistakes   - mistake bank + per-section progress
+    services/
+      blueprints.py      Exam rules: sections, question counts, time limits, pass marks
+      exam_engine.py     Question sampling, answer saving, grading, mistake tracking
+      seeder.py          Loads questions from 02-web-app/data/questions.json into the DB
+  alembic/
+    versions/765e637c437b_initial_schema.py   The one migration (creates all tables)
+  tests/test_mock_engine.py   Engine tests (4 tests, all passing)
+  manabi_prep.db         Local SQLite database file (local only, do not deploy)
+  requirements.txt       Python packages
+  .env.example           Example environment settings
+  Dockerfile             Container image for the API
+  docker-compose.yml     Local Postgres 16 + API together
+
+
+3. HOW TO RUN IT
+----------------
+Quick local run (SQLite, no setup):
+    cd 03-backend
+    pip install -r requirements.txt
+    uvicorn app.main:app --reload --port 8000
+    -> API docs: http://127.0.0.1:8000/docs
+    -> Health:   http://127.0.0.1:8000/health
+
+With Postgres via Docker:
+    cd 03-backend
+    docker compose up --build
+    (runs: alembic upgrade head -> seeder -> uvicorn on port 8000)
+
+Run tests:
+    cd 03-backend
+    python -m pytest -q
+
+The web app finds the API through NEXT_PUBLIC_API_BASE_URL
+(default http://127.0.0.1:8000).
+
+
+4. SETTINGS (ENVIRONMENT VARIABLES)
+-----------------------------------
+DATABASE_URL   Default: sqlite:///<03-backend>/manabi_prep.db
+               Postgres: postgresql+psycopg://USER:PASSWORD@HOST:5432/DBNAME
+CORS_ORIGINS   Comma-separated list of web origins allowed to call the API.
+               Default: http://localhost:3000,http://127.0.0.1:3000
+
+Fixed values in config.py:
+  DEFAULT_USER_ID    = "student-default"
+  DEFAULT_USER_NAME  = "Ashish"
+  Questions source   = ../02-web-app/data/questions.json
+
+
+5. DATABASE TABLES
+------------------
+Current local data (manabi_prep.db):
+  questions 804 | question_options 3216 | exams 6 | users 1
+  exam_attempts, student_answers, exam_results, mistake_bank,
+  learning_progress, ai_conversations, ai_messages: 0 rows (not used yet)
+
+Questions by exam   : JFT 150, N1 150, N2 204, N3 150, N4 150 (N5 has none yet)
+Questions by section: vocabulary 459, grammar 211, reading 97, listening 37
+
+users
+  id (PK)          text     "student-default"
+  email            text     unique
+  display_name     text
+  preferred_lang   text     default "en"
+  daily_target     int      default 20
+  created_at       datetime
+
+exams                       (one row per exam blueprint)
+  id (PK) = code   text     JFT, N5, N4, N3, N2, N1
+  name             text     e.g. "JLPT N2"
+  scoring_model    text     "jft_250" or "jlpt_180"
+  pass_total       int      pass mark (e.g. 200 for JFT, 90 for N2)
+  max_score        int      250 for JFT, 180 for JLPT
+  duration_sec     int      full exam time
+  config_json      json     section list and pass rule text
+
+questions
+  id (PK)          text     same id as in questions.json
+  exam_code        text     indexed
+  section          text     vocabulary / grammar / reading / listening (indexed)
+  topic_tag        text     auto-guessed topic, e.g. "conditionals", "kanji-reading"
+  prompt           text
+  explanation      text
+  source           text     nullable
+  is_active        bool
+
+question_options
+  id (PK)          text     "<question_id>::opt-<n>"
+  question_id (FK) -> questions.id   (delete cascades)
+  display_order    int
+  text             text     choice text with "1." / "A)" labels removed
+  is_correct       bool
+  explanation      text     nullable, per-choice explanation
+
+exam_attempts               (one row per mock exam started)
+  id (PK)          uuid
+  user_id (FK)     -> users.id
+  exam_code        text
+  mode             text     "full" or "section"
+  section_filter   text     section name when mode = "section"
+  status           text     "in_progress" -> "submitted"
+  question_snapshot_json    list of {question_id, option_order[]} - the exact
+                            questions and shuffled choice order for this attempt
+  duration_sec     int
+  started_at, expires_at, submitted_at   datetime
+
+student_answers             (one row per question per attempt)
+  id (PK)          uuid
+  attempt_id (FK)  -> exam_attempts.id
+  question_id (FK) -> questions.id
+  selected_option_id (FK) -> question_options.id (nullable)
+  marked_for_review bool
+  time_spent_sec   int
+  is_correct       bool     filled in at submit
+  answered_at      datetime
+  UNIQUE (attempt_id, question_id)
+
+exam_results                (one row per submitted attempt)
+  id (PK)          uuid
+  attempt_id (FK)  -> exam_attempts.id, unique
+  raw_correct, raw_total    int
+  accuracy_pct     float
+  scaled_score, max_score   int
+  passed           bool
+  total_time_sec   int
+  section_scores_json       per-section score details
+  weak_sections_json        sections under 70% accuracy
+  weak_topics_json          top 5 missed topics
+  created_at       datetime
+
+mistake_bank                (one row per user per question ever missed)
+  id (PK)          uuid
+  user_id (FK), question_id (FK)
+  wrong_count          int
+  consecutive_correct  int
+  status               "active" or "resolved"
+  last_wrong_option_id, last_attempt_id
+  updated_at
+  UNIQUE (user_id, question_id)
+
+learning_progress           (running totals per user / exam / section)
+  id (PK)          uuid
+  user_id (FK), exam_code, section
+  attempts_count, correct_count   int
+  accuracy_pct     float
+  updated_at
+  UNIQUE (user_id, exam_code, section)
+
+ai_conversations / ai_messages   (prepared for a future AI tutor, unused today)
+  ai_conversations: id, user_id, mode, exam_attempt_id, question_id, title, created_at
+  ai_messages     : id, conversation_id, role, content, created_at
+
+Relationships:
+  users 1--* exam_attempts 1--* student_answers *--1 questions 1--* question_options
+                   exam_attempts 1--1 exam_results
+  users 1--* mistake_bank *--1 questions
+  users 1--* learning_progress
+  users 1--* ai_conversations 1--* ai_messages
+
+
+6. API ENDPOINTS
+----------------
+GET  /health                                    -> {"status": "ok"}
+
+GET  /api/v1/exams                              Catalog of all 6 exams with
+                                                available question counts per section
+GET  /api/v1/exams/{exam_code}                  One exam
+
+GET  /api/v1/attempts                           Last 30 attempts (history)
+POST /api/v1/attempts                           Start an attempt
+     body: {exam_code, mode: "full"|"section", section?, question_limit?}
+GET  /api/v1/attempts/{id}                      Current state + remaining time
+PUT  /api/v1/attempts/{id}/answers/{question_id}
+     body: {selected_option_id, marked_for_review, time_spent_sec}
+POST /api/v1/attempts/{id}/submit               Grade it (safe to call twice)
+     body (optional): {total_time_sec}
+GET  /api/v1/attempts/{id}/results              Graded result with full review
+
+GET  /api/v1/mistakes?status=active&exam_code=N2   Mistake bank list
+GET  /api/v1/mistakes/progress                  Per-section running accuracy
+
+Correct answers are never sent while an attempt is in progress; they appear only
+in the results after submit.
+
+
+7. HOW A MOCK EXAM WORKS
+------------------------
+Start:
+  - Full mode: takes each section's question quota from the blueprint (random).
+    With question_limit, the limit is split across sections in proportion
+    to the blueprint, so every section is still included.
+  - Section mode: random questions from one section only.
+  - The time limit shrinks in proportion if fewer questions are available
+    (minimum 5 min full / 3 min section).
+  - Choice order is shuffled and saved in question_snapshot_json.
+
+Answer:
+  - Each answer is saved straight away (upsert), so a refresh does not lose it.
+  - Answers cannot change after submit.
+
+Submit / scoring:
+  - JFT-Basic (jft_250): score = correct / total x 250. Pass at 200.
+    No per-section minimum.
+  - JLPT (jlpt_180): score = correct / total x 180. Must reach the overall pass
+    mark AND each section must reach its minimum (19/60, or 10/30 for N5 reading).
+  - Section mode: pass mark scaled down from the full exam ratio.
+  - Weak sections = below 70% accuracy (or the lowest section if all are 70%+).
+  - Weak topics = the 5 most-missed topic tags.
+
+Mistake bank rules:
+  - Wrong answer -> wrong_count + 1, consecutive_correct reset to 0, status "active".
+  - Correct answer on a question already in the bank -> consecutive_correct + 1.
+  - 2 correct in a row -> status "resolved".
+
+On every server start (main.py lifespan):
+  1. Create any missing tables.
+  2. Make sure the default user exists.
+  3. Insert/update the 6 exam blueprints.
+  4. Insert any new questions from questions.json (existing ids are skipped,
+     so edited questions are NOT updated - only new ones are added).
+
+
+8. WHAT WORKS AND WHAT IS MISSING
+---------------------------------
+Works:
+  - Full mock exam flow, scoring, mistake bank, per-section progress.
+  - 4 engine tests pass.
+
+Missing / known limits:
+  - Not deployed anywhere; the live site uses the in-browser fallback.
+  - No login. Every request acts as "student-default". Anyone who knows the API
+    URL could read or add data once it is public.
+  - Practice-mode progress, daily activity, tasks and settings are NOT stored
+    here; they live only in the browser's localStorage.
+  - ai_conversations / ai_messages tables exist but nothing uses them.
+  - Seeder does not update questions that were edited in questions.json.
+  - __pycache__ files and manabi_prep.db are tracked in git; they should be
+    in .gitignore instead.
+
+
+9. NOTES FOR DEPLOYING ON VERCEL
+--------------------------------
+Vercel can run this FastAPI app as Python serverless functions, but:
+
+  - SQLite will not work there. Vercel's disk is temporary and wiped, so data
+    would be lost. Use hosted Postgres instead: Neon (free tier) added from
+    Vercel -> Storage. It sets DATABASE_URL; the URL scheme must be
+    postgresql+psycopg:// for this code (Neon gives postgres://...).
+  - The seeder reads ../02-web-app/data/questions.json, which is outside
+    03-backend. A Vercel project rooted at 03-backend cannot see that file, so
+    the questions need to be copied in at build time or loaded once from a
+    local machine.
+  - Running create_all + seeding on every cold start slows the first request.
+    Better: run "alembic upgrade head" and the seeder once, from your machine,
+    against the Neon database.
+  - CORS_ORIGINS must include https://manabi-ai-eta.vercel.app.
+  - The web app needs NEXT_PUBLIC_API_BASE_URL set to the backend's Vercel URL,
+    then a redeploy.
+  - Before it is public, add a simple shared secret (API key header) so random
+    visitors cannot write to the database.

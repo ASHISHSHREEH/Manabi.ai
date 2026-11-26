@@ -42,6 +42,49 @@ def _remaining_seconds(attempt: ExamAttempt, now: datetime | None = None) -> int
     return max(0, delta)
 
 
+def _distribute_limit(
+    limit: int,
+    section_targets: list[tuple[str, int]],
+    available: dict[str, int],
+) -> dict[str, int]:
+    """Spread ``limit`` questions across sections in proportion to each section's
+    blueprint target_count, capped by how many questions are actually available.
+
+    Uses largest-remainder rounding, then fills any leftover slots into sections
+    that still have capacity. This keeps a shortened full mock (e.g. a 20-question
+    sprint) representative of every section instead of taking the first N from the
+    earliest sections only.
+    """
+    total_target = sum(t for _, t in section_targets)
+    if total_target <= 0:
+        return {}
+
+    ideal = {sec: limit * target / total_target for sec, target in section_targets}
+    alloc = {sec: min(int(ideal[sec]), available.get(sec, 0)) for sec, _ in section_targets}
+
+    total_available = sum(available.get(sec, 0) for sec, _ in section_targets)
+    remaining = min(limit, total_available) - sum(alloc.values())
+
+    # Prefer sections with the largest fractional remainder, breaking ties by quota.
+    order = sorted(
+        section_targets,
+        key=lambda st: (ideal[st[0]] - int(ideal[st[0]]), st[1]),
+        reverse=True,
+    )
+    while remaining > 0:
+        progressed = False
+        for sec, _ in order:
+            if remaining <= 0:
+                break
+            if alloc[sec] < available.get(sec, 0):
+                alloc[sec] += 1
+                remaining -= 1
+                progressed = True
+        if not progressed:
+            break
+    return alloc
+
+
 def start_attempt(
     db: Session,
     *,
@@ -90,13 +133,26 @@ def start_attempt(
         by_section: dict[str, list[Question]] = {}
         for q in pool:
             by_section.setdefault(q.section, []).append(q)
-        for sec_bp in bp.sections:
-            sec_pool = by_section.get(sec_bp.section, [])
+        for sec_pool in by_section.values():
             rand.shuffle(sec_pool)
-            take = sec_bp.target_count if question_limit is None else min(sec_bp.target_count, len(sec_pool))
-            selected.extend(sec_pool[:take])
-        if question_limit is not None:
-            selected = selected[:question_limit]
+
+        if question_limit is None:
+            # Full blueprint: take each section's quota, capped by availability.
+            for sec_bp in bp.sections:
+                sec_pool = by_section.get(sec_bp.section, [])
+                selected.extend(sec_pool[: min(sec_bp.target_count, len(sec_pool))])
+        else:
+            # Shortened full mock: distribute the limit across sections in
+            # proportion to the blueprint so every section stays represented.
+            quotas = _distribute_limit(
+                question_limit,
+                [(sec_bp.section, sec_bp.target_count) for sec_bp in bp.sections],
+                {sec: len(sec_pool) for sec, sec_pool in by_section.items()},
+            )
+            for sec_bp in bp.sections:
+                sec_pool = by_section.get(sec_bp.section, [])
+                selected.extend(sec_pool[: quotas.get(sec_bp.section, 0)])
+
         target_total = sum(s.target_count for s in bp.sections)
         if target_total > 0 and len(selected) < target_total:
             duration_sec = max(300, round(bp.duration_sec * (len(selected) / target_total)))
