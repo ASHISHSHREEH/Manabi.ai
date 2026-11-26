@@ -122,6 +122,7 @@ export function MockExamView({
   async function handleSubmitExam(totalTimeSec: number) {
     if (!activeAttempt || submitting) return;
     setSubmitting(true);
+    setErrorMessage("");
     try {
       const result = await submitMockAttempt(
         backendMode,
@@ -144,10 +145,13 @@ export function MockExamView({
   }
 
   async function handleOpenHistoryResult(attemptId: string) {
+    setErrorMessage("");
     const res = await fetchAttemptResults(backendMode, attemptId);
     if (res) {
       setActiveAttempt(null);
       setActiveResult(res);
+    } else {
+      setErrorMessage("Could not load that result. Please try again.");
     }
   }
 
@@ -156,6 +160,7 @@ export function MockExamView({
       <MockRunner
         attempt={activeAttempt}
         submitting={submitting}
+        errorMessage={errorMessage}
         onUpdateAnswer={handleUpdateAnswer}
         onSubmitExam={handleSubmitExam}
         onExitAttempt={() => setActiveAttempt(null)}

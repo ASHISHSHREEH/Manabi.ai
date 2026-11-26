@@ -11,7 +11,7 @@
     "start:public": "node scripts/public-server.mjs --mode=start",
     "lint": "next lint",
     "sync": "node scripts/sync-mistakes.mjs",
-    "test": "node --test scripts/sync-mistakes.test.mjs && node --experimental-strip-types --test src/lib/quiz.test.ts src/lib/analytics.test.ts"
+    "test": "node --test scripts/sync-mistakes.test.mjs && node --experimental-strip-types --test src/lib/quiz.test.ts src/lib/analytics.test.ts src/lib/calendar.test.ts"
   },
   "dependencies": {
     "lucide-react": "^1.75.0",

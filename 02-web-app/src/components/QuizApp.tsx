@@ -25,6 +25,7 @@ export default function QuizApp({ questions }: QuizAppProps) {
 
   const {
     progress,
+    dailyActivity,
     dailyTarget,
     profileName,
     examDates,
@@ -132,6 +133,7 @@ export default function QuizApp({ questions }: QuizAppProps) {
             dailyTarget={dailyTarget}
             streakDays={summary.streakDays}
             bestStreakDays={bestStreakDays}
+            dailyActivity={dailyActivity}
             weeklySeries={weeklySeries}
             profileName={profileName}
             examDates={examDates}
@@ -198,10 +200,13 @@ export default function QuizApp({ questions }: QuizAppProps) {
             accuracyPct={summary.accuracyPct}
             streakDays={summary.streakDays}
             dailyTarget={dailyTarget}
+            dailyActivity={dailyActivity}
+            examDates={examDates}
             exams={examBreakdowns}
             sections={allSectionBreakdowns}
             weeklySeries={weeklySeries}
             onUpdateDailyTarget={updateDailyTarget}
+            onUpdateExamDate={updateExamDate}
             onExportBackup={exportBackup}
             onImportBackup={importBackup}
             onResetProgress={resetAllProgress}

@@ -2,8 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { ArrowRight, Check, Pencil, Play, X } from "lucide-react";
+import { StudyCalendar } from "@/components/calendar/StudyCalendar";
 import type { LevelSnapshot, SectionBreakdown, WeeklyDayPoint } from "@/lib/analytics";
-import type { LastPracticeSession, Question } from "@/types/question";
+import type { DailyActivityMap, LastPracticeSession, Question } from "@/types/question";
 
 interface StudyHubProps {
   questions: Question[];
@@ -15,6 +16,7 @@ interface StudyHubProps {
   dailyTarget: number;
   streakDays: number;
   bestStreakDays: number;
+  dailyActivity: DailyActivityMap;
   weeklySeries: WeeklyDayPoint[];
   profileName: string;
   examDates: Record<string, string>;
@@ -120,6 +122,7 @@ export function StudyHub({
   dailyTarget,
   streakDays,
   bestStreakDays,
+  dailyActivity,
   weeklySeries,
   profileName,
   examDates,
@@ -775,6 +778,15 @@ export function StudyHub({
           </button>
         </div>
       </section>
+
+      {/* 4b. Study & Exam Calendar */}
+      <StudyCalendar
+        dailyActivity={dailyActivity}
+        dailyTarget={dailyTarget}
+        examDates={examDates}
+        selectedExam={selectedExam}
+        onUpdateExamDate={onUpdateExamDate}
+      />
 
       {/* 5. Quick practice */}
       <section

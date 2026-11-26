@@ -116,6 +116,7 @@ export function useStudyState(questions: Question[], selectedExam: string) {
 
   return {
     progress,
+    dailyActivity: studyState.dailyActivity,
     dailyTarget: studyState.dailyTarget,
     profileName: studyState.profileName ?? DEFAULT_PROFILE_NAME,
     examDates: studyState.examDates ?? DEFAULT_EXAM_DATES,

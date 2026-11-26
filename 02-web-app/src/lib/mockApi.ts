@@ -16,6 +16,16 @@ export type MockBackendMode = "fastapi" | "local";
 const DEFAULT_API_BASE =
   process.env.NEXT_PUBLIC_API_BASE_URL?.replace(/\/$/, "") || "http://127.0.0.1:8000";
 
+// Reads probe the backend and fail over to the local engine fast, so keep them
+// short. Grading writes mistakes + learning-progress rows, so submit/results get
+// a real timeout.
+const PROBE_TIMEOUT_MS = 1600;
+const SUBMIT_TIMEOUT_MS = 15000;
+
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 interface LocalAttemptBundle {
   state: MockAttemptState;
   answerKey: Record<
@@ -126,9 +136,13 @@ const BLUEPRINTS: Omit<ExamCatalogItem, "total_available">[] = [
   },
 ];
 
-async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
+async function apiFetch<T>(
+  path: string,
+  init?: RequestInit,
+  timeoutMs: number = PROBE_TIMEOUT_MS
+): Promise<T> {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 1600);
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const res = await fetch(`${DEFAULT_API_BASE}${path}`, {
       ...init,
@@ -155,6 +169,51 @@ function shuffleArray<T>(arr: T[]): T[] {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
+}
+
+/**
+ * Spread `limit` questions across sections in proportion to each section's
+ * blueprint target_count, capped by availability. Largest-remainder rounding,
+ * then leftover slots fill sections that still have capacity. Keeps a shortened
+ * full mock representative of every section instead of taking the first N.
+ */
+function distributeLimit(
+  limit: number,
+  sections: { section: string; target_count: number }[],
+  available: Record<string, number>
+): Record<string, number> {
+  const totalTarget = sections.reduce((sum, s) => sum + s.target_count, 0);
+  if (totalTarget <= 0) return {};
+
+  const ideal: Record<string, number> = {};
+  const alloc: Record<string, number> = {};
+  for (const s of sections) {
+    ideal[s.section] = (limit * s.target_count) / totalTarget;
+    alloc[s.section] = Math.min(Math.floor(ideal[s.section]), available[s.section] ?? 0);
+  }
+
+  const totalAvailable = sections.reduce((sum, s) => sum + (available[s.section] ?? 0), 0);
+  const assigned = Object.values(alloc).reduce((a, b) => a + b, 0);
+  let remaining = Math.min(limit, totalAvailable) - assigned;
+
+  const order = [...sections].sort((a, b) => {
+    const fracA = ideal[a.section] - Math.floor(ideal[a.section]);
+    const fracB = ideal[b.section] - Math.floor(ideal[b.section]);
+    return fracB - fracA || b.target_count - a.target_count;
+  });
+  while (remaining > 0) {
+    let progressed = false;
+    for (const s of order) {
+      if (remaining <= 0) break;
+      if (alloc[s.section] < (available[s.section] ?? 0)) {
+        alloc[s.section] += 1;
+        remaining -= 1;
+        progressed = true;
+      }
+    }
+    if (!progressed) break;
+  }
+  return alloc;
 }
 
 function buildLocalCatalog(questions: Question[]): ExamCatalogItem[] {
@@ -245,15 +304,34 @@ export async function startMockAttempt(
           ? Math.max(180, Math.round(baseDur * (selected.length / secBp.target_count)))
           : baseDur;
     } else {
+      const bySection: Record<string, Question[]> = {};
       for (const secBp of bp.sections) {
-        const pool = shuffleArray(
+        bySection[secBp.section] = shuffleArray(
           scoped.filter((q) => q.section.toLowerCase() === secBp.section)
         );
-        selected.push(...pool.slice(0, Math.min(secBp.target_count, pool.length)));
       }
+
       if (params.question_limit) {
-        selected = selected.slice(0, params.question_limit);
+        // Shortened full mock: distribute the limit across sections in
+        // proportion to the blueprint so every section stays represented.
+        const quotas = distributeLimit(
+          params.question_limit,
+          bp.sections.map((s) => ({ section: s.section, target_count: s.target_count })),
+          Object.fromEntries(
+            Object.entries(bySection).map(([sec, pool]) => [sec, pool.length])
+          )
+        );
+        for (const secBp of bp.sections) {
+          const pool = bySection[secBp.section] ?? [];
+          selected.push(...pool.slice(0, quotas[secBp.section] ?? 0));
+        }
+      } else {
+        for (const secBp of bp.sections) {
+          const pool = bySection[secBp.section] ?? [];
+          selected.push(...pool.slice(0, Math.min(secBp.target_count, pool.length)));
+        }
       }
+
       const targetTotal = bp.sections.reduce((s, x) => s + x.target_count, 0);
       if (targetTotal > 0 && selected.length < targetTotal) {
         duration_sec = Math.max(300, Math.round(bp.duration_sec * (selected.length / targetTotal)));
@@ -353,19 +431,48 @@ export async function saveMockAnswer(
   saveLocalJson("mock_active", bundle);
 }
 
+async function submitViaFastapi(
+  attemptState: MockAttemptState,
+  totalTimeSec: number
+): Promise<MockAttemptResult> {
+  const body = JSON.stringify({ total_time_sec: totalTimeSec });
+  const maxAttempts = 3;
+  let lastError: unknown;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      return await apiFetch<MockAttemptResult>(
+        `/api/v1/attempts/${attemptState.id}/submit`,
+        { method: "POST", body },
+        SUBMIT_TIMEOUT_MS
+      );
+    } catch (err) {
+      lastError = err;
+      // Grading is idempotent server-side, so the attempt may already be scored
+      // even if the submit response was lost (timeout / dropped connection).
+      // Read the result back before retrying so we never discard a graded exam.
+      const recovered = await apiFetch<MockAttemptResult>(
+        `/api/v1/attempts/${attemptState.id}/results`,
+        undefined,
+        SUBMIT_TIMEOUT_MS
+      ).catch(() => null);
+      if (recovered) return recovered;
+      if (attempt < maxAttempts) await delay(500 * attempt);
+    }
+  }
+
+  throw lastError instanceof Error
+    ? lastError
+    : new Error("Could not submit your exam. Check your connection and try again.");
+}
+
 export async function submitMockAttempt(
   backend: MockBackendMode,
   attemptState: MockAttemptState,
   totalTimeSec: number
 ): Promise<MockAttemptResult> {
   if (backend === "fastapi") {
-    return apiFetch<MockAttemptResult>(
-      `/api/v1/attempts/${attemptState.id}/submit`,
-      {
-        method: "POST",
-        body: JSON.stringify({ total_time_sec: totalTimeSec }),
-      }
-    );
+    return submitViaFastapi(attemptState, totalTimeSec);
   }
 
   const bundle = loadLocalJson<LocalAttemptBundle | null>("mock_active", null);
@@ -478,11 +585,18 @@ export async function fetchAttemptResults(
   attemptId: string
 ): Promise<MockAttemptResult | null> {
   if (backend === "fastapi") {
-    try {
-      return await apiFetch<MockAttemptResult>(`/api/v1/attempts/${attemptId}/results`);
-    } catch {
-      return null;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        return await apiFetch<MockAttemptResult>(
+          `/api/v1/attempts/${attemptId}/results`,
+          undefined,
+          SUBMIT_TIMEOUT_MS
+        );
+      } catch {
+        if (attempt < 2) await delay(500);
+      }
     }
+    return null;
   }
   const saved = loadLocalJson<MockAttemptResult[]>("mock_history", []);
   return saved.find((r) => r.attempt_id === attemptId) ?? null;

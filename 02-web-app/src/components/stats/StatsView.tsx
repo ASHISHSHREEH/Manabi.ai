@@ -4,8 +4,10 @@ import { useState, type ChangeEvent } from "react";
 import { Download, Flame, Target, Trash2, Trophy, Upload } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { ProgressBar } from "@/components/ui/ProgressBar";
+import { StudyCalendar } from "@/components/calendar/StudyCalendar";
 import { WeeklyAnalytics } from "@/components/stats/WeeklyAnalytics";
 import type { ExamBreakdown, SectionBreakdown, WeeklyDayPoint } from "@/lib/analytics";
+import type { DailyActivityMap } from "@/types/question";
 
 interface StatsViewProps {
   totalQuestions: number;
@@ -14,10 +16,13 @@ interface StatsViewProps {
   accuracyPct: number;
   streakDays: number;
   dailyTarget: number;
+  dailyActivity: DailyActivityMap;
+  examDates: Record<string, string>;
   exams: ExamBreakdown[];
   sections: SectionBreakdown[];
   weeklySeries: WeeklyDayPoint[];
   onUpdateDailyTarget: (target: number) => void;
+  onUpdateExamDate: (exam: string, dateIso: string) => void;
   onExportBackup: () => void;
   onImportBackup: (rawJson: string) => void;
   onResetProgress: () => void;
@@ -30,10 +35,13 @@ export function StatsView({
   accuracyPct,
   streakDays,
   dailyTarget,
+  dailyActivity,
+  examDates,
   exams,
   sections,
   weeklySeries,
   onUpdateDailyTarget,
+  onUpdateExamDate,
   onExportBackup,
   onImportBackup,
   onResetProgress,
@@ -95,6 +103,13 @@ export function StatsView({
       </div>
 
       <WeeklyAnalytics data={weeklySeries} />
+
+      <StudyCalendar
+        dailyActivity={dailyActivity}
+        dailyTarget={dailyTarget}
+        examDates={examDates}
+        onUpdateExamDate={onUpdateExamDate}
+      />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <Card className="space-y-3.5">

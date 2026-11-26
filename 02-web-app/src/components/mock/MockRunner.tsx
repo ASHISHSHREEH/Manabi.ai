@@ -17,6 +17,7 @@ import type { MockAttemptState } from "@/types/question";
 interface MockRunnerProps {
   attempt: MockAttemptState;
   submitting: boolean;
+  errorMessage?: string;
   onUpdateAnswer: (opts: {
     questionId: string;
     selectedOptionId: string | null;
@@ -41,6 +42,7 @@ function formatTimer(seconds: number): string {
 export function MockRunner({
   attempt,
   submitting,
+  errorMessage,
   onUpdateAnswer,
   onSubmitExam,
   onExitAttempt,
@@ -218,6 +220,18 @@ export function MockRunner({
           </button>
         </div>
       </div>
+
+      {errorMessage && (
+        <div
+          role="alert"
+          className="flex items-start gap-2 rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm font-medium text-rose-800"
+        >
+          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+          <span>
+            {errorMessage} Your answers are saved — tap &ldquo;Submit Exam&rdquo; to try again.
+          </span>
+        </div>
+      )}
 
       {/* Main Split Workspace */}
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
